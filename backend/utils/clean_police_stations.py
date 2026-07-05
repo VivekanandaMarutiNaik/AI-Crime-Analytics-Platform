@@ -18,3 +18,20 @@ stations = (
 )
 
 print(stations.head(100).to_string(index=False))
+
+print(gdf[[
+    "POL_STAName",
+    "KGISVillageID",
+    "KGISWardID",
+    "KGISPSCode",
+    "KGISCode"
+]].head(20))
+
+master = pd.read_csv("datasets/processed/master_locations.csv")
+
+matches = master[
+    master["village_id"].isin(gdf["KGISVillageID"])
+]
+
+print("Matching villages:", len(matches))
+print(matches.head())

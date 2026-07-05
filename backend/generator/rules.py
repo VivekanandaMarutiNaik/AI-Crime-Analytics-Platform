@@ -45,3 +45,16 @@ def get_random_crime():
     category = random.choice(list(CRIME_CATEGORIES.keys()))
     crime = random.choice(CRIME_CATEGORIES[category])
     return category, crime
+
+def get_victim_gender(crime_category):
+    if crime_category == "Crime Against Women":
+        return "Female"
+
+    return random.choice(["Male", "Female"])
+def get_random_police_station(police_stations):
+    station = police_stations.sample(1).iloc[0]
+
+    return {
+        "station_id": int(station["station_id"]),
+        "station_name": station["station_name"]
+    }
