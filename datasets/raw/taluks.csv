@@ -1,0 +1,241 @@
+taluk_id,taluk_name,district_id,district_name
+5446,Badami,524,Bagalkote
+5447,Bagalkot,524,Bagalkote
+5444,Bilgi,524,Bagalkote
+7061,Guledgudda,524,Bagalkote
+5448,Hungund,524,Bagalkote
+7062,Ilkal,524,Bagalkote
+5443,Jamkhandi,524,Bagalkote
+5445,Mudhol,524,Bagalkote
+7063,Rabakavi Banahatti,524,Bagalkote
+7398,Terdal,524,Bagalkote
+5500,Ballari,528,Ballari
+7107,Kampli,528,Ballari
+7109,Kurugodu,528,Ballari
+5501,Sandur,528,Ballari
+5499,Siruguppa,528,Ballari
+5434,Athni,527,Belagavi
+5440,Bailahongala,527,Belagavi
+5438,Belagavi,527,Belagavi
+5433,Chikodi,527,Belagavi
+5436,Gokak,527,Belagavi
+5437,Hukkeri,527,Belagavi
+7100,Kagwad,527,Belagavi
+5439,Khanapur,527,Belagavi
+7043,Kittur,527,Belagavi
+7099,Mudalgi,527,Belagavi
+7105,Nippani,527,Belagavi
+5442,Ramdurg,527,Belagavi
+5435,Raybag,527,Belagavi
+5441,Savadatti,527,Belagavi
+7195,Yaragatti,527,Belagavi
+5603,Devanahalli,526,Bengaluru Rural
+5602,Doddaballapura,526,Bengaluru Rural
+5604,Hosakote,526,Bengaluru Rural
+5601,Nelamangala,526,Bengaluru Rural
+5607,Channapatna,631,Bengaluru South
+7196,Harohalli,631,Bengaluru South
+5608,Kanakapura,631,Bengaluru South
+5605,Magadi,631,Bengaluru South
+5606,Ramanagara,631,Bengaluru South
+5545,Anekal,525,Bengaluru Urban
+5544,Bengaluru East,525,Bengaluru Urban
+5542,Bengaluru North,525,Bengaluru Urban
+5543,Bengaluru South,525,Bengaluru Urban
+7103,Yelahanka,525,Bengaluru Urban
+5456,Aurad,529,Bidar
+5454,Basavakalyan,529,Bidar
+5455,Bhalki,529,Bidar
+5457,Bidar,529,Bidar
+7084,Chitaguppa,529,Bidar
+5458,Homnabad,529,Bidar
+7086,Hulsoor,529,Bidar
+7085,Kamalnagar,529,Bidar
+5577,Chamarajanagar,531,Chamarajanagar
+5576,Gundlupet,531,Chamarajanagar
+7077,Hanur,531,Chamarajanagar
+5579,Kollegal,531,Chamarajanagar
+5578,Yelandur,531,Chamarajanagar
+5598,Bagepalli,630,Chikkaballapura
+7407,Chelur,630,Chikkaballapura
+5596,Chikkaballapura,630,Chikkaballapura
+5600,Chintamani,630,Chikkaballapura
+5595,Gauribidanur,630,Chikkaballapura
+5597,Gudibanda,630,Chikkaballapura
+7404,Manchenahalli,630,Chikkaballapura
+5599,Sidlaghatta,630,Chikkaballapura
+7078,Ajjampura,532,Chikkamagaluru
+5530,Chikkamagaluru,532,Chikkamagaluru
+5529,Kadur,532,Chikkamagaluru
+7194,Kalasa,532,Chikkamagaluru
+5526,Koppa,532,Chikkamagaluru
+5531,Mudigere,532,Chikkamagaluru
+5527,Narasimharajapura,532,Chikkamagaluru
+5525,Sringeri,532,Chikkamagaluru
+5528,Tarikere,532,Chikkamagaluru
+5504,Challakere,533,Chitradurga
+5505,Chitradurga,533,Chitradurga
+5508,Hiriyur,533,Chitradurga
+5506,Holalkere,533,Chitradurga
+5507,Hosdurga,533,Chitradurga
+5503,Molakalmuru,533,Chitradurga
+5562,Bantval,534,Dakshina Kannada
+5563,Beltangadi,534,Dakshina Kannada
+7104,Kadaba,534,Dakshina Kannada
+5561,Mangaluru,534,Dakshina Kannada
+7102,Moodubidire,534,Dakshina Kannada
+7198,Mulki,534,Dakshina Kannada
+5564,Puttur,534,Dakshina Kannada
+5565,Sulya,534,Dakshina Kannada
+7197,Ullala,534,Dakshina Kannada
+5514,Channagiri,535,Davanagere
+5512,Davanagere,535,Davanagere
+5509,Harihar,535,Davanagere
+5513,Honnali,535,Davanagere
+5511,Jagalur,535,Davanagere
+7076,Nyamathi,535,Davanagere
+7081,Alnavar,536,Dharwad
+7080,Annigeri,536,Dharwad
+5473,Dharwad,536,Dharwad
+5475,Hubballi,536,Dharwad
+7079,Hubballi Urban,536,Dharwad
+5476,Kalghatgi,536,Dharwad
+5477,Kundgol,536,Dharwad
+5474,Navalgund,536,Dharwad
+5470,Gadag,537,Gadag
+7082,Gajendragad,537,Gadag
+7083,Laxmeshwar,537,Gadag
+5472,Mundargi,537,Gadag
+5468,Nargund,537,Gadag
+5469,Ron,537,Gadag
+5471,Shirahatti,537,Gadag
+5557,Alur,539,Hassan
+5558,Arkalgud,539,Hassan
+5555,Arsikere,539,Hassan
+5554,Belur,539,Hassan
+5560,Channarayapatna,539,Hassan
+5556,Hassan,539,Hassan
+5559,Hole Narsipur,539,Hassan
+5553,Sakleshpur,539,Hassan
+5493,Byadgi,540,Haveri
+5491,Hangal,540,Haveri
+5492,Haveri,540,Haveri
+5494,Hirekerur,540,Haveri
+5495,Ranibennur,540,Haveri
+7106,Rattihalli,540,Haveri
+5490,Savanur,540,Haveri
+5489,Shiggaon,540,Haveri
+5581,Afzalpur,538,Kalaburagi
+5580,Aland,538,Kalaburagi
+5583,Chincholi,538,Kalaburagi
+5585,Chittapur,538,Kalaburagi
+5586,Jevargi,538,Kalaburagi
+5582,Kalaburagi,538,Kalaburagi
+7087,Kalagi,538,Kalaburagi
+7090,Kamalapur,538,Kalaburagi
+5584,Sedam,538,Kalaburagi
+7088,Shahabad,538,Kalaburagi
+7089,Yadrami,538,Kalaburagi
+7124,Kushalnagar,541,Kodagu
+5566,Madikeri,541,Kodagu
+7125,Ponnampet,541,Kodagu
+5567,Somvarpet,541,Kodagu
+5568,Virajpet,541,Kodagu
+5593,Bangarapet,542,Kolar
+5591,Kolar,542,Kolar
+7002,Kolar Gold Field,542,Kolar
+5592,Malur,542,Kolar
+5594,Mulbagal,542,Kolar
+5590,Srinivaspur,542,Kolar
+5466,Gangawati,543,Koppal
+7091,Kanakagiri,543,Koppal
+7092,Karatagi,543,Koppal
+5467,Koppal,543,Koppal
+7093,Kukanoor,543,Koppal
+5465,Kushtagi,543,Koppal
+5464,Yelbarga,543,Koppal
+5546,Krishnarajpet,544,Mandya
+5551,Maddur,544,Mandya
+5552,Malavalli,544,Mandya
+5550,Mandya,544,Mandya
+5547,Nagamangala,544,Mandya
+5548,Pandavapura,544,Mandya
+5549,Shrirangapattana,544,Mandya
+5573,Heggadadevankote,545,Mysuru
+5570,Hunsur,545,Mysuru
+5571,Krishnarajanagara,545,Mysuru
+5572,Mysuru,545,Mysuru
+5574,Nanjangud,545,Mysuru
+5569,Piriyapatna,545,Mysuru
+7230,Saligrama,545,Mysuru
+7098,Saraguru,545,Mysuru
+5575,Tirumakudal - Narsipur,545,Mysuru
+7403,Arakera,546,Raichur
+5460,Devadurga,546,Raichur
+5459,Lingasugur,546,Raichur
+5462,Manvi,546,Raichur
+7101,Maski,546,Raichur
+5461,Raichur,546,Raichur
+5463,Sindhnur,546,Raichur
+7097,Sirwar,546,Raichur
+5521,Bhadravati,547,Shivamogga
+5518,Hosanagara,547,Shivamogga
+5515,Sagar,547,Shivamogga
+5517,Shikarpur,547,Shivamogga
+5520,Shivamogga,547,Shivamogga
+5516,Sorab,547,Shivamogga
+5519,Tirthahalli,547,Shivamogga
+5532,Chiknayakanhalli,548,Tumakuru
+5538,Gubbi,548,Tumakuru
+5536,Koratagere,548,Tumakuru
+5541,Kunigal,548,Tumakuru
+5535,Madhugiri,548,Tumakuru
+5534,Pavagada,548,Tumakuru
+5533,Sira,548,Tumakuru
+5539,Tiptur,548,Tumakuru
+5537,Tumakuru,548,Tumakuru
+5540,Turuvekere,548,Tumakuru
+7066,Bainduru,549,Udupi
+7068,Brahmavara,549,Udupi
+7065,Hebri,549,Udupi
+7067,Kapu,549,Udupi
+5524,Karkal,549,Udupi
+5522,Kundapura,549,Udupi
+5523,Udupi,549,Udupi
+5484,Ankola,550,Uttara Kannada
+5488,Bhatkal,550,Uttara Kannada
+7064,Dandeli,550,Uttara Kannada
+5480,Haliyal,550,Uttara Kannada
+5487,Honavar,550,Uttara Kannada
+5478,Karwar,550,Uttara Kannada
+5485,Kumta,550,Uttara Kannada
+5482,Mundgod,550,Uttara Kannada
+5486,Siddapur,550,Uttara Kannada
+5483,Sirsi,550,Uttara Kannada
+5479,Supa,550,Uttara Kannada
+5481,Yellapur,550,Uttara Kannada
+5496,Hadagalli,738,Vijayanagara
+5497,Hagaribommanahalli,738,Vijayanagara
+5510,Harapanahalli,738,Vijayanagara
+5498,Hosapete,738,Vijayanagara
+7108,Kotturu,738,Vijayanagara
+5502,Kudligi,738,Vijayanagara
+7123,Almel,530,Vijayapura
+7069,Babaleshwar,530,Vijayapura
+5452,Basavana Bagevadi,530,Vijayapura
+7070,Chadchan,530,Vijayapura
+7071,Devara Hipparagi,530,Vijayapura
+5450,Indi,530,Vijayapura
+7072,Kolhar,530,Vijayapura
+5453,Muddebihal,530,Vijayapura
+7075,Nidagundi,530,Vijayapura
+5451,Sindgi,530,Vijayapura
+7073,Talikoti,530,Vijayapura
+7074,Tikota,530,Vijayapura
+5449,Vijayapura,530,Vijayapura
+7094,Gurmitakal,635,Yadgir
+7096,Hunasagi,635,Yadgir
+5588,Shahpur,635,Yadgir
+5587,Shorapur,635,Yadgir
+7095,Wadagera,635,Yadgir
+5589,Yadgir,635,Yadgir
