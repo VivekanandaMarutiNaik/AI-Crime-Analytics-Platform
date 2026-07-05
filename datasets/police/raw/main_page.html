@@ -1,0 +1,2928 @@
+<script>
+function police_sta_search(){
+	var sta = document.getElementById("ps_id").value;
+	
+
+    var split = sta.split("!@#$%");
+	
+	var station_address = split[0];
+	var email = split[1];
+    var phone = split[2];
+	var	circle_name	= split[3];
+	var latitude = split[4];
+	var longitude = split[5];
+	
+	
+	
+ document.getElementById("ps_name").innerHTML = circle_name;
+ document.getElementById("ps_address").innerHTML = station_address;
+ document.getElementById("ps_phone").innerHTML = phone;
+ document.getElementById("ps_email").innerHTML = email;
+  
+   
+   document.getElementById("ksp_map").innerHTML = "<iframe src='https://maps.google.com/maps?q="+latitude+","+longitude+"&hl=es;z=14&amp;output=embed'></iframe>";
+
+ 
+}
+
+</script>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<meta name="description" content="gadagpolice" />
+<meta name="keywords" content="gadagpolice,gadag police, gadag city police" />
+<meta name="author" content="gadagpolice" />
+
+
+
+
+<link href="https://dri.karnataka.gov.in/frontend/jquery.ime/css/jquery.ime.css" rel="stylesheet" />
+<meta name="google" content="notranslate">
+    <style>
+.dp{display:block !important;}
+        @import "https://ceg.karnataka.gov.in/frontend/opt1/css/global.css";
+.modal-footer{display:block !important;}
+.icon-bar2{z-index:9999999999999999999 !Important;top:85% !important;}
+  .slideoverlay{    position: absolute;
+    right: -19px;
+    top: 46%;
+    z-index: 99;
+    width: 14%;}
+	.slideoverlayleftg20 img{width:125px;border-radius:10px;}
+.owl-carousel .owl-item img
+{
+display:block;
+width:40% !important;
+}
+.slideoverlay img{    width: 100%;}
+
+.slideoverlay:hover img{opacity: 1;}    
+
+.owl-events p {
+    color: black;
+    padding: 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;font-size: 12px;
+    -webkit-box-orient: vertical;
+}
+ 
+@media (min-width: 320px) and (max-width: 480px){
+
+
+
+.modal{z-index: 99999999999999999999999999999999999999999999 !important;}
+
+.modal-footerpop{position: absolute;top: 0;right: 0;}
+
+.owl-events .owl-item img{width:100% !important;}
+.owl-events .owl-item{background: aliceblue;}
+@media (min-width: 320px) and (max-width: 480px) {
+
+.slideoverlay img {
+    width: 100%;
+    opacity: 1;
+    float: right;
+}
+
+ .slideoverlay{    position: absolute;
+    right: 0;
+    top:46%;
+    z-index: 99;
+    width: 24%;}
+
+}
+
+.slideoverlayleftg20{position: absolute;
+    right: 4px;
+   top: 72.5%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 45% !important;}
+.slideoverlayleft img{    width: 100%;
+    opacity: 1;}
+	
+	
+.slideoverlayleft{position: absolute;
+    left: 0;
+    top: 73%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 45% !important;}
+.slideoverlayleft img{    width: 100%;
+    opacity: 1;}
+
+.slideoverlayleft:hover img{opacity: 1;}    
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.slideoverlayleftg20{right: 0;
+    top: 58%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;border-radius: 45% !important;}
+	
+.slideoverlayleftg20 img{    width: 48px !important;
+    opacity: 1;}
+.slideoverlayleft {
+    position: absolute;
+    left: 0;
+    width: 19%;
+    top: 63%;
+    z-index: 99;
+    background: #fff;
+    padding: 16px;
+}
+.slideoverlayleft img {
+    width: 100%;
+    opacity: 1;
+    float: left;
+}
+}
+  
+
+
+
+        .stats input{float: left !important;margin: 5px;}
+        .lu{display: none;}
+.stats{width:auto !important;}
+.divm{margin: auto;display: table;}
+.innercbox{display: block;padding: 40px;border:2px solid #cfcfcf;width: auto;height: 180px;}   
+.b1{background: #b2edda;}
+.b2{background: #b2b5ed;}
+.b3{background: #98c9d1;}
+.b4{background: #efb8b2;}
+.rtiform-box .form-group{width: 50%;float:left;padding: 0px 6px;}
+.rtiform-box{box-shadow:0px 0px 10px -5px black;} 
+
+.rti-cont{margin: auto;display:table;text-align: center;padding: 20px;height: 155px;}
+.rti-cont p{font-size:20px; }
+.rti-cont  span{font-size: 30px;font-weight: bold;}
+        .rtiform-box{padding: 30px;}
+        .rtiform-box form{margin: auto;display: table;}
+	.item1{width:-moz-available;text-align:center;}
+.owl-item img{margin:auto;}
+.cm_photo{width:auto !important;height:82px;}
+.ekan{width: 40%;margin-top: 1%;}
+    .chead h1{font-size: 25px !important;}
+	.sbox{height:125px !important;}
+    .no-pointer{cursor: grab;}
+    .collapse.in{background: transparent;}
+    .modal-content-search .modal-body{background: transparent !important;}
+    .modal-body{background: white;}
+.shome{padding: 5px !important;background: transparent !important;}
+    .sr2{background: #8c278e !important;}
+.kar_main_logo_small{height: 20px;padding-right: 4px;}
+    .fa-user,.fa-file-archive-o,.fa-wheelchair,.abt-div .fa{padding: 0px !important;margin: 0px !important;padding-right: 4px !important;font-weight:bold !important;width: auto !important;}
+    #about-part{background: antiquewhite;}
+.modal-content-search{background: white  !important;}
+    #modal_icons{background: whitesmoke;border:2px solid white;text-align: center;}
+	.m-backtotop{z-index: 999999;}
+	.imeselector{z-index:999999999999999999999999999999999;background-size: contain;width: 40px;height: 26px;}
+
+  .ime-setting-caret{border-right: 10px solid transparent;border-left:10px solid transparent ;border-top: 10px solid #565656;
+width: 21px;height: 31px;position: absolute;left:-18px;top:-8px;
+
+  }
+   .large_sub_menu {min-width:550px !Important;}
+
+  .city_department_wrap{background: antiquewhite !important;}
+
+  .item1{margin: auto;display: table;text-align: -webkit-center;width: -webkit-fill-available;border-radius: 20px;box-shadow: 0 0 16px 0 rgb(215,215,215);}
+.item1:hover{cursor: pointer;}
+  .owl-item img{width:45% !important;text-align: -webkit-center;}
+    #about-part ul{height: auto !important;}
+    #footer-bottom{background: lightgray!important;}
+    .fix-botr{position: absolute;bottom: 0px;right: 0px;}
+    .website-details{background: transparent!important;}
+}
+/*.bvi{color: #11752d;background: #b5bcbf;}*/
+    .fa-arrows-v{color:blue !important;width: auto !important;padding: 4px !important;position: absolute;background: white;border: 1px solid darkgray}
+    #text,#text2{
+display:none;color: black;padding: 0px 15px;
+}
+.panel-title p {
+   padding: 6px 5px !important;
+    line-height: 1.3;
+
+    list-style: none;
+    border-bottom: 1px solid #dedede;
+    background: #dae5ef52;
+
+      font-size: 16px !important;
+}
+.btn-container #toggle,.btn-container #toggle2{line-height: 1;}
+.btn-container{position: absolute;right: 13%;bottom:0px;color:black;}
+.scroll-left {
+  overflow: hidden;
+  height: 35px; 
+  position: relative;
+  width:max-content;
+}
+.scroll-left p {
+ 
+  white-space:nowrap;
+  height: 100%;
+  margin: 0;
+  line-height: 20px;
+  text-align: left;
+  /* Apply animation to this element */ 
+  -moz-animation: scroll-left 50s linear infinite;
+  -webkit-animation: scroll-left 50s linear infinite;
+  animation: scroll-left 50s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(200px);     
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+ }
+}
+
+
+
+
+
+
+
+
+    .modal-body .blink2{display: none;}
+.blink2{font-weight: bold;}
+@-webkit-keyframes blinker2{
+  0%{color:white;}
+  20%{color:black;}
+  50%{color:transparent;}
+  70%{color:yellow;}
+  100%{color:yellow;}
+}
+@keyframes blinker2{ 0%{color:white;}
+  0%{color:white;}
+  20%{color:white;}
+  50%{color:transparent;}
+  70%{color:yellow;}
+  100%{color:yellow;} 
+}
+.blink2{ background: red;color: yellow;padding:0px 5px;font-size: 12px;left:0px;top:-8px; border: none;border-radius: 0px;}
+.blink2{text-decoration:blink;-webkit-animation-name:blinker2;-webkit-animation-duration:0.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}
+    .blinkn{font-weight: bold;}
+@-webkit-keyframes blinkern{
+  0%{color:black;}
+  20%{color:grey;}
+  50%{color:transparent;}
+  70%{color:blue;}
+  100%{color:orange;}
+}
+@keyframes blinkern{  0%{color:black;}
+  20%{color:grey;}
+  50%{color:transparent;}
+  70%{color:blue;}
+  100%{color:orange;}
+}
+
+.blinkn{text-decoration:blink;-webkit-animation-name:blinkern;-webkit-animation-duration:2.2s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}
+
+
+.blinkf{font-weight: bold;}
+@-webkit-keyframes blinkerf{
+  0%{color:white;}
+  20%{color:white;}
+  50%{color:transparent;}
+  70%{color:white;}
+  100%{color:white;}
+}
+@keyframes blinkerf{  0%{color:white;}
+  20%{color:white;}
+  
+  50%{color:transparent;}
+  70%{color:white;}
+  100%{color:white;}
+}
+
+.blinkf{text-decoration:blink;-webkit-animation-name:blinkerf;-webkit-animation-duration:2.2s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}
+
+
+    .cheight{height: 500px !important;overflow: auto !important;}
+    .table{width: auto;}
+    table{
+        color:#000  !important;
+    }
+    .covbox{overflow: auto;}
+
+   .covbox table>tbody>tr>th{background: #107ba5 !important;border:1px solid white !important;color: white !important;text-align: center; } 
+   .covbox table>tbody>tr>td{font-weight: bolder;color: #000;}
+.nav-logo{display: inline-flex;}
+    .open>.dropdown-menu {width: min-content;}
+
+.cml { width: 50%;}
+.bn-controls button { padding: 0px;}
+.chead h1{padding: 13px 20px !important;}
+.ra {
+    padding: 1px 7px;
+    /* border-radius: 0px; */
+    float: right;
+    background: #01579a;
+    color: white;
+    width: max-content;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+
+ .htl {
+        float: right;
+        display: inline-flex;
+    }
+.carousel-control {top: 20px !important;}
+
+
+
+
+
+
+.navbar-toggle {
+    border-color: transparent !important;
+    /* padding: 5px 25px; */
+    background: #448aff !important;
+    width: max-content !important;
+    height: auto !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    
+} 
+
+.ra{padding: 0px 5px;width:max-content;font-size: 14px;}
+
+
+.abt-div span, h6 {
+    padding: 0px 4px;
+    font-size: 18px !important;
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #494949 !important;height: 28px;padding: 6px;
+}
+
+
+
+#___gcse_0{width: 100%;}
+    .bn-news{left:0 !important;}
+/*.gsc-input{padding: 0px !important;}*/
+.gsc-search-button {box-sizing:initial;}
+.cse .gsc-control-cse, .gsc-control-cse {padding:0 !important;}
+/*table.gsc-search-box{width: 25% !important;}*/
+.gsc-search-box td{border:0px !important;}
+.gsc-search-button{width:auto !important;}
+/*.gsc-input{border:1px solid black !important;}*/
+table.gsc-search-box td{background: white !important;}
+/*.gsc-search-box td:first-child{border:1px solid black !important;padding: 0px !important;}*/
+.gsst_b{padding: 0px !important;}
+
+.gsc-control-cse{border-color: transparent !important;background-color:transparent !important; }
+/*form.gsc-search-box{margin-top: 10px !important;}*/
+/*table.gsc-search-box{width: 145% !important;}*/
+.nav .blink1{position:absolute; background: red;color: yellow;padding:0px 5px;font-size: 12px;left:0px;top:-14px; border: none;border-radius: 0px;}
+.blink1{border-bottom: 5px solid #487cd8 !important;border-right: 5px solid red !important;font-weight: bold;}
+@-webkit-keyframes blinker{
+	0%{color:white;}
+	20%{color:white;}
+	50%{color:transparent;}
+	70%{color:yellow;}
+	100%{color:yellow;}
+}
+@keyframes blinker{	0%{color:white;}
+	20%{color:white;}
+	50%{color:transparent;}
+	70%{color:yellow;}
+	100%{color:yellow;}
+}
+.bn-news{position: relative;}
+marquee{z-index: 999999999999;}
+.fa.pull-right{border-radius: 0px !important;}
+.blink1{text-decoration:blink;-webkit-animation-name:blinker;-webkit-animation-duration:0.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}
+.blink{ background: red !important;color: yellow; border: none !important;border-radius: 0px !important;}
+.fixed{position:relative !important;display:none !important;}
+.tableizer-table th{background: transparent;color:black;}
+thead td{font-weight: bold;}
+/*.panel-body{overflow: auto !important;}*/
+.mn{padding: 4.9px 10px;display: block;text-align: center;font-size: 15px;float:left;}
+.mn a{color: yellow;font-weight: normal;font-weight: bold;}
+.mn a:hover{color: black;}
+.en{background: #777777 !important;}
+
+.glyphicon{
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:#f3f7fa
+}
+	/*p {float:left;}*/
+	/*.navbar .container{padding: 0px;margin: 0px;}*/
+	.navbar-collapse{height: auto !important;}
+	.nav-logo-text p:nth-child(2) {font-size: 9px !important;}
+	marquee{width:1400px;float: left;}
+	marquee p{position: static;font-size: 20px;display: inherit;}
+	.blink{float: inherit !important;}
+	.modal-body p{float: inherit !important;}
+	.modal-body li{list-style: none;}
+
+.modal-body .blink{display:none !important;}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {.sr{display: none;}
+.fa-home{padding-top: 0px !important;}
+.dept-sub{padding-top: 10px !important;}
+.mn{float:inherit !important;}
+.dd-button:after{display: none;}
+.dd-button{padding: 5px !important;}
+.nav-logo{padding-top: 8px;}
+.clogo img{padding-top: 6px !important;}
+.dptl{margin-top: 12px;}
+button{width: auto !important;}
+}
+/*Supriya Gallery */
+
+.img-row{
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 100% !important;
+  padding: 0 4px !important;
+}
+
+.column img {
+  margin-top: 8px !important;
+  vertical-align: middle !important;
+  width: 100% !important;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/*/*End Supriya Gallery* /*/
+
+
+
+
+
+
+
+.fa-chevron-right,.fa-chevron-left{font-size: 23px !important;}
+.fa-chevron-right{position: absolute;top:10px;left:0;}
+.fa-chevron-left{position: absolute;top:10px;right:0;}
+
+.noheading{display: none;}
+
+.gallery-images img{box-shadow: 3px 6px 5px 0px #585050;}
+
+#gallery-modern {
+    padding: 20px;
+    background: #ffffff85;
+}
+
+.images-box{overflow: hidden;}
+.gallery-images img:hover{  -webkit-transform: scale(1.08);
+  transform: scale(1.08);}
+ .gallery-images img{  -webkit-transition: 0.4s ease;}
+
+
+
+
+
+.fl-fl {
+  background: #5a58a7;
+  text-transform: uppercase;
+border-bottom-left-radius: 50px;
+border-top-left-radius: 50px;
+border-top:2px solid white;
+border-bottom:2px solid white;
+border-left:2px solid white;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -145px;
+  z-index: 1000;
+  font: inherit;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 79%;width: 275px;right: -230px;
+}
+
+.float-fb:hover{
+  top: 79%;width: 230px;
+}
+
+.float-tw:hover{
+  top: 86%;width: 130px;
+}
+
+
+.m-backtotop{right: 50px !important;}
+.tagline{font-weight: normal !important;}
+
+.clogo:first-child p{font-weight: bold;}
+.float-tw {
+  top: 86%;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-rs {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-pn {
+  top: 435px;
+}
+/* Floating Social Media Bar Style Ends Here */
+.fa-reply,.fa-commenting{font-size: 22px !important;color: #fff !important;}
+
+
+.fa-hand-o-right{font-weight: bold;}
+@-webkit-keyframes blinkero{
+  0%{color:red;}
+  20%{color:red;}
+  50%{color:white;}
+  70%{color:red;}
+  100%{color:red;}
+}
+@keyframes blinkero{ 
+   0%{color:red;}
+  20%{color:red;}
+  50%{color:white;}
+  70%{color:red;}
+  100%{color:red;}
+}
+.dp1
+{
+display:none !important;
+}
+.fa-hand-o-right{font-weight: bold !important;}
+.fa-hand-o-right:before{text-decoration:blink;-webkit-animation-name:blinkero;-webkit-animation-duration:0.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}
+</style>
+
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="csrf-token" content="BZ2dI0njWaPzHNPAa3tw1zuU5gASDQcb6L8u79qQ" />
+<meta name="theme-color" content="#a72700">
+<meta name="google-site-verification" content="vWdt7UswMES5izzzXmgreUtwf-uQLUA0OmHij2PXOys" />
+<title> 
+	 ಪೋಲಿಸ ಸ್ಟೇಷನ ಹುಡುಕಿ
+  - Karnataka State Police</title>
+
+
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/all.min.css">
+<!-- Latest compiled and minified CSS -->
+
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/bootstrap.min.css">
+<!-- <link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/bootstrap2.min.css"> -->
+
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/venobox.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/jquery.lineProgressbar.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/slick.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/style.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/responsive.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/custom.css">
+<link href="https://ksp.karnataka.gov.in/frontend/opt1/owl/owl.carousel.css" rel="stylesheet">
+<link media="all" type="text/css" rel="stylesheet" href="https://ksp.karnataka.gov.in/frontend/opt1/css/jquery.fancybox.css">
+
+<link href="https://ksp.karnataka.gov.in/frontend/opt1/newsticker/breaking-news-ticker.css" rel="stylesheet">
+<link rel="icon" href="https://ksp.karnataka.gov.in/frontend/opt1/images/center_logo/kar_main_logo.png" type="img/png" sizes="42x42">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
+
+<link href="https://ksp.karnataka.gov.in/frontend/opt1/rti_datatables/dataTables.jqueryui.min.css" rel="stylesheet">
+<script src="https://ksp.karnataka.gov.in/frontend/opt1/js/jquery_latest.js"></script>
+
+  <style>
+    /* Button used to open the chat form - fixed at the bottom of the page */
+    .open-button {
+      background-color: transparent;
+      *#ffff;
+      color: #2298E9;
+      padding: 10px 0px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 100px;
+      right: 35px;
+      *width: 280px;
+      border-radius: 20px;
+      z-index: 100;
+      float: right;
+      text-transform: capitalize;
+    }
+
+.close-button {
+  background-color: transparent;*#ffff;
+  color: #2298E9;
+  padding: 10px 10px ;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 20px;
+  z-index: 102;
+  float: right;
+  text-transform: capitalize;
+}
+
+    /* The popup chat - hidden by default */
+    .chat-popup {
+      display: none;
+      position: fixed;
+      bottom: 80px;
+      right: 0px;
+      *border: 3px solid #f1f1f1;
+      z-index: 101;
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover,
+    .open-button:hover {
+      opacity: 1;
+      *background-color: #5555;
+    }
+  </style>
+<style>
+@font-face {
+  font-family:robo;
+  src: url(https://ksp.karnataka.gov.in/frontend/opt1/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family:robom;
+  src: url(https://ksp.karnataka.gov.in/frontend/opt1/fonts/Roboto-Regular.ttf);
+}
+
+
+
+body{font-family: robom !important;}
+</style>
+
+
+
+
+  <script type="text/javascript" class="init">
+  
+$(document).ready(function() {
+  $('#example').DataTable();
+} );
+
+  </script>
+<script>
+var isIframeLoadded = false;
+    function openForm() {
+      var myForm = document.getElementById("myForm");
+      var helpText = document.getElementById("helpText");
+
+      console.log("button clicked");
+      if (isIframeLoadded == false) {
+        console.log("iframe loaded");
+        //myForm.innerHTML = '<div style="background: transparent !important; width: 400px !important;  height: 580px; border: none;"><div style="background: transparent !important; width: 400px !important;  height: 20px; border: none;"><button class="close-button" onclick="openForm()" style="font-size:20px">x</button></div><div style="background: transparent !important; width: 400px !important;  height: 550px; border: none;"> <iframe src="https://policemitra.ksp.gov.in//bot" allow="camera;microphone" scrolling="no" title="Drift Widget Chat Window" allow="autoplay; encrypted-media; fullscreen;"   style="background: transparent !important; width: 400px !important; max-width: 100%; height: 550px; border: none; frameborder=0" name="bot-iframe" id="bot_frame"></iframe></div></div>';
+        isIframeLoadded = true;
+        myForm.style.display = 'block';
+        helpText.style.display = 'none';
+      } else {
+        console.log("iframe toggled");
+        helpText.style.display === 'none' ? helpText.style.display = 'block' : helpText.style.display = 'none';
+        myForm.style.display === 'none' ? myForm.style.display = 'block' : myForm.style.display = 'none';
+      }
+    }
+
+ function getpermission() {
+            // Request permissions for geolocation
+            navigator.permissions.query({ name: 'geolocation' }).then(function(result) {
+                if (result.state === 'granted') {
+                    // Permission granted, pass to iframe
+                    document.getElementById('bot_frame').contentWindow.postMessage('geolocation_granted', '*');
+                }
+            });
+            
+            // Request permissions for microphone
+            navigator.mediaDevices.getUserMedia({ audio: true }).then(function(stream) {
+                // Permission granted, pass to iframe
+                document.getElementById('bot_frame').contentWindow.postMessage('microphone_granted', '*');
+            }).catch(function(error) {
+                console.error('Error accessing microphone:', error);
+            });
+        }
+
+
+function voiceBtnAnim(flag) {
+  if(voiceBtn == null)
+    console.log("voice btn is null")
+  if (flag) {
+    voiceBtn.style.borderStyle = "solid";
+    voiceBtn.style.borderColor = "red";
+    voiceBtn.style.animation = "mynewmove 2s infinite";
+  } else {
+    voiceBtn.style.removeProperty("border-style");
+    voiceBtn.style.removeProperty("border-color");
+    voiceBtn.style.removeProperty("animation");
+  }
+}
+
+function startVoiceDictation() {
+  const SpeechRecognition =
+    window.SpeechRecognition || window.webkitSpeechRecognition;
+  const recognition = new webkitSpeechRecognition();
+  var recognizing = false;
+  var start_timestamp;
+  
+  recognition.continuous = false;
+  recognition.interimResults = true;
+  recognition.lang = currentLanguage;
+
+  recognition.start();
+
+  recognition.onstart = function () {
+    recognizing = true;
+    voiceBtnAnim(true);
+  };
+  recognition.onend = function () {
+    recognizing = false;
+    voiceBtnAnim(false);
+    recognition.stop();
+  };
+  if(document.getElementById("textAreaExample").value == "")
+  {
+    final_transcript = "";
+  }
+  if(final_transcript)
+  {
+    final_transcript += " ";
+  }
+
+  recognition.onresult = function (event) {
+    var interim_transcript = "";
+    if (typeof event.results == "undefined") {
+      recognition.onend = null;
+      recognition.stop();
+      voiceBtnAnim(false);
+      return;
+    }
+    isVoiceMsg = true;
+
+    for (var i = event.resultIndex; i < event.results.length; ++i) {
+      
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+        document.getElementById(
+          "textAreaExample"
+        ).value = final_transcript;
+        //console.log("Final Str : ",event.results[i][0].transcript);
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+        document.getElementById(
+          "textAreaExample"
+        ).value = interim_transcript;
+        //console.log("Interim Str : ",event.results[i][0].transcript);
+      }
+    }
+
+    //submitForm();
+  };
+
+  recognition.onerror = function (event) {
+    if (event.error == "no-speech") {
+      console.log("No Speech found");
+    } else {
+      console.log("SpeechRecognition error found");
+    }
+
+    recognition.stop();
+  };
+}
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else {
+    console.log("Geolocation is not supported by this browser.");
+  }
+}
+
+function showPosition(position) {
+  client_latitude = position.coords.latitude;
+  client_longitude = position.coords.longitude;
+  reqNearCenter(deferredRes, deferredResId, deferredCategoryType);
+  console.log(
+    "Latitude: " +
+    position.coords.latitude +
+    "<br>Longitude: " +
+    position.coords.longitude
+  );
+}
+
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+	window.addEventListener('message',function(event){
+	if(event.data == "close")
+	{
+	openForm();
+	}
+});
+
+</script>
+</head>
+
+<body class="en-body">
+
+
+
+<div class="m-backtotop" aria-hidden="true">
+  <div class="arrow">
+    <i class="fa fa-arrow-up"></i>
+  </div>
+  <div class="text">
+    Back to top
+  </div>
+</div>
+
+
+<header>
+
+
+
+<!--==================== 
+header-top part start 
+==================== -->
+<div>
+
+
+<div class="row nopad" id="navbar">
+
+<div class="col-lg-6 col-sm-4 col-md-6 nopad">
+
+<div class="si">
+<a href="https://ksp.karnataka.gov.in/login" title="Sign In to Dashboard">Sign In</a>
+</div>
+
+
+
+<div class="en">
+<a href="kn" title="See English version of the Website">ಕನ್ನಡ</a>
+</div>
+
+<div class="mn hidden-sm hidden-xs">
+<a target="blank" href="https://iut.ksp.karnataka.gov.in" title="Employees-Corner"><p class="police">Employees-Corner</p></a>
+</div>
+
+<div class="mn hidden-sm hidden-xs">
+<a target="blank" href="https://www.karnataka.gov.in" title="Official Website of GoK" style="color:white;">Official Website of GoK</a>
+</div>
+
+
+<div class="mn-corona hidden-sm hidden-xs">
+<a target="blank" href="https://covid19.karnataka.gov.in/english" title=" Corona Related Information " aria-expanded="true">Corona Related Information </a>
+</div>
+
+
+
+<div class="mn hidden-lg hidden-md">
+<a target="blank" href="https://iut.ksp.karnataka.gov.in" title="ಸಿಬ್ಬಂದಿ ಸಂವಿಭಾಗ"><p class="police">Employees-Corner</p></a>
+</div>
+
+
+
+</div>
+
+
+<!-----<div class="icon-bar2">
+<a target="blank" href="https://www.facebook.com/BlrCityPolice" class="facebook"><i class="fa fa-facebook"></i></a> 
+<a target="blank" href="https://youtube.com/channel/UCkiufLrTxbEKgHb5dCc0fZA" class="youtube"><i class="fa fa-youtube"></i></a> 
+<a target="blank" href="https://twitter.com/DgpKarnataka" class="twitter"><i class="fa fa-twitter"></i></a> 
+ <a target="blank" href="https://instagram.com/blrcitypolice" class="instagram"><i class="fa fa-instagram"></i></a> 
+ <a target="blank" href="mailto:police@ksp.gov.in" class="envelope"><i class="fa fa-envelope"></i></a> 
+</div>
+------>
+
+
+
+
+
+
+<style>
+	.instagram{background:#cb2027;font-size:20px;}
+.whatsapp{background:#1c9c0f ; display: none !important; }
+.icon-bar2 {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);z-index:99999;
+}
+
+.icon-bar2 a {
+  display: block;
+  text-align: center;
+  padding: 12px 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar2 .fa{margin-left:0px !Important;}
+
+.icon-bar2 a:hover {
+opacity:0.7;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  font-size:17px;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #ff0000;
+  color: white;padding-left:0px;
+}
+.fa-youtube
+{font-size:17px;margin-top:6px;margin-left:1px;}
+
+
+
+@media (min-width: 320px) and (max-width: 480px)
+ {
+.instagram{background:#cb2027;font-size:20px;margin-right:75px;height:33px;margin-top:34px;}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  font-size:17px;
+  margin-top:34px;
+  height:33px;
+}
+
+}
+
+</style>
+
+
+<div class="col-lg-6 col-sm-4 col-md-6 nopad flex2 ">
+
+<div class="dropdown access">
+
+  <div class="dropdown-content dc2">
+  
+
+  </div>
+</div>
+
+<!-- <div class="skip-to-main l "><a href="#maincontent" class="stm"> ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ತೆರಳಿ</a></div> -->
+<div class="l">
+
+<button onClick="window.location.reload()" class="w"  title="Normal View">A</button>
+<button onclick="Black()" class="b"  title="For Visually Disabled click here">A</button>
+</div>
+
+
+
+<div class="font_access"> 
+<span>Font Size</span>  
+<button id="up" title="Increase Font Size">+</button>
+<span id="font-size" title="Font Size" style="display: inline-block;"></span>
+<button id="down" title="Decrease Font Size">-</button>
+</div>
+
+<div data-toggle="modal" data-target="#myModal81" class="sicon hidden-lg hidden-md"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+<div class="dropdown access col-sm-hidden col-sx-hidden">
+  <span class="col-sm-hidden col-sx-hidden">Accessibility</span>
+
+  <div class="dropdown-content dc2">
+
+ 
+  
+  <li class="sr"><a title="Screen Reader Access" data-toggle="modal" data-target="#myModalf9" role="link">Screen Reader</a></li>
+   
+  </div>
+</div>
+
+
+
+<div class="mn-help hidden-xs hidden-sm">
+
+<p  class="police">  <a target="blank" href="https://www.youtube.com/@karnatakastatepolice6684" class="youtube"><i class="fa fa-youtube"></i></a>
+ <a target="blank" href="https://www.instagram.com/karnatakacops/" class="instagram"><i class="fa fa-instagram"></i></a> 
+ <a target="blank" href="https://www.facebook.com/KarnatakaCops/" class="facebook"><i class="fa fa-facebook"></i></a> 
+<a target="blank" href="https://twitter.com/DgpKarnataka" class="twitter"><i class="fa fa-twitter"></i></a> 
+   Emergency Number : 112 </p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<!--==================== 
+header-top part end
+==================== -->
+
+<!--==================== 
+navbar-part start
+==================== -->
+
+<nav class="navbar navbar-expand-lg  content  head-height">
+
+
+
+<div class="col-md-3 col-sm-4 col-xs-4 col-xl-3 hidden-sm hidden-xs">
+
+<a class="" href="https://ksp.karnataka.gov.in" style="display: inline-table;">
+<img src="https://planning.karnataka.gov.in/frontend/opt1/images/cm_logo/chief_minister_of_karrnataka_en.png"  class="img-responsive cml">
+</a>
+</div>
+
+
+
+
+
+
+<div class="col-md-6 col-sm-8 col-xs-8 col-xl-6 m-clogo">
+
+<a class="clogo" target="_blank" href="https://www.karnataka.gov.in" >
+<div class="form-group am">
+<img src="https://ksp.karnataka.gov.in/frontend/opt1/images/center_logo/kar_main_logo.png" alt="ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್" title="ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್"  class="img-responsive cl img-fluid">
+
+<div class="dept-sub">
+<p style="display: inline-block;">Karnataka State Police</p>
+<p class="tagline">Government of Karnataka</p>
+</div>
+</div>
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-3 col-sm-3 col-xs-3 col-xl-3 pull-right minlogo">
+
+ <a class=" dp1" href="#" style="display:block !important;">
+          <img src="https://ksp.karnataka.gov.in/frontend/opt1/images/center_logo/priyank_kharge_2.jpeg"   class="img-fluid img-responsive dptl" style="display:block !important;">
+      </a>
+
+
+</div>
+
+
+
+</nav>
+<!-- <br> -->
+
+
+
+
+
+
+
+<div class="navbar navbar-default" role="navigation" id="navbar-default">
+    <div class="">
+<a href="https://ksp.karnataka.gov.in"><i class="fa fa-home pull-left hidden-md hidden-lg"></i></a>
+        <div class="navbar-header">
+		
+			
+
+
+<div class="nav-logo hidden-lg hidden-md">
+	
+            
+<img src="https://planning.karnataka.gov.in/frontend/opt1/images/cm_logo/chief_minister_of_karrnataka_en.png?1783257608"  class="img-responsive cml">
+
+</div>
+<!---<div data-toggle="modal" data-target="#myModal81" class="sicon hidden-lg hidden-md"><i class="fa fa-search" aria-hidden="true"></i></div>-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>       
+        </div>
+ <div class="collapse navbar-collapse">         
+            <ul class="nav navbar-nav">
+
+ <li class="">
+                            <a href="https://ksp.karnataka.gov.in/english" title="Home" class="shome"><i class="fa fa-home"> </i></a>
+                        </li>
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="About Us">About Us <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/About+Us/Vision+Statement/en "  title="Vision Statement"  >Vision Statement
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/About+Us/History/en "  title="History"  >History
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/About+Us/Organization/en "  title="Organization"  >Organization
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/About+Us/Organizational+Structure/en "  title="Organizational Structure"  >Organizational Structure
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="Administration">Administration <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Administration/Recruitment/en "  title="Recruitment"  >Recruitment
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Administration/K+S+P+Strength/en "  title="K S P Strength"  >K S P Strength
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Administration/Rewards/en "  title="Rewards"  >Rewards
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Administration/Medals/en "  title="Medals"  >Medals
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Administration/Police+Welfare/en "  title="Police Welfare"  >Police Welfare
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="Crime">Crime <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Crime/FIR+Cases/en "  title="FIR Cases"  >FIR Cases
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Crime/UDR+Cases/en "  title="UDR Cases"  >UDR Cases
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Crime/Petty+Cases/en "  title="Petty Cases"  >Petty Cases
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Crime/Crimes/en "  title="Crimes"  >Crimes
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Crime/Cyber+Crime/en "  title="Cyber Crime"  >Cyber Crime
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="Training">Training <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Training/Police+Training+Courses+and+Units/en "  title="Police Training Courses and Units"  >Police Training Courses and Units
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="Women and Children">Women and Children <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Women+and+Children/Crime+Against+Women/en "  title="Crime Against Women"  >Crime Against Women
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Women+and+Children/Women+Safety/en "  title="Women Safety"  >Women Safety
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/Women+and+Children/Child+Abuse/en "  title="Child Abuse"  >Child Abuse
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="FAQ">FAQ <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Online+Police+Services/en "  title="Online Police Services"  >Online Police Services
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Traffic/en "  title="Traffic"  >Traffic
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Cybercrime/en "  title="Cybercrime"  >Cybercrime
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Women+and+Children/en "  title="Women and Children"  >Women and Children
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Senior+Citizens/en "  title="Senior Citizens"  >Senior Citizens
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/page/FAQ/Public+Nuisance/en "  title="Public Nuisance"  >Public Nuisance
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                    
+
+                                        <li>
+                        <a  class="dropdown-toggle" data-toggle="dropdown" title="Citizen Desk">Citizen Desk <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">                            
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/info-3/%E0%B2%A8%E0%B3%87%E0%B2%AE%E0%B2%95%E0%B2%BE%E0%B2%A4%E0%B2%BF/en "  title="Recruitment"  target="_blank"  >Recruitment
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://ksp.karnataka.gov.in/firsearch/en "  title="FIR Search"  target="_blank"  >FIR Search
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://sevasindhu.karnataka.gov.in/Category/Police_Security_Services.html "  title="Seva Sindhu"  target="_blank"  >Seva Sindhu
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://policeseva.ksp.gov.in/ "  title="Citizen Centric Portal"  target="_blank"  >Citizen Centric Portal
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                                                    
+                                    <!-- <li> -->
+                                                                            <li class="">
+                                           <a href=" https://kspapp.ksp.gov.in/ksp/api/elost-reports "  title="KSP e-Lost Reports"  target="_blank"  >KSP e-Lost Reports
+                                            </a>
+                                                                                                                                                                                                                                                                                                                                                                               
+                                        </li>
+                                        
+                                    <!-- </li> -->
+                                  
+                           
+                                                           
+                        </ul>
+                    </li>
+                
+                                     
+                                              <li class="">
+                            <a  title="Police Units &amp; Special Units" href=" https://ksp.karnataka.gov.in/kspmap/en "   target="_blank"  >Police Units &amp; Special Units</a>
+                        </li>
+                                          
+
+                    
+                                     
+                                              <li class="">
+                            <a  title="Contact Us" href=" https://ksp.karnataka.gov.in/ksp_contact/en "   target="_blank"  >Contact Us</a>
+                        </li>
+                                          
+
+                    
+                
+
+             
+
+            </ul>
+			
+		  <ul class="pull-right">
+        <li data-toggle="modal" data-target="#myModal81" class="sicon hidden-sm hidden-xs smob"><i class="fa fa-search" aria-hidden="true"></i></li> </ul>
+			 
+             <!--<ul class="pull-right"><div class="gcse-search"></div></ul> -->
+        </div><!--/.nav-collapse -->
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+ <div class="modal fade" id="myModal81" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+     
+        <div class="modal-body modal-content-search">
+          
+       	 <form class="form-inline" action="https://ksp.karnataka.gov.in/search-data" method="get" accept-charset="utf-8">
+					 <div class="form-group fullwidth">
+					 <input type="text" name="search" class="form-control " required>
+					  <button class="btn btn-sm btn-info" style="margin-top:0px;"><i class="fa fa-search"></i></button>
+					 </div>
+					
+					 </form>
+
+
+        </div>
+     
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<div class="float-sm">
+  <div class="fl-fl float-fb float-fb-en">
+    <i class="fa fa-reply"></i>
+    <a href="/public-feedback-form/en"> Feedback / Suggestions</a>
+  </div>
+ 
+
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap&key=AIzaSyDaZw3HaJABMfVwI45LsosIwR1AYYCYeF0" async defer></script>
+
+<div class="chead"><a onclick="goBack()" class="back-btn"><i class="fa fa-arrow-left"></i></a><h1>Police Station Search</h1></div>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-md-12">
+                    
+                    				
+          </div></div>
+		  
+
+<div class="col-md-6 div-mid firbox">
+<div id="fir_pdf_link"></div>
+    <!-- <h4 class="titlefir">    </h4> -->
+<form>
+
+      <div class="form-group">
+    <label for="fname">Select District <span> *</span> : </label>
+  <select class="form-control dynamic" name="district_id" id="district_id"  data-dependent= "district_row_id">
+     <option value="0">Select District / Division</option>
+            <option value="1">Bagalkot</option>
+            <option value="2">Ballari</option>
+            <option value="3">Belagavi City</option>
+            <option value="4">Belagavi Dist</option>
+            <option value="5">Bengaluru City</option>
+            <option value="6">Bengaluru Dist</option>
+            <option value="7">Bidar</option>
+            <option value="8">Chamarajanagar</option>
+            <option value="9">Chickballapura</option>
+            <option value="10">Chikkamagaluru</option>
+            <option value="11">Chitradurga</option>
+            <option value="12">CID</option>
+            <option value="13">Coastal Security Police</option>
+            <option value="14">Dakshina Kannada</option>
+            <option value="15">Davanagere</option>
+            <option value="16">Dharwad</option>
+            <option value="17">Gadag</option>
+            <option value="18">Hassan</option>
+            <option value="19">Haveri</option>
+            <option value="20">Hubballi Dharwad City</option>
+            <option value="21">ISD Bengaluru</option>
+            <option value="22">K.G.F</option>
+            <option value="23">Kalaburagi</option>
+            <option value="24">Kalaburagi City</option>
+            <option value="25">Karnataka Railways</option>
+            <option value="26">Kodagu</option>
+            <option value="27">Kolar</option>
+            <option value="28">Koppal</option>
+            <option value="29">Mandya</option>
+            <option value="30">Mangaluru City</option>
+            <option value="31">Mysuru City</option>
+            <option value="32">Mysuru Dist</option>
+            <option value="33">Raichur</option>
+            <option value="34">Bengaluru South</option>
+            <option value="35">Shivamogga</option>
+            <option value="36">Tumakuru</option>
+            <option value="37">Udupi</option>
+            <option value="38">Uttara Kannada</option>
+            <option value="39">Vijayapur</option>
+            <option value="40">Yadgir</option>
+            <option value="41">Vijayanagara</option>
+      </select>
+</div>
+
+
+<div class="form-group">
+    <label for="fname">Select Police Station <span> *</span> : </label>
+  <select class="form-control dynamic" name="ps_id" id="ps_id" onchange="police_sta_search()">
+      <option value="0">Select Police Station</option>
+  </select>
+</div>
+
+  <input type="hidden" name="_token" value="BZ2dI0njWaPzHNPAa3tw1zuU5gASDQcb6L8u79qQ">
+
+
+
+ <!-- <a href="#" class="btn btn-primary btn-lg pull-right btnfir" id="search_address">Search Address</a>-->
+</form>
+</div>
+
+
+
+<script>
+$(document).ready(function(){
+
+ $('.dynamic').change(function(){
+	 
+	 
+  if($(this).val() != '')
+  {
+   var select = $(this).attr("id");
+   var value = $(this).val();
+   
+   
+
+   var _token = $('input[name="_token"]').val();
+
+  var dependent = $(this).data('dependent');
+   $.ajax({
+	
+    url:"https://ksp.karnataka.gov.in/home-fetch",
+    method:"GET",
+	data:{"select":select, "value":value, "_token":_token, "dependent":dependent},
+   
+    success:function(result)
+    {
+	
+     $('#ps_id').html(result);
+    }
+
+   })
+  }
+ });
+
+ $('#district_id').change(function(){
+  $('#ps_id').val('');
+ 
+ });
+
+
+ 
+
+});
+</script>
+
+
+
+
+
+
+
+<div class="col-md-6 ">
+<div class="addbox"> 
+<h3 class="text-center">Station Details </h3>
+<div class="pscontents"> 
+<h4> Station Name : <span id="ps_name">  </span></h4>
+<h4> Address :  <span id="ps_address">  </span></h4>
+<h4> Phone :  <span id="ps_phone">  </span></h4>
+<h4> e-mail :  <span id="ps_email">  </span></h4>
+ <div id="ksp_map">  </div>
+
+<div> 
+
+
+<div id="">
+
+
+</div>
+</div>
+</div>
+  
+</div>
+      </div>
+</div>
+
+
+<!-------------------------------->
+
+
+<!-------------------------------------------------------- Footer1 -------------------------------------------->
+
+<div>
+<div class="foot">
+<div class="footer1">
+<div class="container no-gutters" id="container_footer1">
+  <div class="row" id="footer1_row">
+
+     <div class="col-sm-12 col-md-4 col-xs-12 lb" id="footer1_col1">
+	   <h3>Disclaimer :</h3>
+
+        <div class="disclaimer">
+        
+          <p>Please note that this page also provides links to the websites / web pages of Govt. Ministries/Departments/Organisations.The content of these websites are owned by the respective organisations and they may be contacted for any further information or suggestion</p>
+        </div>  
+
+    </div>
+
+
+
+    <div class="col-sm-6 col-md-4 col-xs-6 row lb">
+<h3>Website Policies</h3>
+ <div class="" id="footer1_col2">
+       <ul>
+      
+         <li data-toggle="modal" data-target="#myModalf3"><i class="fa fa-chevron-circle-right"></i>Copyright Policy</li>
+         <li data-toggle="modal" data-target="#myModalf4"><i class="fa fa-chevron-circle-right"></i>Hyperlinking Policy</li>
+         <li data-toggle="modal" data-target="#myModalf5"><i class="fa fa-chevron-circle-right"></i>Security Policy</li>
+       </ul>  
+    </div>
+
+
+    <div class="" id="footer1_col3">
+      <ul>
+          <li data-toggle="modal" data-target="#myModalf6"><i class="fa fa-chevron-circle-right"></i>Terms & Conditions</li>
+          <li data-toggle="modal" data-target="#myModalf7"><i class="fa fa-chevron-circle-right"></i>Privacy Policy</li>
+          <li data-toggle="modal" data-target="#myModalf8"><i class="fa fa-chevron-circle-right"></i>Help</li>
+          <li data-toggle="modal" data-target="#myModalf9"><i class="fa fa-chevron-circle-right"></i>Screen Reader Access</li>
+          <li><a href="https://ksp.karnataka.gov.in/guidelines/en" style="color: white;"><i class="fa fa-chevron-circle-right"></i>Guidelines</a> </li>
+      </ul> 
+	  </div>
+	  
+	  </div>
+	  
+	  
+ 
+ <div class="col-sm-6  col-md-4 col-xs-6 lb" id="footer1_col4">
+ <h3>Visitors </h3>
+ 
+    <ul>
+                <li class="fvc"><i class="fa fa-chevron-circle-right"></i>Last Updated​ : <label id='visitcount'><i class="fa fa-chevron-circle-right"></i>24-06-2026 03:07 PM</label><span></span> </li>
+        <li class="fvc"><i class="fa fa-chevron-circle-right"></i>Visitors Counter  : <label id='visitcount'>663274</label><span></span> </li>
+		<li class="fvc"><i class="fa fa-chevron-circle-right"></i>Version  : <label id='visitcount'>CeG/KRN 1.3</label><span></span> </li>
+         
+      </ul> 
+	  
+	
+    </div>
+	</div>
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!--------------------------------------------------- Footer2--------------------------------------->
+
+<div class="footer2">
+ <div class="container" id="footer2_container">  
+  CONTENT OWNED AND MAINTAINED BY : Karnataka State Police </div>
+</div>
+
+<!--------------------------------------------------- Footer3--------------------------------------->
+
+<div class="footer3">
+ <div class="container" id="footer3_container">  
+  Designed, Developed and Hosted by: <a href="https://ceg.karnataka.gov.in/english" target="_blank"><img src="https://icps.karnataka.gov.in/frontend/opt1/images/modal_icons/ceg/ceg1.png"  class="footer3_img" /> </a> Center for e-Governance - Web Portal, Government of Karnataka © 2026, All Rights Reserved.
+
+    <p style="color: white;font-size: 12px;">Best viewed in Chrome v-87.0.4280.141, Microsoft Edge v-87.0.664.75, Firefox -v-83.0 Browsers.
+      Resolution : 1280x800 to 1920x1080</p> 
+ </div> 
+
+  <a target="blank" href="https://www.youtube.com/@KarnatakaCops" class="youtube"><i class="fa fa-youtube"></i></a>
+ <a target="blank" href="https://www.instagram.com/karnatakacops/" class="instagram"><i class="fa fa-instagram"></i></a> 
+ <a target="blank" href="https://www.facebook.com/KarnatakaCops/" class="facebook"><i class="fa fa-facebook"></i></a> 
+ <a target="blank" href="https://www.twitter.com/KarnatakaCops/" class="twitter"><i class="fa fa-twitter"></i></a>
+ 
+
+</div>
+
+<!---------------------------------------------------- Footer4 Icons ------------------------------->
+
+<div class="footer4">
+  <div class="container-fluid">
+    <ul class="list-inline footer4_li">
+      <li>
+       <a href="https://www.meity.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/cm_logo/Meity_logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://digitalindia.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/cm_logo/digital-india-logo.png" class="footer_image"></a>
+      </li> 
+      <li>
+       <a href="https://data.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/cm_logo/data-gov-logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://www.india.gov.in/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/cm_logo/india-gov-logo.png" class="footer_image"></a>
+      </li>
+      <li>
+       <a href="https://www.pmindia.gov.in/en/" target="_blank" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/cm_logo/pm-india-logo.png" class="footer_image"></a>
+      </li>
+	  
+      <li class="footer4_divider"></li>
+      <li></li>
+
+      <li>
+       <a href="#"  class="no-pointer"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/GIGW.jpeg" class="footer_image" ></a>
+      </li>
+      <li>
+       <a href="#" class="no-pointer"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/WCAG.jpeg" class="footer_image"></a>
+      </li> 
+      <li>
+      <a href="#" class="no-pointer"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/SSLcertificate.png" class="footer_image"></a>
+      </li>
+      <li>
+      <a href="#" class="no-pointer"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/w3c.png" class="footer_image"></a>
+      </li>
+      <li>
+      <a href="#" class="no-pointer"><img src="https://ksp.karnataka.gov.in/frontend/opt1/images/kp_kn.jpeg" class="footer_image"></a>
+      </li>
+    </ul> 
+  </div>
+</div>   
+
+
+<!-------------------------------------------------- Footer End ------------------------------------>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------->
+<!----------------------------------------------- All Policies Modal Pop-up ------------------------>
+
+<!-- About Us -->
+  <div class="modal fade" id="myModalf1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About Us</h4>
+        </div>
+        <div class="modal-body">
+          
+          <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Government of Karnataka (GoK) is a pioneer in leveraging information and communication technology (ICT) for better governance and is at the forefront of implementation of electronic-Governance (e-Governance) initiatives in the country. The Centre for e-Governance (CeG) is a nodal agency established in the year 2006, under the Societies Registration Act, to steer the e-governance policies and strategies in the state. It is the custodian of the e-governance core infrastructure and basic administrative reform based applications created in the state. In fact, it is unique in the state as it is placed in Department of Personnel & Administrative Reforms (DPAR) which is directly accountable to the Chief Minister of the state. The services of CeG over the years has proved to be immensely contributive in realizing the benefits of IT for common man. True to the ethos of the IT sector that demands autonomous functionality, the CeG spreads open its wings to various innovative projects aiming to empower citizens through the support of e-Governance.</p><br>
+
+          <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Today, the state can boast of state-of-the-art two Data Centers, MPLS technology based Karnataka State Wide Area Network and core applications such as e-procurement and HRMS groomed under CeG with cent percent performance quality and standards, even setting certain benchmarks.</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <!----------------------------------------------------------------->
+
+  <!-- Sitemap -->
+  <div class="modal fade" id="myModalf2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sitemap</h4>
+        </div>
+
+        <div class="modal-body">
+          
+          <div class="sitemap">
+                <ul>
+                          
+                  <li class="">
+                      <a href="https://forest.karnataka.gov.in/english" title="Home">Home</a>
+                  </li>
+                                     
+
+                  <li>
+                   <a class="dropdown-toggle" data-toggle="dropdown" title="RTI ACT">RTI ACT <b class="caret"></b></a>
+                    <ul style="margin-left: 15px;">                                  
+                       <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">Complaints under RTI
+                        </a>                                                                                                                                      </li>
+                                                                                                                       
+                    </ul>
+                  </li>
+                
+                                    
+
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" title="Contact">Contact</a>
+                    </li>
+                
+               
+             
+            </ul>
+  
+            <h6 style="padding: 10px;color: #deb314;text-decoration: underline;"><span>INTRODUCTION</span></h6>        
+       
+          <ul> 
+           
+            <li class="" "="">
+                  <a title="About Us" href=" https://forest.karnataka.gov.in/info-1/About+Us/en ">About Us</a>
+            </li>
+            
+
+            <li class="" "="">
+                  <a title="Departments | Agencies" href=" https://forest.karnataka.gov.in/info-1/Departments+|+Agencies/en ">Vision and Objective</a>
+            </li>
+                                   
+
+            <li class="" "="">
+                  <a title="History" href=" https://forest.karnataka.gov.in/info-1/History/en ">Organization Structure</a>
+            </li>
+                                   
+          
+            <li class="" "="">
+                  <a title="Vision | Objectives | Mission" href=" https://forest.karnataka.gov.in/info-1/Vision+|+Objectives+|+Mission/en ">Officers List<b class="caret"></b></a>
+
+                   <ul style="margin-left: 15px;">                                  
+                       <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">Integrated Child Protection Scheme Officers List
+                        </a>                                                                                                                                      </li>
+
+                        <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">District Child Protection Units Address and Officers List
+                        </a>                                                                                                                                      </li>
+
+                        <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">Child Care Institutions
+                        </a>                                                                                                                                      </li>
+                                                                                                                       
+                    </ul>
+            </li>
+                                  
+
+             <li class="" "="">
+                  <a title="Organization Structure" href=" https://forest.karnataka.gov.in/info-1/Organization+Structure/en ">Committees <b class="caret"></b></a>
+
+                  <ul style="margin-left: 15px;">                                  
+                       <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">State and District Inspection Commitee
+                        </a>                                                                                                                                      </li>
+
+                        <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">Child Welfare Commitee and Juvenile Justice Board
+                        </a>                                                                                                                                      </li>
+
+                        <li class="">
+                        <a href=" http:///forest.karnataka.gov.in/storage/pdf-files/RTI 4(1)A.pdf " title="RTI 4(1) (a)" target="_blank">Management Commitee
+                        </a>                                                                                                                                      </li>
+                                                                                                                       
+                    </ul>
+            </li>
+                                   
+          </ul>
+
+
+          <h6 style="padding: 10px;color: #deb314;text-decoration: underline;"><span>SCHEMES</span></h6>
+
+          <ul> 
+
+            <li class="active" "="">
+                <a title="Projects" href=" https://forest.karnataka.gov.in/info-2/Projects/en ">State Adoption Resource Agency (SARA)</a>
+            </li>
+            <li class="active" "="">
+                <a title="Projects" href=" https://forest.karnataka.gov.in/info-2/Projects/en ">Training</a>
+            </li>
+            <li class="active" "="">
+                <a title="Projects" href=" https://forest.karnataka.gov.in/info-2/Projects/en ">Information Education and Communication (IEC)</a>
+            </li>
+        
+          </ul>
+        
+
+
+          <h6 style="padding: 10px;color: #deb314;text-decoration: underline;"><span>ONLINE SERVICES</span></h6>
+     
+            <ul>            
+               <li class="" "="">
+                    <a title="Seva Sindhu" href=" https://sevasindhu.karnataka.gov.in/Sevasindhu/English " target="_blank">National Tracking System Missing Vulnerable Children</a>
+               </li>
+              
+                <li class="active" "="">
+                    <a title="Sakal" href=" http://www.sakala.kar.nic.in/ " target="_blank">Central Adoption Resource Authority</a>
+               </li> 
+               <li class="active" "="">
+                    <a title="Sakal" href=" http://www.sakala.kar.nic.in/ " target="_blank">ChildLine-1098</a>
+               </li> 
+               <li class="active" "="">
+                    <a title="Sakal" href=" http://www.sakala.kar.nic.in/ " target="_blank">Community Child and Adolescent Mental Health Service</a>
+               </li>               
+            </ul>
+
+
+
+          <h6 style="padding: 10px;color: #deb314;text-decoration: underline;"><span>DOCUMENTS</span></h6>
+   
+            <ul>   
+              <li class="" "="">
+                <a title="Department Budget" href=" https://forest.karnataka.gov.in/info-4/Department+Budget/en ">Department Orders</a>
+              </li>
+            
+                                    
+              <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Circulars</a>
+              </li>
+               <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Reports</a>
+              </li>
+               <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Monthly Programme Implementation Calender (MPIC)</a>
+              </li>
+               <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Budget</a>
+              </li>
+               <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Rules and Regulations</a>
+              </li>
+               <li class="" "="">
+                    <a title="Acts and Rules" href=" https://forest.karnataka.gov.in/info-4/Acts+and+Rules/en ">Corona Virus- Precautionary Measures</a>
+              </li>
+            
+           
+             
+          </ul>
+  
+         </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Copyright Policies -->
+  <div class="modal fade" id="myModalf3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Copyright Policy</h4>
+        </div>
+        <div class="modal-body">
+         
+         <p class="copy_header">Copyright policy (if the published information is available free of any charge)</p>
+
+           <p>1)Information featured on this website can be re-published in any media form free
+               of any charge only with prior permission from us(CeG) or concerned respective authority which is owning the website, through email.</p>
+           <p>2)Information can be republished as it is available and not to be used in a distorted or misleading manner.</p>
+           <p>3)Where the material is being published or suggested to others, the source must be prominently acknowledged </p>
+           <p>4)13. However, the permission to reproduce this material does not extend to any material on this site, which is explicitly identified as being the copyright of a third party</p>
+          
+        <p class="copy_header">Copyright policy (if there is a provision to reuse published information)</p>
+        
+           <p>1)The information published on the website comes under copyright policy and obtaining authorization for their republish is a pre-requisite.</p>  
+
+           <p>2)To get permission one can mail to ………………..@.........</p>
+
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <!-------------------------------------------------------------------->
+  <!-- Hperlinking Policies -->
+  <div class="modal fade" id="myModalf4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Hyperlinking Policy</h4>
+        </div>
+        <div class="modal-body">
+          
+         <p class="copy_header">(in case the respective department doesn’t need any permission to hyperlink in their website) </p>
+
+           <p>1)We do not object to you linking directly to the information that is hosted on our site and no prior permission is required for the same.</p>
+
+           <p>2)we do not permit our pages to be loaded into frames on other sites. Our Department’s pages must load into a newly opened browser window of the user.</p>
+
+        <p class="copy_header">(in case of hyperlink permission is necessary for the website)</p>
+        
+           <p>1)to provide any link or its form on this website, it is compulsory to procure permission. </p>  
+
+           <p>2)permission can be obtained from the Centre for e-governance by requesting to this email. pd.webportal@karnataka.gov.in</p>
+ 
+           <p>3)Before leaving this government website note: this contact button will lead to another website, to get more information on such new opened site, one must contact the concerned contacts registered on that website.</p>
+         
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+
+
+
+  <!-------------------------------------------------------------------->
+  <!-- Security Policies -->
+  <div class="modal fade" id="myModalf5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Security Policy</h4>
+        </div>
+        <div class="modal-body">
+          
+           <p> 1) For site security purposes and to ensure that this service remains available to all users, this Government      computer system employs commercial software programs to monitor network traffic to identify unauthorized attempts to upload or change information, or otherwise cause damage.
+           </p><br>
+
+          <p>2)  Except for authorized law enforcement investigations, no other attempts are made to identify individual users or their usage habits. Raw data logs are used for no other purposes and are scheduled for regular deletion.
+          </p><br>
+
+          <p>3) Unauthorized attempts to upload information or change information on this service are strictly prohibited and may be punishable under the Indian IT Act (2000).</p><br>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+ <!-------------------------------------------------------------------->
+  <!-- Terms & Conditions -->
+  <div class="modal fade" id="myModalf6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Terms & Conditions</h4>
+        </div>
+        <div class="modal-body">
+          
+          <p>1)This website is designed, developed, and maintained by the center for e-governance.</p><br>
+
+          <p>2) Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes. In case of any ambiguity or doubts, users are advised to verify/check with the Department(s) and/or other source(s) and to obtain appropriate professional advice.</p><br>
+
+          <p>3) ) Under no circumstances will this Department be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this website.</p><br>
+
+          <p>4) These terms and conditions shall be governed by and construed in accordance
+          with the Indian Laws. Any dispute arising under these terms and conditions
+          shall be subject to the jurisdiction of the courts of India.</p><br>
+
+
+          <p>5) The information posted on this website could include hypertext links or
+          pointers to information created and maintained by non-Government/private
+          organisations. (Name of Department) is providing these links and pointers solely
+          for your information and convenience. When you select a link to an outside
+          website, you are leaving the website and are subject to
+          the privacy and security policies of the owners/sponsors of the outside website.</p><br>
+
+
+          <p>6) The concerned department does not guarantee the availability of such linked pages at all times.</p><br>
+
+          <p>7)The concerned department, cannot authorize the use of copyrighted materials contained in linked websites. Users are advised to request such authorization from the owner of the linked website.</p><br>
+
+          <p>8)The concerned  department does not guarantee that linked websites comply with Indian Government Web Guidelines</p>
+          <br>
+ 
+          <p>If the user visits the information and collects information or downloads files, the following elements may automatically download,</p>
+          
+          <ul>
+            <li>- your service domain, IP number, how visitors accessed our website.</li>
+            <li>- browsers and operating systems.</li> 
+            <li>- date and time of users’ visits.</li> 
+            <li>- URLs from which visitors accessed information.</li>
+            <li>- if the user has visited the website from other websites, details of that website</li>
+          </ul>
+ 
+
+         <h6>Cookies</h6>
+
+          <p>
+            When you visit some websites, they may download small pieces of software on your computer/browsing device known as cookies. Some cookies collect personal information to recognize your computer in the future. We only use non-persistent cookies or “per-session cookies”. 28 Per-session cookies serve technical purposes, like providing seamless navigation through this website. These cookies do not collect personal information on users and they are deleted as soon as you leave our website. The cookies do not permanently record data and they are not stored on your computer’s hard drive. The cookies are stored in memory and are only available during an active browser session. Again, once you close your browser, the cookie disappears.
+          </p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Privacy Policies -->
+  <div class="modal fade" id="myModalf7" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Privacy Policies</h4>
+        </div>
+        <div class="modal-body">
+          
+          <p class="copy_header">privacy policy : (when the website doesn’t collect any personal information)</p>
+            <p>
+              We collect no personal information, like names or addresses, when you visit our website. If you choose to provide that information to us, it is only used to fulfill your request for information
+            </p>
+
+          <p class="copy_header">user information: </p>
+            <p>
+              we do collect technical user details when a user visits the websites and visitor information such as the type of browser, server, and domain, date and time, details of documents downloaded are recorded, This information is only used to help us make the site more useful for you. With this data, we learn about the number of visitors to our site and the types of technology our visitors use. We never track or record information about individuals and their visits. (except in the case when directed by the court through a warrant) 
+            </p>
+
+          <p class="copy_header">cookies: </p>
+            <p>
+              Web sites provide a piece of software when visitors receive information on a website and they are called Cookies. No such cookies are used on this website. 
+            </p> 
+
+          <p class="copy_header">Email management: </p>
+            <p>
+             emails are stored when a user sends any information only for that instant and is used only to give information to them. these are not to be used for any purposes or to include in the contact list. without intimating the user, it won’t be revealed.
+            </p> 
+            
+          <p class="copy_header">collection of personal details:  </p>
+            <p>
+              if the user asks or provides any personal information, the details of its usage are mentioned. if you are not satisfied or suspicious about the details are given or wish to provide an opinion about the same, its necessary for you to contact assigned webmasters under ‘contact us’ section 
+
+              note: private pieces of information received under ‘Personal details’ will only be used to collect identity or elements for easy identification. 
+ 
+            </p> 
+            
+          <p class="copy_header">cookies: </p>
+            <p>
+              Web sites provide a piece of software when visitors receive information on a website and they are called Cookies. No such cookies are used on this website. 
+            </p>     
+
+            <h6 style="font-weight: 600;">if the user provides personal information.</h6>
+             <p>
+               1. We do not collect personal information for any purpose other than to respond to you (for example, to respond to your questions or provide subscriptions you have chosen). If you choose to provide us with personal information like filling out a Contact Us form, with an e-mail address or postal address, and submitting it to us through the website-we use that information to respond to your message and to help you get the information you have requested. We only share the information you give us with another Government agency if your question relates to that agency, or as otherwise required by law. 
+            </p>
+            <p>
+              2. Our website never collects information or creates individual profiles for commercial marketing. While you must provide an email address for a localized response to any incoming questions or comments to us, we recommend that you do NOT include any other personal information.
+            </p>
+
+          
+           <h6 style="font-weight: 600;">website security </h6>
+             <p>
+              1)to make the information available to all, to prevent unauthorized user entry, to stop harming or distorting information and keeping the security of the website in mind, also to handle user traffic, commercial software programs are used. 
+             </p>
+
+             <p>
+               2)Except for official law institutions, no attempts are made to personally identify the visitor or user.
+             </p>
+             
+             <p>3)Visitor information is subject to regular deletion</p>
+             <p>4)unauthorized users shall not add or change information available which can have legal consequences and may be subjected to fine under IT act (2000).</p>
+ 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Help -->
+  <div class="modal fade" id="myModalf8" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Help</h4>
+        </div>
+        <div class="modal-body">
+          
+          <h6 style="text-decoration: underline;" class="copy_header">INFORMATION SEARCH:</h6>
+
+           <p> to help users access information within the website, a “search here” option is been provided. here, the option to type in Kannada is made available. while searching, usage of Unicode font is compulsory. option to search in English is also provided. </p>
+
+          <h6 style="text-decoration: underline;" class="copy_header">INTERNET ACCESSIBILITY</h6> 
+
+            <p>if the internet is slow or unavailable, there may be a modification in website design or some subpages may not open. </p>
+
+          </p><br>
+
+          <div class="scroll-table1"><div class="guide-text"><i class="fa fa-long-arrow-right"></i></div><div class="scroll-table"><table id="tablehelp" class="border" border="1"> <caption>Help of Various File formats :</caption> <tbody> <tr> <th>Document Type</th> <th>Download</th> </tr> <tr class="even"> <td>PDF content</td> <td> <img src="https://labour.gov.in/sites/default/files/pdf.png" alt="image"><a href="http://get.adobe.com/reader/" target="_BLANK" title="External site that opens in a new window"> Adobe Acrobat Reader</a> (External website that opens in a new window) </td> </tr> <tr class="odd"> <td>Word files</td> <td><img src="https://labour.gov.in/sites/default/files/Word.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=3657CE88-7CFA-457A-9AEC-F4F827F20CAC&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> Word Viewer (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8378bf4-996c-4369-b347-73edbd03aaf0&amp;displaylang=EN" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for Word (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="even"> <td>Excel files</td> <td> <img src="https://labour.gov.in/sites/default/files/Excel.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=428D3727-43AB-4F24-90B7-A94784AF71A4&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> Excel Viewer 2003 (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for Excel (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="odd"> <td>PowerPoint presentations</td> <td><img src="https://labour.gov.in/sites/default/files/powerpoint.png" alt="image">  <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=428D5727-43AB-4F24-90B7-A94784AF71A4&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window"> PowerPoint Viewer 2003 (in any version till 2003)</a> - External website that opens in a new window<br> <a href="http://www.microsoft.com/downloads/en/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466&amp;displaylang=en" target="_BLANK" title="External site that opens in a new window">Microsoft Office Compatibility Pack for PowerPoint (for 2007 version)</a> - External website that opens in a new window </td> </tr> <tr class="even"> <td>Flash content</td> <td> <img src="https://labour.gov.in/sites/default/files/Flash.png" alt="image"> <a href="http://get.adobe.com/flashplayer/" target="_BLANK" title="External site that opens in a new window">Adobe Flash Player </a>(External website that opens in a new window) </td> </tr> <tr class="odd"><td>Audio Files</td> <td> <img src="https://labour.gov.in/sites/default/files/red.png" alt="image"> <a href="http://windows.microsoft.com/en-US/windows/downloads/windows-media-player" target="_BLANK" title="External site that opens in a new window">Windows Media Player </a>(External website that opens in a new window) </td> </tr> </tbody> </table></div></div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------->
+  <!-- Screen Reader Access -->
+  <div class="modal fade" id="myModalf9" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Screen Reader Access</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="nicetext">        
+            <div class="innerpage">
+             <div id="skipCont" class="wrapper">
+       
+             <div class="row">                 
+              <div class="col-md-12 col-sm-9 col-xs-12">
+                <h1 class="heading" tabindex="0"></h1>
+                <div class="region region-content">
+                <div id="block-system-main" class="block block-system">
+
+    
+                <div class="content">
+                 <div class="panel-display panel-1col clearfix">
+                 <div class="panel-panel panel-col">
+                   <div>
+                    <div class="panel-pane pane-views pane-page">
+  
+                     <div class="pane-content">
+                       <div class="view view-page view-id-page view-display-id-block view-dom-id-9f59a9bf8ad69ecc93f01660ca78bb00">
+        
+                       <div class="view-content">
+                        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+                         <div class="views-field views-field-body">        
+                          <div class="field-content">
+                            <p>The website complies with World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 level AA. This will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers, such as JAWS, NVDA, SAFA, Supernova and Window-Eyes.</p>
+                            <p>Following table lists the information about different screen readers:</p>
+
+                            <div class="guide-text">
+                              <i class="fa fa-long-arrow-right"></i>
+                            </div>
+
+                            <div class="scroll-table1">  
+                              <table class="srtable" summary="Screen Reader">
+                                <tbody>
+                                  <tr>
+                                    <th>Sl. No.</th>
+                                    <th>Screen Reader</th>
+                                    <th>Website</th>
+                                    <th>Free/ Commercial</th>
+                                  </tr>
+
+
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Non Visual Desktop Access (NVDA)</td>
+                                    <td><a href="http://www.nvda-project.org/" target="_blank">http://www.nvda-project.org/</a><br> (External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>2</td>
+                                    <td>JAWS</td>
+                                    <td><a href="http://www.freedomscientific.com/products/software/jaws/" target="_blank">http://www.freedomscientific.com</a> <br>(External website that opens in a new window)</td>
+                                    <td>Commercial</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Window-Eyes</td>
+                                    <td><a href="http://www.gwmicro.com/Window-Eyes/" target="_blank">http://www.gwmicro.com</a><br> (External website that opens in a new window)</td>
+                                    <td>Commercial</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>4</td>
+                                    <td>System Access To Go</td>
+                                    <td><a href="http://www.satogo.com/" target="_blank">http://www.satogo.com/</a><br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>5</td>
+                                    <td>WebAnywhere</td>
+                                    <td><a href="http://webinsight.cs.washington.edu/" target="_blank">http://webinsight.cs.washington.edu/</a> <br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+
+
+  <tr>
+                                    <td>6</td>
+                                    <td>atoall</td>
+                                    <td><a title="This Will Make You Easy For Growth, Use Accessibility Tool" target="_blank" rel="noopener" href="https://atoall.com/all.asp"> <img height="64" width="64" alt="This Will Make You Easy For Growth, Use Accessibility Tool" src="https://atoall.com/all/512-accessibility-square.svg"></a>
+ <br>(External website that opens in a new window)</td>
+                                    <td>Free</td>
+                                  </tr>
+								  
+								  
+								  
+								  
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>  
+                        </div>  
+                      </div>
+                    </div>
+  
+                </div>  
+               </div>
+  
+              </div>
+              </div>
+              </div>
+             </div>
+             </div>
+             </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+</script>
+
+      
+<!----------------------->
+        
+
+   
+
+
+
+  <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/bootstrap.min.3.3.1.js"></script>
+
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/popper.min.js"></script>
+   
+
+
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/venobox.min.js"></script> 
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/jquery.lineProgressbar.js"></script> 
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/slick.min.js"></script> 
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/script.js"></script>
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/custom.js"></script>
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/menu.js"></script>
+  
+ <script src="https://ksp.karnataka.gov.in/frontend/opt1/owl/owl.carousel.js"></script>
+
+<script src="https://ksp.karnataka.gov.in/frontend/opt1/rti_datatables/jquery.dataTables.min.js"></script>
+    <script src="https://ksp.karnataka.gov.in/frontend/opt1/js/fancy/jquery.fancybox.pack.js"></script>
+<script src="https://ksp.karnataka.gov.in/frontend/opt1/js/fancy/main.js"></script>
+
+
+
+
+
+   <script type="text/javascript">
+     $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+          items:1
+        },
+        320:{
+          items:2
+        },
+        480:{
+          items:2
+        },
+        549:{
+          items:2
+        }, 
+        550:{
+          items:3
+        },
+        600:{
+          items:3
+        },
+        767:{
+          items:3
+        },
+        768:{
+          items:4
+        },
+        900:{
+          items:4
+        },
+        991:{
+          items:4
+        },
+        1000:{
+          items:6
+        },
+        1199:{
+          items:5
+        },
+    }
+    })
+   </script>
+
+<div class="modal fade" id="myModalfonts" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">ಉಚಿತ ಕನ್ನಡ ಯುನಿಕೋಡ್‌ ಫಾಂಟ್‌ಗಳು</h4>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered table-striped" style="margin-bottom: 0px;    border: 2px solid saddlebrown;">
+<tbody>
+<tr>
+<th>#</th>
+<th>File name</th>
+<th>Size</th>
+<th>Download</th>
+</tr>
+<tr>
+<td>1</td>
+<td>kedage kannada fonts</td>
+<td>145.2KB</td>
+<td>
+<a href="https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/kedage_kannada_fonts.zip" download="Nirmala.ttf">
+<i class="fa fa-download" aria-hidden="true" title="Download Font"></i>
+</a>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>mallige kannada fonts</td>
+<td>514B</td>
+<td>
+<a href="https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/mallige_kannada_fonts.zip" download="Nirmala.ttf" >
+<i class="fa fa-download" aria-hidden="true" title="Download Font"></i>
+</a>
+</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Lohit kannada fonts</td>
+<td>514B</td>
+<td>
+<a href="https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/Lohit_kannada_fonts.zip" download="Nirmala.ttf" >
+<i class="fa fa-download" aria-hidden="true" title="Download Font"></i>
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td>2</td>
+<td>Murty Kannada fonts</td>
+<td>514B</td>
+<td>
+<a href="https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/Murty_Kannada_fonts.zip" download="Nirmala.ttf" >
+<i class="fa fa-download" aria-hidden="true" title="Download Font"></i>
+</a>
+</td>
+</tr>
+
+
+
+<tr>
+<td>2</td>
+<td>SakalBharati kannada fonts</td>
+<td>514B</td>
+<td>
+<a href="https://ceg.karnataka.gov.in/frontend/opt1/fonts/kannada/SakalBharati_kannada_fonts.zip" download="Nirmala.ttf" >
+<i class="fa fa-download" aria-hidden="true" title="Download Font"></i>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">ಮುಚ್ಚಿ</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>  
+<link rel="stylesheet" type="text/css" href="https://ceg.karnataka.gov.in/frontend/opt1/global_ci/global_ci.css?1783257608">
+<script src="https://ceg.karnataka.gov.in/frontend/opt1/global_ci/global_ci.js?1783257608"></script>
+
+<script >
+
+
+ $( document ).ready( function () {
+	  $('#amModal').modal('show');
+    
+ // $(".carousel-inner").prepend("<div class='slideoverlayleft'> <a href='https://amritmahotsav.nic.in/' target='blank'><img src='https://ceg.karnataka.gov.in/uploads/ale_small_left_round_latest.jpg'></div>");
+
+ //  $(".carousel-inner").prepend("<div class='slideoverlayleftg20'> <a href='https://ceg.karnataka.gov.in/uploads/comman/g20_video_ceg.mp4' target='blank'><img src='https://ceg.karnataka.gov.in/uploads/comman/kannada_G20_india.jpg'></div>");
+
+ 	// $(".carousel-inner").prepend("<div style="position:absolute;top: 0px;left:0px;float:left;width:100%;height:100%;padding:0px !important;margin: 0px !important;"> <a href='https://amritmahotsav.nic.in/' target='blank' style="width:100%;height:100%;padding:0px !important;margin: 0px !important;float: left;"><img src='https://karnataka.gov.in/storage/pdf-files/ceo%20banner.jpg' style="width:100%;height:100%;padding:0px !important;margin: 0px !important;float: left;"></div>");
+
+ 	$(".carousel-inner").prepend("<div class='slideoverlay-full' style='position:absolute;top: 0px;left:0px;float:left;width:100%;height:100%;padding:0px !important;margin: 0px !important;z-index:9'><img src='https://karnataka.gov.in/storage/pdf-files/ceo%20banner.jpg' style='width: 100%; height: 100%; float: left;' /></div>");
+
+ 
+
+ 	setTimeout(() => {
+ 		$(".slideoverlay-full").css("display", "none");
+ 	}, 3000);
+
+
+    $('.ceoclose').click(function(e){
+  $(this).parent().addClass('hideceo');
+});
+
+
+       $(".multi-level").each(function(){
+    if($(this).children("li").length >= 10)
+      $(this).addClass("large_sub_menu");
+  });      
+  $(".large_sub_menu li").hover(function(){
+    $(this).children("ul").children("li").children("a").css('font-weight', 'bold');
+  });
+
+
+  
+
+
+
+
+
+
+     $("#toggle").click(function() {
+     
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+
+
+  $("#toggle2").click(function() {
+     
+    var elem = $("#toggle2").text();
+    if (elem == "ಮತ್ತಷ್ಟು ಓದಿ") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle2").text("ಕುಗ್ಗಿಸಿ");
+      $("#text2").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle2").text("ಮತ್ತಷ್ಟು ಓದಿ");
+      $("#text2").slideUp();
+    }
+  });
+
+
+
+
+$("marquee").hover(function(){
+this.stop();
+},function(){
+this.start();
+});
+});
+
+
+
+</script>
+
+
+  
+</body>
+</html>
