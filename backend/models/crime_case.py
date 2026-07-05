@@ -1,19 +1,41 @@
-from sqlalchemy import Column, Integer, String, Float, Date, Time
+from sqlalchemy import Column, Integer, String, Float
 from backend.config.database import Base
+
 
 class CrimeCase(Base):
     __tablename__ = "crime_cases"
 
     id = Column(Integer, primary_key=True, index=True)
-    case_id = Column(String, unique=True, nullable=False)
-    fir_number = Column(String, unique=True, nullable=False)
-    crime_type = Column(String, nullable=False)
-    district = Column(String, nullable=False)
-    police_station = Column(String, nullable=False)
-    incident_date = Column(Date)
-    incident_time = Column(Time)
-    latitude = Column(Float)
-    longitude = Column(Float)
-    status = Column(String)
-    officer_name = Column(String)
-    brief_facts = Column(String)
+
+    crime_id = Column(String, unique=True, nullable=False, index=True)
+    crime_datetime = Column(String, nullable=False)
+    time_slot = Column(String)
+
+    district = Column(String, index=True)
+    taluk = Column(String)
+    village = Column(String)
+    gram_panchayat = Column(String)
+
+    police_station_name = Column(String)
+    police_station_latitude = Column(Float)
+    police_station_longitude = Column(Float)
+
+    crime_category = Column(String)
+    crime_type = Column(String)
+    crime_severity = Column(String)
+
+    hotspot_score = Column(Integer)
+
+    victim_age = Column(Integer)
+    victim_gender = Column(String)
+
+    accused_id = Column(String)
+    accused_age = Column(Integer)
+    accused_gender = Column(String)
+
+    fir_registered = Column(String)
+    case_status = Column(String)
+
+    cctv_available = Column(String)
+
+    response_time_minutes = Column(Integer)

@@ -1,3 +1,4 @@
+print("Running NEW seed.py")
 import pandas as pd
 
 from backend.config.database import SessionLocal
@@ -10,6 +11,7 @@ db = SessionLocal()
 
 try:
     for _, row in df.iterrows():
+        print(CrimeCase.__table__.columns.keys())
         crime = CrimeCase(
             crime_id=row["crime_id"],
             crime_datetime=row["crime_datetime"],
@@ -20,8 +22,15 @@ try:
             gram_panchayat=row["gram_panchayat"],
 
             police_station_name=row["police_station_name"],
-            police_station_latitude=row["police_station_latitude"],
-            police_station_longitude=row["police_station_longitude"],
+            police_station_latitude=(
+                None if pd.isna(row["police_station_latitude"])
+                else float(row["police_station_latitude"])
+            ),
+
+            police_station_longitude=(
+                None if pd.isna(row["police_station_longitude"])
+                else float(row["police_station_longitude"])
+            ),
 
             crime_category=row["crime_category"],
             crime_type=row["crime_type"],

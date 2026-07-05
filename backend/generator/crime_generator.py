@@ -4,13 +4,17 @@ from rules import (
     get_random_crime,
     get_victim_gender,
     get_random_police_station,
+    get_crime_severity,
+    get_fir_status,
+    get_response_time,
+    get_cctv_availability,
+    get_time_slot,
 )
-
 import pandas as pd
 from faker import Faker
 
 fake = Faker("en_IN")
-NUM_RECORDS = 10
+NUM_RECORDS = 10000
 
 from datetime import datetime
 
@@ -20,37 +24,80 @@ MASTER_LOCATIONS = pd.read_csv(
     BASE_DIR / "datasets" / "processed" / "master_locations.csv"
 )
 
-POLICE_STATIONS = pd.read_csv(
-    BASE_DIR / "datasets" / "raw" / "police_stations.csv"
+# Select hotspot villages (about 5% of all villages)
+HOTSPOT_VILLAGES = set(
+    MASTER_LOCATIONS.sample(frac=0.05)["village_id"]
 )
 
-print(f"Master Locations : {len(MASTER_LOCATIONS)}")
-print(f"Police Stations  : {len(POLICE_STATIONS)}")
+HOTSPOT_SCORES = {}
 
+for village_id in HOTSPOT_VILLAGES:
+    HOTSPOT_SCORES[village_id] = random.randint(70, 100)
+
+POLICE_STATIONS = pd.read_csv(
+    BASE_DIR / "datasets" / "processed" / "police_station_master.csv"
+)
+
+
+
+crime_records = []
+
+# Create a pool of repeat offenders
+OFFENDERS = [
+    f"ACC{str(i).zfill(5)}"
+    for i in range(1, 501)
+]
+
+used_crime_ids = set()
 
 for i in range(NUM_RECORDS):
 
     # Pick one random location
-    location = MASTER_LOCATIONS.sample(1).iloc[0]
+    # 70% of crimes happen in hotspot villages
+    if random.random() < 0.70:
+        hotspot_locations = MASTER_LOCATIONS[
+            MASTER_LOCATIONS["village_id"].isin(HOTSPOT_VILLAGES)
+        ]
+        location = hotspot_locations.sample(1).iloc[0]
+    else:
+        location = MASTER_LOCATIONS.sample(1).iloc[0]
+    
+    hotspot_score = HOTSPOT_SCORES.get(
+        location["village_id"],
+        random.randint(0, 30)
+    )
 
-
-    print("\nRandom Location:")
-    print(location)
 
     crime_category, crime_type = get_random_crime()
 
-    police_station = get_random_police_station(POLICE_STATIONS)
+    severity = get_crime_severity(crime_category)
 
-    print("\nCrime Details:")
-    print(f"Category : {crime_category}")
-    print(f"Type     : {crime_type}")
+    fir_status = get_fir_status(severity)
+
+    response_time = get_response_time(severity)
+
+    time_slot = get_time_slot(crime_type)
+
+    cctv_available = get_cctv_availability(crime_type)
+
+    police_station = get_random_police_station(
+       POLICE_STATIONS,
+       location["district_id"]
+    )
+
+# 40% chance of selecting a repeat offender
+    if random.random() < 0.40:
+        accused_id = random.choice(OFFENDERS)
+    else:
+        accused_id = f"ACC{random.randint(501,999999):06d}"
 
     crime = {
-        "crime_id": f"CR{random.randint(1, 999999):06d}",
+        "crime_id": f"CR{i + 1:06d}",
         "crime_datetime": fake.date_time_between(
         start_date="-2y",
         end_date="now"
         ).strftime("%Y-%m-%d %H:%M:%S"),
+        "time_slot": time_slot,
         "district": location["district_name"],
         "taluk": location["taluk_name"],
         "village": location["village_name"],
@@ -59,24 +106,37 @@ for i in range(NUM_RECORDS):
             if not str(location["gp_name"]) == "nan"
             else "Unknown"
         ),
-        "police_station_id": police_station["station_id"],
         "police_station_name": police_station["station_name"],
+        "police_station_latitude": police_station["latitude"],
+        "police_station_longitude": police_station["longitude"],
         "crime_category": crime_category,
         "crime_type": crime_type,
+        "crime_severity": severity,
+        "hotspot_score": hotspot_score,
         "victim_age": random.randint(18, 80),
         "victim_gender": get_victim_gender(crime_category),
+        "accused_id": accused_id,
         "accused_age": random.randint(18, 70),
         "accused_gender": random.choice(["Male", "Female"]),
-        "fir_registered": random.choice(["Yes", "No"]),
+        "fir_registered": fir_status,
         "case_status": random.choice([
             "Under Investigation",
             "Charge Sheet Filed",
             "Closed",
             "Pending Trial"
         ]),
-        "cctv_available": random.choice(["Yes", "No"]),
-        "response_time_minutes": random.randint(5, 120),
+        "cctv_available": cctv_available,
+        "response_time_minutes": response_time,
     }
 
-    print("\nGenerated Crime Record:")
-    print(crime)
+    crime_records.append(crime)
+
+df = pd.DataFrame(crime_records)
+
+output_path = BASE_DIR / "datasets" / "raw" / "crime_cases.csv"
+
+df.to_csv(output_path, index=False)
+
+print(f"\nGenerated {len(df)} crime records.")
+print(f"Saved to: {output_path}")
+
