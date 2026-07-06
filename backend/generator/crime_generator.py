@@ -35,7 +35,7 @@ for village_id in HOTSPOT_VILLAGES:
     HOTSPOT_SCORES[village_id] = random.randint(70, 100)
 
 POLICE_STATIONS = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "police_station_master.csv"
+    BASE_DIR / "datasets" / "processed" / "police_master.csv"
 )
 
 
@@ -98,6 +98,7 @@ for i in range(NUM_RECORDS):
         end_date="now"
         ).strftime("%Y-%m-%d %H:%M:%S"),
         "time_slot": time_slot,
+        "district_id": location["district_id"],
         "district": location["district_name"],
         "taluk": location["taluk_name"],
         "village": location["village_name"],
@@ -109,6 +110,14 @@ for i in range(NUM_RECORDS):
         "police_station_name": police_station["station_name"],
         "police_station_latitude": police_station["latitude"],
         "police_station_longitude": police_station["longitude"],
+        "crime_latitude": round(
+            police_station["latitude"] + random.uniform(-0.003, 0.003),
+            6
+        ),
+        "crime_longitude": round(
+            police_station["longitude"] + random.uniform(-0.003, 0.003),
+            6
+        ),
         "crime_category": crime_category,
         "crime_type": crime_type,
         "crime_severity": severity,

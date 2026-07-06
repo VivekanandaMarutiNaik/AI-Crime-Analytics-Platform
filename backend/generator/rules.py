@@ -178,10 +178,16 @@ def get_random_police_station(police_df, district_id):
     ]
 
     # Keep only stations with valid coordinates
-    stations = stations.dropna(subset=["latitude", "longitude"])
+    stations = stations[
+        (stations["latitude"] != 0) &
+        (stations["longitude"] != 0)
+    ]
 
     if stations.empty:
-        stations = police_df.dropna(subset=["latitude", "longitude"])
+        stations = police_df[
+            (police_df["latitude"] != 0) &
+            (police_df["longitude"] != 0)
+        ]
 
     station = stations.sample(1).iloc[0]
 

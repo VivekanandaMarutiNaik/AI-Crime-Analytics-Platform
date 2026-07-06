@@ -10,6 +10,9 @@ files = sorted(os.listdir(folder))
 
 for file in files:
 
+    if not file.startswith("district_"):
+        continue
+
     district_id = int(file.replace("district_", "").replace(".html", ""))
 
     path = os.path.join(folder, file)
@@ -36,6 +39,20 @@ for file in files:
         if len(parts) < 6:
             continue
 
+        lat_str = parts[4].strip()
+        lon_str = parts[5].strip()
+
+        # Skip stations with missing coordinates
+        if lat_str == "" or lon_str == "":
+            continue
+
+        lat = float(lat_str)
+        lon = float(lon_str)
+
+        # Fix swapped coordinates
+        if lat > 20 and lon < 20:
+            lat, lon = lon, lat
+
         rows.append({
             "district_id": district_id,
             "police_station_name": name,
@@ -43,9 +60,19 @@ for file in files:
             "email": parts[1].strip(),
             "phone": parts[2].strip(),
             "circle": parts[3].strip(),
-            "latitude": parts[4].strip(),
-            "longitude": parts[5].strip()
+            "latitude": lat,
+            "longitude": lon
         })
+
+zero_coords = [
+    row for row in rows
+    if row["latitude"] == "0.0" or row["longitude"] == "0.0"
+]
+
+print(f"Police stations with 0.0 coordinates: {len(zero_coords)}")
+
+for row in zero_coords[:10]:
+    print(row)
 
 df = pd.DataFrame(rows)
 
