@@ -19,9 +19,12 @@ crime_stats = (
         [
             "district_id",
             "district",
+            "taluk_id",
             "taluk",
-            "village",
+            "gp_id",
             "gram_panchayat",
+            "village_id",
+            "village",
         ]
     )
     .agg(
@@ -34,18 +37,27 @@ crime_stats = (
 
 # CCTV count by village
 cctv_stats = (
-    cctv.groupby(
+    crime.groupby(
         [
             "district_id",
             "district",
+            "taluk_id",
             "taluk",
-            "village",
+            "gp_id",
             "gram_panchayat",
+            "village_id",
+            "village",
         ]
     )
     .size()
     .reset_index(name="cctv_count")
 )
+
+print("Crime Stats Columns:")
+print(crime_stats.columns.tolist())
+
+print("\nCCTV Stats Columns:")
+print(cctv_stats.columns.tolist())
 
 # Merge
 recommendations = crime_stats.merge(
@@ -53,9 +65,12 @@ recommendations = crime_stats.merge(
     on=[
         "district_id",
         "district",
+        "taluk_id",
         "taluk",
-        "village",
+        "gp_id",
         "gram_panchayat",
+        "village_id",
+        "village",
     ],
     how="left",
 )
