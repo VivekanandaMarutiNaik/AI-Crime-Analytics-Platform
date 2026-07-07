@@ -104,6 +104,12 @@ hotspot_centers["recommended_cctv"] = (
 ).clip(lower=1)
 
 print(hotspot_centers.head())
+hotspot_centers.to_csv(
+    "datasets/processed/crime_hotspots.csv",
+    index=False,
+)
+
+print("Saved crime hotspots to datasets/processed/crime_hotspots.csv")
 
 crime_map = folium.Map(
     location=[15.3173, 75.7139],  # Center of Karnataka
