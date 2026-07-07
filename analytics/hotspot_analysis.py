@@ -4,6 +4,15 @@ from sklearn.cluster import DBSCAN
 
 df = pd.read_csv("datasets/raw/crime_cases.csv")
 
+print("Total crimes:", len(df))
+
+print("Missing crime coordinates:")
+print(
+    df[
+        ["crime_latitude", "crime_longitude"]
+    ].isna().sum()
+)
+
 # Remove records with missing official GPS coordinates
 df = df[
     (df["police_station_latitude"] != 0) &
@@ -19,17 +28,17 @@ df = df.dropna(
 ).copy()
 
 # Remove police stations with incorrect official coordinates
-invalid_stations = [
-    "Basavanagudi Traffic PS",
-    "Bommanahalli PS",
-    "Kalaburagi CEN Crime PS",
-    "Puttur Town PS",
-    "Thilaknagar PS"
-]
+#invalid_stations = [
+ #   "Basavanagudi Traffic PS",
+ #   "Bommanahalli PS",
+  #  "Kalaburagi CEN Crime PS",
+  #  "Puttur Town PS",
+  #  "Thilaknagar PS"
+#]
 
-df = df[
-    ~df["police_station_name"].isin(invalid_stations)
-].copy()
+#df = df[
+   # ~df["police_station_name"].isin(invalid_stations)
+#].copy()
 
 print(f"Records available for hotspot analysis: {len(df)}")
 
@@ -39,8 +48,8 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(8, 8))
 
 plt.scatter(
-    df["police_station_longitude"],
-    df["police_station_latitude"],
+    df["crime_longitude"],
+    df["crime_latitude"],
     s=2
 )
 
@@ -58,13 +67,13 @@ invalid_coords = df[
 
 coordinates = df[
     [
-        "police_station_latitude",
-        "police_station_longitude"
+        "crime_latitude",
+        "crime_longitude"
     ]
 ]
 
 dbscan = DBSCAN(
-    eps=0.10,
+    eps=0.02,
     min_samples=5
 )
 
@@ -83,8 +92,8 @@ hotspot_centers = (
     df[df["cluster"] != -1]
     .groupby("cluster")
     .agg(
-        latitude=("police_station_latitude", "mean"),
-        longitude=("police_station_longitude", "mean"),
+        latitude=("crime_latitude", "mean"),
+        longitude=("crime_longitude", "mean"),
         crime_count=("cluster", "size"),
     )
     .reset_index()

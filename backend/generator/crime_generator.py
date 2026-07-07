@@ -3,7 +3,6 @@ from pathlib import Path
 from rules import (
     get_random_crime,
     get_victim_gender,
-    get_random_police_station,
     get_crime_severity,
     get_fir_status,
     get_response_time,
@@ -20,24 +19,19 @@ from datetime import datetime
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-MASTER_LOCATIONS = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "master_locations.csv"
+LOCATION_MASTER = pd.read_csv(
+    BASE_DIR / "datasets" / "processed" / "police_village_mapping.csv"
 )
 
 # Select hotspot villages (about 5% of all villages)
 HOTSPOT_VILLAGES = set(
-    MASTER_LOCATIONS.sample(frac=0.05)["village_id"]
+    LOCATION_MASTER.sample(frac=0.05)["village_id"]
 )
 
 HOTSPOT_SCORES = {}
 
 for village_id in HOTSPOT_VILLAGES:
     HOTSPOT_SCORES[village_id] = random.randint(70, 100)
-
-POLICE_STATIONS = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "police_master.csv"
-)
-
 
 
 crime_records = []
@@ -55,12 +49,12 @@ for i in range(NUM_RECORDS):
     # Pick one random location
     # 70% of crimes happen in hotspot villages
     if random.random() < 0.70:
-        hotspot_locations = MASTER_LOCATIONS[
-            MASTER_LOCATIONS["village_id"].isin(HOTSPOT_VILLAGES)
-        ]
+        hotspot_locations = LOCATION_MASTER[
+        LOCATION_MASTER["village_id"].isin(HOTSPOT_VILLAGES)
+    ]
         location = hotspot_locations.sample(1).iloc[0]
     else:
-        location = MASTER_LOCATIONS.sample(1).iloc[0]
+        location = LOCATION_MASTER.sample(1).iloc[0]
     
     hotspot_score = HOTSPOT_SCORES.get(
         location["village_id"],
@@ -80,10 +74,6 @@ for i in range(NUM_RECORDS):
 
     cctv_available = get_cctv_availability(crime_type)
 
-    police_station = get_random_police_station(
-       POLICE_STATIONS,
-       location["district_id"]
-    )
 
 # 40% chance of selecting a repeat offender
     if random.random() < 0.40:
@@ -100,22 +90,30 @@ for i in range(NUM_RECORDS):
         "time_slot": time_slot,
         "district_id": location["district_id"],
         "district": location["district_name"],
+
+        "taluk_id": location["taluk_id"],
         "taluk": location["taluk_name"],
-        "village": location["village_name"],
+
+        "gp_id": location["gp_id"],
         "gram_panchayat": (
             location["gp_name"]
             if not str(location["gp_name"]) == "nan"
             else "Unknown"
         ),
-        "police_station_name": police_station["station_name"],
-        "police_station_latitude": police_station["latitude"],
-        "police_station_longitude": police_station["longitude"],
+
+        "village_id": location["village_id"],
+        "village": location["village_name"],
+        "police_station_name": location["police_station_name"],
+        "police_station_latitude": location["police_station_latitude"],
+        "police_station_longitude": location["police_station_longitude"],
+
         "crime_latitude": round(
-            police_station["latitude"] + random.uniform(-0.003, 0.003),
+            location["police_station_latitude"] + random.uniform(-0.003, 0.003),
             6
         ),
+
         "crime_longitude": round(
-            police_station["longitude"] + random.uniform(-0.003, 0.003),
+            location["police_station_longitude"] + random.uniform(-0.003, 0.003),
             6
         ),
         "crime_category": crime_category,

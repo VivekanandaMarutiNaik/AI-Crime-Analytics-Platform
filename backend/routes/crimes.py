@@ -1,22 +1,17 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
+from fastapi import APIRouter, Query
 
-from backend.config.database import SessionLocal
-from backend.models.crime_case import CrimeCase
+from backend.services.crime_service import get_all_crimes
 
-router = APIRouter()
-
-
-# Database session
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+router = APIRouter(
+    prefix="/crimes",
+    tags=["Crimes"]
+)
 
 
-@router.get("/crimes")
-def get_crimes(db: Session = Depends(get_db)):
-    crimes = db.query(CrimeCase).limit(100).all()
-    return crimes
+@router.get("/")
+def read_crimes(limit: int = Query(default=100, ge=1, le=1000)):
+    """
+    Returns crime records.
+    """
+
+    return get_all_crimes(limit)
