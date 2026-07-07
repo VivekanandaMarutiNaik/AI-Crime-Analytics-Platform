@@ -12,8 +12,17 @@ POLICE_STATIONS = pd.read_csv(
     BASE_DIR / "datasets" / "processed" / "police_master.csv"
 )
 
-MASTER_LOCATIONS = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "master_locations.csv"
+POLICE_STATIONS = POLICE_STATIONS[
+    (POLICE_STATIONS["latitude"].notna()) &
+    (POLICE_STATIONS["longitude"].notna()) &
+    (POLICE_STATIONS["latitude"] != 0) &
+    (POLICE_STATIONS["longitude"] != 0)
+].copy()
+
+print(f"Police stations with valid coordinates: {len(POLICE_STATIONS)}")
+
+LOCATION_MASTER = pd.read_csv(
+    BASE_DIR / "datasets" / "processed" / "police_village_mapping.csv"
 )
 
 LANDMARKS = [
@@ -45,21 +54,33 @@ for i, (_, location) in enumerate(POLICE_STATIONS.iterrows(), start=1):
         landmark = random.choice(LANDMARKS)
 
         # Pick one real location from the same district
-        district_locations = MASTER_LOCATIONS[
-            MASTER_LOCATIONS["district_id"] == location["district_id"]
+        district_locations = LOCATION_MASTER[
+            LOCATION_MASTER["district_id"] == location["district_id"]
         ]
 
-        place = district_locations.sample(1).iloc[0]
+        if district_locations.empty:
+            print(
+                f"No mapped villages for district_id={location['district_id']}, "
+                f"Police Station={location['police_station_name']}"
+            )
+            continue
 
+        place = district_locations.sample(1).iloc[0]
         cctv = {
             "cctv_id": f"CCTV{i:05d}_{cam+1}",
             "cctv_name": f"{location['police_station_name']} - {landmark} CCTV",
 
             "district_id": place["district_id"],
             "district": place["district_name"],
+
+            "taluk_id": place["taluk_id"],
             "taluk": place["taluk_name"],
-            "village": place["village_name"],
+
+            "gp_id": place["gp_id"],
             "gram_panchayat": place["gp_name"],
+
+            "village_id": place["village_id"],
+            "village": place["village_name"],
 
             "latitude": float(location["latitude"]) + random_offset(),
             "longitude": float(location["longitude"]) + random_offset(),
