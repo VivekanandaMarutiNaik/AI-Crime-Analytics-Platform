@@ -23,12 +23,12 @@ try:
 
             police_station_name=row["police_station_name"],
             police_station_latitude=(
-                None if pd.isna(row["police_station_latitude"])
+                0.0 if pd.isna(row["police_station_latitude"])
                 else float(row["police_station_latitude"])
             ),
 
             police_station_longitude=(
-                None if pd.isna(row["police_station_longitude"])
+                0.0 if pd.isna(row["police_station_longitude"])
                 else float(row["police_station_longitude"])
             ),
 

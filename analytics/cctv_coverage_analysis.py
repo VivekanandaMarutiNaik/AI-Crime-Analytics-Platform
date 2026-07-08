@@ -46,11 +46,13 @@ for _, hotspot in hotspots.iterrows():
 
     results.append({
         "cluster": hotspot["cluster"],
+        "district": hotspot["district"],
+        "taluk": hotspot["taluk"],
         "crime_count": hotspot["crime_count"],
         "latitude": hotspot["latitude"],
         "longitude": hotspot["longitude"],
         "nearest_cctv_distance_m": round(nearest_distance, 2),
-        "covered": nearest_distance <= 150
+        "covered": nearest_distance <= 150,
     })
 
 coverage = pd.DataFrame(results)

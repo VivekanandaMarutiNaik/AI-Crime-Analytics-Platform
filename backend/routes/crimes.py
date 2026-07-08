@@ -8,10 +8,16 @@ router = APIRouter(
 )
 
 
-@router.get("/")
-def read_crimes(limit: int = Query(default=100, ge=1, le=1000)):
+@router.get("")
+def read_crimes(
+    limit: int = Query(default=100, ge=1, le=1000),
+    district: str | None = Query(default=None),
+):
     """
     Returns crime records.
     """
 
-    return get_all_crimes(limit)
+    return get_all_crimes(
+        limit=limit,
+        district=district,
+    )

@@ -92,6 +92,8 @@ hotspot_centers = (
     df[df["cluster"] != -1]
     .groupby("cluster")
     .agg(
+        district=("district", lambda x: x.mode().iloc[0]),
+        taluk=("taluk", lambda x: x.mode().iloc[0]),
         latitude=("crime_latitude", "mean"),
         longitude=("crime_longitude", "mean"),
         crime_count=("cluster", "size"),

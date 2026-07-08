@@ -1,23 +1,14 @@
-from pathlib import Path
-
-import pandas as pd
 from fastapi import APIRouter
+from typing import Optional
+
+from backend.services.hotspot_service import get_hotspots
 
 router = APIRouter(
-    prefix="/api/hotspots",
+    prefix="/hotspots",
     tags=["Hotspots"]
 )
 
-BASE_DIR = Path(__file__).resolve().parents[2]
 
-
-@router.get("/")
-def get_hotspots():
-    df = pd.read_csv(
-        BASE_DIR
-        / "datasets"
-        / "processed"
-        / "crime_hotspots.csv"
-    )
-
-    return df.to_dict(orient="records")
+@router.get("")
+def read_hotspots(district: Optional[str] = None):
+    return get_hotspots(district)
