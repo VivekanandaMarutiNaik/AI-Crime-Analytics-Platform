@@ -95,25 +95,65 @@ def get_dashboard_summary(
         .count()
     )
 
-    chargesheets_filed = (
-        db.query(func.count(ChargesheetMaster.case_id))
-        .scalar()
+    chargesheets_query = (
+        db.query(ChargesheetMaster)
+        .join(
+            CaseMaster,
+            ChargesheetMaster.case_id == CaseMaster.case_id
+        )
     )
 
-    arrests = (
-        db.query(func.count(ArrestMaster.arrest_id))
-        .scalar()
+    chargesheets_query = apply_district_filter(
+        chargesheets_query,
+        district
     )
 
-    total_victims = (
-        db.query(func.count(VictimMaster.victim_id))
-        .scalar()
+    chargesheets_filed = chargesheets_query.count()
+
+    arrests_query = (
+        db.query(ArrestMaster)
+        .join(
+            CaseMaster,
+            ArrestMaster.case_id == CaseMaster.case_id
+        )
     )
 
-    total_accused = (
-        db.query(func.count(AccusedMaster.accused_person_id))
-        .scalar()
+    arrests_query = apply_district_filter(
+        arrests_query,
+        district
     )
+
+    arrests = arrests_query.count()
+
+    victims_query = (
+        db.query(VictimMaster)
+        .join(
+            CaseMaster,
+            VictimMaster.case_id == CaseMaster.case_id
+        )
+    )
+
+    victims_query = apply_district_filter(
+        victims_query,
+        district
+    )
+
+    total_victims = victims_query.count()
+
+    accused_query = (
+        db.query(AccusedMaster)
+        .join(
+            CaseMaster,
+            AccusedMaster.case_id == CaseMaster.case_id
+        )
+    )
+
+    accused_query = apply_district_filter(
+        accused_query,
+        district
+    )
+
+    total_accused = accused_query.count()
 
     return {
         "total_cases": total_cases,
@@ -155,8 +195,10 @@ def get_crime_category_distribution(
         ]
     }
 
-def get_crime_severity_distribution(db: Session):
-
+def get_crime_severity_distribution(
+    db: Session,
+    district: str | None = None,
+):
     results = (
         db.query(
             CaseMaster.crime_severity,
@@ -184,16 +226,16 @@ def get_monthly_crime_trend(
 
     query = apply_district_filter(
         db.query(
-            extract("month", CaseMaster.crime_datetime).label("month"),
-            func.count(CaseMaster.case_id).label("count"),
+            CaseMaster.crime_severity,
+            func.count(CaseMaster.case_id).label("count")
         ),
         district,
     )
 
     results = (
         query
-        .group_by(extract("month", CaseMaster.crime_datetime))
-        .order_by(extract("month", CaseMaster.crime_datetime))
+        .group_by(CaseMaster.crime_severity)
+        .order_by(func.count(CaseMaster.case_id).desc())
         .all()
     )
 
