@@ -1,57 +1,99 @@
 import pandas as pd
 
 from backend.config.database import SessionLocal
-from backend.models.crime_case import CrimeCase
+from backend.models.case_master import CaseMaster
+from backend.models.victim_master import VictimMaster
+from backend.models.accused_master import AccusedMaster
+from backend.models.investigation_master import InvestigationMaster
+from backend.models.arrest_master import ArrestMaster
+from backend.models.chargesheet_master import ChargesheetMaster
+from backend.models.employee_master import EmployeeMaster
 
-# Load CSV
-df = pd.read_csv("datasets/raw/crime_cases.csv")
 
 db = SessionLocal()
 
-try:
-    for _, row in df.iterrows():
-        crime = CrimeCase(
-            crime_id=row["crime_id"],
-            crime_datetime=row["crime_datetime"],
-            time_slot=row["time_slot"],
-            district=row["district"],
-            taluk=row["taluk"],
-            village=row["village"],
-            gram_panchayat=row["gram_panchayat"],
 
-            police_station_name=row["police_station_name"],
-            police_station_latitude=row["police_station_latitude"],
-            police_station_longitude=row["police_station_longitude"],
+def load_csv(model, csv_path, date_columns=None):
+    print(f"\nLoading {csv_path}...")
 
-            crime_category=row["crime_category"],
-            crime_type=row["crime_type"],
-            crime_severity=row["crime_severity"],
+    df = pd.read_csv(csv_path)
 
-            hotspot_score=int(row["hotspot_score"]),
+    if date_columns:
+        for col in date_columns:
+            if col in df.columns:
+                df[col] = pd.to_datetime(df[col], errors="coerce")
+                df[col] = df[col].astype(object)
+                df[col] = df[col].where(df[col].notna(), None)
 
-            victim_age=int(row["victim_age"]),
-            victim_gender=row["victim_gender"],
+    records = df.to_dict(orient="records")
 
-            accused_id=row["accused_id"],
-            accused_age=int(row["accused_age"]),
-            accused_gender=row["accused_gender"],
+    objects = [model(**record) for record in records]
 
-            fir_registered=row["fir_registered"],
-            case_status=row["case_status"],
+    db.bulk_save_objects(objects)
+    db.commit()
 
-            cctv_available=row["cctv_available"],
+    print(f"✅ Imported {len(objects)} records")
 
-            response_time_minutes=int(row["response_time_minutes"])
+
+def main():
+    try:
+
+        load_csv(
+            EmployeeMaster,
+            "datasets/masters/employee_master.csv",
+            ["date_of_birth", "appointment_date"],
         )
 
-        db.add(crime)
+        load_csv(
+            CaseMaster,
+            "datasets/masters/case_master.csv",
+            ["crime_datetime"],
+        )
 
-    db.commit()
-    print("✅ Successfully imported crime dataset!")
+        load_csv(
+            VictimMaster,
+            "datasets/masters/victim_master.csv",
+        )
 
-except Exception as e:
-    db.rollback()
-    print("❌ Error:", e)
+        load_csv(
+            AccusedMaster,
+            "datasets/masters/accused_master.csv",
+        )
 
-finally:
-    db.close()
+        load_csv(
+            InvestigationMaster,
+            "datasets/masters/investigation_master.csv",
+            [
+                "investigation_start_date",
+                "investigation_end_date",
+            ],
+        )
+
+        load_csv(
+            ArrestMaster,
+            "datasets/masters/arrest_master.csv",
+            [
+                "arrest_date",
+            ],
+        )
+
+        load_csv(
+            ChargesheetMaster,
+            "datasets/masters/chargesheet_master.csv",
+            [
+                "filing_date",
+            ],
+        )
+
+        print("\n🎉 Database seeding completed successfully!")
+
+    except Exception as e:
+        db.rollback()
+        print(e)
+
+    finally:
+        db.close()
+
+
+if __name__ == "__main__":
+    main()
