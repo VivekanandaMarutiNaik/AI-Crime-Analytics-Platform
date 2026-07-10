@@ -33,7 +33,7 @@ function CrimeSeverityChart({ data }) {
             <Pie
                 data={data}
                 dataKey="count"
-                nameKey="severity"
+                nameKey="label"
                 cx="50%"
                 cy="50%"
                 outerRadius={140}
@@ -41,21 +41,26 @@ function CrimeSeverityChart({ data }) {
             >
               {data.map((entry, index) => (
                 <Cell
-                  key={entry.severity}
+                  key={entry.label}
                   fill={COLORS[index % COLORS.length]}
                 />
               ))}
             </Pie>
 
             <Tooltip
-                formatter={(value, name, props) => {
-                    const total = data.reduce((sum, item) => sum + item.count, 0);
-                    const percent = ((props.payload.count / total) * 100).toFixed(1);
+              formatter={(value, name, props) => {
+                const total = data.reduce((sum, item) => sum + item.count, 0);
+                const percent = ((props.payload.count / total) * 100).toFixed(1);
 
-                    return [`${value} (${percent}%)`, name];
-                }}
+                return [
+                  `${value} (${percent}%)`,
+                  props.payload.label,
+                ];
+              }}
             />
-            <Legend />
+            <Legend
+              formatter={(value, entry) => entry.payload.label}
+            />
           </PieChart>
         </ResponsiveContainer>
       </CardContent>

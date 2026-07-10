@@ -5,6 +5,7 @@ from backend.routes.hotspots import router as hotspots_router
 from backend.routes.dashboard import router as dashboard_router
 from fastapi.middleware.cors import CORSMiddleware
 from backend.routes.districts import router as districts_router
+from backend.routes.case_routes import router as case_router
 
 app = FastAPI(
     title="AI Crime Analytics Platform",
@@ -27,7 +28,7 @@ app.include_router(cctv_router)
 app.include_router(hotspots_router)
 app.include_router(dashboard_router)
 app.include_router(districts_router)
-
+app.include_router(case_router)
 @app.get("/")
 def root():
     return {

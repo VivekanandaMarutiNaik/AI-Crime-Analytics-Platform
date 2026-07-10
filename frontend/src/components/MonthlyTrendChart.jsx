@@ -1,7 +1,7 @@
 import {
   ResponsiveContainer,
-  BarChart,
-  Bar,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -14,39 +14,35 @@ import {
   Typography,
 } from "@mui/material";
 
-function CrimeTypeChart({ data }) {
+function MonthlyTrendChart({ data }) {
   return (
     <Card sx={{ mt: 3 }}>
       <CardContent>
         <Typography variant="h6" gutterBottom>
-          Crime Category Distribution
+          Monthly Crime Trend
         </Typography>
 
-        <ResponsiveContainer width="100%" height={450}>
-          <BarChart data={data}>
+        <ResponsiveContainer width="100%" height={350}>
+          <LineChart data={data}>
             <CartesianGrid strokeDasharray="3 3" />
 
-            <XAxis
-              dataKey="label"
-              angle={-45}
-              textAnchor="end"
-              interval={0}
-              height={120}
-            />
+            <XAxis dataKey="month" />
 
             <YAxis />
 
             <Tooltip />
 
-            <Bar
+            <Line
+              type="monotone"
               dataKey="count"
-              fill="#1976d2"
+              stroke="#1976d2"
+              strokeWidth={3}
             />
-          </BarChart>
+          </LineChart>
         </ResponsiveContainer>
       </CardContent>
     </Card>
   );
 }
 
-export default CrimeTypeChart;
+export default MonthlyTrendChart;

@@ -14,12 +14,12 @@ import {
   Typography,
 } from "@mui/material";
 
-function CrimeTypeChart({ data }) {
+function DistrictWiseChart({ data }) {
   return (
     <Card sx={{ mt: 3 }}>
       <CardContent>
         <Typography variant="h6" gutterBottom>
-          Crime Category Distribution
+          District-wise Crime Count
         </Typography>
 
         <ResponsiveContainer width="100%" height={450}>
@@ -40,7 +40,7 @@ function CrimeTypeChart({ data }) {
 
             <Bar
               dataKey="count"
-              fill="#1976d2"
+              fill="#2e7d32"
             />
           </BarChart>
         </ResponsiveContainer>
@@ -49,4 +49,4 @@ function CrimeTypeChart({ data }) {
   );
 }
 
-export default CrimeTypeChart;
+export default DistrictWiseChart;

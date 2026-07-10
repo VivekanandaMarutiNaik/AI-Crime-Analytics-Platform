@@ -16,11 +16,11 @@ export async function getDashboardSummary(district = "") {
   return await response.json();
 }
 
-export async function getCrimes(limit = 100, district = "") {
-  let url = `${BASE_URL}/crimes?limit=${limit}`;
+export async function getCrimeCategory(district = "") {
+  let url = `${BASE_URL}/api/dashboard/crime-category`;
 
   if (district) {
-    url += `&district=${encodeURIComponent(district)}`;
+    url += `?district=${encodeURIComponent(district)}`;
   }
 
   const response = await fetch(url);
@@ -90,8 +90,8 @@ export async function getRecommendedCCTV(district = "") {
   return await response.json();
 }
 
-export async function getDashboardCharts(district = "") {
-  let url = `${BASE_URL}/api/dashboard/charts`;
+export async function getCrimeSeverity(district = "") {
+  let url = `${BASE_URL}/api/dashboard/crime-severity`;
 
   if (district) {
     url += `?district=${encodeURIComponent(district)}`;
@@ -100,14 +100,14 @@ export async function getDashboardCharts(district = "") {
   const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch dashboard charts");
+    throw new Error("Failed to fetch crime severity");
   }
 
   return await response.json();
 }
 
-export async function getAIInsights(district = "") {
-  let url = `${BASE_URL}/api/dashboard/insights`;
+export async function getMonthlyTrend(district = "") {
+  let url = `${BASE_URL}/api/dashboard/monthly-trend`;
 
   if (district) {
     url += `?district=${encodeURIComponent(district)}`;
@@ -116,7 +116,33 @@ export async function getAIInsights(district = "") {
   const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch AI insights");
+    throw new Error("Failed to fetch monthly trend");
+  }
+
+  return await response.json();
+}
+
+export async function getDistrictWise() {
+  const response = await fetch(`${BASE_URL}/api/dashboard/district-wise`);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch district-wise data");
+  }
+
+  return await response.json();
+}
+
+export async function getCaseStatus(district = "") {
+  let url = `${BASE_URL}/api/dashboard/case-status`;
+
+  if (district) {
+    url += `?district=${encodeURIComponent(district)}`;
+  }
+
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch case status");
   }
 
   return await response.json();

@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import {
   getDashboardSummary,
   getDistricts,
-  getDashboardCharts,
-  getAIInsights,
+  getCrimeCategory,
+  getCrimeSeverity,
+  getMonthlyTrend,
+  getDistrictWise,
+  getCaseStatus,
 } from "../services/api";
 import {
   Container,
@@ -31,6 +34,9 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 import SecurityIcon from "@mui/icons-material/Security";
+import MonthlyTrendChart from "../components/MonthlyTrendChart";
+import DistrictWiseChart from "../components/DistrictWiseChart";
+import CaseStatusChart from "../components/CaseStatusChart";
 
 function Dashboard() {
   const [summary, setSummary] = useState(null);
@@ -47,9 +53,15 @@ function Dashboard() {
 
   const [showRecommendations, setShowRecommendations] = useState(true);
 
-  const [chartData, setChartData] = useState(null);
+  const [crimeCategory, setCrimeCategory] = useState(null);
 
-  const [aiInsights, setAIInsights] = useState(null);
+  const [crimeSeverity, setCrimeSeverity] = useState(null);
+
+  const [monthlyTrend, setMonthlyTrend] = useState(null);
+
+  const [districtWise, setDistrictWise] = useState(null);
+
+  const [caseStatus, setCaseStatus] = useState(null);
 
   useEffect(() => {
     getDistricts()
@@ -62,13 +74,25 @@ function Dashboard() {
       .then((data) => setSummary(data))
       .catch((err) => console.error(err));
 
-    getDashboardCharts(selectedDistrict)
-      .then((data) => setChartData(data))
-      .catch((err) => console.error(err));
+    getCrimeCategory(selectedDistrict)
+      .then((data) => setCrimeCategory(data))
+      .catch(console.error);
 
-    getAIInsights(selectedDistrict)
-      .then((data) => setAIInsights(data))
-      .catch((err) => console.error(err));
+    getCrimeSeverity(selectedDistrict)
+      .then((data) => setCrimeSeverity(data))
+      .catch(console.error);
+
+    getMonthlyTrend(selectedDistrict)
+      .then((data) => setMonthlyTrend(data))
+      .catch(console.error);
+
+    getDistrictWise()
+      .then((data) => setDistrictWise(data))
+      .catch(console.error);
+
+    getCaseStatus(selectedDistrict)
+      .then((data) => setCaseStatus(data))
+      .catch(console.error);
   }, [selectedDistrict]);
 
   if (!summary) {
@@ -84,48 +108,48 @@ function Dashboard() {
       <Grid container spacing={3}>
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Total Crimes"
-            value={summary.total_crimes}
+            title="Total Cases"
+            value={summary.total_cases}
             icon={<GavelIcon fontSize="large" color="error" />}
           />
         </Grid>
 
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Total CCTV"
-            value={summary.total_cctv}
+            title="Total Arrests"
+            value={summary.arrests}
             icon={<VideocamIcon fontSize="large" color="primary" />}
           />
         </Grid>
 
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Hotspots"
-            value={summary.total_hotspots}
+            title="Victims"
+            value={summary.total_victims}
             icon={<LocationOnIcon fontSize="large" color="warning" />}
           />
         </Grid>
 
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Covered"
-            value={summary.covered_hotspots}
+            title="Accused"
+            value={summary.total_accused}
             icon={<CheckCircleIcon fontSize="large" color="success" />}
           />
         </Grid>
 
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Uncovered"
-            value={summary.uncovered_hotspots}
+            title="Closed Cases"
+            value={summary.closed_cases}
             icon={<WarningAmberIcon fontSize="large" color="warning" />}
           />
         </Grid>
 
         <Grid item xs={12} md={4} lg={3}>
           <SummaryCard
-            title="Critical CCTV"
-            value={summary.critical_recommendations}
+            title="Charge Sheets Filed"
+            value={summary.chargesheets_filed}
             icon={<SecurityIcon fontSize="large" color="error" />}
           />
         </Grid>
@@ -210,38 +234,42 @@ function Dashboard() {
         showRecommendations={showRecommendations}
       />
 
-      {chartData && (
-        <Grid
-          container
-          spacing={3}
-          sx={{ mt: 2 }}
-        >
+      {crimeCategory && crimeSeverity && (
+        <Grid container spacing={3} sx={{ mt: 2 }}>
           <Grid item xs={12} md={8}>
             <CrimeTypeChart
-              data={chartData.crime_types}
+              data={crimeCategory.data}
             />
           </Grid>
 
           <Grid item xs={12} md={4}>
             <CrimeSeverityChart
-              data={chartData.crime_severity}
+              data={crimeSeverity.data}
             />
           </Grid>
         </Grid>
       )}
 
-      {chartData && (
-        <DistrictChart
-          data={chartData}
-          district={selectedDistrict}
-        />
-      )}
+      <Grid container spacing={3} sx={{ mt: 2 }}>
+        <Grid item xs={12} md={8}>
+          {monthlyTrend && (
+            <MonthlyTrendChart data={monthlyTrend.data} />
+          )}
+        </Grid>
 
-      {aiInsights && (
-        <AIInsightsCard
-          insights={aiInsights}
-        />
-      )}
+        <Grid item xs={12} md={4}>
+          {caseStatus && (
+            <CaseStatusChart data={caseStatus.data} />
+          )}
+        </Grid>
+
+        <Grid item xs={12}>
+          {districtWise && (
+            <DistrictWiseChart data={districtWise.data} />
+          )}
+  </Grid>
+</Grid>
+      
     </Container>
   );
 }
