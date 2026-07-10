@@ -1,0 +1,5 @@
+case_status_id,case_status_name
+CS001,Charge Sheet Filed
+CS002,Closed
+CS003,Pending Trial
+CS004,Under Investigation

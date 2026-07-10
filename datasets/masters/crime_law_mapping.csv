@@ -1,0 +1,24 @@
+crime_type,act_id,section_id
+Assault,ACT001,SEC006
+Domestic Violence,ACT001,SEC012
+Sexual Harassment,ACT001,SEC007
+Stalking,ACT001,SEC013
+OTP Scam,ACT002,SEC009
+Phishing,ACT002,SEC009
+UPI Fraud,ACT002,SEC008
+Cheating,ACT001,SEC005
+Financial Fraud,ACT002,SEC014
+Forgery,ACT001,SEC015
+Shop Theft,ACT001,SEC003
+House Burglary,ACT001,SEC003
+Vehicle Theft,ACT001,SEC003
+Chain Snatching,ACT001,SEC004
+Illegal Gambling,ACT007,SEC016
+Illegal Liquor,ACT004,SEC017
+Rioting,ACT001,SEC018
+Cattle Theft,ACT001,SEC019
+Crop Theft,ACT001,SEC020
+Sand Mining,ACT001,SEC021
+Murder,ACT001,SEC001
+Attempt to Murder,ACT001,SEC002
+Robbery,ACT001,SEC004
