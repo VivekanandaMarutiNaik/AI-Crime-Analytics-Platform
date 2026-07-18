@@ -1,0 +1,3551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5173886cd949dc9f7301024bac1ded53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5173886cd949dc9f7301024bac1ded53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5173886cd949dc9f7301024bac1ded53 = L.map(
+                "map_5173886cd949dc9f7301024bac1ded53",
+                {
+                    center: [15.3173, 75.7139],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b004585d5924f5835fd2f1ce2fe0a71d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b004585d5924f5835fd2f1ce2fe0a71d.addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+            var circle_marker_c6a2f5131ef7be9155a008552c11f1fc = L.circleMarker(
+                [17.91079, 77.19386],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9202553ac4cafa57ce08126541bfd50c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0e32342a66a1b05477e7728e6cf3619 = $(`<div id="html_d0e32342a66a1b05477e7728e6cf3619" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Khataka Chincholi PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 97.0</div>`)[0];
+                popup_9202553ac4cafa57ce08126541bfd50c.setContent(html_d0e32342a66a1b05477e7728e6cf3619);
+            
+        
+
+        circle_marker_c6a2f5131ef7be9155a008552c11f1fc.bindPopup(popup_9202553ac4cafa57ce08126541bfd50c)
+        ;
+
+        
+    
+    
+            var circle_marker_a3d91af72a62fd3db3a1ac8cef50cdcb = L.circleMarker(
+                [13.26414, 76.5267],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9eb38b1d12c26a818fee44ca245b748e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e574c5066dca638c7dbc8e1c4f33e8d1 = $(`<div id="html_e574c5066dca638c7dbc8e1c4f33e8d1" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Chelur PS<br><b>District:</b> Chikkaballapura<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_9eb38b1d12c26a818fee44ca245b748e.setContent(html_e574c5066dca638c7dbc8e1c4f33e8d1);
+            
+        
+
+        circle_marker_a3d91af72a62fd3db3a1ac8cef50cdcb.bindPopup(popup_9eb38b1d12c26a818fee44ca245b748e)
+        ;
+
+        
+    
+    
+            var circle_marker_d735704131898699db7d5bf805d7250f = L.circleMarker(
+                [16.78919, 75.2429],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_3906ad2c17c9f03f5173764b39f2eb24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fd2f0be7ae7fe82cff421b3dd4d2f24 = $(`<div id="html_3fd2f0be7ae7fe82cff421b3dd4d2f24" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Athani PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 73.0</div>`)[0];
+                popup_3906ad2c17c9f03f5173764b39f2eb24.setContent(html_3fd2f0be7ae7fe82cff421b3dd4d2f24);
+            
+        
+
+        circle_marker_d735704131898699db7d5bf805d7250f.bindPopup(popup_3906ad2c17c9f03f5173764b39f2eb24)
+        ;
+
+        
+    
+    
+            var circle_marker_6071e249fe1557c21187354049ede4ce = L.circleMarker(
+                [15.837799, 74.518993],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_af4bec6c001bf78a5a3e7e63c9cf31e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d24ca43ddc4642c62997ee5c7c4160ae = $(`<div id="html_d24ca43ddc4642c62997ee5c7c4160ae" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Shahapura PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_af4bec6c001bf78a5a3e7e63c9cf31e4.setContent(html_d24ca43ddc4642c62997ee5c7c4160ae);
+            
+        
+
+        circle_marker_6071e249fe1557c21187354049ede4ce.bindPopup(popup_af4bec6c001bf78a5a3e7e63c9cf31e4)
+        ;
+
+        
+    
+    
+            var circle_marker_e68057d04f6901eced440f52eca46dcd = L.circleMarker(
+                [12.31942, 76.6988],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_02f975fbfedd080ae132b425d3f00efa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f63a6e734b2e6e5a0638cae3c0050fc = $(`<div id="html_3f63a6e734b2e6e5a0638cae3c0050fc" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Udayagiri PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 76.0</div>`)[0];
+                popup_02f975fbfedd080ae132b425d3f00efa.setContent(html_3f63a6e734b2e6e5a0638cae3c0050fc);
+            
+        
+
+        circle_marker_e68057d04f6901eced440f52eca46dcd.bindPopup(popup_02f975fbfedd080ae132b425d3f00efa)
+        ;
+
+        
+    
+    
+            var circle_marker_6bbaabfe7c567c0f41e05998ea1143c1 = L.circleMarker(
+                [12.86046, 76.49131],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_4c21d0bd8e778672b7ed7fd7735e573c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0aa91f1f2c6b62b3b0bbed76414d4fd = $(`<div id="html_a0aa91f1f2c6b62b3b0bbed76414d4fd" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Shravanabelagola PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 9<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 76.0</div>`)[0];
+                popup_4c21d0bd8e778672b7ed7fd7735e573c.setContent(html_a0aa91f1f2c6b62b3b0bbed76414d4fd);
+            
+        
+
+        circle_marker_6bbaabfe7c567c0f41e05998ea1143c1.bindPopup(popup_4c21d0bd8e778672b7ed7fd7735e573c)
+        ;
+
+        
+    
+    
+            var circle_marker_ee51bfb033ca717ff6c9133bffe3649e = L.circleMarker(
+                [12.95531, 77.80826],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_72671ccf50a6aeaa23ddf4f4c26d6d3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5119e7b518cd581a7eab1167a9345deb = $(`<div id="html_5119e7b518cd581a7eab1167a9345deb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Anugondanahalli PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 100.0</div>`)[0];
+                popup_72671ccf50a6aeaa23ddf4f4c26d6d3b.setContent(html_5119e7b518cd581a7eab1167a9345deb);
+            
+        
+
+        circle_marker_ee51bfb033ca717ff6c9133bffe3649e.bindPopup(popup_72671ccf50a6aeaa23ddf4f4c26d6d3b)
+        ;
+
+        
+    
+    
+            var circle_marker_8ade80eb172f277646cf5ed93383a80c = L.circleMarker(
+                [14.17047, 74.48836],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_c6934e293e3d2d80af79f7e025199a17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d009df78996ccbce8963845299fd6dcd = $(`<div id="html_d009df78996ccbce8963845299fd6dcd" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Manki PS<br><b>District:</b> Uttara Kannada<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_c6934e293e3d2d80af79f7e025199a17.setContent(html_d009df78996ccbce8963845299fd6dcd);
+            
+        
+
+        circle_marker_8ade80eb172f277646cf5ed93383a80c.bindPopup(popup_c6934e293e3d2d80af79f7e025199a17)
+        ;
+
+        
+    
+    
+            var circle_marker_4725fec977336ceb27c7fdb57ea9164c = L.circleMarker(
+                [16.83016, 75.53357],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_a778000048cc4c3aab35cd8a307fe6ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d04eedabbb9e25cdb74a678b627355d0 = $(`<div id="html_d04eedabbb9e25cdb74a678b627355d0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Tikota PS<br><b>District:</b> Vijayapura<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_a778000048cc4c3aab35cd8a307fe6ea.setContent(html_d04eedabbb9e25cdb74a678b627355d0);
+            
+        
+
+        circle_marker_4725fec977336ceb27c7fdb57ea9164c.bindPopup(popup_a778000048cc4c3aab35cd8a307fe6ea)
+        ;
+
+        
+    
+    
+            var circle_marker_941de00b24f7ea81dac5380aa7512ca0 = L.circleMarker(
+                [15.364538, 75.15155],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d3e9c946c7460fc1abc8ba686253a57a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eee37780db8f6219a176b800d42d5bf6 = $(`<div id="html_eee37780db8f6219a176b800d42d5bf6" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> E and N Crime PS HD city<br><b>District:</b> Dharwad<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_d3e9c946c7460fc1abc8ba686253a57a.setContent(html_eee37780db8f6219a176b800d42d5bf6);
+            
+        
+
+        circle_marker_941de00b24f7ea81dac5380aa7512ca0.bindPopup(popup_d3e9c946c7460fc1abc8ba686253a57a)
+        ;
+
+        
+    
+    
+            var circle_marker_a34705fbb4b968259901a5f6c8ea55ab = L.circleMarker(
+                [13.37203, 77.71422],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f02c0ecae8f1079f3561a635f0b2d4ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9feadb04cd8ecf73f1577f7cf32d4a16 = $(`<div id="html_9feadb04cd8ecf73f1577f7cf32d4a16" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nandi Giridhama PS<br><b>District:</b> Chikkaballapura<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_f02c0ecae8f1079f3561a635f0b2d4ce.setContent(html_9feadb04cd8ecf73f1577f7cf32d4a16);
+            
+        
+
+        circle_marker_a34705fbb4b968259901a5f6c8ea55ab.bindPopup(popup_f02c0ecae8f1079f3561a635f0b2d4ce)
+        ;
+
+        
+    
+    
+            var circle_marker_50f47cf7c1fab8663403eec03dc14a42 = L.circleMarker(
+                [16.29492, 77.15951],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9b66a30e95741f7637b3a6a50c42c2d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb6955bc10bfc03ab2a8703c15d22cf6 = $(`<div id="html_fb6955bc10bfc03ab2a8703c15d22cf6" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gabbur PS<br><b>District:</b> Raichur<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_9b66a30e95741f7637b3a6a50c42c2d9.setContent(html_fb6955bc10bfc03ab2a8703c15d22cf6);
+            
+        
+
+        circle_marker_50f47cf7c1fab8663403eec03dc14a42.bindPopup(popup_9b66a30e95741f7637b3a6a50c42c2d9)
+        ;
+
+        
+    
+    
+            var circle_marker_0d03aa5155515dd948e22ad16e56233d = L.circleMarker(
+                [14.26408, 75.33655],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e45089955ed6e8943f2a000486dbd8a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8619c367316c7754adea7bbd17983d5 = $(`<div id="html_f8619c367316c7754adea7bbd17983d5" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Shikaripura Rural PS<br><b>District:</b> Shivamogga<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 94.0</div>`)[0];
+                popup_e45089955ed6e8943f2a000486dbd8a0.setContent(html_f8619c367316c7754adea7bbd17983d5);
+            
+        
+
+        circle_marker_0d03aa5155515dd948e22ad16e56233d.bindPopup(popup_e45089955ed6e8943f2a000486dbd8a0)
+        ;
+
+        
+    
+    
+            var circle_marker_6858ebc050fd8af7b49db95aa0f8e66e = L.circleMarker(
+                [13.29949, 76.25672],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2a4e00615e73e1587a77ce306b323744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbac79968d5f48e6fd092996b988d7c5 = $(`<div id="html_bbac79968d5f48e6fd092996b988d7c5" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Arasikere Rural PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_2a4e00615e73e1587a77ce306b323744.setContent(html_bbac79968d5f48e6fd092996b988d7c5);
+            
+        
+
+        circle_marker_6858ebc050fd8af7b49db95aa0f8e66e.bindPopup(popup_2a4e00615e73e1587a77ce306b323744)
+        ;
+
+        
+    
+    
+            var circle_marker_d9c42ac603d1b8f5ead16320b4c39058 = L.circleMarker(
+                [12.64805, 76.40709],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_91bd2609771fdcaf8473d928245169f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e24f64f4cff86c8b5db54dcedf60949 = $(`<div id="html_3e24f64f4cff86c8b5db54dcedf60949" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nanjanagudu Rural PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_91bd2609771fdcaf8473d928245169f6.setContent(html_3e24f64f4cff86c8b5db54dcedf60949);
+            
+        
+
+        circle_marker_d9c42ac603d1b8f5ead16320b4c39058.bindPopup(popup_91bd2609771fdcaf8473d928245169f6)
+        ;
+
+        
+    
+    
+            var circle_marker_d70db8918675efea2426fe50e293984e = L.circleMarker(
+                [12.54962, 76.31483],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ce0e6e54c27a779193041e7018b97321 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1da41a77d4aa10ed7b1e4dfb2d33319c = $(`<div id="html_1da41a77d4aa10ed7b1e4dfb2d33319c" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hullahalli PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_ce0e6e54c27a779193041e7018b97321.setContent(html_1da41a77d4aa10ed7b1e4dfb2d33319c);
+            
+        
+
+        circle_marker_d70db8918675efea2426fe50e293984e.bindPopup(popup_ce0e6e54c27a779193041e7018b97321)
+        ;
+
+        
+    
+    
+            var circle_marker_4c994ee9f60b348fdb67b6a19b0a26c1 = L.circleMarker(
+                [15.85532, 74.4972],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d909e66027ca64d9baad063b16fe22c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdcf921de67561c78ecf61bdd86d2cef = $(`<div id="html_bdcf921de67561c78ecf61bdd86d2cef" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Khadebazar PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_d909e66027ca64d9baad063b16fe22c3.setContent(html_bdcf921de67561c78ecf61bdd86d2cef);
+            
+        
+
+        circle_marker_4c994ee9f60b348fdb67b6a19b0a26c1.bindPopup(popup_d909e66027ca64d9baad063b16fe22c3)
+        ;
+
+        
+    
+    
+            var circle_marker_c5827944cf5f8192e5a40a24a356a6f2 = L.circleMarker(
+                [12.957766, 78.368292],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f8ad2bf6ce350f09bceaf42b150fba07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d36fb72fea20b1fb04a279ace17ce78c = $(`<div id="html_d36fb72fea20b1fb04a279ace17ce78c" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kyasamballi Police Station<br><b>District:</b> Kolar<br><b>Crime Count:</b> 8<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 80.0</div>`)[0];
+                popup_f8ad2bf6ce350f09bceaf42b150fba07.setContent(html_d36fb72fea20b1fb04a279ace17ce78c);
+            
+        
+
+        circle_marker_c5827944cf5f8192e5a40a24a356a6f2.bindPopup(popup_f8ad2bf6ce350f09bceaf42b150fba07)
+        ;
+
+        
+    
+    
+            var circle_marker_fc0d9bb458883c8feab251890457f29d = L.circleMarker(
+                [12.96879, 78.17955],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9c8d5275658e90462c8a0a27cd11c567 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32025cbf9ab7cf6ca8dd11f3f2097fe1 = $(`<div id="html_32025cbf9ab7cf6ca8dd11f3f2097fe1" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bangarpet PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_9c8d5275658e90462c8a0a27cd11c567.setContent(html_32025cbf9ab7cf6ca8dd11f3f2097fe1);
+            
+        
+
+        circle_marker_fc0d9bb458883c8feab251890457f29d.bindPopup(popup_9c8d5275658e90462c8a0a27cd11c567)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab51e7d7d900a05c0c517f04a56cc7d = L.circleMarker(
+                [12.899238, 78.145731],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_984118d9538c01bfc95d11253e71bdae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e1cb2772b7c9d9a845473d4fecc4ee0 = $(`<div id="html_0e1cb2772b7c9d9a845473d4fecc4ee0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Budikote Police Station<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_984118d9538c01bfc95d11253e71bdae.setContent(html_0e1cb2772b7c9d9a845473d4fecc4ee0);
+            
+        
+
+        circle_marker_2ab51e7d7d900a05c0c517f04a56cc7d.bindPopup(popup_984118d9538c01bfc95d11253e71bdae)
+        ;
+
+        
+    
+    
+            var circle_marker_480711fec889f2c14b8467286e5d7a1d = L.circleMarker(
+                [13.00767, 78.35141],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_653453556ce632124754bf9c3d2186a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c24cf4173c32d894bd5b9988109786a = $(`<div id="html_7c24cf4173c32d894bd5b9988109786a" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bethamangala PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_653453556ce632124754bf9c3d2186a5.setContent(html_7c24cf4173c32d894bd5b9988109786a);
+            
+        
+
+        circle_marker_480711fec889f2c14b8467286e5d7a1d.bindPopup(popup_653453556ce632124754bf9c3d2186a5)
+        ;
+
+        
+    
+    
+            var circle_marker_c78e9c1d88c695053417655cc60bc723 = L.circleMarker(
+                [12.55896, 77.42355],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_09f4d1cbfd070d494649ec224b8fca41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03008754973fef48721a00fcc5d57993 = $(`<div id="html_03008754973fef48721a00fcc5d57993" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kanakapura Rural PS<br><b>District:</b> Bengaluru South<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 97.0</div>`)[0];
+                popup_09f4d1cbfd070d494649ec224b8fca41.setContent(html_03008754973fef48721a00fcc5d57993);
+            
+        
+
+        circle_marker_c78e9c1d88c695053417655cc60bc723.bindPopup(popup_09f4d1cbfd070d494649ec224b8fca41)
+        ;
+
+        
+    
+    
+            var circle_marker_5c8f08367aea7ebf90fd02d5a37f9f98 = L.circleMarker(
+                [14.44168, 75.52387],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_071b333cdf05f2fe50864f384486722c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59645b2aeae089439f28d78626e55b14 = $(`<div id="html_59645b2aeae089439f28d78626e55b14" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Rattihalli PS<br><b>District:</b> Haveri<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_071b333cdf05f2fe50864f384486722c.setContent(html_59645b2aeae089439f28d78626e55b14);
+            
+        
+
+        circle_marker_5c8f08367aea7ebf90fd02d5a37f9f98.bindPopup(popup_071b333cdf05f2fe50864f384486722c)
+        ;
+
+        
+    
+    
+            var circle_marker_e75571ccedd3ff68ec607af6ade4a722 = L.circleMarker(
+                [14.92633, 75.27453],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_8693ffa8092aa69f129e66efdd7a460d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6aaf524df3efe638490191dd6f070717 = $(`<div id="html_6aaf524df3efe638490191dd6f070717" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bankapura PS<br><b>District:</b> Haveri<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 70.0</div>`)[0];
+                popup_8693ffa8092aa69f129e66efdd7a460d.setContent(html_6aaf524df3efe638490191dd6f070717);
+            
+        
+
+        circle_marker_e75571ccedd3ff68ec607af6ade4a722.bindPopup(popup_8693ffa8092aa69f129e66efdd7a460d)
+        ;
+
+        
+    
+    
+            var circle_marker_8c310daec5157add48a8db829ec98409 = L.circleMarker(
+                [15.85212, 74.52492],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_cfa6d50cb51b52f3d88dee54001d1d70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b15b73999a8181e9ca44cd9156f29cbe = $(`<div id="html_b15b73999a8181e9ca44cd9156f29cbe" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Khadebazar PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_cfa6d50cb51b52f3d88dee54001d1d70.setContent(html_b15b73999a8181e9ca44cd9156f29cbe);
+            
+        
+
+        circle_marker_8c310daec5157add48a8db829ec98409.bindPopup(popup_cfa6d50cb51b52f3d88dee54001d1d70)
+        ;
+
+        
+    
+    
+            var circle_marker_b5d6cedd58499b52ccfc3bd8f09656f3 = L.circleMarker(
+                [13.16541, 78.38103],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_428cc84a12f2b94aa31e4a2e3573a86e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea54dbee8fe86718fd293afec6d8ecec = $(`<div id="html_ea54dbee8fe86718fd293afec6d8ecec" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Mulbagal Town PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_428cc84a12f2b94aa31e4a2e3573a86e.setContent(html_ea54dbee8fe86718fd293afec6d8ecec);
+            
+        
+
+        circle_marker_b5d6cedd58499b52ccfc3bd8f09656f3.bindPopup(popup_428cc84a12f2b94aa31e4a2e3573a86e)
+        ;
+
+        
+    
+    
+            var circle_marker_7f75f45225954cfa2e47e7b7f8a82ce3 = L.circleMarker(
+                [16.07911, 76.05715],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_cdbbffdcba2b3ecff6a4da7d19143745 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07ae6b20d16a28d0fb6c819c4aa16364 = $(`<div id="html_07ae6b20d16a28d0fb6c819c4aa16364" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hungunda PS<br><b>District:</b> Bagalkote<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_cdbbffdcba2b3ecff6a4da7d19143745.setContent(html_07ae6b20d16a28d0fb6c819c4aa16364);
+            
+        
+
+        circle_marker_7f75f45225954cfa2e47e7b7f8a82ce3.bindPopup(popup_cdbbffdcba2b3ecff6a4da7d19143745)
+        ;
+
+        
+    
+    
+            var circle_marker_b90cf7eb8095890e68d415d9a9eadfb3 = L.circleMarker(
+                [12.58869, 77.34661],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_a811a2db6f2bd27a6a8ad98c1cf9b626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_450eceaa2cdb23b47954dd4a4ab65683 = $(`<div id="html_450eceaa2cdb23b47954dd4a4ab65683" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ashoknagar PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 70.0</div>`)[0];
+                popup_a811a2db6f2bd27a6a8ad98c1cf9b626.setContent(html_450eceaa2cdb23b47954dd4a4ab65683);
+            
+        
+
+        circle_marker_b90cf7eb8095890e68d415d9a9eadfb3.bindPopup(popup_a811a2db6f2bd27a6a8ad98c1cf9b626)
+        ;
+
+        
+    
+    
+            var circle_marker_0a3fc366ad55844620d24a62497b6199 = L.circleMarker(
+                [13.33904, 78.22743],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1eea83fbb3f556fe695558b54b73c365 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c76e2cc15019b620d61704345fa991f3 = $(`<div id="html_c76e2cc15019b620d61704345fa991f3" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Srinivasapura PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_1eea83fbb3f556fe695558b54b73c365.setContent(html_c76e2cc15019b620d61704345fa991f3);
+            
+        
+
+        circle_marker_0a3fc366ad55844620d24a62497b6199.bindPopup(popup_1eea83fbb3f556fe695558b54b73c365)
+        ;
+
+        
+    
+    
+            var circle_marker_a1e31d2fa6650fe195c3e0b86e94a549 = L.circleMarker(
+                [12.20612, 75.91572],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_40d8439583f473da4ce32bce7ea9c9df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4641c3837ae13db7ba5141bf899dae5 = $(`<div id="html_f4641c3837ae13db7ba5141bf899dae5" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gonikoppa PS<br><b>District:</b> Kodagu<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 92.0</div>`)[0];
+                popup_40d8439583f473da4ce32bce7ea9c9df.setContent(html_f4641c3837ae13db7ba5141bf899dae5);
+            
+        
+
+        circle_marker_a1e31d2fa6650fe195c3e0b86e94a549.bindPopup(popup_40d8439583f473da4ce32bce7ea9c9df)
+        ;
+
+        
+    
+    
+            var circle_marker_c60613d1a5ec3769567a77d1587bddfc = L.circleMarker(
+                [13.06156, 75.019],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ba446f7fb7f51e8622d1e3fe9f7f2535 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73d051220957aacb4addeb3bb853b921 = $(`<div id="html_73d051220957aacb4addeb3bb853b921" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Moodabidre PS<br><b>District:</b> Dakshina Kannada<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_ba446f7fb7f51e8622d1e3fe9f7f2535.setContent(html_73d051220957aacb4addeb3bb853b921);
+            
+        
+
+        circle_marker_c60613d1a5ec3769567a77d1587bddfc.bindPopup(popup_ba446f7fb7f51e8622d1e3fe9f7f2535)
+        ;
+
+        
+    
+    
+            var circle_marker_b01b68bffb4336d1ca3d36e88e3a24de = L.circleMarker(
+                [13.120744, 78.139036],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_6a64164f7b19019fe5dda9fe5985f55f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fdb181682d818aa91e85df4b45b47cb = $(`<div id="html_2fdb181682d818aa91e85df4b45b47cb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kolar Women PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 94.0</div>`)[0];
+                popup_6a64164f7b19019fe5dda9fe5985f55f.setContent(html_2fdb181682d818aa91e85df4b45b47cb);
+            
+        
+
+        circle_marker_b01b68bffb4336d1ca3d36e88e3a24de.bindPopup(popup_6a64164f7b19019fe5dda9fe5985f55f)
+        ;
+
+        
+    
+    
+            var circle_marker_a834dc45eb261504cff86abfbd83d61f = L.circleMarker(
+                [13.34493, 78.22076],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5647d308b78adcf43f862e59bf3f5471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07128f1ac1956b87ca79b5ca0649a4b4 = $(`<div id="html_07128f1ac1956b87ca79b5ca0649a4b4" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Srinivasapura PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 92.0</div>`)[0];
+                popup_5647d308b78adcf43f862e59bf3f5471.setContent(html_07128f1ac1956b87ca79b5ca0649a4b4);
+            
+        
+
+        circle_marker_a834dc45eb261504cff86abfbd83d61f.bindPopup(popup_5647d308b78adcf43f862e59bf3f5471)
+        ;
+
+        
+    
+    
+            var circle_marker_6312864e5484c83c63951e5d7d2ab079 = L.circleMarker(
+                [17.26038, 77.19297],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7bce798b24ab3c6b107d1ec079c16a27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0187be651409e37805e2df0e3d6bb670 = $(`<div id="html_0187be651409e37805e2df0e3d6bb670" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Sulepet PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_7bce798b24ab3c6b107d1ec079c16a27.setContent(html_0187be651409e37805e2df0e3d6bb670);
+            
+        
+
+        circle_marker_6312864e5484c83c63951e5d7d2ab079.bindPopup(popup_7bce798b24ab3c6b107d1ec079c16a27)
+        ;
+
+        
+    
+    
+            var circle_marker_1c092f120e65835462f5305c1648bc9d = L.circleMarker(
+                [16.81695, 75.74249],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2e2bcaf22cd6e7ef563b9d36870f2124 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df7e11bfc5401f05e481de13185c171d = $(`<div id="html_df7e11bfc5401f05e481de13185c171d" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Jalanagar PS<br><b>District:</b> Vijayapura<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_2e2bcaf22cd6e7ef563b9d36870f2124.setContent(html_df7e11bfc5401f05e481de13185c171d);
+            
+        
+
+        circle_marker_1c092f120e65835462f5305c1648bc9d.bindPopup(popup_2e2bcaf22cd6e7ef563b9d36870f2124)
+        ;
+
+        
+    
+    
+            var circle_marker_23754bfb1f9342f0fa80bd0536cb7d04 = L.circleMarker(
+                [12.906688, 78.139451],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_59728115f8af338ba7485303490ce32d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64c52413caae84dac9104bc5dd28da32 = $(`<div id="html_64c52413caae84dac9104bc5dd28da32" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Budikote Police Station<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 79.0</div>`)[0];
+                popup_59728115f8af338ba7485303490ce32d.setContent(html_64c52413caae84dac9104bc5dd28da32);
+            
+        
+
+        circle_marker_23754bfb1f9342f0fa80bd0536cb7d04.bindPopup(popup_59728115f8af338ba7485303490ce32d)
+        ;
+
+        
+    
+    
+            var circle_marker_518d44c6fdcf7e845ded6494b1733cff = L.circleMarker(
+                [13.184766, 77.701364],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_64006dd263c5363ea084da01bbe809bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fe5276026a78f5a31c20a465d4b6a1a = $(`<div id="html_9fe5276026a78f5a31c20a465d4b6a1a" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> BIAL Traffic PS<br><b>District:</b> Bengaluru Urban<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 90.0</div>`)[0];
+                popup_64006dd263c5363ea084da01bbe809bf.setContent(html_9fe5276026a78f5a31c20a465d4b6a1a);
+            
+        
+
+        circle_marker_518d44c6fdcf7e845ded6494b1733cff.bindPopup(popup_64006dd263c5363ea084da01bbe809bf)
+        ;
+
+        
+    
+    
+            var circle_marker_4e7166596916add6c1163573a5472771 = L.circleMarker(
+                [12.41326, 75.74091],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f4c9341967e5d93b5de1e845528856af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d01a5cb4102a12bfa1bd4ed3123f6e8d = $(`<div id="html_d01a5cb4102a12bfa1bd4ed3123f6e8d" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Madikeri Town PS<br><b>District:</b> Kodagu<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_f4c9341967e5d93b5de1e845528856af.setContent(html_d01a5cb4102a12bfa1bd4ed3123f6e8d);
+            
+        
+
+        circle_marker_4e7166596916add6c1163573a5472771.bindPopup(popup_f4c9341967e5d93b5de1e845528856af)
+        ;
+
+        
+    
+    
+            var circle_marker_14f07ea23243320c9565933e4f913d4e = L.circleMarker(
+                [14.81101, 74.14231],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_6bd4cb7389569e5ae525cbd5a584d150 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f48162fb6255c9ba1f1024d8939e855f = $(`<div id="html_f48162fb6255c9ba1f1024d8939e855f" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Karwar Town PS<br><b>District:</b> Uttara Kannada<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_6bd4cb7389569e5ae525cbd5a584d150.setContent(html_f48162fb6255c9ba1f1024d8939e855f);
+            
+        
+
+        circle_marker_14f07ea23243320c9565933e4f913d4e.bindPopup(popup_6bd4cb7389569e5ae525cbd5a584d150)
+        ;
+
+        
+    
+    
+            var circle_marker_861a138bafe8e4ff0550326d4c94cd20 = L.circleMarker(
+                [12.50655, 77.39342],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_97a9520b9665cf8be6790cf48e006318 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95eaeb168631a946dac1fb98de7a0cdf = $(`<div id="html_95eaeb168631a946dac1fb98de7a0cdf" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Electronic City Traffic PS<br><b>District:</b> Bengaluru Urban<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_97a9520b9665cf8be6790cf48e006318.setContent(html_95eaeb168631a946dac1fb98de7a0cdf);
+            
+        
+
+        circle_marker_861a138bafe8e4ff0550326d4c94cd20.bindPopup(popup_97a9520b9665cf8be6790cf48e006318)
+        ;
+
+        
+    
+    
+            var circle_marker_8b58ea40502d7e7c40ae0a797c5dc2d7 = L.circleMarker(
+                [12.97562, 78.22979],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_467b64c063db7f0704aeebaa4730bb35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfe0de994c0a62c04923b69421d7a79e = $(`<div id="html_cfe0de994c0a62c04923b69421d7a79e" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> BEML Nagar PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 79.0</div>`)[0];
+                popup_467b64c063db7f0704aeebaa4730bb35.setContent(html_cfe0de994c0a62c04923b69421d7a79e);
+            
+        
+
+        circle_marker_8b58ea40502d7e7c40ae0a797c5dc2d7.bindPopup(popup_467b64c063db7f0704aeebaa4730bb35)
+        ;
+
+        
+    
+    
+            var circle_marker_903623be8bacb30c6e5c5f55b4729778 = L.circleMarker(
+                [13.29546, 76.26909],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_6c2f6ab5cbbc1da9d5ca4650d442f734 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bc6ea02b5c6587b0f78835ea41c1ee3 = $(`<div id="html_6bc6ea02b5c6587b0f78835ea41c1ee3" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Arasikere Town PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 77.0</div>`)[0];
+                popup_6c2f6ab5cbbc1da9d5ca4650d442f734.setContent(html_6bc6ea02b5c6587b0f78835ea41c1ee3);
+            
+        
+
+        circle_marker_903623be8bacb30c6e5c5f55b4729778.bindPopup(popup_6c2f6ab5cbbc1da9d5ca4650d442f734)
+        ;
+
+        
+    
+    
+            var circle_marker_8caf5bfb1eb70ca45894b83787b3dc49 = L.circleMarker(
+                [13.70876, 77.39978],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f2a474fc6d6955fa1abfbfba30553e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db5b6bf9e891b589502ea2c4e7a849e1 = $(`<div id="html_db5b6bf9e891b589502ea2c4e7a849e1" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kodigenahalli PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_f2a474fc6d6955fa1abfbfba30553e35.setContent(html_db5b6bf9e891b589502ea2c4e7a849e1);
+            
+        
+
+        circle_marker_8caf5bfb1eb70ca45894b83787b3dc49.bindPopup(popup_f2a474fc6d6955fa1abfbfba30553e35)
+        ;
+
+        
+    
+    
+            var circle_marker_c9c1d63a400ff1b4bdb0aa4b8961e3bc = L.circleMarker(
+                [13.15839, 75.89434],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e69c958dc3bd353136547e3624454767 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78ab0fd78fdd50860cee56a87c2528e3 = $(`<div id="html_78ab0fd78fdd50860cee56a87c2528e3" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Belur PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_e69c958dc3bd353136547e3624454767.setContent(html_78ab0fd78fdd50860cee56a87c2528e3);
+            
+        
+
+        circle_marker_c9c1d63a400ff1b4bdb0aa4b8961e3bc.bindPopup(popup_e69c958dc3bd353136547e3624454767)
+        ;
+
+        
+    
+    
+            var circle_marker_15ea259f4011f5134209a966cdc1433a = L.circleMarker(
+                [13.01568, 76.10267],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_abe4a9d4c603c85e2927201f494ff785 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1312c715822d61702c96910c3c8821b7 = $(`<div id="html_1312c715822d61702c96910c3c8821b7" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Pension Mohalla PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_abe4a9d4c603c85e2927201f494ff785.setContent(html_1312c715822d61702c96910c3c8821b7);
+            
+        
+
+        circle_marker_15ea259f4011f5134209a966cdc1433a.bindPopup(popup_abe4a9d4c603c85e2927201f494ff785)
+        ;
+
+        
+    
+    
+            var circle_marker_164b3f7f99b879905f2c77bafd55ffd0 = L.circleMarker(
+                [13.351091, 77.127977],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_a4f63067ad110caacc7420217ac81b0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_559e0a4374ca7e37c2cedc066f198a82 = $(`<div id="html_559e0a4374ca7e37c2cedc066f198a82" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> New Extention PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 82.0</div>`)[0];
+                popup_a4f63067ad110caacc7420217ac81b0b.setContent(html_559e0a4374ca7e37c2cedc066f198a82);
+            
+        
+
+        circle_marker_164b3f7f99b879905f2c77bafd55ffd0.bindPopup(popup_a4f63067ad110caacc7420217ac81b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_9717b3ed4f447b0d376ff9141e09da4d = L.circleMarker(
+                [14.51636, 76.32029],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_760d1ff5f4097712b41986f5ed847cda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d48bebcdf87570dfe373bd56de7de01 = $(`<div id="html_2d48bebcdf87570dfe373bd56de7de01" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Jagalur PS<br><b>District:</b> Davanagere<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_760d1ff5f4097712b41986f5ed847cda.setContent(html_2d48bebcdf87570dfe373bd56de7de01);
+            
+        
+
+        circle_marker_9717b3ed4f447b0d376ff9141e09da4d.bindPopup(popup_760d1ff5f4097712b41986f5ed847cda)
+        ;
+
+        
+    
+    
+            var circle_marker_5a730fa518f2d8426faf35d0c2d79020 = L.circleMarker(
+                [15.84691, 74.50666],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_94a8125d2f5b8c9fbf62f7a309b0bbab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a112a6851a338e7d6af6f9f2d2ad5f41 = $(`<div id="html_a112a6851a338e7d6af6f9f2d2ad5f41" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Market PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 77.0</div>`)[0];
+                popup_94a8125d2f5b8c9fbf62f7a309b0bbab.setContent(html_a112a6851a338e7d6af6f9f2d2ad5f41);
+            
+        
+
+        circle_marker_5a730fa518f2d8426faf35d0c2d79020.bindPopup(popup_94a8125d2f5b8c9fbf62f7a309b0bbab)
+        ;
+
+        
+    
+    
+            var circle_marker_6b8ef5e2bd79f5638191b2f04966d4d6 = L.circleMarker(
+                [12.28265, 76.63986],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5887187b6f1b898eea3e104bfee0796b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e13ea94143ae52f33ac56d3e42c041f9 = $(`<div id="html_e13ea94143ae52f33ac56d3e42c041f9" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Vidyaranyarpuram PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_5887187b6f1b898eea3e104bfee0796b.setContent(html_e13ea94143ae52f33ac56d3e42c041f9);
+            
+        
+
+        circle_marker_6b8ef5e2bd79f5638191b2f04966d4d6.bindPopup(popup_5887187b6f1b898eea3e104bfee0796b)
+        ;
+
+        
+    
+    
+            var circle_marker_3bfb8fc899d927f7f8aefb1561823187 = L.circleMarker(
+                [13.85154, 75.68839],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5dbaf2cd46b571b5eaa48e8d04cd80f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82b25ee844eba3492dbeb308b390cf05 = $(`<div id="html_82b25ee844eba3492dbeb308b390cf05" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bhadravathi Old Town PS<br><b>District:</b> Shivamogga<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 78.0</div>`)[0];
+                popup_5dbaf2cd46b571b5eaa48e8d04cd80f0.setContent(html_82b25ee844eba3492dbeb308b390cf05);
+            
+        
+
+        circle_marker_3bfb8fc899d927f7f8aefb1561823187.bindPopup(popup_5dbaf2cd46b571b5eaa48e8d04cd80f0)
+        ;
+
+        
+    
+    
+            var circle_marker_7b15ee98989b2e8b042273189ee25104 = L.circleMarker(
+                [12.86322, 78.21095],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1353a56211faaa6775fa319c58047b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3690aff95064830383c5fd5755e49ec = $(`<div id="html_c3690aff95064830383c5fd5755e49ec" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kamasamudram PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_1353a56211faaa6775fa319c58047b52.setContent(html_c3690aff95064830383c5fd5755e49ec);
+            
+        
+
+        circle_marker_7b15ee98989b2e8b042273189ee25104.bindPopup(popup_1353a56211faaa6775fa319c58047b52)
+        ;
+
+        
+    
+    
+            var circle_marker_24edc46f7fc473632e42a753ffb5f93c = L.circleMarker(
+                [15.36533, 75.13882],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_bdabaff589ada795c025d9020647142e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62979ab504c4a1f201d1d0a631039d66 = $(`<div id="html_62979ab504c4a1f201d1d0a631039d66" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Dharwad Sub-Urban PS<br><b>District:</b> Dharwad<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_bdabaff589ada795c025d9020647142e.setContent(html_62979ab504c4a1f201d1d0a631039d66);
+            
+        
+
+        circle_marker_24edc46f7fc473632e42a753ffb5f93c.bindPopup(popup_bdabaff589ada795c025d9020647142e)
+        ;
+
+        
+    
+    
+            var circle_marker_2e11c5565ae5fc28277cec14f5040b83 = L.circleMarker(
+                [15.34519, 75.13161],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_66d21aab4921eceefaa52141ae884670 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd3820617a5df5f239f42e811cc280c0 = $(`<div id="html_dd3820617a5df5f239f42e811cc280c0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hubli Sub-Urban PS<br><b>District:</b> Dharwad<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 100.0</div>`)[0];
+                popup_66d21aab4921eceefaa52141ae884670.setContent(html_dd3820617a5df5f239f42e811cc280c0);
+            
+        
+
+        circle_marker_2e11c5565ae5fc28277cec14f5040b83.bindPopup(popup_66d21aab4921eceefaa52141ae884670)
+        ;
+
+        
+    
+    
+            var circle_marker_41940167159c397c0bc53e3c05caa633 = L.circleMarker(
+                [15.32825, 75.14153],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_3a8b5a836a5b8058de80b413ffb35ae5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_604e487e3db40e0453a374d1d0fd488e = $(`<div id="html_604e487e3db40e0453a374d1d0fd488e" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hubli Town PS<br><b>District:</b> Dharwad<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_3a8b5a836a5b8058de80b413ffb35ae5.setContent(html_604e487e3db40e0453a374d1d0fd488e);
+            
+        
+
+        circle_marker_41940167159c397c0bc53e3c05caa633.bindPopup(popup_3a8b5a836a5b8058de80b413ffb35ae5)
+        ;
+
+        
+    
+    
+            var circle_marker_1e75cca3be6b5fb4bfd5179380c05e16 = L.circleMarker(
+                [15.3329, 75.15445],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_a6a26a00cc8d642c1a621aabab19ff2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06d73636a4e213e996f513a7001d98ec = $(`<div id="html_06d73636a4e213e996f513a7001d98ec" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hubli Rural PS<br><b>District:</b> Dharwad<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_a6a26a00cc8d642c1a621aabab19ff2c.setContent(html_06d73636a4e213e996f513a7001d98ec);
+            
+        
+
+        circle_marker_1e75cca3be6b5fb4bfd5179380c05e16.bindPopup(popup_a6a26a00cc8d642c1a621aabab19ff2c)
+        ;
+
+        
+    
+    
+            var circle_marker_68fcd6e09bdd4e1fd2998b3268f8d323 = L.circleMarker(
+                [13.11742, 77.14828],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_896400b3c5676c7c9d773097a752c037 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beaf967aa29320c40d88c207f02b4029 = $(`<div id="html_beaf967aa29320c40d88c207f02b4029" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hebbur PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 86.0</div>`)[0];
+                popup_896400b3c5676c7c9d773097a752c037.setContent(html_beaf967aa29320c40d88c207f02b4029);
+            
+        
+
+        circle_marker_68fcd6e09bdd4e1fd2998b3268f8d323.bindPopup(popup_896400b3c5676c7c9d773097a752c037)
+        ;
+
+        
+    
+    
+            var circle_marker_c0e0e8f6e32f671fcaf1094801bbd024 = L.circleMarker(
+                [14.47651, 75.92703],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_0a1fe3e1d1b9b073291dd0c0b2c9ae43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a9df5d278f085d9ae4a897384018c9 = $(`<div id="html_56a9df5d278f085d9ae4a897384018c9" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> RMC Yard PS<br><b>District:</b> Davanagere<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_0a1fe3e1d1b9b073291dd0c0b2c9ae43.setContent(html_56a9df5d278f085d9ae4a897384018c9);
+            
+        
+
+        circle_marker_c0e0e8f6e32f671fcaf1094801bbd024.bindPopup(popup_0a1fe3e1d1b9b073291dd0c0b2c9ae43)
+        ;
+
+        
+    
+    
+            var circle_marker_02a6e0149ad2b4ae2d38609509d29d34 = L.circleMarker(
+                [11.93738, 76.92842],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5b2ab3de27f47de36018d0d446627435 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f909da2bac1398fac57cfd678680a5d4 = $(`<div id="html_f909da2bac1398fac57cfd678680a5d4" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Chamarajanagar Traffic PS<br><b>District:</b> Chamarajanagar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_5b2ab3de27f47de36018d0d446627435.setContent(html_f909da2bac1398fac57cfd678680a5d4);
+            
+        
+
+        circle_marker_02a6e0149ad2b4ae2d38609509d29d34.bindPopup(popup_5b2ab3de27f47de36018d0d446627435)
+        ;
+
+        
+    
+    
+            var circle_marker_7eb37df9b3d602ab260170f5b2c37cf3 = L.circleMarker(
+                [14.56754, 75.37619],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_b60106386d5b120cf3ac0c1775b4b684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c0c8b88bbd1987ea9849fe232af7942 = $(`<div id="html_7c0c8b88bbd1987ea9849fe232af7942" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hansabhavi PS<br><b>District:</b> Haveri<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_b60106386d5b120cf3ac0c1775b4b684.setContent(html_7c0c8b88bbd1987ea9849fe232af7942);
+            
+        
+
+        circle_marker_7eb37df9b3d602ab260170f5b2c37cf3.bindPopup(popup_b60106386d5b120cf3ac0c1775b4b684)
+        ;
+
+        
+    
+    
+            var circle_marker_f6929d6a7a6b003bf6b2f8b8153caef0 = L.circleMarker(
+                [13.662058, 77.207171],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_3905823e073d9f14878714e3095b1824 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae3954aff5bbc35b14f51ebd1d868b90 = $(`<div id="html_ae3954aff5bbc35b14f51ebd1d868b90" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Madhugiri PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_3905823e073d9f14878714e3095b1824.setContent(html_ae3954aff5bbc35b14f51ebd1d868b90);
+            
+        
+
+        circle_marker_f6929d6a7a6b003bf6b2f8b8153caef0.bindPopup(popup_3905823e073d9f14878714e3095b1824)
+        ;
+
+        
+    
+    
+            var circle_marker_8f5c458100b94e5dfee7e5c8be11d79e = L.circleMarker(
+                [12.30949, 76.66933],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_44866b681709100750bd97cc61caa969 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b18f2151a9953b6916cbab588b38c74 = $(`<div id="html_7b18f2151a9953b6916cbab588b38c74" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Narasimharaja Traffic PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_44866b681709100750bd97cc61caa969.setContent(html_7b18f2151a9953b6916cbab588b38c74);
+            
+        
+
+        circle_marker_8f5c458100b94e5dfee7e5c8be11d79e.bindPopup(popup_44866b681709100750bd97cc61caa969)
+        ;
+
+        
+    
+    
+            var circle_marker_282e33abc38904dbfea0d46ddbcae43e = L.circleMarker(
+                [15.85986, 74.51203],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7cf37e5ced30ff88dc34fa96ec23a6fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06f20477f823e247794c14de46a16408 = $(`<div id="html_06f20477f823e247794c14de46a16408" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Market PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_7cf37e5ced30ff88dc34fa96ec23a6fc.setContent(html_06f20477f823e247794c14de46a16408);
+            
+        
+
+        circle_marker_282e33abc38904dbfea0d46ddbcae43e.bindPopup(popup_7cf37e5ced30ff88dc34fa96ec23a6fc)
+        ;
+
+        
+    
+    
+            var circle_marker_fbd856931c8e448ad249acaa9018d851 = L.circleMarker(
+                [12.96933, 77.76201],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ec0a7e108fc32f8f4abb5f579a502a48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4283d0510c15efc5f733e020f023f82f = $(`<div id="html_4283d0510c15efc5f733e020f023f82f" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Thirumalashettahalli PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_ec0a7e108fc32f8f4abb5f579a502a48.setContent(html_4283d0510c15efc5f733e020f023f82f);
+            
+        
+
+        circle_marker_fbd856931c8e448ad249acaa9018d851.bindPopup(popup_ec0a7e108fc32f8f4abb5f579a502a48)
+        ;
+
+        
+    
+    
+            var circle_marker_95ef23163ede5f62f68b468cf9b448d9 = L.circleMarker(
+                [12.42177, 76.66833],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7af1229d2f54ed92b90e9c7297dcbce0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_888dfb2b22564fae3fb8f000c8c622b0 = $(`<div id="html_888dfb2b22564fae3fb8f000c8c622b0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Srirangapatna PS<br><b>District:</b> Mandya<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 70.0</div>`)[0];
+                popup_7af1229d2f54ed92b90e9c7297dcbce0.setContent(html_888dfb2b22564fae3fb8f000c8c622b0);
+            
+        
+
+        circle_marker_95ef23163ede5f62f68b468cf9b448d9.bindPopup(popup_7af1229d2f54ed92b90e9c7297dcbce0)
+        ;
+
+        
+    
+    
+            var circle_marker_4756f054867501a4b21b399482d8f2c1 = L.circleMarker(
+                [12.94069, 78.28038],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_b7244258d44b6ac3dc975eb0a59ac00c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ffa3ba22505e321f33430bdd454223 = $(`<div id="html_75ffa3ba22505e321f33430bdd454223" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Oorgaum PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 100.0</div>`)[0];
+                popup_b7244258d44b6ac3dc975eb0a59ac00c.setContent(html_75ffa3ba22505e321f33430bdd454223);
+            
+        
+
+        circle_marker_4756f054867501a4b21b399482d8f2c1.bindPopup(popup_b7244258d44b6ac3dc975eb0a59ac00c)
+        ;
+
+        
+    
+    
+            var circle_marker_b0aa701ffdd75acac4120891d7a442c6 = L.circleMarker(
+                [12.29255, 76.6192],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d6e252c2bae61744f9394d6ed745a666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f255257725a69d550236a78a37fd5abc = $(`<div id="html_f255257725a69d550236a78a37fd5abc" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kuvempunagar PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 88.0</div>`)[0];
+                popup_d6e252c2bae61744f9394d6ed745a666.setContent(html_f255257725a69d550236a78a37fd5abc);
+            
+        
+
+        circle_marker_b0aa701ffdd75acac4120891d7a442c6.bindPopup(popup_d6e252c2bae61744f9394d6ed745a666)
+        ;
+
+        
+    
+    
+            var circle_marker_0ef5ffcc9f144a2bc64bdc3a2fda08f4 = L.circleMarker(
+                [12.13948, 76.35129],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d35130f3f8eed35b4eb8580655368eed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_886815bcf7872e71207957efe3b4ecb6 = $(`<div id="html_886815bcf7872e71207957efe3b4ecb6" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Jayapura PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 7<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_d35130f3f8eed35b4eb8580655368eed.setContent(html_886815bcf7872e71207957efe3b4ecb6);
+            
+        
+
+        circle_marker_0ef5ffcc9f144a2bc64bdc3a2fda08f4.bindPopup(popup_d35130f3f8eed35b4eb8580655368eed)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4d604b8427b58d7c34b3ef68462deb = L.circleMarker(
+                [12.922378, 78.141671],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_8f099ab2cd17a66dc1d9597b38cbda65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3756a9fe065f0ccaaf8fa49e9d00fb87 = $(`<div id="html_3756a9fe065f0ccaaf8fa49e9d00fb87" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Budikote Police Station<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_8f099ab2cd17a66dc1d9597b38cbda65.setContent(html_3756a9fe065f0ccaaf8fa49e9d00fb87);
+            
+        
+
+        circle_marker_4f4d604b8427b58d7c34b3ef68462deb.bindPopup(popup_8f099ab2cd17a66dc1d9597b38cbda65)
+        ;
+
+        
+    
+    
+            var circle_marker_3c89f99c71f9f095ac41f4f03552b44d = L.circleMarker(
+                [13.50731, 78.22209],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_92052a29a136433b3a6b96dae81196c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b1c1c97527f1e002e756106a0b4e804 = $(`<div id="html_6b1c1c97527f1e002e756106a0b4e804" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gownapalli PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 81.0</div>`)[0];
+                popup_92052a29a136433b3a6b96dae81196c2.setContent(html_6b1c1c97527f1e002e756106a0b4e804);
+            
+        
+
+        circle_marker_3c89f99c71f9f095ac41f4f03552b44d.bindPopup(popup_92052a29a136433b3a6b96dae81196c2)
+        ;
+
+        
+    
+    
+            var circle_marker_e60416954eb3549002fcd14d46642e2d = L.circleMarker(
+                [12.97445, 78.26843],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_560cda2e7cdffd9470d33787a473e348 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07afff5a99d982e0edf349478ceb7662 = $(`<div id="html_07afff5a99d982e0edf349478ceb7662" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Robertsonpet PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 99.0</div>`)[0];
+                popup_560cda2e7cdffd9470d33787a473e348.setContent(html_07afff5a99d982e0edf349478ceb7662);
+            
+        
+
+        circle_marker_e60416954eb3549002fcd14d46642e2d.bindPopup(popup_560cda2e7cdffd9470d33787a473e348)
+        ;
+
+        
+    
+    
+            var circle_marker_2c0f2a85301039762d7efceef2b214a5 = L.circleMarker(
+                [12.869, 78.0086],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_de71e0b727ca765f0dd399ebb00136e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9173d87bde50be459301be111bc37a2 = $(`<div id="html_d9173d87bde50be459301be111bc37a2" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Masti PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_de71e0b727ca765f0dd399ebb00136e2.setContent(html_d9173d87bde50be459301be111bc37a2);
+            
+        
+
+        circle_marker_2c0f2a85301039762d7efceef2b214a5.bindPopup(popup_de71e0b727ca765f0dd399ebb00136e2)
+        ;
+
+        
+    
+    
+            var circle_marker_8763e0f11ff786d1ca4d0c8274ef8bf5 = L.circleMarker(
+                [12.96053, 77.5202],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_504396daacd9355f030b1b900d0d9d5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_269911c5484868a5bc3c4984135852e1 = $(`<div id="html_269911c5484868a5bc3c4984135852e1" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Jnanabharathi PS<br><b>District:</b> Bengaluru Urban<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 92.0</div>`)[0];
+                popup_504396daacd9355f030b1b900d0d9d5e.setContent(html_269911c5484868a5bc3c4984135852e1);
+            
+        
+
+        circle_marker_8763e0f11ff786d1ca4d0c8274ef8bf5.bindPopup(popup_504396daacd9355f030b1b900d0d9d5e)
+        ;
+
+        
+    
+    
+            var circle_marker_542aa6ea997f447879f84f40c1d5ce59 = L.circleMarker(
+                [12.927974, 77.72982],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_70065a84ab8fd2e9f75c3456690c17f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_327acc5ff6e438c97dcbe8d0e8b436cb = $(`<div id="html_327acc5ff6e438c97dcbe8d0e8b436cb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Varthur PS<br><b>District:</b> Bengaluru Urban<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 89.0</div>`)[0];
+                popup_70065a84ab8fd2e9f75c3456690c17f3.setContent(html_327acc5ff6e438c97dcbe8d0e8b436cb);
+            
+        
+
+        circle_marker_542aa6ea997f447879f84f40c1d5ce59.bindPopup(popup_70065a84ab8fd2e9f75c3456690c17f3)
+        ;
+
+        
+    
+    
+            var circle_marker_5caae749bc1d17b569543cbb3a06e7fa = L.circleMarker(
+                [15.13949, 74.66046],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_3696bd3d84d54d5db008d5e83ee52ea3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21974371abf091e530c19985b56897bf = $(`<div id="html_21974371abf091e530c19985b56897bf" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ambikanagar PS<br><b>District:</b> Uttara Kannada<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 84.0</div>`)[0];
+                popup_3696bd3d84d54d5db008d5e83ee52ea3.setContent(html_21974371abf091e530c19985b56897bf);
+            
+        
+
+        circle_marker_5caae749bc1d17b569543cbb3a06e7fa.bindPopup(popup_3696bd3d84d54d5db008d5e83ee52ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_195a953db911a34d72662f3ef334fae5 = L.circleMarker(
+                [14.64131, 74.30355],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_6db0ce3653b1a7af253d1f6bdfdec671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27fe6bdfb072da780fa04dae92d593d5 = $(`<div id="html_27fe6bdfb072da780fa04dae92d593d5" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ankola PS<br><b>District:</b> Uttara Kannada<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 93.0</div>`)[0];
+                popup_6db0ce3653b1a7af253d1f6bdfdec671.setContent(html_27fe6bdfb072da780fa04dae92d593d5);
+            
+        
+
+        circle_marker_195a953db911a34d72662f3ef334fae5.bindPopup(popup_6db0ce3653b1a7af253d1f6bdfdec671)
+        ;
+
+        
+    
+    
+            var circle_marker_4a479c1e787d940c57e7f56b27890180 = L.circleMarker(
+                [17.83028, 76.92091],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_93201a38c5bcaec3272be22b80fc54c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80bfe0d08db367ae9fe718c7cf1f058b = $(`<div id="html_80bfe0d08db367ae9fe718c7cf1f058b" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Basava Kalyana Town PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_93201a38c5bcaec3272be22b80fc54c5.setContent(html_80bfe0d08db367ae9fe718c7cf1f058b);
+            
+        
+
+        circle_marker_4a479c1e787d940c57e7f56b27890180.bindPopup(popup_93201a38c5bcaec3272be22b80fc54c5)
+        ;
+
+        
+    
+    
+            var circle_marker_dbe81558363a10cbfadf31ddf8f1f4fa = L.circleMarker(
+                [12.77617, 75.17969],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_3cf96f18a4eed6ecbc6620020c549227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8258f4da6624a5e1e35743a64b500a38 = $(`<div id="html_8258f4da6624a5e1e35743a64b500a38" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Puttur Traffic PS<br><b>District:</b> Dakshina Kannada<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_3cf96f18a4eed6ecbc6620020c549227.setContent(html_8258f4da6624a5e1e35743a64b500a38);
+            
+        
+
+        circle_marker_dbe81558363a10cbfadf31ddf8f1f4fa.bindPopup(popup_3cf96f18a4eed6ecbc6620020c549227)
+        ;
+
+        
+    
+    
+            var circle_marker_3ce23d65b53a243169f60605b81656c1 = L.circleMarker(
+                [12.58792, 77.36575],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_b70f08ee912a35b719000c240cfb83b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba6789edc823eb384edfb2c1eaacab3b = $(`<div id="html_ba6789edc823eb384edfb2c1eaacab3b" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ashoknagar PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_b70f08ee912a35b719000c240cfb83b6.setContent(html_ba6789edc823eb384edfb2c1eaacab3b);
+            
+        
+
+        circle_marker_3ce23d65b53a243169f60605b81656c1.bindPopup(popup_b70f08ee912a35b719000c240cfb83b6)
+        ;
+
+        
+    
+    
+            var circle_marker_71bc47f287cb1562fdc638df408c58ee = L.circleMarker(
+                [17.16582, 77.3269],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9aa8483f98f60167eeaed4d4c678e29e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fad2c9f6f90e5cbaff5ee4ebe6cea0d8 = $(`<div id="html_fad2c9f6f90e5cbaff5ee4ebe6cea0d8" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Malkhed PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 81.0</div>`)[0];
+                popup_9aa8483f98f60167eeaed4d4c678e29e.setContent(html_fad2c9f6f90e5cbaff5ee4ebe6cea0d8);
+            
+        
+
+        circle_marker_71bc47f287cb1562fdc638df408c58ee.bindPopup(popup_9aa8483f98f60167eeaed4d4c678e29e)
+        ;
+
+        
+    
+    
+            var circle_marker_4248bd642145d86f4bc105b0ed44751b = L.circleMarker(
+                [13.00002, 77.9282],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_66cd1212c5830d076cec3f0d7a6faa4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f7ede6a2cc13fe4881fed2bac540bfa = $(`<div id="html_4f7ede6a2cc13fe4881fed2bac540bfa" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Malur PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 79.0</div>`)[0];
+                popup_66cd1212c5830d076cec3f0d7a6faa4d.setContent(html_4f7ede6a2cc13fe4881fed2bac540bfa);
+            
+        
+
+        circle_marker_4248bd642145d86f4bc105b0ed44751b.bindPopup(popup_66cd1212c5830d076cec3f0d7a6faa4d)
+        ;
+
+        
+    
+    
+            var circle_marker_0e2847434dff6d5ffb20575655e69582 = L.circleMarker(
+                [17.33258, 76.80708],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2c905ba17978e3083497ee82176b8c41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9c9cb5cc42d354343f0d153bcc8ca75 = $(`<div id="html_a9c9cb5cc42d354343f0d153bcc8ca75" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ragavendranagar PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 81.0</div>`)[0];
+                popup_2c905ba17978e3083497ee82176b8c41.setContent(html_a9c9cb5cc42d354343f0d153bcc8ca75);
+            
+        
+
+        circle_marker_0e2847434dff6d5ffb20575655e69582.bindPopup(popup_2c905ba17978e3083497ee82176b8c41)
+        ;
+
+        
+    
+    
+            var circle_marker_b4752632458d6c86f3bbe523768ad07e = L.circleMarker(
+                [13.35566, 78.20418],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2ac66850101b87ec54cabc5701a7172a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8517dfd075c3f4324618545b57107da2 = $(`<div id="html_8517dfd075c3f4324618545b57107da2" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Srinivasapura PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_2ac66850101b87ec54cabc5701a7172a.setContent(html_8517dfd075c3f4324618545b57107da2);
+            
+        
+
+        circle_marker_b4752632458d6c86f3bbe523768ad07e.bindPopup(popup_2ac66850101b87ec54cabc5701a7172a)
+        ;
+
+        
+    
+    
+            var circle_marker_9658d02d16c29fbbb1cb64b1d1b10b9e = L.circleMarker(
+                [12.95672, 78.2638],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ff174cea0283020c3d900ac80d79a296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31a0dea4d47e9b7793328e19abda6102 = $(`<div id="html_31a0dea4d47e9b7793328e19abda6102" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Robertsonpet PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 93.0</div>`)[0];
+                popup_ff174cea0283020c3d900ac80d79a296.setContent(html_31a0dea4d47e9b7793328e19abda6102);
+            
+        
+
+        circle_marker_9658d02d16c29fbbb1cb64b1d1b10b9e.bindPopup(popup_ff174cea0283020c3d900ac80d79a296)
+        ;
+
+        
+    
+    
+            var circle_marker_05d9193905bc2ae2a99841c80b2a68b0 = L.circleMarker(
+                [12.99911, 78.22518],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_72552e53c940538739fd504d3266bd7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33d33b87ccb463c084db5c238c865fbb = $(`<div id="html_33d33b87ccb463c084db5c238c865fbb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> BEML Nagar PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_72552e53c940538739fd504d3266bd7d.setContent(html_33d33b87ccb463c084db5c238c865fbb);
+            
+        
+
+        circle_marker_05d9193905bc2ae2a99841c80b2a68b0.bindPopup(popup_72552e53c940538739fd504d3266bd7d)
+        ;
+
+        
+    
+    
+            var circle_marker_8b9532b32b5b4629bd41fd03353d1c75 = L.circleMarker(
+                [12.6443, 77.21132],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_4e793b8c57bd6dab9988fb31df53553b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35d718db1cbfc6eede9dc28134f3de8a = $(`<div id="html_35d718db1cbfc6eede9dc28134f3de8a" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Channapatna East PS<br><b>District:</b> Bengaluru South<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_4e793b8c57bd6dab9988fb31df53553b.setContent(html_35d718db1cbfc6eede9dc28134f3de8a);
+            
+        
+
+        circle_marker_8b9532b32b5b4629bd41fd03353d1c75.bindPopup(popup_4e793b8c57bd6dab9988fb31df53553b)
+        ;
+
+        
+    
+    
+            var circle_marker_edd5b014a1fea2de896a3b9afd5fe0ff = L.circleMarker(
+                [13.13244, 78.15257],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_efcfde097ba89e43eb28ac76cb91c1db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c06d270aa0964f558144caf7c120d5d4 = $(`<div id="html_c06d270aa0964f558144caf7c120d5d4" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kolar CEN Crime PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_efcfde097ba89e43eb28ac76cb91c1db.setContent(html_c06d270aa0964f558144caf7c120d5d4);
+            
+        
+
+        circle_marker_edd5b014a1fea2de896a3b9afd5fe0ff.bindPopup(popup_efcfde097ba89e43eb28ac76cb91c1db)
+        ;
+
+        
+    
+    
+            var circle_marker_7eff7bb9e7f8734b571f96a91e8cf0ae = L.circleMarker(
+                [12.936656, 78.371072],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_df719962e9e3e26787994baee57c2ea7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_067625cb8a03976bf79c25b237c95855 = $(`<div id="html_067625cb8a03976bf79c25b237c95855" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kyasamballi Police Station<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 92.0</div>`)[0];
+                popup_df719962e9e3e26787994baee57c2ea7.setContent(html_067625cb8a03976bf79c25b237c95855);
+            
+        
+
+        circle_marker_7eff7bb9e7f8734b571f96a91e8cf0ae.bindPopup(popup_df719962e9e3e26787994baee57c2ea7)
+        ;
+
+        
+    
+    
+            var circle_marker_653eb9a36a03cd18d4d821a5041b915b = L.circleMarker(
+                [12.89063, 78.0006],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_6bbbb9d1d3e08c2863f02ebe0a1cb6fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612037fae134377ac9a52bac1bb77458 = $(`<div id="html_612037fae134377ac9a52bac1bb77458" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Masti PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_6bbbb9d1d3e08c2863f02ebe0a1cb6fe.setContent(html_612037fae134377ac9a52bac1bb77458);
+            
+        
+
+        circle_marker_653eb9a36a03cd18d4d821a5041b915b.bindPopup(popup_6bbbb9d1d3e08c2863f02ebe0a1cb6fe)
+        ;
+
+        
+    
+    
+            var circle_marker_23d5df47ea6b0132ca9ada5e260e975c = L.circleMarker(
+                [14.51988, 74.3272],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ede5b6d626e96cf5798167085a484363 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f04e289c2b5b93adf7cb6bd59afc0fd = $(`<div id="html_1f04e289c2b5b93adf7cb6bd59afc0fd" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gokarna PS<br><b>District:</b> Uttara Kannada<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 90.0</div>`)[0];
+                popup_ede5b6d626e96cf5798167085a484363.setContent(html_1f04e289c2b5b93adf7cb6bd59afc0fd);
+            
+        
+
+        circle_marker_23d5df47ea6b0132ca9ada5e260e975c.bindPopup(popup_ede5b6d626e96cf5798167085a484363)
+        ;
+
+        
+    
+    
+            var circle_marker_26a42d96b25f028d38c41dc025b700e2 = L.circleMarker(
+                [12.98693, 78.248],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_4574d686ce0ab443894ac9d8544ad94e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d1529c3faccf6e4d34cf7247037387 = $(`<div id="html_d7d1529c3faccf6e4d34cf7247037387" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> BEML Nagar PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_4574d686ce0ab443894ac9d8544ad94e.setContent(html_d7d1529c3faccf6e4d34cf7247037387);
+            
+        
+
+        circle_marker_26a42d96b25f028d38c41dc025b700e2.bindPopup(popup_4574d686ce0ab443894ac9d8544ad94e)
+        ;
+
+        
+    
+    
+            var circle_marker_79273be389350995c724be3ab55a926a = L.circleMarker(
+                [13.21212, 78.53026],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_48113150ee54d85455670786ff1d024d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ef3dbadfc0ca061facb412d79574042 = $(`<div id="html_4ef3dbadfc0ca061facb412d79574042" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nangli PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_48113150ee54d85455670786ff1d024d.setContent(html_4ef3dbadfc0ca061facb412d79574042);
+            
+        
+
+        circle_marker_79273be389350995c724be3ab55a926a.bindPopup(popup_48113150ee54d85455670786ff1d024d)
+        ;
+
+        
+    
+    
+            var circle_marker_1d6ec68de8ef4d4f57177f8295e15927 = L.circleMarker(
+                [12.95205, 78.28194],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f4c29eec098f4a53da8647c05d0394fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6f256c33d99b80d290b94b6c22dfc9c = $(`<div id="html_a6f256c33d99b80d290b94b6c22dfc9c" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Andersonpet PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 73.0</div>`)[0];
+                popup_f4c29eec098f4a53da8647c05d0394fc.setContent(html_a6f256c33d99b80d290b94b6c22dfc9c);
+            
+        
+
+        circle_marker_1d6ec68de8ef4d4f57177f8295e15927.bindPopup(popup_f4c29eec098f4a53da8647c05d0394fc)
+        ;
+
+        
+    
+    
+            var circle_marker_5c973badbbdffb4b0f2d9901f9bc1d92 = L.circleMarker(
+                [12.968786, 77.766036],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_8740eb16ff71d458f53830cf11de72df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1921e9833c8e8e6513bf0d9b70146520 = $(`<div id="html_1921e9833c8e8e6513bf0d9b70146520" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Whitefield PS<br><b>District:</b> Bengaluru Urban<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_8740eb16ff71d458f53830cf11de72df.setContent(html_1921e9833c8e8e6513bf0d9b70146520);
+            
+        
+
+        circle_marker_5c973badbbdffb4b0f2d9901f9bc1d92.bindPopup(popup_8740eb16ff71d458f53830cf11de72df)
+        ;
+
+        
+    
+    
+            var circle_marker_93cbc8a81c52690e7991bb9432d37cf5 = L.circleMarker(
+                [12.7826, 77.51554],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_b8037ae90370d016ca16183ac817ac29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c9c7b8a70b1c9cd68ef261e01bff7f4 = $(`<div id="html_7c9c7b8a70b1c9cd68ef261e01bff7f4" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kaggalipura PS<br><b>District:</b> Bengaluru South<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 80.0</div>`)[0];
+                popup_b8037ae90370d016ca16183ac817ac29.setContent(html_7c9c7b8a70b1c9cd68ef261e01bff7f4);
+            
+        
+
+        circle_marker_93cbc8a81c52690e7991bb9432d37cf5.bindPopup(popup_b8037ae90370d016ca16183ac817ac29)
+        ;
+
+        
+    
+    
+            var circle_marker_e8feda790b91a219e399df532b88cba9 = L.circleMarker(
+                [13.00494, 75.28492],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_286bf62fb46c12423e46cb69a926170e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5127995422a8aac21a65c1f1dea35043 = $(`<div id="html_5127995422a8aac21a65c1f1dea35043" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Belthangadi PS<br><b>District:</b> Dakshina Kannada<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 82.0</div>`)[0];
+                popup_286bf62fb46c12423e46cb69a926170e.setContent(html_5127995422a8aac21a65c1f1dea35043);
+            
+        
+
+        circle_marker_e8feda790b91a219e399df532b88cba9.bindPopup(popup_286bf62fb46c12423e46cb69a926170e)
+        ;
+
+        
+    
+    
+            var circle_marker_1c6f3dee81dc55f2fbaafb771f46b3b0 = L.circleMarker(
+                [13.27835, 77.81302],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f5a384e42e2409ed4a4c07b303b2dccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4d041c2c771c120df0266de70bd43fb = $(`<div id="html_c4d041c2c771c120df0266de70bd43fb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Chennarayapatana PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 82.0</div>`)[0];
+                popup_f5a384e42e2409ed4a4c07b303b2dccd.setContent(html_c4d041c2c771c120df0266de70bd43fb);
+            
+        
+
+        circle_marker_1c6f3dee81dc55f2fbaafb771f46b3b0.bindPopup(popup_f5a384e42e2409ed4a4c07b303b2dccd)
+        ;
+
+        
+    
+    
+            var circle_marker_5a036978e13ff074eed78e630dfbcabb = L.circleMarker(
+                [13.13494, 78.14931],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_625f6ff02aaff3adc5ac6e568d8313eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f98dff793d3aa8d5b85d24fdac701857 = $(`<div id="html_f98dff793d3aa8d5b85d24fdac701857" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kolar CEN Crime PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 85.0</div>`)[0];
+                popup_625f6ff02aaff3adc5ac6e568d8313eb.setContent(html_f98dff793d3aa8d5b85d24fdac701857);
+            
+        
+
+        circle_marker_5a036978e13ff074eed78e630dfbcabb.bindPopup(popup_625f6ff02aaff3adc5ac6e568d8313eb)
+        ;
+
+        
+    
+    
+            var circle_marker_676b3d82b546c8085cf6186f7f199930 = L.circleMarker(
+                [12.59754, 77.3499],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_04e2f559019736a8e92ba503f07ac958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38db4373e5c75914961daaa509070b78 = $(`<div id="html_38db4373e5c75914961daaa509070b78" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ashoknagar PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 70.0</div>`)[0];
+                popup_04e2f559019736a8e92ba503f07ac958.setContent(html_38db4373e5c75914961daaa509070b78);
+            
+        
+
+        circle_marker_676b3d82b546c8085cf6186f7f199930.bindPopup(popup_04e2f559019736a8e92ba503f07ac958)
+        ;
+
+        
+    
+    
+            var circle_marker_98a7cf5d39ffd0b45135fdb0b33b5753 = L.circleMarker(
+                [12.95776, 78.290251],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2c9c74a5710cc65cad7b65899e857bac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40498d277a2879b37f9968399ee71349 = $(`<div id="html_40498d277a2879b37f9968399ee71349" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> KGF CEN Crime PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_2c9c74a5710cc65cad7b65899e857bac.setContent(html_40498d277a2879b37f9968399ee71349);
+            
+        
+
+        circle_marker_98a7cf5d39ffd0b45135fdb0b33b5753.bindPopup(popup_2c9c74a5710cc65cad7b65899e857bac)
+        ;
+
+        
+    
+    
+            var circle_marker_0242740414cdcfba554cf1ad918f35cd = L.circleMarker(
+                [15.23564, 76.59316],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_cb86aba2c27cd5b9ab1b769eb26ed762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_677be258ab5122acad184dd3cc2f9d71 = $(`<div id="html_677be258ab5122acad184dd3cc2f9d71" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gandhinagar PS<br><b>District:</b> Ballari<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 94.0</div>`)[0];
+                popup_cb86aba2c27cd5b9ab1b769eb26ed762.setContent(html_677be258ab5122acad184dd3cc2f9d71);
+            
+        
+
+        circle_marker_0242740414cdcfba554cf1ad918f35cd.bindPopup(popup_cb86aba2c27cd5b9ab1b769eb26ed762)
+        ;
+
+        
+    
+    
+            var circle_marker_05e4aadb5d09643922bd41feee030249 = L.circleMarker(
+                [13.091971, 77.385805],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_8f52c09b7c7c2a589e1fbd663bb7890d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e79d52fc5273a4f91975079452d4475 = $(`<div id="html_2e79d52fc5273a4f91975079452d4475" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nelamangala Traffic PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 73.0</div>`)[0];
+                popup_8f52c09b7c7c2a589e1fbd663bb7890d.setContent(html_2e79d52fc5273a4f91975079452d4475);
+            
+        
+
+        circle_marker_05e4aadb5d09643922bd41feee030249.bindPopup(popup_8f52c09b7c7c2a589e1fbd663bb7890d)
+        ;
+
+        
+    
+    
+            var circle_marker_945ed70388a8e7c73ca590064ae3e69c = L.circleMarker(
+                [17.83687, 76.86512],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_13144daee46eb41ea8911efe87478e96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a24947b41f0b71623149d4c9dab2162c = $(`<div id="html_a24947b41f0b71623149d4c9dab2162c" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Basava Kalyana Rural PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_13144daee46eb41ea8911efe87478e96.setContent(html_a24947b41f0b71623149d4c9dab2162c);
+            
+        
+
+        circle_marker_945ed70388a8e7c73ca590064ae3e69c.bindPopup(popup_13144daee46eb41ea8911efe87478e96)
+        ;
+
+        
+    
+    
+            var circle_marker_21e3617541a589e6886674dbb604d7ba = L.circleMarker(
+                [12.97876, 78.16396],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_88a3df58a0c0a93071855de034c40e88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1f25b3eb6d0098f30e5a6fbd07242d5 = $(`<div id="html_c1f25b3eb6d0098f30e5a6fbd07242d5" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bangarpet PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_88a3df58a0c0a93071855de034c40e88.setContent(html_c1f25b3eb6d0098f30e5a6fbd07242d5);
+            
+        
+
+        circle_marker_21e3617541a589e6886674dbb604d7ba.bindPopup(popup_88a3df58a0c0a93071855de034c40e88)
+        ;
+
+        
+    
+    
+            var circle_marker_78f1094e2d5e01243560fd23daf51ced = L.circleMarker(
+                [17.45915, 76.38471],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5c13ceb3ba9bdc44b0054a8a6e107b22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_769ef06b750ce1591e78320be1646004 = $(`<div id="html_769ef06b750ce1591e78320be1646004" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Madanahipparga PS<br><b>District:</b> Kalaburagi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 74.0</div>`)[0];
+                popup_5c13ceb3ba9bdc44b0054a8a6e107b22.setContent(html_769ef06b750ce1591e78320be1646004);
+            
+        
+
+        circle_marker_78f1094e2d5e01243560fd23daf51ced.bindPopup(popup_5c13ceb3ba9bdc44b0054a8a6e107b22)
+        ;
+
+        
+    
+    
+            var circle_marker_5defc720b01866e20eec15b7cd0f33f5 = L.circleMarker(
+                [18.0349, 77.22733],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1e7400ae41d6bcf8af37777fa9b758be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a49da1a86eb94f331bb16bac9be77065 = $(`<div id="html_a49da1a86eb94f331bb16bac9be77065" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bhalki Town PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_1e7400ae41d6bcf8af37777fa9b758be.setContent(html_a49da1a86eb94f331bb16bac9be77065);
+            
+        
+
+        circle_marker_5defc720b01866e20eec15b7cd0f33f5.bindPopup(popup_1e7400ae41d6bcf8af37777fa9b758be)
+        ;
+
+        
+    
+    
+            var circle_marker_908603454797e0867b15108def54510b = L.circleMarker(
+                [12.31189, 76.67935],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_13e7481c5579723df62ca24f5558b18e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e798fbeea1e3f5fdc1a298143668cc0 = $(`<div id="html_2e798fbeea1e3f5fdc1a298143668cc0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Siddarthanagar Traffic PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_13e7481c5579723df62ca24f5558b18e.setContent(html_2e798fbeea1e3f5fdc1a298143668cc0);
+            
+        
+
+        circle_marker_908603454797e0867b15108def54510b.bindPopup(popup_13e7481c5579723df62ca24f5558b18e)
+        ;
+
+        
+    
+    
+            var circle_marker_c1c6426306defd8a6598c97b126437f2 = L.circleMarker(
+                [12.2065, 76.32216],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_c52dc1b8cb01cdf4dad7faac8f2ba0c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4e5c6fcd9f838c9b46e0421c7855bcb = $(`<div id="html_d4e5c6fcd9f838c9b46e0421c7855bcb" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Yelawala PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_c52dc1b8cb01cdf4dad7faac8f2ba0c5.setContent(html_d4e5c6fcd9f838c9b46e0421c7855bcb);
+            
+        
+
+        circle_marker_c1c6426306defd8a6598c97b126437f2.bindPopup(popup_c52dc1b8cb01cdf4dad7faac8f2ba0c5)
+        ;
+
+        
+    
+    
+            var circle_marker_b9e488dc424e3b9c7c708b2ee4c96912 = L.circleMarker(
+                [12.01564, 76.22654],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_56a74e3e2dd8e06916f22ed782d1eaf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21751f90a5255916904aba2830010a58 = $(`<div id="html_21751f90a5255916904aba2830010a58" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Saragur PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 100.0</div>`)[0];
+                popup_56a74e3e2dd8e06916f22ed782d1eaf6.setContent(html_21751f90a5255916904aba2830010a58);
+            
+        
+
+        circle_marker_b9e488dc424e3b9c7c708b2ee4c96912.bindPopup(popup_56a74e3e2dd8e06916f22ed782d1eaf6)
+        ;
+
+        
+    
+    
+            var circle_marker_ebe974b014a653861aed67a5973d2cc2 = L.circleMarker(
+                [13.17944, 76.53768],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e38213b12543f3279c49cd134ef7bc91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4364649ad3898aa79e893732b20861e0 = $(`<div id="html_4364649ad3898aa79e893732b20861e0" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nonavinakere PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 88.0</div>`)[0];
+                popup_e38213b12543f3279c49cd134ef7bc91.setContent(html_4364649ad3898aa79e893732b20861e0);
+            
+        
+
+        circle_marker_ebe974b014a653861aed67a5973d2cc2.bindPopup(popup_e38213b12543f3279c49cd134ef7bc91)
+        ;
+
+        
+    
+    
+            var circle_marker_965f63c384d054a9955c12f8b65df417 = L.circleMarker(
+                [12.66995, 76.27205],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2a902f808ce28100f7ce46e88c2560c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba0feb8f18cd84fb046357fde380d03f = $(`<div id="html_ba0feb8f18cd84fb046357fde380d03f" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hallymysore PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 78.0</div>`)[0];
+                popup_2a902f808ce28100f7ce46e88c2560c3.setContent(html_ba0feb8f18cd84fb046357fde380d03f);
+            
+        
+
+        circle_marker_965f63c384d054a9955c12f8b65df417.bindPopup(popup_2a902f808ce28100f7ce46e88c2560c3)
+        ;
+
+        
+    
+    
+            var circle_marker_15924cddf47f79804d80c4d543aee721 = L.circleMarker(
+                [13.39627, 77.68344],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_52737b3fae6303093adf6a4ef678687d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae275c9224984c822d42ba23e880d065 = $(`<div id="html_ae275c9224984c822d42ba23e880d065" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nandi Giridhama PS<br><b>District:</b> Chikkaballapura<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 83.0</div>`)[0];
+                popup_52737b3fae6303093adf6a4ef678687d.setContent(html_ae275c9224984c822d42ba23e880d065);
+            
+        
+
+        circle_marker_15924cddf47f79804d80c4d543aee721.bindPopup(popup_52737b3fae6303093adf6a4ef678687d)
+        ;
+
+        
+    
+    
+            var circle_marker_64afeed562c7056e570e70b6a4bdc55d = L.circleMarker(
+                [11.9285, 76.91641],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_61259817e2ff64a7294b7745d3165bf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b76268a3d2cbf40b64ac00c5e87a9a9b = $(`<div id="html_b76268a3d2cbf40b64ac00c5e87a9a9b" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Chamarajanagar Traffic PS<br><b>District:</b> Chamarajanagar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_61259817e2ff64a7294b7745d3165bf7.setContent(html_b76268a3d2cbf40b64ac00c5e87a9a9b);
+            
+        
+
+        circle_marker_64afeed562c7056e570e70b6a4bdc55d.bindPopup(popup_61259817e2ff64a7294b7745d3165bf7)
+        ;
+
+        
+    
+    
+            var circle_marker_33169e6dca05909cca461ae39ec02f09 = L.circleMarker(
+                [14.99977, 75.23856],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5efc2885f9a75e162a5458fd62819c77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4716aed8f0635b82b5a15677598dd46 = $(`<div id="html_b4716aed8f0635b82b5a15677598dd46" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Shiggaon PS<br><b>District:</b> Haveri<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 89.0</div>`)[0];
+                popup_5efc2885f9a75e162a5458fd62819c77.setContent(html_b4716aed8f0635b82b5a15677598dd46);
+            
+        
+
+        circle_marker_33169e6dca05909cca461ae39ec02f09.bindPopup(popup_5efc2885f9a75e162a5458fd62819c77)
+        ;
+
+        
+    
+    
+            var circle_marker_af1e47f8a4b77587982235f3961f3a1f = L.circleMarker(
+                [12.27171, 75.60495],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7cc0dbc272abe1f7741789d5bd358e10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2eb873f63ec3ab5eeb22b7e9690f084 = $(`<div id="html_a2eb873f63ec3ab5eeb22b7e9690f084" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bylakuppe PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_7cc0dbc272abe1f7741789d5bd358e10.setContent(html_a2eb873f63ec3ab5eeb22b7e9690f084);
+            
+        
+
+        circle_marker_af1e47f8a4b77587982235f3961f3a1f.bindPopup(popup_7cc0dbc272abe1f7741789d5bd358e10)
+        ;
+
+        
+    
+    
+            var circle_marker_5091863f17981c34268603ee5bd1d88a = L.circleMarker(
+                [15.858808, 74.537288],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d34622c481bf9b0011c3af38b0d94f4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b26a896d8972c7ed03504a537d77daa = $(`<div id="html_1b26a896d8972c7ed03504a537d77daa" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Belagavi City CEN Crime PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 74.0</div>`)[0];
+                popup_d34622c481bf9b0011c3af38b0d94f4a.setContent(html_1b26a896d8972c7ed03504a537d77daa);
+            
+        
+
+        circle_marker_5091863f17981c34268603ee5bd1d88a.bindPopup(popup_d34622c481bf9b0011c3af38b0d94f4a)
+        ;
+
+        
+    
+    
+            var circle_marker_5f5a2dd25945f8a1c9b6aca4d84f0072 = L.circleMarker(
+                [15.85975, 74.53001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_83c2a24e7ab8302ba6059c568f661f24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60cd69ca4330b60043cec82202102ae4 = $(`<div id="html_60cd69ca4330b60043cec82202102ae4" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Market PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 82.0</div>`)[0];
+                popup_83c2a24e7ab8302ba6059c568f661f24.setContent(html_60cd69ca4330b60043cec82202102ae4);
+            
+        
+
+        circle_marker_5f5a2dd25945f8a1c9b6aca4d84f0072.bindPopup(popup_83c2a24e7ab8302ba6059c568f661f24)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa9cf0bc0dd4eed81e61f18224651f6 = L.circleMarker(
+                [15.76109, 74.63004],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9fd0c58613c980c05e6040cd3fc524e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_589b73f0c886d5cb6b8b743bcb5d8196 = $(`<div id="html_589b73f0c886d5cb6b8b743bcb5d8196" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bagewadi PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 96.0</div>`)[0];
+                popup_9fd0c58613c980c05e6040cd3fc524e5.setContent(html_589b73f0c886d5cb6b8b743bcb5d8196);
+            
+        
+
+        circle_marker_9aa9cf0bc0dd4eed81e61f18224651f6.bindPopup(popup_9fd0c58613c980c05e6040cd3fc524e5)
+        ;
+
+        
+    
+    
+            var circle_marker_5093a81dbd173371989e5c16a8802e8f = L.circleMarker(
+                [12.30122, 76.64656],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1537f8c86313e86ab4d79c9691bdaafd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e300cbc8d9d08a6f2811216d0b0d8179 = $(`<div id="html_e300cbc8d9d08a6f2811216d0b0d8179" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Deveraja Traffic PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_1537f8c86313e86ab4d79c9691bdaafd.setContent(html_e300cbc8d9d08a6f2811216d0b0d8179);
+            
+        
+
+        circle_marker_5093a81dbd173371989e5c16a8802e8f.bindPopup(popup_1537f8c86313e86ab4d79c9691bdaafd)
+        ;
+
+        
+    
+    
+            var circle_marker_61183fcef5cab41e16867ff27d53d44b = L.circleMarker(
+                [12.32299, 76.62337],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e0771dc9906903eb227511314b85481c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1206fc77d647564cabc8a0f8e1882521 = $(`<div id="html_1206fc77d647564cabc8a0f8e1882521" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> V.V. Puram PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_e0771dc9906903eb227511314b85481c.setContent(html_1206fc77d647564cabc8a0f8e1882521);
+            
+        
+
+        circle_marker_61183fcef5cab41e16867ff27d53d44b.bindPopup(popup_e0771dc9906903eb227511314b85481c)
+        ;
+
+        
+    
+    
+            var circle_marker_38e1943474759fd7f8ff40f83a7d1fc2 = L.circleMarker(
+                [12.10859, 77.15641],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_30551fead61de415934ff71845898546 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55c06ddfaa5c32dffda10e20d5510539 = $(`<div id="html_55c06ddfaa5c32dffda10e20d5510539" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Talakadu PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 94.0</div>`)[0];
+                popup_30551fead61de415934ff71845898546.setContent(html_55c06ddfaa5c32dffda10e20d5510539);
+            
+        
+
+        circle_marker_38e1943474759fd7f8ff40f83a7d1fc2.bindPopup(popup_30551fead61de415934ff71845898546)
+        ;
+
+        
+    
+    
+            var circle_marker_2fc66acdae79c8f79e63d10489c13e42 = L.circleMarker(
+                [13.676728, 77.195471],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_d217687206931e59ef55a6c8c7951e9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24ec4afbf5798de571bc76fd929932e3 = $(`<div id="html_24ec4afbf5798de571bc76fd929932e3" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Madhugiri PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 75.0</div>`)[0];
+                popup_d217687206931e59ef55a6c8c7951e9e.setContent(html_24ec4afbf5798de571bc76fd929932e3);
+            
+        
+
+        circle_marker_2fc66acdae79c8f79e63d10489c13e42.bindPopup(popup_d217687206931e59ef55a6c8c7951e9e)
+        ;
+
+        
+    
+    
+            var circle_marker_44cc547533aa516a08a645453df3364e = L.circleMarker(
+                [16.12139, 74.69416],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7ed72e298de5b61c39deb23987115ad1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_520ab9dacff3f8b58e23d2c83269ad71 = $(`<div id="html_520ab9dacff3f8b58e23d2c83269ad71" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Gokak Town PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 77.0</div>`)[0];
+                popup_7ed72e298de5b61c39deb23987115ad1.setContent(html_520ab9dacff3f8b58e23d2c83269ad71);
+            
+        
+
+        circle_marker_44cc547533aa516a08a645453df3364e.bindPopup(popup_7ed72e298de5b61c39deb23987115ad1)
+        ;
+
+        
+    
+    
+            var circle_marker_cde6a629e94f29efba9bc6cb7f55357d = L.circleMarker(
+                [12.60088, 77.03565],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_2a4975b3f58186663e8c05eab526f3af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f69cf61aaecf877819378daa8d99642c = $(`<div id="html_f69cf61aaecf877819378daa8d99642c" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Maddur PS<br><b>District:</b> Mandya<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 100.0</div>`)[0];
+                popup_2a4975b3f58186663e8c05eab526f3af.setContent(html_f69cf61aaecf877819378daa8d99642c);
+            
+        
+
+        circle_marker_cde6a629e94f29efba9bc6cb7f55357d.bindPopup(popup_2a4975b3f58186663e8c05eab526f3af)
+        ;
+
+        
+    
+    
+            var circle_marker_a6a9932f9f8a34d44c7319431c729706 = L.circleMarker(
+                [16.53295, 74.66871],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e5931c0a8299eab4078a38ae785b4f58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5672f95d9ba4751b30d9002d5ca0de30 = $(`<div id="html_5672f95d9ba4751b30d9002d5ca0de30" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Ankali PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_e5931c0a8299eab4078a38ae785b4f58.setContent(html_5672f95d9ba4751b30d9002d5ca0de30);
+            
+        
+
+        circle_marker_a6a9932f9f8a34d44c7319431c729706.bindPopup(popup_e5931c0a8299eab4078a38ae785b4f58)
+        ;
+
+        
+    
+    
+            var circle_marker_9bea47682fb1ed53b4fca15a315c4aa3 = L.circleMarker(
+                [12.27575, 76.62651],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_be20f97b63c9c8c4c315320a0c7afa5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f45676299cc89c6f23a43c885119517 = $(`<div id="html_6f45676299cc89c6f23a43c885119517" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kuvempunagar PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 87.0</div>`)[0];
+                popup_be20f97b63c9c8c4c315320a0c7afa5e.setContent(html_6f45676299cc89c6f23a43c885119517);
+            
+        
+
+        circle_marker_9bea47682fb1ed53b4fca15a315c4aa3.bindPopup(popup_be20f97b63c9c8c4c315320a0c7afa5e)
+        ;
+
+        
+    
+    
+            var circle_marker_3a024c87a68a314f24b42021cbf602c7 = L.circleMarker(
+                [13.20449, 77.88484],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f94cbd595ebb112e164f5250308570b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83efd9a239d0cf9f26668bbbfa5d1162 = $(`<div id="html_83efd9a239d0cf9f26668bbbfa5d1162" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nandagudi PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_f94cbd595ebb112e164f5250308570b0.setContent(html_83efd9a239d0cf9f26668bbbfa5d1162);
+            
+        
+
+        circle_marker_3a024c87a68a314f24b42021cbf602c7.bindPopup(popup_f94cbd595ebb112e164f5250308570b0)
+        ;
+
+        
+    
+    
+            var circle_marker_e45597101573e121ecbd720e4e7f5bf4 = L.circleMarker(
+                [12.85689, 78.00714],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_e8a089dddd016dc7accb0bbae8c5c4de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e95da465cc200276267a18210c1b10a = $(`<div id="html_4e95da465cc200276267a18210c1b10a" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Masti PS<br><b>District:</b> Kolar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 89.0</div>`)[0];
+                popup_e8a089dddd016dc7accb0bbae8c5c4de.setContent(html_4e95da465cc200276267a18210c1b10a);
+            
+        
+
+        circle_marker_e45597101573e121ecbd720e4e7f5bf4.bindPopup(popup_e8a089dddd016dc7accb0bbae8c5c4de)
+        ;
+
+        
+    
+    
+            var circle_marker_2eb9bcef23bf5eb0c5d4ed9f1696ba6a = L.circleMarker(
+                [18.22822, 77.18613],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5f1d421264b4ee3ac5ee649e8484b4fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50aa10be3e91c1e324c081702bc8a643 = $(`<div id="html_50aa10be3e91c1e324c081702bc8a643" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kamalanagar PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_5f1d421264b4ee3ac5ee649e8484b4fe.setContent(html_50aa10be3e91c1e324c081702bc8a643);
+            
+        
+
+        circle_marker_2eb9bcef23bf5eb0c5d4ed9f1696ba6a.bindPopup(popup_5f1d421264b4ee3ac5ee649e8484b4fe)
+        ;
+
+        
+    
+    
+            var circle_marker_641295688e5f8380929e876b99584d76 = L.circleMarker(
+                [17.7647, 77.50253],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_caaa5831a75bec00a41f21817d7842ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a76276235a661e333944b6d8e7d48de = $(`<div id="html_0a76276235a661e333944b6d8e7d48de" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Mannalli PS<br><b>District:</b> Bidar<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 80.0</div>`)[0];
+                popup_caaa5831a75bec00a41f21817d7842ff.setContent(html_0a76276235a661e333944b6d8e7d48de);
+            
+        
+
+        circle_marker_641295688e5f8380929e876b99584d76.bindPopup(popup_caaa5831a75bec00a41f21817d7842ff)
+        ;
+
+        
+    
+    
+            var circle_marker_e15c7b222b6f13561cc01ed62d61c350 = L.circleMarker(
+                [15.61053, 76.66623],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1dec3453cc6c8cb8cb2a80ea5262d716 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5706ef9b10ece3d2c4b3c2a56b29d7b3 = $(`<div id="html_5706ef9b10ece3d2c4b3c2a56b29d7b3" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Karatagi PS<br><b>District:</b> Koppal<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 72.0</div>`)[0];
+                popup_1dec3453cc6c8cb8cb2a80ea5262d716.setContent(html_5706ef9b10ece3d2c4b3c2a56b29d7b3);
+            
+        
+
+        circle_marker_e15c7b222b6f13561cc01ed62d61c350.bindPopup(popup_1dec3453cc6c8cb8cb2a80ea5262d716)
+        ;
+
+        
+    
+    
+            var circle_marker_924a67eb45dd8267af4e536fb6b1891f = L.circleMarker(
+                [13.28174, 77.61201],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_1616af86f7cb4d6e7c31ee2598a71176 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c08c90dee8e212bfdd2c4be6bb6cf94 = $(`<div id="html_5c08c90dee8e212bfdd2c4be6bb6cf94" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Vishwanathapura PS<br><b>District:</b> Bengaluru Rural<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 89.0</div>`)[0];
+                popup_1616af86f7cb4d6e7c31ee2598a71176.setContent(html_5c08c90dee8e212bfdd2c4be6bb6cf94);
+            
+        
+
+        circle_marker_924a67eb45dd8267af4e536fb6b1891f.bindPopup(popup_1616af86f7cb4d6e7c31ee2598a71176)
+        ;
+
+        
+    
+    
+            var circle_marker_b6ed0d1b24f639532ed9442376a00f6b = L.circleMarker(
+                [15.27711, 76.3173],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_07b264d46015bcea6ce540a4d3f33f6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d922cb0f488bb7fa6a9ed79150624b20 = $(`<div id="html_d922cb0f488bb7fa6a9ed79150624b20" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Munirabad PS<br><b>District:</b> Koppal<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 77.0</div>`)[0];
+                popup_07b264d46015bcea6ce540a4d3f33f6f.setContent(html_d922cb0f488bb7fa6a9ed79150624b20);
+            
+        
+
+        circle_marker_b6ed0d1b24f639532ed9442376a00f6b.bindPopup(popup_07b264d46015bcea6ce540a4d3f33f6f)
+        ;
+
+        
+    
+    
+            var circle_marker_e6a2918a0babbb3f3eaccdc35da97dc0 = L.circleMarker(
+                [15.21467, 75.9809],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_201c8d0cb9d257582de4e8f5ce7ae5aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fc773d5926fddc40aaddab539109874 = $(`<div id="html_1fc773d5926fddc40aaddab539109874" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Alwandi PS<br><b>District:</b> Koppal<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 99.0</div>`)[0];
+                popup_201c8d0cb9d257582de4e8f5ce7ae5aa.setContent(html_1fc773d5926fddc40aaddab539109874);
+            
+        
+
+        circle_marker_e6a2918a0babbb3f3eaccdc35da97dc0.bindPopup(popup_201c8d0cb9d257582de4e8f5ce7ae5aa)
+        ;
+
+        
+    
+    
+            var circle_marker_5694b65ff325f2f35b715fb997fc4537 = L.circleMarker(
+                [12.52866, 76.89751],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7d66f1c0bc20e734283a18f51f793663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ac3391724c57b25ef7ead90f37f8070 = $(`<div id="html_9ac3391724c57b25ef7ead90f37f8070" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Mandya Traffic PS<br><b>District:</b> Mandya<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_7d66f1c0bc20e734283a18f51f793663.setContent(html_9ac3391724c57b25ef7ead90f37f8070);
+            
+        
+
+        circle_marker_5694b65ff325f2f35b715fb997fc4537.bindPopup(popup_7d66f1c0bc20e734283a18f51f793663)
+        ;
+
+        
+    
+    
+            var circle_marker_dfeed1bc76b431803bc43a15099aefd4 = L.circleMarker(
+                [12.50515, 76.88072],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_8aaa4ee3dc0d8c80391e8e18a5c7fab2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8f63b3540fa534df7c34bc6d20b95de = $(`<div id="html_c8f63b3540fa534df7c34bc6d20b95de" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Mandya Central PS<br><b>District:</b> Mandya<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 98.0</div>`)[0];
+                popup_8aaa4ee3dc0d8c80391e8e18a5c7fab2.setContent(html_c8f63b3540fa534df7c34bc6d20b95de);
+            
+        
+
+        circle_marker_dfeed1bc76b431803bc43a15099aefd4.bindPopup(popup_8aaa4ee3dc0d8c80391e8e18a5c7fab2)
+        ;
+
+        
+    
+    
+            var circle_marker_f42d12b894ae237ae9a72993ebf6566a = L.circleMarker(
+                [15.11857, 76.92991],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_94825ebd71c1de6b140830800bd0bfa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6e9d9797c4ff4609fc147d186de5f42 = $(`<div id="html_f6e9d9797c4ff4609fc147d186de5f42" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> APMC Yard PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 89.0</div>`)[0];
+                popup_94825ebd71c1de6b140830800bd0bfa7.setContent(html_f6e9d9797c4ff4609fc147d186de5f42);
+            
+        
+
+        circle_marker_f42d12b894ae237ae9a72993ebf6566a.bindPopup(popup_94825ebd71c1de6b140830800bd0bfa7)
+        ;
+
+        
+    
+    
+            var circle_marker_01823d78ccbd125d7b2d6a52f8852d0d = L.circleMarker(
+                [12.29881, 76.62989],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_b921fff15eb8b47b26d09fd7bfe2a79c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f1f59e957c4fdeae257b1ee3532abf2 = $(`<div id="html_4f1f59e957c4fdeae257b1ee3532abf2" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Devaraja PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 90.0</div>`)[0];
+                popup_b921fff15eb8b47b26d09fd7bfe2a79c.setContent(html_4f1f59e957c4fdeae257b1ee3532abf2);
+            
+        
+
+        circle_marker_01823d78ccbd125d7b2d6a52f8852d0d.bindPopup(popup_b921fff15eb8b47b26d09fd7bfe2a79c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc630a7384c28e43d79b91bf6e2138a0 = L.circleMarker(
+                [15.889228, 74.546358],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_5d9a1fdb1b74a831ba281c615912f010 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d2fdabca8c446335a5d7dc15e0d2185 = $(`<div id="html_2d2fdabca8c446335a5d7dc15e0d2185" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Belagavi City CEN Crime PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 91.0</div>`)[0];
+                popup_5d9a1fdb1b74a831ba281c615912f010.setContent(html_2d2fdabca8c446335a5d7dc15e0d2185);
+            
+        
+
+        circle_marker_dc630a7384c28e43d79b91bf6e2138a0.bindPopup(popup_5d9a1fdb1b74a831ba281c615912f010)
+        ;
+
+        
+    
+    
+            var circle_marker_19b815c7571492a3ca9c9b62ed002310 = L.circleMarker(
+                [15.84899, 74.52033],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_4131c5eecb05f0809b8d5126b61971dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66a2dee3e2d98dca07e24c50350d26ed = $(`<div id="html_66a2dee3e2d98dca07e24c50350d26ed" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Belgaum North Traffic PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 73.0</div>`)[0];
+                popup_4131c5eecb05f0809b8d5126b61971dc.setContent(html_66a2dee3e2d98dca07e24c50350d26ed);
+            
+        
+
+        circle_marker_19b815c7571492a3ca9c9b62ed002310.bindPopup(popup_4131c5eecb05f0809b8d5126b61971dc)
+        ;
+
+        
+    
+    
+            var circle_marker_abc1f94888d7aa381b9e238c5416e8b1 = L.circleMarker(
+                [13.12072, 77.1625],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_f273dc55bc8cb61a1636277f429e14cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40807d3306e6db19d729e6bd44f7c1ab = $(`<div id="html_40807d3306e6db19d729e6bd44f7c1ab" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Hebbur PS<br><b>District:</b> Tumakuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 78.0</div>`)[0];
+                popup_f273dc55bc8cb61a1636277f429e14cb.setContent(html_40807d3306e6db19d729e6bd44f7c1ab);
+            
+        
+
+        circle_marker_abc1f94888d7aa381b9e238c5416e8b1.bindPopup(popup_f273dc55bc8cb61a1636277f429e14cb)
+        ;
+
+        
+    
+    
+            var circle_marker_d281492e3af232a52055d86cb286897a = L.circleMarker(
+                [12.35856, 76.61986],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_9df72ea985db66ff1586db9cd0b1d3f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de4501687b46940983b9cb792c8ca93d = $(`<div id="html_de4501687b46940983b9cb792c8ca93d" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Metagalli PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 71.0</div>`)[0];
+                popup_9df72ea985db66ff1586db9cd0b1d3f5.setContent(html_de4501687b46940983b9cb792c8ca93d);
+            
+        
+
+        circle_marker_d281492e3af232a52055d86cb286897a.bindPopup(popup_9df72ea985db66ff1586db9cd0b1d3f5)
+        ;
+
+        
+    
+    
+            var circle_marker_4f9d3310c060400e7b1271946edb254f = L.circleMarker(
+                [12.050881, 76.795828],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_aeb610435a7518facc8abf8362a33446 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efd658d38cadf051852f40c3e8181557 = $(`<div id="html_efd658d38cadf051852f40c3e8181557" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Kowlande PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 78.0</div>`)[0];
+                popup_aeb610435a7518facc8abf8362a33446.setContent(html_efd658d38cadf051852f40c3e8181557);
+            
+        
+
+        circle_marker_4f9d3310c060400e7b1271946edb254f.bindPopup(popup_aeb610435a7518facc8abf8362a33446)
+        ;
+
+        
+    
+    
+            var circle_marker_fc3281b3d09dbcb7b830132e98da80d3 = L.circleMarker(
+                [12.31528, 76.6658],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_c5101ed6518b0418d6e0a764fc080a2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e2729adfe5aa5f67cbe7c7a42167119 = $(`<div id="html_7e2729adfe5aa5f67cbe7c7a42167119" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Siddarthanagar Traffic PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 73.0</div>`)[0];
+                popup_c5101ed6518b0418d6e0a764fc080a2d.setContent(html_7e2729adfe5aa5f67cbe7c7a42167119);
+            
+        
+
+        circle_marker_fc3281b3d09dbcb7b830132e98da80d3.bindPopup(popup_c5101ed6518b0418d6e0a764fc080a2d)
+        ;
+
+        
+    
+    
+            var circle_marker_41e69a6a2bd760b8186fbf6687eee386 = L.circleMarker(
+                [15.82473, 74.85587],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_97840a44cd10e60396070df4349ecc70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_072a6a3e48b92b576022fa23f1775a52 = $(`<div id="html_072a6a3e48b92b576022fa23f1775a52" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Bailahongal PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 95.0</div>`)[0];
+                popup_97840a44cd10e60396070df4349ecc70.setContent(html_072a6a3e48b92b576022fa23f1775a52);
+            
+        
+
+        circle_marker_41e69a6a2bd760b8186fbf6687eee386.bindPopup(popup_97840a44cd10e60396070df4349ecc70)
+        ;
+
+        
+    
+    
+            var circle_marker_f13527e5ac62ad18d7c146dd731513e4 = L.circleMarker(
+                [12.78433, 76.23015],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_87f92ac4236302867795551a97e6cc8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee9a7db70eb12ae27992d1126a37e24d = $(`<div id="html_ee9a7db70eb12ae27992d1126a37e24d" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Holenarasipura Rural PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 90.0</div>`)[0];
+                popup_87f92ac4236302867795551a97e6cc8f.setContent(html_ee9a7db70eb12ae27992d1126a37e24d);
+            
+        
+
+        circle_marker_f13527e5ac62ad18d7c146dd731513e4.bindPopup(popup_87f92ac4236302867795551a97e6cc8f)
+        ;
+
+        
+    
+    
+            var circle_marker_30ce39c33241c7e0616ccabd3803fb52 = L.circleMarker(
+                [12.29539, 76.69774],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_c1bf989b62a2fdfccc0be28488ce3c4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78f1dc5f5766384d9fac0f29c4d6cd46 = $(`<div id="html_78f1dc5f5766384d9fac0f29c4d6cd46" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Siddarthanagar Traffic PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 99.0</div>`)[0];
+                popup_c1bf989b62a2fdfccc0be28488ce3c4d.setContent(html_78f1dc5f5766384d9fac0f29c4d6cd46);
+            
+        
+
+        circle_marker_30ce39c33241c7e0616ccabd3803fb52.bindPopup(popup_c1bf989b62a2fdfccc0be28488ce3c4d)
+        ;
+
+        
+    
+    
+            var circle_marker_3611f8b6ddf51d3a757b1132af32dc74 = L.circleMarker(
+                [12.30832, 76.61024],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_7299f16225df92469bf53448b9c61aa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af67ba141f1a14515c927fe969bfd3c2 = $(`<div id="html_af67ba141f1a14515c927fe969bfd3c2" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Jayalakshmipuram PS<br><b>District:</b> Mysuru<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 97.0</div>`)[0];
+                popup_7299f16225df92469bf53448b9c61aa7.setContent(html_af67ba141f1a14515c927fe969bfd3c2);
+            
+        
+
+        circle_marker_3611f8b6ddf51d3a757b1132af32dc74.bindPopup(popup_7299f16225df92469bf53448b9c61aa7)
+        ;
+
+        
+    
+    
+            var circle_marker_ae8e1456b698dbfcbb9a59f40e043332 = L.circleMarker(
+                [15.89782, 74.77264],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_ff0cd5ef22c7a54da721582b27bb40a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c216002df1cbb21e44118f7ce183c456 = $(`<div id="html_c216002df1cbb21e44118f7ce183c456" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Nesargi PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 74.0</div>`)[0];
+                popup_ff0cd5ef22c7a54da721582b27bb40a4.setContent(html_c216002df1cbb21e44118f7ce183c456);
+            
+        
+
+        circle_marker_ae8e1456b698dbfcbb9a59f40e043332.bindPopup(popup_ff0cd5ef22c7a54da721582b27bb40a4)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a08078ec9126151d0193a5338ede94 = L.circleMarker(
+                [15.86791, 74.65395],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_a3739ab64d05da2c8ef220d256180bdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13a1d86331308144a3511b40484f731a = $(`<div id="html_13a1d86331308144a3511b40484f731a" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Marihal PS<br><b>District:</b> Belagavi<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 92.0</div>`)[0];
+                popup_a3739ab64d05da2c8ef220d256180bdc.setContent(html_13a1d86331308144a3511b40484f731a);
+            
+        
+
+        circle_marker_c0a08078ec9126151d0193a5338ede94.bindPopup(popup_a3739ab64d05da2c8ef220d256180bdc)
+        ;
+
+        
+    
+    
+            var circle_marker_e810704dcb7321b78f5404dd57e97012 = L.circleMarker(
+                [13.29807, 76.25704],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5173886cd949dc9f7301024bac1ded53);
+        
+    
+        var popup_95bce75fb0ec1a0b136f564226ab156d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04ff143251f6e1cf1f87c71e6e5a7f64 = $(`<div id="html_04ff143251f6e1cf1f87c71e6e5a7f64" style="width: 100.0%; height: 100.0%;"><b>Police Station:</b> Arasikere Rural PS<br><b>District:</b> Hassan<br><b>Crime Count:</b> 6<br><b>Risk:</b> Low<br><b>Avg Hotspot Score:</b> 70.0</div>`)[0];
+                popup_95bce75fb0ec1a0b136f564226ab156d.setContent(html_04ff143251f6e1cf1f87c71e6e5a7f64);
+            
+        
+
+        circle_marker_e810704dcb7321b78f5404dd57e97012.bindPopup(popup_95bce75fb0ec1a0b136f564226ab156d)
+        ;
+
+        
+    
+</script>
+</html>

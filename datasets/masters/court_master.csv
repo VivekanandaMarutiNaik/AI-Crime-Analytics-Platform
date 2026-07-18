@@ -1,0 +1,156 @@
+court_id,court_name,district,court_type
+CRT0001,Bagalkote District and Sessions Court,Bagalkote,District and Sessions Court
+CRT0002,Bagalkote Senior Civil Court,Bagalkote,Senior Civil Court
+CRT0003,Bagalkote Civil Judge and JMFC Court,Bagalkote,Civil Judge and JMFC Court
+CRT0004,Bagalkote Family Court,Bagalkote,Family Court
+CRT0005,Bagalkote Special Court,Bagalkote,Special Court
+CRT0006,Ballari District and Sessions Court,Ballari,District and Sessions Court
+CRT0007,Ballari Senior Civil Court,Ballari,Senior Civil Court
+CRT0008,Ballari Civil Judge and JMFC Court,Ballari,Civil Judge and JMFC Court
+CRT0009,Ballari Family Court,Ballari,Family Court
+CRT0010,Ballari Special Court,Ballari,Special Court
+CRT0011,Belagavi District and Sessions Court,Belagavi,District and Sessions Court
+CRT0012,Belagavi Senior Civil Court,Belagavi,Senior Civil Court
+CRT0013,Belagavi Civil Judge and JMFC Court,Belagavi,Civil Judge and JMFC Court
+CRT0014,Belagavi Family Court,Belagavi,Family Court
+CRT0015,Belagavi Special Court,Belagavi,Special Court
+CRT0016,Bengaluru Rural District and Sessions Court,Bengaluru Rural,District and Sessions Court
+CRT0017,Bengaluru Rural Senior Civil Court,Bengaluru Rural,Senior Civil Court
+CRT0018,Bengaluru Rural Civil Judge and JMFC Court,Bengaluru Rural,Civil Judge and JMFC Court
+CRT0019,Bengaluru Rural Family Court,Bengaluru Rural,Family Court
+CRT0020,Bengaluru Rural Special Court,Bengaluru Rural,Special Court
+CRT0021,Bengaluru South District and Sessions Court,Bengaluru South,District and Sessions Court
+CRT0022,Bengaluru South Senior Civil Court,Bengaluru South,Senior Civil Court
+CRT0023,Bengaluru South Civil Judge and JMFC Court,Bengaluru South,Civil Judge and JMFC Court
+CRT0024,Bengaluru South Family Court,Bengaluru South,Family Court
+CRT0025,Bengaluru South Special Court,Bengaluru South,Special Court
+CRT0026,Bengaluru Urban District and Sessions Court,Bengaluru Urban,District and Sessions Court
+CRT0027,Bengaluru Urban Senior Civil Court,Bengaluru Urban,Senior Civil Court
+CRT0028,Bengaluru Urban Civil Judge and JMFC Court,Bengaluru Urban,Civil Judge and JMFC Court
+CRT0029,Bengaluru Urban Family Court,Bengaluru Urban,Family Court
+CRT0030,Bengaluru Urban Special Court,Bengaluru Urban,Special Court
+CRT0031,Bidar District and Sessions Court,Bidar,District and Sessions Court
+CRT0032,Bidar Senior Civil Court,Bidar,Senior Civil Court
+CRT0033,Bidar Civil Judge and JMFC Court,Bidar,Civil Judge and JMFC Court
+CRT0034,Bidar Family Court,Bidar,Family Court
+CRT0035,Bidar Special Court,Bidar,Special Court
+CRT0036,Chamarajanagar District and Sessions Court,Chamarajanagar,District and Sessions Court
+CRT0037,Chamarajanagar Senior Civil Court,Chamarajanagar,Senior Civil Court
+CRT0038,Chamarajanagar Civil Judge and JMFC Court,Chamarajanagar,Civil Judge and JMFC Court
+CRT0039,Chamarajanagar Family Court,Chamarajanagar,Family Court
+CRT0040,Chamarajanagar Special Court,Chamarajanagar,Special Court
+CRT0041,Chikkaballapura District and Sessions Court,Chikkaballapura,District and Sessions Court
+CRT0042,Chikkaballapura Senior Civil Court,Chikkaballapura,Senior Civil Court
+CRT0043,Chikkaballapura Civil Judge and JMFC Court,Chikkaballapura,Civil Judge and JMFC Court
+CRT0044,Chikkaballapura Family Court,Chikkaballapura,Family Court
+CRT0045,Chikkaballapura Special Court,Chikkaballapura,Special Court
+CRT0046,Chikkamagaluru District and Sessions Court,Chikkamagaluru,District and Sessions Court
+CRT0047,Chikkamagaluru Senior Civil Court,Chikkamagaluru,Senior Civil Court
+CRT0048,Chikkamagaluru Civil Judge and JMFC Court,Chikkamagaluru,Civil Judge and JMFC Court
+CRT0049,Chikkamagaluru Family Court,Chikkamagaluru,Family Court
+CRT0050,Chikkamagaluru Special Court,Chikkamagaluru,Special Court
+CRT0051,Chitradurga District and Sessions Court,Chitradurga,District and Sessions Court
+CRT0052,Chitradurga Senior Civil Court,Chitradurga,Senior Civil Court
+CRT0053,Chitradurga Civil Judge and JMFC Court,Chitradurga,Civil Judge and JMFC Court
+CRT0054,Chitradurga Family Court,Chitradurga,Family Court
+CRT0055,Chitradurga Special Court,Chitradurga,Special Court
+CRT0056,Dakshina Kannada District and Sessions Court,Dakshina Kannada,District and Sessions Court
+CRT0057,Dakshina Kannada Senior Civil Court,Dakshina Kannada,Senior Civil Court
+CRT0058,Dakshina Kannada Civil Judge and JMFC Court,Dakshina Kannada,Civil Judge and JMFC Court
+CRT0059,Dakshina Kannada Family Court,Dakshina Kannada,Family Court
+CRT0060,Dakshina Kannada Special Court,Dakshina Kannada,Special Court
+CRT0061,Davanagere District and Sessions Court,Davanagere,District and Sessions Court
+CRT0062,Davanagere Senior Civil Court,Davanagere,Senior Civil Court
+CRT0063,Davanagere Civil Judge and JMFC Court,Davanagere,Civil Judge and JMFC Court
+CRT0064,Davanagere Family Court,Davanagere,Family Court
+CRT0065,Davanagere Special Court,Davanagere,Special Court
+CRT0066,Dharwad District and Sessions Court,Dharwad,District and Sessions Court
+CRT0067,Dharwad Senior Civil Court,Dharwad,Senior Civil Court
+CRT0068,Dharwad Civil Judge and JMFC Court,Dharwad,Civil Judge and JMFC Court
+CRT0069,Dharwad Family Court,Dharwad,Family Court
+CRT0070,Dharwad Special Court,Dharwad,Special Court
+CRT0071,Gadag District and Sessions Court,Gadag,District and Sessions Court
+CRT0072,Gadag Senior Civil Court,Gadag,Senior Civil Court
+CRT0073,Gadag Civil Judge and JMFC Court,Gadag,Civil Judge and JMFC Court
+CRT0074,Gadag Family Court,Gadag,Family Court
+CRT0075,Gadag Special Court,Gadag,Special Court
+CRT0076,Hassan District and Sessions Court,Hassan,District and Sessions Court
+CRT0077,Hassan Senior Civil Court,Hassan,Senior Civil Court
+CRT0078,Hassan Civil Judge and JMFC Court,Hassan,Civil Judge and JMFC Court
+CRT0079,Hassan Family Court,Hassan,Family Court
+CRT0080,Hassan Special Court,Hassan,Special Court
+CRT0081,Haveri District and Sessions Court,Haveri,District and Sessions Court
+CRT0082,Haveri Senior Civil Court,Haveri,Senior Civil Court
+CRT0083,Haveri Civil Judge and JMFC Court,Haveri,Civil Judge and JMFC Court
+CRT0084,Haveri Family Court,Haveri,Family Court
+CRT0085,Haveri Special Court,Haveri,Special Court
+CRT0086,Kalaburagi District and Sessions Court,Kalaburagi,District and Sessions Court
+CRT0087,Kalaburagi Senior Civil Court,Kalaburagi,Senior Civil Court
+CRT0088,Kalaburagi Civil Judge and JMFC Court,Kalaburagi,Civil Judge and JMFC Court
+CRT0089,Kalaburagi Family Court,Kalaburagi,Family Court
+CRT0090,Kalaburagi Special Court,Kalaburagi,Special Court
+CRT0091,Kodagu District and Sessions Court,Kodagu,District and Sessions Court
+CRT0092,Kodagu Senior Civil Court,Kodagu,Senior Civil Court
+CRT0093,Kodagu Civil Judge and JMFC Court,Kodagu,Civil Judge and JMFC Court
+CRT0094,Kodagu Family Court,Kodagu,Family Court
+CRT0095,Kodagu Special Court,Kodagu,Special Court
+CRT0096,Kolar District and Sessions Court,Kolar,District and Sessions Court
+CRT0097,Kolar Senior Civil Court,Kolar,Senior Civil Court
+CRT0098,Kolar Civil Judge and JMFC Court,Kolar,Civil Judge and JMFC Court
+CRT0099,Kolar Family Court,Kolar,Family Court
+CRT0100,Kolar Special Court,Kolar,Special Court
+CRT0101,Koppal District and Sessions Court,Koppal,District and Sessions Court
+CRT0102,Koppal Senior Civil Court,Koppal,Senior Civil Court
+CRT0103,Koppal Civil Judge and JMFC Court,Koppal,Civil Judge and JMFC Court
+CRT0104,Koppal Family Court,Koppal,Family Court
+CRT0105,Koppal Special Court,Koppal,Special Court
+CRT0106,Mandya District and Sessions Court,Mandya,District and Sessions Court
+CRT0107,Mandya Senior Civil Court,Mandya,Senior Civil Court
+CRT0108,Mandya Civil Judge and JMFC Court,Mandya,Civil Judge and JMFC Court
+CRT0109,Mandya Family Court,Mandya,Family Court
+CRT0110,Mandya Special Court,Mandya,Special Court
+CRT0111,Mysuru District and Sessions Court,Mysuru,District and Sessions Court
+CRT0112,Mysuru Senior Civil Court,Mysuru,Senior Civil Court
+CRT0113,Mysuru Civil Judge and JMFC Court,Mysuru,Civil Judge and JMFC Court
+CRT0114,Mysuru Family Court,Mysuru,Family Court
+CRT0115,Mysuru Special Court,Mysuru,Special Court
+CRT0116,Raichur District and Sessions Court,Raichur,District and Sessions Court
+CRT0117,Raichur Senior Civil Court,Raichur,Senior Civil Court
+CRT0118,Raichur Civil Judge and JMFC Court,Raichur,Civil Judge and JMFC Court
+CRT0119,Raichur Family Court,Raichur,Family Court
+CRT0120,Raichur Special Court,Raichur,Special Court
+CRT0121,Shivamogga District and Sessions Court,Shivamogga,District and Sessions Court
+CRT0122,Shivamogga Senior Civil Court,Shivamogga,Senior Civil Court
+CRT0123,Shivamogga Civil Judge and JMFC Court,Shivamogga,Civil Judge and JMFC Court
+CRT0124,Shivamogga Family Court,Shivamogga,Family Court
+CRT0125,Shivamogga Special Court,Shivamogga,Special Court
+CRT0126,Tumakuru District and Sessions Court,Tumakuru,District and Sessions Court
+CRT0127,Tumakuru Senior Civil Court,Tumakuru,Senior Civil Court
+CRT0128,Tumakuru Civil Judge and JMFC Court,Tumakuru,Civil Judge and JMFC Court
+CRT0129,Tumakuru Family Court,Tumakuru,Family Court
+CRT0130,Tumakuru Special Court,Tumakuru,Special Court
+CRT0131,Udupi District and Sessions Court,Udupi,District and Sessions Court
+CRT0132,Udupi Senior Civil Court,Udupi,Senior Civil Court
+CRT0133,Udupi Civil Judge and JMFC Court,Udupi,Civil Judge and JMFC Court
+CRT0134,Udupi Family Court,Udupi,Family Court
+CRT0135,Udupi Special Court,Udupi,Special Court
+CRT0136,Uttara Kannada District and Sessions Court,Uttara Kannada,District and Sessions Court
+CRT0137,Uttara Kannada Senior Civil Court,Uttara Kannada,Senior Civil Court
+CRT0138,Uttara Kannada Civil Judge and JMFC Court,Uttara Kannada,Civil Judge and JMFC Court
+CRT0139,Uttara Kannada Family Court,Uttara Kannada,Family Court
+CRT0140,Uttara Kannada Special Court,Uttara Kannada,Special Court
+CRT0141,Vijayanagara District and Sessions Court,Vijayanagara,District and Sessions Court
+CRT0142,Vijayanagara Senior Civil Court,Vijayanagara,Senior Civil Court
+CRT0143,Vijayanagara Civil Judge and JMFC Court,Vijayanagara,Civil Judge and JMFC Court
+CRT0144,Vijayanagara Family Court,Vijayanagara,Family Court
+CRT0145,Vijayanagara Special Court,Vijayanagara,Special Court
+CRT0146,Vijayapura District and Sessions Court,Vijayapura,District and Sessions Court
+CRT0147,Vijayapura Senior Civil Court,Vijayapura,Senior Civil Court
+CRT0148,Vijayapura Civil Judge and JMFC Court,Vijayapura,Civil Judge and JMFC Court
+CRT0149,Vijayapura Family Court,Vijayapura,Family Court
+CRT0150,Vijayapura Special Court,Vijayapura,Special Court
+CRT0151,Yadgir District and Sessions Court,Yadgir,District and Sessions Court
+CRT0152,Yadgir Senior Civil Court,Yadgir,Senior Civil Court
+CRT0153,Yadgir Civil Judge and JMFC Court,Yadgir,Civil Judge and JMFC Court
+CRT0154,Yadgir Family Court,Yadgir,Family Court
+CRT0155,Yadgir Special Court,Yadgir,Special Court

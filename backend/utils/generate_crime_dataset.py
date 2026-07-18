@@ -13,7 +13,7 @@ MASTER = pd.read_csv(
 )
 
 POLICE = pd.read_csv(
-    BASE_DIR / "datasets" / "raw" / "police_stations.csv"
+    BASE_DIR / "datasets" / "processed" / "police_master.csv"
 )
 
 print("Master Locations :", len(MASTER))

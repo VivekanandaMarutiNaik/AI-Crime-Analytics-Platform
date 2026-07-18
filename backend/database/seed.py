@@ -1,55 +1,99 @@
-import random
-from datetime import datetime, timedelta
-
-from faker import Faker
+import pandas as pd
 
 from backend.config.database import SessionLocal
-from backend.models.crime_case import CrimeCase
-from backend.utils.master_data import (
-    DISTRICTS,
-    CRIME_TYPES,
-    CASE_STATUS,
-    OFFICER_NAMES,
-)
+from backend.models.case_master import CaseMaster
+from backend.models.victim_master import VictimMaster
+from backend.models.accused_master import AccusedMaster
+from backend.models.investigation_master import InvestigationMaster
+from backend.models.arrest_master import ArrestMaster
+from backend.models.chargesheet_master import ChargesheetMaster
+from backend.models.employee_master import EmployeeMaster
 
-print("Seed script started...")
 
-fake = Faker("en_IN")
 db = SessionLocal()
 
-def random_date():
-    start = datetime(2024, 1, 1)
-    end = datetime(2026, 7, 1)
-    diff = end - start
-    return start + timedelta(days=random.randint(0, diff.days))
 
-try:
-    for i in range(1, 11):
-        dt = random_date()
+def load_csv(model, csv_path, date_columns=None):
+    print(f"\nLoading {csv_path}...")
 
-        crime = CrimeCase(
-            case_id=f"CASE{i:05d}",
-            fir_number=f"FIR2026{i:05d}",
-            crime_type=random.choice(CRIME_TYPES),
-            district=random.choice(DISTRICTS),
-            police_station=fake.city() + " Police Station",
-            incident_date=dt.date(),
-            incident_time=dt.time(),
-            latitude=round(random.uniform(11.5, 18.5), 6),
-            longitude=round(random.uniform(74.0, 78.5), 6),
-            status=random.choice(CASE_STATUS),
-            officer_name=random.choice(OFFICER_NAMES),
-            brief_facts=fake.sentence(),
+    df = pd.read_csv(csv_path)
+
+    if date_columns:
+        for col in date_columns:
+            if col in df.columns:
+                df[col] = pd.to_datetime(df[col], errors="coerce")
+                df[col] = df[col].astype(object)
+                df[col] = df[col].where(df[col].notna(), None)
+
+    records = df.to_dict(orient="records")
+
+    objects = [model(**record) for record in records]
+
+    db.bulk_save_objects(objects)
+    db.commit()
+
+    print(f"✅ Imported {len(objects)} records")
+
+
+def main():
+    try:
+
+        load_csv(
+            EmployeeMaster,
+            "datasets/masters/employee_master.csv",
+            ["date_of_birth", "appointment_date"],
         )
 
-        db.add(crime)
+        load_csv(
+            CaseMaster,
+            "datasets/masters/case_master.csv",
+            ["crime_datetime"],
+        )
 
-    db.commit()
-    print("✅ 10 crime records inserted successfully!")
+        load_csv(
+            VictimMaster,
+            "datasets/masters/victim_master.csv",
+        )
 
-except Exception as e:
-    db.rollback()
-    print("❌ Error:", e)
+        load_csv(
+            AccusedMaster,
+            "datasets/masters/accused_master.csv",
+        )
 
-finally:
-    db.close()
+        load_csv(
+            InvestigationMaster,
+            "datasets/masters/investigation_master.csv",
+            [
+                "investigation_start_date",
+                "investigation_end_date",
+            ],
+        )
+
+        load_csv(
+            ArrestMaster,
+            "datasets/masters/arrest_master.csv",
+            [
+                "arrest_date",
+            ],
+        )
+
+        load_csv(
+            ChargesheetMaster,
+            "datasets/masters/chargesheet_master.csv",
+            [
+                "filing_date",
+            ],
+        )
+
+        print("\n🎉 Database seeding completed successfully!")
+
+    except Exception as e:
+        db.rollback()
+        print(e)
+
+    finally:
+        db.close()
+
+
+if __name__ == "__main__":
+    main()

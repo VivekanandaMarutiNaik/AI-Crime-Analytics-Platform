@@ -1,31 +1,41 @@
 from fastapi import FastAPI
-from sqlalchemy import text
-
-from backend.config.database import Base, engine
-from backend.models.crime_case import CrimeCase
-from backend.routes.crimes import router as crime_router
+from backend.routes.crimes import router as crimes_router
+from backend.routes.cctv import router as cctv_router
+from backend.routes.hotspots import router as hotspots_router
+from backend.routes.dashboard import router as dashboard_router
+from fastapi.middleware.cors import CORSMiddleware
+from backend.routes.districts import router as districts_router
+from backend.routes.case_routes import router as case_router
+from backend.routes.analytics_routes import router as analytics_router
+from backend.routes.ai import router as ai_router
 
 app = FastAPI(
-    title="Karnataka Crime Analytics API",
+    title="AI Crime Analytics Platform",
+    description="Backend APIs for Crime Analytics and CCTV Intelligence",
     version="1.0.0"
 )
 
-# Create all database tables
-Base.metadata.create_all(bind=engine)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-# Register routes
-app.include_router(crime_router)
+app.include_router(crimes_router)
+app.include_router(cctv_router)
+app.include_router(hotspots_router)
+app.include_router(dashboard_router)
+app.include_router(districts_router)
+app.include_router(case_router)
+app.include_router(analytics_router)
+app.include_router(ai_router)
 
-# Test database connection on startup
-@app.on_event("startup")
-def startup():
-    with engine.connect() as connection:
-        connection.execute(text("SELECT 1"))
-        print("✅ Database connection successful!")
-
-# Home endpoint
 @app.get("/")
-def home():
+def root():
     return {
-        "message": "Welcome to Karnataka Crime Analytics API"
+        "message": "AI Crime Analytics Platform API is running"
     }

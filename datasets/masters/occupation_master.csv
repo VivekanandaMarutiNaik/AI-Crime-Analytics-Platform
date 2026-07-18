@@ -1,0 +1,15 @@
+occupation_id,occupation_name
+OCC001,Business
+OCC002,Driver
+OCC003,Electrician
+OCC004,Farmer
+OCC005,Government Employee
+OCC006,Homemaker
+OCC007,Housewife
+OCC008,Labourer
+OCC009,Mechanic
+OCC010,Private Employee
+OCC011,Retired
+OCC012,Self Employed
+OCC013,Student
+OCC014,Unemployed
