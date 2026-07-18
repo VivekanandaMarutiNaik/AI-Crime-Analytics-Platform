@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fuse.js": "^7.5.0",
+    "react-leaflet-cluster": "^4.1.3"
+  }
+}

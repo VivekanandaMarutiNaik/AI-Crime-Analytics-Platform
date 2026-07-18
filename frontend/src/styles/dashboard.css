@@ -1,43 +1,79 @@
-.dashboard {
-    padding: 30px;
-    font-family: Arial, sans-serif;
+.dashboard-page{
+    width:100%;
 }
 
-.dashboard-title {
-    margin-bottom: 25px;
+.section-title{
+    margin:22px 0 14px;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    color:#6b7280;
+    text-align:center;
 }
 
-.summary-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
+.map-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+}
+.map-section > div:first-child {
+    width: 100%;
+    min-width: 0;
 }
 
-.summary-card {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 20px;
-    min-width: 220px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+.ai-side-panel{
+    width:420px;
+    min-width:420px;
+    height:700px;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    background:#151b26;
+    border:1px solid #2a3244;
+    border-radius:16px !important;
 }
 
-.summary-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+.ai-side-tabs{
+    display:flex;
+    background:#151b26;
+    border-bottom:1px solid #2a3244;
 }
 
-.summary-card h3 {
-    margin: 0;
-    color: #555;
-    font-size: 18px;
+.ai-side-tabs button{
+    flex:1;
+    border:none;
+    background:transparent;
+    color:#9ca3af;
+    cursor:pointer;
+    padding:14px 6px;
+    font-size:12px;
+    font-weight:600;
+    white-space:nowrap;
+}
+.ai-side-tabs button.active{
+    color:#3b82f6;
+    border-bottom:3px solid #3b82f6;
+}
+.ai-side-content{
+    flex:1;
+    overflow-y:auto;
+    background:#151b26;
+    padding:16px !important;
+}
+.analytics-grid{
+    margin-top:24px;
 }
 
-.summary-card h1 {
-    margin-top: 15px;
-    color: #1f2937;
-    font-size: 36px;
+@media(max-width:1200px){
+
+.map-section{
+grid-template-columns:1fr;
+}
+
+.ai-side-panel{
+height:auto;
+}
+
 }

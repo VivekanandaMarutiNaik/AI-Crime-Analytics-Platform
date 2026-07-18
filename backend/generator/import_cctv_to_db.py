@@ -1,6 +1,8 @@
 import pandas as pd
 
 from backend.config.database import SessionLocal
+import backend.models
+
 from backend.models.cctv_master import CCTVMaster
 
 CSV_PATH = "datasets/processed/cctv_master.csv"

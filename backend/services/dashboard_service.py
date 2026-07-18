@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from sqlalchemy import func
+from sqlalchemy import func, extract
 
 from backend.models.case_master import CaseMaster
 from backend.models.investigation_master import InvestigationMaster
@@ -7,7 +7,7 @@ from backend.models.chargesheet_master import ChargesheetMaster
 from backend.models.arrest_master import ArrestMaster
 from backend.models.victim_master import VictimMaster
 from backend.models.accused_master import AccusedMaster
-from sqlalchemy import func, extract
+
 
 def normalize_district(district: str | None):
     if not district:
@@ -19,27 +19,19 @@ def normalize_district(district: str | None):
         "bangalore": "bengaluru",
         "bangalore city": "bengaluru",
         "bengaluru city": "bengaluru",
-
         "mysore": "mysuru",
-
         "bellary": "ballari",
-
         "gulbarga": "kalaburagi",
-
         "bijapur": "vijayapura",
-
         "hubli": "hubballi",
-
         "tumkur": "tumakuru",
-
         "shimoga": "shivamogga",
-
         "chikmagalur": "chikkamagaluru",
-
         "chikballapur": "chikkaballapura",
     }
 
     return aliases.get(district, district)
+
 
 def apply_district_filter(query, district: str | None):
     district = normalize_district(district)
@@ -50,6 +42,7 @@ def apply_district_filter(query, district: str | None):
         )
 
     return query
+
 
 def get_dashboard_summary(
     db: Session,
@@ -165,6 +158,7 @@ def get_dashboard_summary(
         "total_accused": total_accused,
     }
 
+
 def get_crime_category_distribution(
     db: Session,
     district: str | None = None,
@@ -195,15 +189,22 @@ def get_crime_category_distribution(
         ]
     }
 
+
 def get_crime_severity_distribution(
     db: Session,
     district: str | None = None,
 ):
-    results = (
+
+    query = apply_district_filter(
         db.query(
             CaseMaster.crime_severity,
-            func.count(CaseMaster.case_id).label("count")
-        )
+            func.count(CaseMaster.case_id).label("count"),
+        ),
+        district,
+    )
+
+    results = (
+        query
         .group_by(CaseMaster.crime_severity)
         .order_by(func.count(CaseMaster.case_id).desc())
         .all()
@@ -219,6 +220,7 @@ def get_crime_severity_distribution(
         ]
     }
 
+
 def get_monthly_crime_trend(
     db: Session,
     district: str | None = None,
@@ -226,16 +228,20 @@ def get_monthly_crime_trend(
 
     query = apply_district_filter(
         db.query(
-            CaseMaster.crime_severity,
-            func.count(CaseMaster.case_id).label("count")
+            extract("month", CaseMaster.crime_datetime).label("month"),
+            func.count(CaseMaster.case_id).label("count"),
         ),
         district,
     )
 
     results = (
         query
-        .group_by(CaseMaster.crime_severity)
-        .order_by(func.count(CaseMaster.case_id).desc())
+        .group_by(
+            extract("month", CaseMaster.crime_datetime)
+        )
+        .order_by(
+            extract("month", CaseMaster.crime_datetime)
+        )
         .all()
     )
 
@@ -264,6 +270,7 @@ def get_monthly_crime_trend(
         ]
     }
 
+
 def get_district_crime_distribution(db: Session):
 
     results = (
@@ -285,6 +292,7 @@ def get_district_crime_distribution(db: Session):
             for district, count in results
         ]
     }
+
 
 def get_case_status_distribution(
     db: Session,

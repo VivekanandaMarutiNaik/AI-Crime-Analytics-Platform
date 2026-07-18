@@ -1,6 +1,6 @@
 import pandas as pd
 import folium
-from sklearn.cluster import DBSCAN
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("datasets/raw/crime_cases.csv")
 
@@ -64,48 +64,55 @@ invalid_coords = df[
     (df["police_station_longitude"] > 79)
 ]
 
-
-coordinates = df[
-    [
-        "crime_latitude",
-        "crime_longitude"
-    ]
-]
-
-dbscan = DBSCAN(
-    eps=0.02,
-    min_samples=5
-)
-
-df["cluster"] = dbscan.fit_predict(coordinates)
-
-hotspots = (
-    df[df["cluster"] != -1]
-    .groupby("cluster")
-    .size()
-    .sort_values(ascending=False)
-)
-
-print(hotspots.head(10))
-
 hotspot_centers = (
-    df[df["cluster"] != -1]
-    .groupby("cluster")
+    df.groupby(
+        [
+            "district",
+            "taluk",
+            "police_station_name",
+            "police_station_latitude",
+            "police_station_longitude",
+        ]
+    )
     .agg(
-        district=("district", lambda x: x.mode().iloc[0]),
-        taluk=("taluk", lambda x: x.mode().iloc[0]),
-        latitude=("crime_latitude", "mean"),
-        longitude=("crime_longitude", "mean"),
-        crime_count=("cluster", "size"),
+        crime_count=("crime_id", "count"),
+        avg_hotspot_score=("hotspot_score", "mean"),
     )
     .reset_index()
 )
 
-hotspot_centers["recommended_cctv"] = (
-    hotspot_centers["crime_count"] // 100
-).clip(lower=1)
+hotspot_centers = hotspot_centers.sort_values(
+    "crime_count",
+    ascending=False
+).head(150)
 
-print(hotspot_centers.head())
+
+
+hotspot_centers = hotspot_centers.sort_values(
+    "crime_count",
+    ascending=False
+).head(150)
+
+hotspot_centers.rename(
+    columns={
+        "police_station_latitude": "latitude",
+        "police_station_longitude": "longitude",
+        "police_station_name": "police_station",
+    },
+    inplace=True,
+)
+
+hotspot_centers["recommended_cctv"] = (
+    hotspot_centers["crime_count"] / 5
+).round().clip(lower=1).astype(int)
+
+print(hotspot_centers.head()) 
+hotspot_centers = hotspot_centers[
+    (hotspot_centers["latitude"] >= 11.3)
+    & (hotspot_centers["latitude"] <= 18.7)
+    & (hotspot_centers["longitude"] >= 73.8)
+    & (hotspot_centers["longitude"] <= 78.9)
+]
 hotspot_centers.to_csv(
     "datasets/processed/crime_hotspots.csv",
     index=False,
@@ -120,16 +127,14 @@ crime_map = folium.Map(
 )
 
 def get_hotspot_color(crime_count):
-    if crime_count >= 500:
+    if crime_count >= 40:
         return "darkred"
-    elif crime_count >= 200:
+    elif crime_count >= 25:
         return "red"
-    elif crime_count >= 100:
+    elif crime_count >= 15:
         return "orange"
-    elif crime_count >= 50:
-        return "yellow"
     else:
-        return "green"
+        return "yellow"
     
 print(hotspot_centers["crime_count"].head(10))
 
@@ -137,21 +142,28 @@ for count in hotspot_centers["crime_count"].head(10):
     print(count, "->", get_hotspot_color(count))
 
 for _, row in hotspot_centers.iterrows():
+    risk = (
+    "Critical" if row["crime_count"] >= 40 else
+    "High" if row["crime_count"] >= 25 else
+    "Medium" if row["crime_count"] >= 15 else
+    "Low"
+)
     folium.CircleMarker(
         location=[
             row["latitude"],
             row["longitude"]
         ],
-        radius=max(5, row["crime_count"] / 50),
+        radius=min(18, max(6, row["crime_count"] / 8)),
         color=get_hotspot_color(row["crime_count"]),
         fill=True,
         fill_color=get_hotspot_color(row["crime_count"]),
         fill_opacity=0.7,
-        popup=(
-            f"<b>Hotspot ID:</b> {int(row['cluster'])}<br>"
+      popup=(
+            f"<b>Police Station:</b> {row['police_station']}<br>"
+            f"<b>District:</b> {row['district']}<br>"
             f"<b>Crime Count:</b> {int(row['crime_count'])}<br>"
-            f"<b>Risk Level:</b> "
-            f"{'Critical' if row['crime_count'] >= 500 else 'High' if row['crime_count'] >= 200 else 'Medium' if row['crime_count'] >= 100 else 'Low'}"
+            f"<b>Risk:</b> {risk}<br>"
+            f"<b>Avg Hotspot Score:</b> {row['avg_hotspot_score']:.1f}"
         )
     ).add_to(crime_map)
 

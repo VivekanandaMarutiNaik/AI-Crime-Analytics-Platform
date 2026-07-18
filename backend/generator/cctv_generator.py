@@ -39,8 +39,8 @@ LANDMARKS = [
 ]
 
 
-def random_offset():
-    return random.uniform(-0.0015, 0.0015)
+def random_offset(max_offset=0.005):
+    return random.uniform(-max_offset, max_offset)
 
 
 cctv_records = []

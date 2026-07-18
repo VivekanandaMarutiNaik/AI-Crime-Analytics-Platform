@@ -1,12 +1,16 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+
+from backend.config.database import get_db
 from backend.services.crime_service import get_districts
 
 router = APIRouter(
-    prefix="/districts",
-    tags=["Districts"]
+    tags=["Districts"],
 )
 
 
-@router.get("")
-def read_districts():
-    return get_districts()
+@router.get("/districts")
+def read_districts(
+    db: Session = Depends(get_db),
+):
+    return get_districts(db)

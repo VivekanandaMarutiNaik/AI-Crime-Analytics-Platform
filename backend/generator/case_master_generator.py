@@ -26,7 +26,7 @@ OUTPUT_FILE = (
 )
 
 crime_df = pd.read_csv(CRIME_FILE)
-
+print(crime_df.columns.tolist())   # optional debug line
 law_df = pd.read_csv(LAW_FILE)
 
 case_df = crime_df.merge(

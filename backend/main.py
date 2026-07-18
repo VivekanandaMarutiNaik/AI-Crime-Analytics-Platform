@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.routes.districts import router as districts_router
 from backend.routes.case_routes import router as case_router
 from backend.routes.analytics_routes import router as analytics_router
+from backend.routes.ai import router as ai_router
 
 app = FastAPI(
     title="AI Crime Analytics Platform",
@@ -31,6 +32,7 @@ app.include_router(dashboard_router)
 app.include_router(districts_router)
 app.include_router(case_router)
 app.include_router(analytics_router)
+app.include_router(ai_router)
 
 @app.get("/")
 def root():

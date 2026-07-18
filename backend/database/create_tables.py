@@ -8,6 +8,8 @@ from backend.models.investigation_master import InvestigationMaster
 from backend.models.arrest_master import ArrestMaster
 from backend.models.chargesheet_master import ChargesheetMaster
 from backend.models.employee_master import EmployeeMaster
+from backend.models.cctv_master import CCTVMaster
+from backend.models.occurrence_master import OccurrenceMaster
 
 
 def create_tables():

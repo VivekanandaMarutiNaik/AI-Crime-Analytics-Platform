@@ -1,6 +1,6 @@
 import random
 from pathlib import Path
-from rules import (
+from backend.generator.rules import (
     get_random_crime,
     get_victim_gender,
     get_crime_severity,

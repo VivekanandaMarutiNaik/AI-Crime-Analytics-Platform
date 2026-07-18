@@ -5,3 +5,4 @@ from .investigation_master import InvestigationMaster
 from .arrest_master import ArrestMaster
 from .chargesheet_master import ChargesheetMaster
 from .employee_master import EmployeeMaster
+from .occurrence_master import OccurrenceMaster

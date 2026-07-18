@@ -12,7 +12,16 @@ severity_score = {
 crime["severity_score"] = crime["crime_severity"].map(severity_score)
 
 cctv = pd.read_csv("datasets/processed/cctv_master.csv")
-
+# Use actual crime locations for each village
+# One representative location for each village
+# Use the average crime location instead of police station coordinates.
+village_locations = (
+    crime.groupby("village_id", as_index=False)
+    .agg(
+        latitude=("crime_latitude", "mean"),
+        longitude=("crime_longitude", "mean"),
+    )
+)
 # Crime statistics by village
 crime_stats = (
     crime.groupby(
@@ -37,7 +46,7 @@ crime_stats = (
 
 # CCTV count by village
 cctv_stats = (
-    crime.groupby(
+    cctv.groupby(
         [
             "district_id",
             "district",
@@ -74,6 +83,26 @@ recommendations = crime_stats.merge(
     ],
     how="left",
 )
+
+recommendations = recommendations.merge(
+    village_locations[
+        ["village_id", "latitude", "longitude"]
+    ],
+    on="village_id",
+    how="left",
+)
+
+print("Recommendations:", len(recommendations))
+print("Matched coordinates:", recommendations["latitude"].notna().sum())
+
+print(
+    recommendations[
+        ["village_id", "latitude", "longitude"]
+    ].head(20)
+)
+
+print(village_locations.head())
+print(village_locations[["village_id", "latitude", "longitude"]].head(20))
 
 recommendations["cctv_count"] = recommendations["cctv_count"].fillna(0)
 

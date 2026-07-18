@@ -46,3 +46,9 @@ class CaseMaster(Base):
         back_populates="case",
         uselist=False,
     )
+
+    occurrence = relationship(
+        "OccurrenceMaster",
+        back_populates="case",
+        uselist=False,
+    )

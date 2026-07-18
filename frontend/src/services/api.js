@@ -132,6 +132,22 @@ export async function getDistrictWise() {
   return await response.json();
 }
 
+export async function getCrimes(limit = 100, district = "") {
+  let url = `${BASE_URL}/crimes?limit=${limit}`;
+
+  if (district) {
+    url += `&district=${encodeURIComponent(district)}`;
+  }
+
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch crimes");
+  }
+
+  return await response.json();
+}
+
 export async function getCaseStatus(district = "") {
   let url = `${BASE_URL}/api/dashboard/case-status`;
 
@@ -147,3 +163,88 @@ export async function getCaseStatus(district = "") {
 
   return await response.json();
 }
+
+export async function getPredictiveTrend(district = "") {
+  let url = `${BASE_URL}/analytics/predictive-trend`;
+
+  if (district) {
+    url += `?district=${encodeURIComponent(district)}`;
+  }
+
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch predictive trend");
+  }
+
+  return await response.json();
+}
+
+export async function getRiskScore() {
+  const response = await fetch(`${BASE_URL}/analytics/risk-score`);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch risk score");
+  }
+
+  return await response.json();
+}
+
+export async function getOfficerWorkload() {
+  const response = await fetch(`${BASE_URL}/analytics/officer-workload`);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch officer workload");
+  }
+
+  return await response.json();
+}
+
+export async function getInvestigationPerformance() {
+  const response = await fetch(
+    `${BASE_URL}/analytics/investigation-performance`
+  );
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch investigation performance");
+  }
+
+  return await response.json();
+}
+export async function askAI(query, language = "en") {
+
+  const response = await fetch(`${BASE_URL}/api/ai/query`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query,
+      language,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to query AI");
+  }
+
+  return await response.json();
+}
+
+
+
+export const getAIInsights = async (district = "") => {
+  const query = district
+    ? `?district=${encodeURIComponent(district)}`
+    : "";
+
+  const response = await fetch(
+    `http://127.0.0.1:8000/analytics/ai-insights${query}`
+  );
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch AI insights");
+  }
+
+  return response.json();
+};
