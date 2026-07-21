@@ -16,13 +16,20 @@ def import_cases():
 
         df = pd.read_csv(CSV_PATH)
 
-        
+        print("Reading:", CSV_PATH)
+        print(
+            df.loc[
+                df["case_id"] == "CR027949",
+                ["case_id", "district", "taluk"]
+            ].to_string(index=False)
+        )
         for _, row in df.iterrows():
 
             case = db.get(CaseMaster, row["case_id"])
 
             if case is None:
-                continue
+                case = CaseMaster(case_id=row["case_id"])
+                db.add(case)
 
             case.crime_datetime = datetime.fromisoformat(str(row["crime_datetime"]))
             case.district = row["district"]

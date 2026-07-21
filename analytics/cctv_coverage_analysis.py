@@ -45,7 +45,7 @@ for _, hotspot in hotspots.iterrows():
             nearest_distance = distance
 
     results.append({
-        "cluster": hotspot["cluster"],
+        "police_station": hotspot["police_station"],
         "district": hotspot["district"],
         "taluk": hotspot["taluk"],
         "crime_count": hotspot["crime_count"],

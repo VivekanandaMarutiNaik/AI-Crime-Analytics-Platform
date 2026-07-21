@@ -95,7 +95,7 @@ function Dashboard() {
 
   const [predictiveTrend, setPredictiveTrend] = useState(null);
  
-
+  const [selectedHotspot, setSelectedHotspot] = useState(null);
 
   useEffect(() => {
     getDistricts()
@@ -340,6 +340,7 @@ return (
   showHotspots={showHotspots}
   showCCTV={showCCTV}
   showRecommendations={showRecommendations}
+  onHotspotSelect={setSelectedHotspot}
 />
 
 </div>

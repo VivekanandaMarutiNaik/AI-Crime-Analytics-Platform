@@ -3,7 +3,6 @@ from sqlalchemy import func
 from backend.models.case_master import CaseMaster
 from backend.models.occurrence_master import OccurrenceMaster
 
-
 def get_all_crimes(
     db: Session,
     limit: int = 100,
@@ -22,9 +21,13 @@ def get_all_crimes(
     )
 
     if district:
+        print("Filtering for district:", district)
+
         query = query.filter(
             CaseMaster.district.ilike(f"%{district}%")
         )
+
+    print("SQL:", query)
 
     results = (
         query
@@ -32,6 +35,15 @@ def get_all_crimes(
         .limit(limit)
         .all()
     )
+    for case, occurrence in results[:10]:
+        print(
+            case.district,
+            occurrence.village,
+            occurrence.crime_latitude,
+            occurrence.crime_longitude,
+        )
+
+    print("Returned districts:", list({case.district for case, _ in results}))
     return [
         {
             "case_id": case.case_id,

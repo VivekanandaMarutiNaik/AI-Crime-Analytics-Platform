@@ -29,6 +29,16 @@ new_lon = []
 status = []
 
 for index, row in df.iterrows():
+        # Keep existing valid coordinates
+    if (
+        pd.notna(row["latitude"])
+        and pd.notna(row["longitude"])
+        and inside_karnataka(row["latitude"], row["longitude"])
+    ):
+        new_lat.append(row["latitude"])
+        new_lon.append(row["longitude"])
+        status.append("EXISTING")
+        continue
 
     queries = [
         f"{row['police_station_name']}, {row['address']}, {row['ksp_district']}, Karnataka, India",

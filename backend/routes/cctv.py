@@ -53,3 +53,22 @@ def get_recommendations(district: Optional[str] = None):
         df = df[df["district"] == district]
 
     return dataframe_to_json(df)
+
+@router.get("/existing")
+def get_existing_cctv(district: Optional[str] = None):
+    df = pd.read_csv(DATASET_DIR / "cctv_master.csv")
+
+    print("District parameter:", district)
+
+    print("Districts before filter:")
+    print(df["district"].value_counts().head())
+
+    if district:
+        df = df[df["district"] == district]
+
+    print("Returned CCTV:", len(df))
+
+    if len(df):
+        print(df["district"].unique())
+
+    return dataframe_to_json(df)

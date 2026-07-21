@@ -3,6 +3,27 @@ import pandas as pd
 # Load datasets
 crime = pd.read_csv("datasets/raw/crime_cases.csv")
 
+test = (
+    crime.groupby("village_id")
+    .agg(
+        min_lat=("crime_latitude", "min"),
+        max_lat=("crime_latitude", "max"),
+        min_lon=("crime_longitude", "min"),
+        max_lon=("crime_longitude", "max"),
+        count=("crime_id", "count"),
+    )
+)
+
+test["lat_range"] = test["max_lat"] - test["min_lat"]
+test["lon_range"] = test["max_lon"] - test["min_lon"]
+
+print(
+    test.sort_values(
+        ["lat_range", "lon_range"],
+        ascending=False,
+    ).head(20)
+)
+
 severity_score = {
     "Critical": 100,
     "High": 80,

@@ -24,36 +24,42 @@ import L from "leaflet";
 function FlyToDistrict({ crimes, district }) {
   const map = useMap();
 
-  useEffect(() => {
-    if (!district || crimes.length === 0) return;
-    
-    const points = crimes
-      .filter(
-        (crime) =>
-          crime.crime_latitude != null &&
-          crime.crime_longitude != null
-      )
-      .map((crime) => [
-        Number(crime.crime_latitude),
-        Number(crime.crime_longitude),
-      ]);
+useEffect(() => {
+  console.log("District:", district);
+  console.log("Crime count:", crimes.length);
 
-    if (points.length === 0) return;
+  if (crimes.length === 0) return;
 
-    const bounds = L.latLngBounds(points);
+  const points = crimes
+    .filter(
+      (c) =>
+        c.crime_latitude !== null &&
+        c.crime_longitude !== null
+    )
+    .map((c) => [
+      Number(c.crime_latitude),
+      Number(c.crime_longitude),
+    ]);
 
-    map.fitBounds(bounds, {
-      padding: [50, 50],
-      animate: true,
-      duration: 1.5,
-    });
+  console.log("Points:", points.length);
 
-    
-  }, [district, crimes, map]);
+  if (points.length === 0) return;
+const bounds = L.latLngBounds(points);
 
+console.log("Bounds:", bounds.toBBoxString());
+console.log("North:", bounds.getNorth());
+console.log("South:", bounds.getSouth());
+console.log("East:", bounds.getEast());
+console.log("West:", bounds.getWest());
+
+map.fitBounds(bounds, {
+  padding: [40, 40],
+  animate: true,
+});
+  
+}, [crimes, district, map]);
   return null;
 }
-
 
 function SetKarnatakaView() {
   const map = useMap();
@@ -100,6 +106,19 @@ function getRiskColor(level) {
       return "#fbc02d";
     default:
       return "#2e7d32";
+  }
+}
+
+function getRecommendationColor(priority) {
+  switch (priority) {
+    case "Critical":
+      return "#d32f2f"; // Red
+    case "High":
+      return "#f57c00"; // Orange
+    case "Medium":
+      return "#fbc02d"; // Yellow
+    default:
+      return "#2e7d32"; // Green
   }
 }
 
@@ -155,6 +174,7 @@ function CrimeMap({
   showHotspots,
   showCCTV,
   showRecommendations,
+  onHotspotSelect,
 }) {
   const [crimes, setCrimes] = useState([]);
   const [hotspots, setHotspots] = useState([]);
@@ -163,29 +183,65 @@ function CrimeMap({
   const [districtGeoJSON, setDistrictGeoJSON] = useState(null);
 
   useEffect(() => {
-    getCrimes(500, district)
+  getCrimes(5000, district)
   .then((data) => {
-    console.log("Crime API returned:", data.length);
-console.log(data.slice(0, 5));
-    console.log("Crime records from API:", data.length);
+    console.log("Crime API returned:", data);
 
-    setCrimes(data);
+    console.table(
+  data.slice(0, 20).map(c => ({
+    case: c.case_id,
+    district: c.district,
+    taluk: c.taluk,
+    village: c.village,
+    lat: c.crime_latitude,
+    lon: c.crime_longitude,
+  }))
+);
+
+setCrimes(data);
   })
   .catch(console.error);
 
     getHotspots(district)
-      .then(setHotspots)
-      .catch(console.error);
+  .then((data) => {
+    console.log("Hotspots API:", data);
+
+    console.table(
+      data.map((h) => ({
+        district: h.district,
+        taluk: h.taluk,
+        lat: h.latitude,
+        lon: h.longitude,
+      }))
+    );
+
+    setHotspots(data);
+  })
+  .catch(console.error);
 
     getExistingCCTV(district)
   .then((data) => {
     setCctvs(data);
-    console.log("First 20 CCTV");
+    console.log(
+  "CCTV Latitude:",
+  Math.min(...data.map(c => Number(c.latitude))),
+  "->",
+  Math.max(...data.map(c => Number(c.latitude)))
+);
+
+console.log(
+  "CCTV Longitude:",
+  Math.min(...data.map(c => Number(c.longitude))),
+  "->",
+  Math.max(...data.map(c => Number(c.longitude)))
+);
+console.log("First 20 CCTV");
+
 console.table(
-  data.slice(0,20).map(c => ({
+  data.slice(0, 20).map(c => ({
     id: c.cctv_id,
     lat: c.latitude,
-    lon: c.longitude
+    lon: c.longitude,
   }))
 );
     console.log("District:", district);
@@ -230,8 +286,66 @@ console.log("Crimes:", crimes.length);
 console.log("CCTV:", cctvs.length);
 console.log("Recommendations:", recommendedCCTVs.length);
 console.log("Hotspots:", hotspots.length);
+console.log("CrimeMap received district:", district);
+
+console.table(
+  crimes.slice(0, 20).map(c => ({
+    village: c.village,
+    lat: c.crime_latitude,
+    lon: c.crime_longitude,
+  }))
+);
+const lats = crimes.map(c => Number(c.crime_latitude));
+const lons = crimes.map(c => Number(c.crime_longitude));
+
+console.log("Latitude range:", Math.min(...lats), "->", Math.max(...lats));
+console.log("Longitude range:", Math.min(...lons), "->", Math.max(...lons));
+console.table(
+  recommendedCCTVs.slice(0, 10).map(r => ({
+    village: r.village,
+    lat: Number(r.latitude),
+    lon: Number(r.longitude),
+  }))
+);
+
+console.log("Selected district:", district);
+const DISPLAY_LIMIT = 500;
+
+const displayedCrimes = crimes;
+console.log("Displayed crimes:", displayedCrimes.length);
+
+displayedCrimes.forEach(c => {
+  if (
+    c.crime_latitude < 15.2 ||
+    c.crime_latitude > 17.7 ||
+    c.crime_longitude < 75.2 ||
+    c.crime_longitude > 77.8
+  ) {
+    console.log("OUTSIDE:", c);
+  }
+});
+const badCoords = displayedCrimes.filter(c => {
+  const lat = Number(c.crime_latitude);
+  const lon = Number(c.crime_longitude);
+
+  return (
+    lat < 15.2 ||
+    lat > 17.7 ||
+    lon < 75.2 ||
+    lon > 77.8
+  );
+});
+
+console.log("Bad coordinate crimes:", badCoords);
+console.log(
+  "Wrong district crimes:",
+  displayedCrimes.filter(
+    c => c.district !== district
+  )
+);
   return (
     <MapContainer
+  key={district || "all"}
 
     
       center={[15.3173, 75.7139]}
@@ -261,40 +375,37 @@ console.log("Hotspots:", hotspots.length);
       <MapLegend />
 
       <FlyToDistrict
-        crimes={crimes}
-        district={district}
-      />
+  crimes={crimes}
+  district={district}
+/>
 
       {/* Crime Markers */}
 {showCrimes && (
-  <MarkerClusterGroup
-    chunkedLoading
-    maxClusterRadius={45}
-  >
-  {crimes.map((crime) => {
-  console.log(
-    crime.crime_id,
-    crime.crime_latitude,
-    crime.crime_longitude
-  );
-
-  return (
-    <CircleMarker
-      skey={crime.crime_id}
-      center={[
-        Number(crime.crime_latitude),
-        Number(crime.crime_longitude),
-      ]}
-      radius={6}
-      pathOptions={{
-        color: "red",
-        fillColor: "red",
-        fillOpacity: 1,
-      }}
-    />
-  );
-})}
-  </MarkerClusterGroup>
+  <>
+    {displayedCrimes.map((crime) => (
+      <CircleMarker
+        key={crime.case_id}
+        center={[
+          Number(crime.crime_latitude),
+          Number(crime.crime_longitude),
+        ]}
+        radius={10}
+        pathOptions={{
+          color: "red",
+          fillColor: "red",
+          fillOpacity: 0.7,
+        }}
+      >
+        <Popup>
+  <b>{crime.district}</b><br />
+  {crime.taluk}<br />
+  {crime.village}<br />
+  Lat: {crime.crime_latitude}<br />
+  Lon: {crime.crime_longitude}
+</Popup>
+      </CircleMarker>
+    ))}
+  </>
 )}
       {/* Existing CCTV */}
 {showCCTV && (
@@ -314,14 +425,13 @@ console.log("Hotspots:", hotspots.length);
         }}
       >
         <Popup>
-          <b>{camera.cctv_name}</b>
-          <br />
-          Status: {camera.status}
-          <br />
-          Coverage: {camera.coverage_radius_meters} m
-          <br />
-          Police Station: {camera.nearest_police_station}
-        </Popup>
+  <b>Existing CCTV</b><br />
+  District: {camera.district}<br />
+  Taluk: {camera.taluk}<br />
+  Police Station: {camera.police_station}<br />
+  Lat: {camera.latitude}<br />
+  Lon: {camera.longitude}
+</Popup>
       </CircleMarker>
     ))}
   </>
@@ -338,16 +448,25 @@ console.log("Hotspots:", hotspots.length);
         ]}
         radius={6}
         pathOptions={{
-          color: "#2e7d32",
-          fillColor: "#2e7d32",
-          fillOpacity: 0.9,
-        }}
+  color: getRecommendationColor(rec.priority),
+  fillColor: getRecommendationColor(rec.priority),
+  fillOpacity: 0.9,
+}}
       >
         <Popup>
-          Village: {rec.village}
-          <br />
-          Priority: {rec.priority}
-        </Popup>
+  <b>📍 {rec.village}</b>
+  <br />
+  District: {rec.district}
+  <br />
+  Taluk: {rec.taluk}
+  <br />
+  Crimes: {rec.crime_count}
+  <br />
+  Priority: <b>{rec.priority}</b>
+  <br />
+  AI Recommendation:{" "}
+  {rec.recommend_installation ? "Install CCTV" : "No Installation Needed"}
+</Popup>
       </CircleMarker>
     ))}
   </>
@@ -361,11 +480,11 @@ console.log("Hotspots:", hotspots.length);
               Number(spot.latitude),
               Number(spot.longitude),
             ]}
-            radius={10}
+            radius={14}
             pathOptions={{
               color: "#ff5722",
               fillColor: "#ff5722",
-             fillOpacity: 0.35,
+             fillOpacity: 0.2,
             }}
           >
             <Popup minWidth={260}>
@@ -412,11 +531,27 @@ console.log("Hotspots:", hotspots.length);
     >
       AI recommends increasing surveillance in this area.
     </div>
+    <br />
+
+<button
+  onClick={() =>
+    onHotspotSelect?.({
+      district: spot.district,
+      taluk: spot.taluk,
+      crimeCount: spot.crime_count,
+      riskLevel: getRiskLevel(spot.crime_count),
+      recommendedCCTV: spot.recommended_cctv,
+    })
+  }
+>
+  🤖 Analyze with AI
+</button>
   </div>
 </Popup>
           </CircleMarker>
           
         ))}
+        
        {districtGeoJSON && (
   <GeoJSON
     data={districtGeoJSON}
@@ -450,6 +585,7 @@ console.log("Hotspots:", hotspots.length);
 }}
   />
 )}
+
     </MapContainer>
   );
 }

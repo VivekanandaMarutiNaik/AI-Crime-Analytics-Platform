@@ -1,151 +1,296 @@
 district,taluk,police_station,latitude,longitude,crime_count,avg_hotspot_score,recommended_cctv
-Bidar,Bidar,Khataka Chincholi PS,17.91079,77.19386,9,97.0,2
-Chikkaballapura,Chikkaballapura,Chelur PS,13.26414,76.5267,9,95.0,2
-Belagavi,Mudalgi,Athani PS,16.78919,75.2429,9,73.0,2
-Belagavi,Khanapur,Shahapura PS,15.837799,74.518993,9,71.0,2
-Mysuru,Piriyapatna,Udayagiri PS,12.31942,76.6988,9,76.0,2
-Hassan,Hassan,Shravanabelagola PS,12.86046,76.49131,9,76.0,2
-Bengaluru Rural,Doddaballapura,Anugondanahalli PS,12.95531,77.80826,8,100.0,2
-Uttara Kannada,Dandeli,Manki PS,14.17047,74.48836,8,72.0,2
-Vijayapura,Basavana Bagevadi,Tikota PS,16.83016,75.53357,8,95.0,2
-Dharwad,Dharwad,E and N Crime PS HD city,15.364538,75.15155,8,98.0,2
-Chikkaballapura,Chintamani,Nandi Giridhama PS,13.37203,77.71422,8,75.0,2
-Raichur,Devadurga,Gabbur PS,16.29492,77.15951,8,84.0,2
-Shivamogga,Hosanagara,Shikaripura Rural PS,14.26408,75.33655,8,94.0,2
-Hassan,Arsikere,Arasikere Rural PS,13.29949,76.25672,8,72.0,2
-Mysuru,Piriyapatna,Nanjanagudu Rural PS,12.64805,76.40709,8,95.0,2
-Mysuru,Saligrama,Hullahalli PS,12.54962,76.31483,8,75.0,2
-Belagavi,Hukkeri,Khadebazar PS,15.85532,74.4972,8,87.0,2
-Kolar,Srinivaspur,Kyasamballi Police Station,12.957766,78.368292,8,80.0,2
-Kolar,Srinivaspur,Bangarpet PS,12.96879,78.17955,7,72.0,1
-Kolar,Srinivaspur,Budikote Police Station,12.899238,78.145731,7,98.0,1
-Kolar,Srinivaspur,Bethamangala PS,13.00767,78.35141,7,87.0,1
-Bengaluru South,Harohalli,Kanakapura Rural PS,12.55896,77.42355,7,97.0,1
-Haveri,Haveri,Rattihalli PS,14.44168,75.52387,7,71.0,1
-Haveri,Ranibennur,Bankapura PS,14.92633,75.27453,7,70.0,1
-Belagavi,Savadatti,Khadebazar PS,15.85212,74.52492,7,85.0,1
-Kolar,Mulbagal,Mulbagal Town PS,13.16541,78.38103,7,87.0,1
-Bagalkote,Ilkal,Hungunda PS,16.07911,76.05715,7,98.0,1
-Kalaburagi,Yadrami,Ashoknagar PS,12.58869,77.34661,7,70.0,1
-Kolar,Malur,Srinivasapura PS,13.33904,78.22743,7,72.0,1
-Kodagu,Kushalnagar,Gonikoppa PS,12.20612,75.91572,7,92.0,1
-Dakshina Kannada,Kadaba,Moodabidre PS,13.06156,75.019,7,87.0,1
-Kolar,Srinivaspur,Kolar Women PS,13.120744,78.139036,7,94.0,1
-Kolar,Srinivaspur,Srinivasapura PS,13.34493,78.22076,7,92.0,1
-Kalaburagi,Kalagi,Sulepet PS,17.26038,77.19297,7,72.0,1
-Vijayapura,Sindgi,Jalanagar PS,16.81695,75.74249,7,75.0,1
-Kolar,Mulbagal,Budikote Police Station,12.906688,78.139451,7,79.0,1
-Bengaluru Urban,Bengaluru East,BIAL Traffic PS,13.184766,77.701364,7,90.0,1
-Kodagu,Somvarpet,Madikeri Town PS,12.41326,75.74091,7,87.0,1
-Uttara Kannada,Honavar,Karwar Town PS,14.81101,74.14231,7,85.0,1
-Bengaluru Urban,Anekal,Electronic City Traffic PS,12.50655,77.39342,7,75.0,1
-Kolar,Mulbagal,BEML Nagar PS,12.97562,78.22979,7,79.0,1
-Hassan,Hassan,Arasikere Town PS,13.29546,76.26909,7,77.0,1
-Tumakuru,Gubbi,Kodigenahalli PS,13.70876,77.39978,7,72.0,1
-Hassan,Hole Narsipur,Belur PS,13.15839,75.89434,7,85.0,1
-Hassan,Hole Narsipur,Pension Mohalla PS,13.01568,76.10267,7,95.0,1
-Tumakuru,Gubbi,New Extention PS,13.351091,77.127977,7,82.0,1
-Davanagere,Channagiri,Jagalur PS,14.51636,76.32029,7,83.0,1
-Belagavi,Gokak,Market PS,15.84691,74.50666,7,77.0,1
-Mysuru,Saraguru,Vidyaranyarpuram PS,12.28265,76.63986,7,96.0,1
-Shivamogga,Tirthahalli,Bhadravathi Old Town PS,13.85154,75.68839,7,78.0,1
-Kolar,Kolar,Kamasamudram PS,12.86322,78.21095,7,83.0,1
-Dharwad,Dharwad,Dharwad Sub-Urban PS,15.36533,75.13882,7,84.0,1
-Dharwad,Dharwad,Hubli Sub-Urban PS,15.34519,75.13161,7,100.0,1
-Dharwad,Kalghatgi,Hubli Town PS,15.32825,75.14153,7,83.0,1
-Dharwad,Kundgol,Hubli Rural PS,15.3329,75.15445,7,84.0,1
-Tumakuru,Koratagere,Hebbur PS,13.11742,77.14828,7,86.0,1
-Davanagere,Channagiri,RMC Yard PS,14.47651,75.92703,7,75.0,1
-Chamarajanagar,Gundlupet,Chamarajanagar Traffic PS,11.93738,76.92842,7,84.0,1
-Haveri,Hangal,Hansabhavi PS,14.56754,75.37619,7,98.0,1
-Tumakuru,Kunigal,Madhugiri PS,13.662058,77.207171,7,85.0,1
-Mysuru,Hunsur,Narasimharaja Traffic PS,12.30949,76.66933,7,96.0,1
-Belagavi,Mudalgi,Market PS,15.85986,74.51203,7,96.0,1
-Bengaluru Rural,Devanahalli,Thirumalashettahalli PS,12.96933,77.76201,7,75.0,1
-Mandya,Malavalli,Srirangapatna PS,12.42177,76.66833,7,70.0,1
-Kolar,Mulbagal,Oorgaum PS,12.94069,78.28038,7,100.0,1
-Mysuru,Heggadadevankote,Kuvempunagar PS,12.29255,76.6192,7,88.0,1
-Mysuru,Hunsur,Jayapura PS,12.13948,76.35129,7,84.0,1
-Kolar,Kolar,Budikote Police Station,12.922378,78.141671,6,85.0,1
-Kolar,Kolar,Gownapalli PS,13.50731,78.22209,6,81.0,1
-Kolar,Bangarapet,Robertsonpet PS,12.97445,78.26843,6,99.0,1
-Kolar,Kolar,Masti PS,12.869,78.0086,6,71.0,1
-Bengaluru Urban,Bengaluru East,Jnanabharathi PS,12.96053,77.5202,6,92.0,1
-Bengaluru Urban,Anekal,Varthur PS,12.927974,77.72982,6,89.0,1
-Uttara Kannada,Kumta,Ambikanagar PS,15.13949,74.66046,6,84.0,1
-Uttara Kannada,Kumta,Ankola PS,14.64131,74.30355,6,93.0,1
-Bidar,Bhalki,Basava Kalyana Town PS,17.83028,76.92091,6,95.0,1
-Dakshina Kannada,Beltangadi,Puttur Traffic PS,12.77617,75.17969,6,75.0,1
-Kalaburagi,Sedam,Ashoknagar PS,12.58792,77.36575,6,83.0,1
-Kalaburagi,Sedam,Malkhed PS,17.16582,77.3269,6,81.0,1
-Kolar,Mulbagal,Malur PS,13.00002,77.9282,6,79.0,1
-Kalaburagi,Sedam,Ragavendranagar PS,17.33258,76.80708,6,81.0,1
-Kolar,Malur,Srinivasapura PS,13.35566,78.20418,6,72.0,1
-Kolar,Kolar Gold Field,Robertsonpet PS,12.95672,78.2638,6,93.0,1
-Kolar,Malur,BEML Nagar PS,12.99911,78.22518,6,85.0,1
-Bengaluru South,Magadi,Channapatna East PS,12.6443,77.21132,6,83.0,1
-Kolar,Malur,Kolar CEN Crime PS,13.13244,78.15257,6,83.0,1
-Kolar,Malur,Kyasamballi Police Station,12.936656,78.371072,6,92.0,1
-Kolar,Malur,Masti PS,12.89063,78.0006,6,87.0,1
-Uttara Kannada,Sirsi,Gokarna PS,14.51988,74.3272,6,90.0,1
-Kolar,Bangarapet,BEML Nagar PS,12.98693,78.248,6,83.0,1
-Kolar,Kolar,Nangli PS,13.21212,78.53026,6,75.0,1
-Kolar,Kolar Gold Field,Andersonpet PS,12.95205,78.28194,6,73.0,1
-Bengaluru Urban,Bengaluru South,Whitefield PS,12.968786,77.766036,6,87.0,1
-Bengaluru South,Magadi,Kaggalipura PS,12.7826,77.51554,6,80.0,1
-Dakshina Kannada,Mangaluru,Belthangadi PS,13.00494,75.28492,6,82.0,1
-Bengaluru Rural,Doddaballapura,Chennarayapatana PS,13.27835,77.81302,6,82.0,1
-Kolar,Srinivaspur,Kolar CEN Crime PS,13.13494,78.14931,6,85.0,1
-Kalaburagi,Kalaburagi,Ashoknagar PS,12.59754,77.3499,6,70.0,1
-Kolar,Srinivaspur,KGF CEN Crime PS,12.95776,78.290251,6,83.0,1
-Ballari,Sandur,Gandhinagar PS,15.23564,76.59316,6,94.0,1
-Bengaluru Rural,Hosakote,Nelamangala Traffic PS,13.091971,77.385805,6,73.0,1
-Bidar,Bidar,Basava Kalyana Rural PS,17.83687,76.86512,6,98.0,1
-Kolar,Srinivaspur,Bangarpet PS,12.97876,78.16396,6,96.0,1
-Kalaburagi,Kalaburagi,Madanahipparga PS,17.45915,76.38471,6,74.0,1
-Bidar,Basavakalyan,Bhalki Town PS,18.0349,77.22733,6,98.0,1
-Mysuru,Krishnarajanagara,Siddarthanagar Traffic PS,12.31189,76.67935,6,95.0,1
-Mysuru,Krishnarajanagara,Yelawala PS,12.2065,76.32216,6,72.0,1
-Mysuru,Mysuru,Saragur PS,12.01564,76.22654,6,100.0,1
-Tumakuru,Madhugiri,Nonavinakere PS,13.17944,76.53768,6,88.0,1
-Hassan,Sakleshpur,Hallymysore PS,12.66995,76.27205,6,78.0,1
-Chikkaballapura,Sidlaghatta,Nandi Giridhama PS,13.39627,77.68344,6,83.0,1
-Chamarajanagar,Gundlupet,Chamarajanagar Traffic PS,11.9285,76.91641,6,75.0,1
-Haveri,Hangal,Shiggaon PS,14.99977,75.23856,6,89.0,1
-Mysuru,Krishnarajanagara,Bylakuppe PS,12.27171,75.60495,6,96.0,1
-Belagavi,Ramdurg,Belagavi City CEN Crime PS,15.858808,74.537288,6,74.0,1
-Belagavi,Nippani,Market PS,15.85975,74.53001,6,82.0,1
-Belagavi,Ramdurg,Bagewadi PS,15.76109,74.63004,6,96.0,1
-Mysuru,Krishnarajanagara,Deveraja Traffic PS,12.30122,76.64656,6,72.0,1
-Mysuru,Heggadadevankote,V.V. Puram PS,12.32299,76.62337,6,71.0,1
-Mysuru,Hunsur,Talakadu PS,12.10859,77.15641,6,94.0,1
-Tumakuru,Madhugiri,Madhugiri PS,13.676728,77.195471,6,75.0,1
-Belagavi,Savadatti,Gokak Town PS,16.12139,74.69416,6,77.0,1
-Mandya,Shrirangapattana,Maddur PS,12.60088,77.03565,6,100.0,1
-Belagavi,Yaragatti,Ankali PS,16.53295,74.66871,6,71.0,1
-Mysuru,Heggadadevankote,Kuvempunagar PS,12.27575,76.62651,6,87.0,1
-Bengaluru Rural,Nelamangala,Nandagudi PS,13.20449,77.88484,6,95.0,1
-Kolar,Srinivaspur,Masti PS,12.85689,78.00714,6,89.0,1
-Bidar,Bidar,Kamalanagar PS,18.22822,77.18613,6,95.0,1
-Bidar,Bidar,Mannalli PS,17.7647,77.50253,6,80.0,1
-Koppal,Kushtagi,Karatagi PS,15.61053,76.66623,6,72.0,1
-Bengaluru Rural,Doddaballapura,Vishwanathapura PS,13.28174,77.61201,6,89.0,1
-Koppal,Kanakagiri,Munirabad PS,15.27711,76.3173,6,77.0,1
-Koppal,Kushtagi,Alwandi PS,15.21467,75.9809,6,99.0,1
-Mandya,Krishnarajpet,Mandya Traffic PS,12.52866,76.89751,6,95.0,1
-Mandya,Krishnarajpet,Mandya Central PS,12.50515,76.88072,6,98.0,1
-Belagavi,Belagavi,APMC Yard PS,15.11857,76.92991,6,89.0,1
-Mysuru,Piriyapatna,Devaraja PS,12.29881,76.62989,6,90.0,1
-Belagavi,Belagavi,Belagavi City CEN Crime PS,15.889228,74.546358,6,91.0,1
-Belagavi,Belagavi,Belgaum North Traffic PS,15.84899,74.52033,6,73.0,1
-Tumakuru,Gubbi,Hebbur PS,13.12072,77.1625,6,78.0,1
-Mysuru,Tirumakudal - Narsipur,Metagalli PS,12.35856,76.61986,6,71.0,1
-Mysuru,Tirumakudal - Narsipur,Kowlande PS,12.050881,76.795828,6,78.0,1
-Mysuru,Saraguru,Siddarthanagar Traffic PS,12.31528,76.6658,6,73.0,1
-Belagavi,Khanapur,Bailahongal PS,15.82473,74.85587,6,95.0,1
-Hassan,Arsikere,Holenarasipura Rural PS,12.78433,76.23015,6,90.0,1
-Mysuru,Saligrama,Siddarthanagar Traffic PS,12.29539,76.69774,6,99.0,1
-Mysuru,Saligrama,Jayalakshmipuram PS,12.30832,76.61024,6,97.0,1
-Belagavi,Khanapur,Nesargi PS,15.89782,74.77264,6,74.0,1
-Belagavi,Khanapur,Marihal PS,15.86791,74.65395,6,92.0,1
-Hassan,Hassan,Arasikere Rural PS,13.29807,76.25704,6,70.0,1
+Chamarajanagar,Chamarajanagar,Chamarajanagar Traffic PS,12.174139310575637,76.8708904618474,747,49.4,93
+Chamarajanagar,Gundlupet,Chamarajanagar Traffic PS,12.222659237676055,76.75242274823944,568,48.6,71
+Chikkamagaluru,Kadur,Jayapura PS,12.815334048780489,76.40387548780488,246,48.4,31
+Chikkamagaluru,Kadur,Koppa PS,13.081330560185185,76.76608888888889,216,50.1,27
+Chamarajanagar,Hanur,Chamarajanagar Traffic PS,12.20264803488372,77.05583367441861,172,51.8,22
+Chikkamagaluru,Chikkamagaluru,Jayapura PS,12.579845524096385,76.2898801445783,166,48.6,21
+Chikkamagaluru,Chikkamagaluru,Koppa PS,13.048159286624205,76.55027877707006,157,46.2,20
+Chamarajanagar,Kollegal,Chamarajanagar Traffic PS,12.13230357746479,76.91732437323944,142,46.6,18
+Chikkaballapura,Chintamani,Nandi Giridhama PS,13.571045127659573,77.76514291489362,141,45.8,18
+Chikkaballapura,Chintamani,Chelur PS,13.388227266129032,77.04208123387097,124,47.0,16
+Chikkamagaluru,Tarikere,Jayapura PS,13.200449475409835,76.04079794262296,122,50.3,15
+Chikkaballapura,Chintamani,Peresandra PS,13.533851449152543,77.78780297457628,118,44.6,15
+Chikkamagaluru,Mudigere,Koppa PS,13.090057353448275,76.42690372413793,116,50.1,14
+Chikkaballapura,Sidlaghatta,Peresandra PS,13.603013380530973,77.60535030973452,113,50.1,14
+Chitradurga,Hosdurga,Chitradurga CEN Crime PS,14.126715456310679,76.2969372815534,103,50.1,13
+Chikkamagaluru,Ajjampura,Jayapura PS,13.348552415841585,76.34108942574257,101,46.2,13
+Chikkamagaluru,Tarikere,Koppa PS,13.196204849999999,76.54311735,100,50.2,12
+Chikkaballapura,Sidlaghatta,Nandi Giridhama PS,13.35011698989899,77.56147675757576,99,47.2,12
+Chikkaballapura,Chikkaballapura,Chelur PS,13.294334090909091,76.92756406060606,99,50.7,12
+Chikkaballapura,Sidlaghatta,Chelur PS,13.304991131313132,76.86989973737374,99,47.7,12
+Chikkaballapura,Chikkaballapura,Peresandra PS,13.491522483870968,77.65103962365592,93,47.9,12
+Chitradurga,Hosdurga,Srirampura PS,13.607716677777777,76.91162226666667,90,48.0,11
+Chitradurga,Chitradurga,Chitrahalli Gate PS,14.144880318181817,76.26881975,88,56.6,11
+Chitradurga,Hiriyur,Chitradurga CEN Crime PS,14.060594058139534,76.38438066279069,86,45.7,11
+Chikkaballapura,Chikkaballapura,Nandi Giridhama PS,13.500057752941176,77.53059908235294,85,50.9,11
+Chitradurga,Challakere,Chitradurga CEN Crime PS,14.066811235294118,76.43550465882353,85,48.7,11
+Chamarajanagar,Yelandur,Chamarajanagar Traffic PS,12.050620180722891,76.8635858192771,83,53.1,10
+Chitradurga,Holalkere,Chitradurga Extension PS,13.966804243902438,76.3565858902439,82,44.8,10
+Chitradurga,Holalkere,Chitradurga CEN Crime PS,13.918453512195123,76.21263210975609,82,51.2,10
+Chitradurga,Chitradurga,Srirampura PS,13.320363283950616,77.14847112345679,81,44.5,10
+Chitradurga,Holalkere,Srirampura PS,13.454093987341771,77.05608770886076,79,48.7,10
+Chitradurga,Hosdurga,Chitrahalli Gate PS,13.9472672278481,76.30678458227848,79,52.6,10
+Chikkaballapura,Gauribidanur,Peresandra PS,13.474120226666667,77.51235421333334,75,46.5,9
+Chikkamagaluru,Ajjampura,Koppa PS,13.392326136986302,76.41279601369862,73,48.2,9
+Chikkamagaluru,Mudigere,Jayapura PS,12.531303735294117,76.15187211764706,68,50.3,8
+Dharwad,Dharwad,Dharwad Rural PS,15.247203019230769,75.05670359615384,52,54.1,6
+Dharwad,Dharwad,Dharwad CEN Crime PS,15.314447509803921,75.07828982352942,51,48.9,6
+Dharwad,Dharwad,Alnavar PS,15.533818140000001,74.95953492000001,50,46.3,6
+Dharwad,Dharwad,Navalgund PS,15.54182668,75.14835457999999,50,48.7,6
+Dharwad,Kalghatgi,Dharwad Women PS,15.35120476,75.09609003999999,50,49.0,6
+Kodagu,Somvarpet,Kodagu CEN Crime PS,12.473178840000001,75.74622954,50,49.7,6
+Dharwad,Kalghatgi,Hubli Rural PS,15.228087591836735,75.14903818367347,49,48.5,6
+Kodagu,Somvarpet,Kodagu Women PS,12.561415693877551,75.92819802040816,49,51.1,6
+Dharwad,Dharwad,Kundagol PS,15.477876375000001,75.23530964583334,48,52.7,6
+Kodagu,Somvarpet,Kushalanagar Rural PS,12.512645541666666,75.95367825,48,42.7,6
+Ballari,Siruguppa,Hatcholli PS,15.778375916666667,76.95069054166667,48,50.4,6
+Kodagu,Somvarpet,Kutta PS,12.511329063829788,76.20397270212766,47,41.9,6
+Ballari,Siruguppa,Bellary Rural PS,15.25962955319149,76.92762689361703,47,50.8,6
+Dharwad,Dharwad,Gudageri PS,15.277225130434783,75.18527241304348,46,56.3,6
+Ballari,Siruguppa,Ballari Women PS,15.478186977777778,76.30666642222222,45,46.7,6
+Dharwad,Dharwad,Kalaghatagi PS,15.323760545454546,75.06461845454545,44,52.6,6
+Koppal,Koppal,Kushtagi PS,15.789136022727273,76.06463347727272,44,48.6,6
+Dharwad,Kalghatgi,Dharwad Rural PS,15.162891431818183,74.98305956818182,44,49.2,6
+Kodagu,Somvarpet,Madikeri Town PS,13.457668272727272,75.98584145454545,44,46.6,6
+Kodagu,Somvarpet,Madikeri Traffic PS,12.504776604651163,75.70133723255815,43,46.2,5
+Yadgir,Shahpur,Kembhavi PS,16.665251511627908,76.55049060465116,43,48.6,5
+Koppal,Kushtagi,Yelburga PS,15.63240261904762,76.02839373809523,42,44.2,5
+Kodagu,Somvarpet,Ponnampet PS,12.216962404761906,75.92576504761905,42,46.5,5
+Kodagu,Somvarpet,Bhagamandala PS,12.637263560975608,76.03144434146341,41,49.8,5
+Kolar,Malur,Bethamangala PS,13.138889512195123,77.97474448780488,41,46.4,5
+Kodagu,Somvarpet,Kushalnagar PS,12.78285855,75.9653977,40,51.0,5
+Gadag,Ron,Gadag Women PS,15.464192950000001,75.65621935,40,50.1,5
+Koppal,Kushtagi,Tavaregera PS,15.777815899999998,76.411383725,40,46.3,5
+Udupi,Kundapura,Hebri PS,13.50586445,75.46150655,40,44.8,5
+Kolar,Mulbagal,Kamasamudram PS,12.91566215,78.218987325,40,51.4,5
+Kodagu,Somvarpet,Sunticoppa PS,12.56709165,75.9638515,40,52.7,5
+Gadag,Gadag,Mulagund PS,15.2689175,75.527881225,40,47.2,5
+Kolar,Malur,BEML Nagar PS,13.09196641025641,77.90044856410256,39,41.0,5
+Kolar,Kolar,Kyasamballi Police Station,13.29465023076923,77.8643731025641,39,46.1,5
+Yadgir,Shorapur,Gurumitkal PS,16.82298023076923,77.33422384615385,39,48.6,5
+Udupi,Kundapura,Udupi CEN Crime PS,13.47741757894737,74.76376336842105,38,52.1,5
+Kolar,Srinivaspur,Robertsonpet PS,13.18092,78.0242367368421,38,46.0,5
+Ballari,Sandur,Gandhinagar PS,15.225261263157895,76.60661626315789,38,45.9,5
+Yadgir,Hunasagi,Saidapur PS,16.539789324324325,77.26122356756757,37,43.8,5
+Koppal,Kushtagi,Hanumasagar PS,15.753779135135135,76.15329127027027,37,42.2,5
+Bengaluru South,Magadi,Bidadi PS,12.85790008108108,77.10110586486486,37,50.3,5
+Bengaluru South,Magadi,Channapatna Town PS,12.899662270270271,77.00863983783783,37,50.9,5
+Ballari,Siruguppa,Siruguppa PS,15.508625567567568,76.65598332432432,37,49.7,5
+Kolar,Srinivaspur,Andersonpet PS,13.31866937837838,78.17991502702702,37,52.4,5
+Bengaluru South,Magadi,Akkur PS,13.433644472222221,76.81068458333333,36,42.1,4
+Udupi,Kundapura,Kapu PS,13.122746999999999,74.88712100000001,36,51.1,4
+Kolar,Mulbagal,KGF CEN Crime PS,13.238986305555555,78.02095216666666,36,53.4,4
+Koppal,Kushtagi,Gangavathi Traffic PS,15.067746861111111,76.6253521388889,36,48.2,4
+Udupi,Kundapura,Kota PS,13.502204027777777,74.68393966666666,36,47.5,4
+Ballari,Ballari,Moka PS,15.462711028571428,76.44644862857142,35,60.9,4
+Koppal,Koppal,Koppal Traffic PS,15.34984697142857,76.16993385714287,35,48.6,4
+Ballari,Ballari,Bellary Traffic PS,15.38825577142857,76.6124756,35,36.5,4
+Koppal,Kushtagi,Karatagi PS,15.603661200000001,76.6658524,35,38.6,4
+Bengaluru Rural,Doddaballapura,Hosakote PS,13.144983914285714,77.62701391428571,35,48.9,4
+Bengaluru Rural,Devanahalli,Suryanagar PS,13.32932842857143,77.38645171428571,35,49.9,4
+Kolar,Srinivaspur,Kyasamballi Police Station,13.17405744117647,78.1832003235294,34,56.7,4
+Kolar,Kolar,Marikuppam PS,13.070256911764705,77.92065479411765,34,43.2,4
+Kolar,Mulbagal,Champion Reefs PS,13.03027055882353,78.08155417647059,34,50.9,4
+Davanagere,Channagiri,Channagiri PS,13.791483911764706,76.1487760882353,34,48.5,4
+Davanagere,Channagiri,RMC Yard PS,14.223108941176472,76.0166890882353,34,43.5,4
+Dakshina Kannada,Beltangadi,Puttur Traffic PS,12.862039235294118,75.23730105882353,34,46.8,4
+Gadag,Gajendragad,Betageri Extention PS,15.50721094117647,75.69220870588235,34,46.2,4
+Udupi,Udupi,Byndoor PS,13.682803999999999,75.03368255882353,34,49.2,4
+Bengaluru South,Magadi,Ramanagar CEN Crime PS,12.844608147058823,77.16319847058824,34,52.9,4
+Udupi,Karkal,Ajekar PS,13.273774818181817,75.01474712121212,33,46.4,4
+Bengaluru Rural,Doddaballapura,Nelamangala Traffic PS,13.107415333333334,77.30305857575757,33,53.8,4
+Bengaluru South,Magadi,Tavarekere PS,13.121232484848486,77.074231,33,48.6,4
+Yadgir,Yadgir,Yadgiri Town PS,16.81724015151515,77.133578,33,50.1,4
+Gadag,Gadag,Gadag CEN Crime PS,15.501746757575757,75.53083142424242,33,51.3,4
+Bagalkote,Hungund,Mahalingapur PS,16.372475121212123,75.25194145454546,33,46.3,4
+Bengaluru Rural,Hosakote,Sulibele PS,13.32377234375,77.34949715625,32,43.2,4
+Koppal,Kushtagi,Kanakagiri PS,15.56074375,76.42828068749999,32,48.2,4
+Bengaluru Rural,Hosakote,Hosakote PS,13.1082466875,77.7962305,32,48.4,4
+Yadgir,Shorapur,Saidapur PS,16.55240565625,77.2770974375,32,50.8,4
+Gadag,Mundargi,Betageri Extention PS,15.30272025,75.73342265625,32,59.0,4
+Gadag,Ron,Ron PS,15.36175378125,75.4141820625,32,48.2,4
+Ballari,Siruguppa,Kuduthini PS,15.51649025,76.77772778125001,32,47.2,4
+Haveri,Hangal,Shiggaon PS,14.99136725,75.24699771875,32,46.9,4
+Bagalkote,Badami,Bagalkot Town PS,16.07413584375,75.6520944375,32,38.4,4
+Gadag,Ron,Gadag CEN Crime PS,15.4286126875,75.666596875,32,49.4,4
+Gadag,Gadag,Ron PS,15.42966978125,75.5351304375,32,48.5,4
+Davanagere,Channagiri,Mayakonda PS,13.823084322580646,75.85108777419356,31,50.6,4
+Dakshina Kannada,Bantval,Puttur Town PS,12.763690193548387,75.20810793548387,31,57.3,4
+Ballari,Sandur,Cowlbazar PS,15.140619258064516,76.89410525806451,31,48.2,4
+Yadgir,Shorapur,Narayanapura PS,16.23223670967742,76.50617487096774,31,50.8,4
+Bengaluru Rural,Doddaballapura,Vijayapura PS,13.666514290322581,77.33488799999999,31,43.7,4
+Bengaluru Rural,Doddaballapura,Sulibele PS,13.447792870967742,77.55683290322581,31,51.1,4
+Yadgir,Hunasagi,Yadgir Women PS,16.777605225806454,77.12327619354839,31,55.4,4
+Koppal,Koppal,Koppal Town PS,15.083825612903226,76.09449967741935,31,50.3,4
+Koppal,Koppal,Bevoor PS,16.14187293548387,75.92204238709677,31,52.7,4
+Ballari,Ballari,Gadiganur PS,15.185514612903225,76.6506389032258,31,47.2,4
+Bengaluru Rural,Doddaballapura,Nandagudi PS,13.475841466666667,77.40164266666667,30,47.7,4
+Udupi,Kundapura,Shirva PS,13.257378433333335,74.85601593333334,30,47.4,4
+Kalaburagi,Aland,Malkhed PS,17.08273416666667,77.1886064,30,55.3,4
+Bengaluru South,Magadi,Ramanagara Rural PS,12.891200566666667,77.07771286666666,30,43.2,4
+Yadgir,Yadgir,Yadgiri Rural PS,16.724977866666666,77.14437333333333,30,53.1,4
+Yadgir,Gurmitakal,Gurumitkal PS,16.845729733333332,77.3560925,30,52.3,4
+Haveri,Hangal,Adur PS,14.7792782,75.23280993333333,30,55.0,4
+Bengaluru South,Magadi,CHANNAPATNA TRAFFIC PS,12.928156666666666,76.91309166666666,30,56.9,4
+Dakshina Kannada,Bantval,Buntwala Town PS,12.5901056,75.03997616666668,30,46.5,4
+Bengaluru South,Magadi,Kaggalipura PS,12.937925310344827,77.32862775862068,29,42.7,4
+Bengaluru South,Magadi,Harohalli PS,12.900273620689655,77.31652713793103,29,50.9,4
+Bengaluru South,Magadi,Kanakapura Rural PS,12.75860724137931,77.36978544827586,29,51.9,4
+Belagavi,Khanapur,Khadebazar PS,15.84917975862069,74.50015355172414,29,50.6,4
+Yadgir,Hunasagi,Wadigere PS,16.62273693103448,77.11953431034483,29,51.6,4
+Mysuru,Hunsur,Jayalakshmipuram PS,12.245065607142857,76.67668625,28,48.0,4
+Gadag,Mundargi,Gadag Rural PS,15.431330785714286,75.62971310714286,28,42.6,4
+Bengaluru Rural,Hosakote,Nelamangala Rural PS,13.206342000000001,77.5517777857143,28,53.3,4
+Bengaluru Rural,Doddaballapura,Chennarayapatana PS,13.295475464285714,77.67727442857142,28,50.5,4
+Belagavi,Khanapur,Belgaum South Traffic PS,15.653400285714286,74.72049010714285,28,46.7,4
+Davanagere,Channagiri,KTJ Nagar PS,14.201774499999999,76.14992582142858,28,50.5,4
+Dakshina Kannada,Kadaba,Venoor PS,12.862554571428571,75.27667635714285,28,49.5,4
+Davanagere,Channagiri,Hadadi PS,13.998395962962961,76.04018603703705,27,49.4,3
+Udupi,Brahmavara,Kapu PS,13.291689037037038,74.760942,27,45.3,3
+Udupi,Karkal,Padubidri PS,13.181121925925925,74.79669918518519,27,41.1,3
+Bagalkote,Bagalkot,Mudhol PS,16.330465962962965,75.2700957037037,27,46.6,3
+Mysuru,Hunsur,Devaraja PS,12.344284703703703,76.57040151851852,27,45.2,3
+Bagalkote,Hungund,Hungunda PS,16.059223888888887,76.05117411111112,27,46.3,3
+Davanagere,Jagalur,Basavapatna PS,14.356276076923077,75.99353315384616,26,39.6,3
+Gadag,Gadag,Gadag Town PS,15.412303923076923,75.66088342307692,26,51.1,3
+Belagavi,Khanapur,Marihal PS,15.913272500000001,74.70510011538462,26,45.4,3
+Raichur,Lingasugur,Raichur Rural PS,16.21403123076923,77.27586946153846,26,48.8,3
+Udupi,Kundapura,Karkala Rural PS,13.330909115384616,74.97549053846154,26,48.1,3
+Davanagere,Channagiri,Bilichodu PS,14.21114172,76.02287708,25,54.8,3
+Davanagere,Channagiri,Harihara Town PS,14.294254599999999,75.83512208,25,45.7,3
+Haveri,Hangal,Tadas PS,14.69217844,75.5755706,25,39.2,3
+Bidar,Bhalki,Dhannura PS,18.005442600000002,77.30037848,25,42.8,3
+Belagavi,Khanapur,Market PS,15.82018976,74.5079964,25,48.7,3
+Bagalkote,Badami,Amengad PS,15.991506280000001,75.77702307999999,25,48.8,3
+Dakshina Kannada,Bantval,Dakshina Kannada Women PS,12.851495199999999,74.99359828,25,43.2,3
+Davanagere,Davanagere,Gandhi Nagar PS,14.206922440000001,75.94713868,25,47.9,3
+Bagalkote,Bilgi,Hungunda PS,15.786058416666668,76.23766604166667,24,46.3,3
+Raichur,Raichur,Sadar Bazar PS,16.216336666666667,77.36216,24,52.5,3
+Mysuru,Piriyapatna,Saraswathipuram PS,12.954487125,76.75409866666666,24,58.5,3
+Raichur,Maski,Raichur West PS,16.179541541666666,77.3398625,24,43.4,3
+Bagalkote,Badami,Kerur PS,16.12545991304348,75.57928000000001,23,42.1,3
+Dakshina Kannada,Mulki,Belthangadi Traffic PS,12.990360304347826,75.28761469565217,23,47.8,3
+Raichur,Lingasugur,Jalhalli PS,16.01208447826087,77.46221308695652,23,52.3,3
+Davanagere,Channagiri,Malebennur PS,13.882239739130435,75.88668608695652,23,48.9,3
+Haveri,Hangal,Hanagal PS,14.764380434782609,75.18197682608695,23,48.0,3
+Belagavi,Khanapur,Kakati PS,15.786476130434783,74.47433191304349,23,52.7,3
+Belagavi,Ramdurg,Udyambag PS,15.824716260869566,74.62976186956521,23,41.7,3
+Bidar,Bidar,Manna Ekhelli PS,17.755214347826087,77.36260747826087,23,54.0,3
+Dakshina Kannada,Beltangadi,Buntwala Town PS,12.574056565217392,75.02454543478261,23,37.7,3
+Raichur,Raichur,Raichur CEN Crime PS,16.205534869565216,77.34646013043479,23,48.7,3
+Mysuru,Heggadadevankote,Narasimharaja Traffic PS,12.648236826086956,76.52312591304347,23,38.4,3
+Vijayapura,Indi,Golgumbaz PS,16.739639695652173,75.78463021739131,23,49.7,3
+Dakshina Kannada,Mangaluru,Punjalkatte PS,12.58833343478261,75.08649408695652,23,52.0,3
+Dakshina Kannada,Mangaluru,Puttur Rural PS,12.451965608695653,75.13454652173913,23,44.5,3
+Bagalkote,Mudhol,Bilagi PS,16.304441999999998,75.4137344347826,23,58.3,3
+Dakshina Kannada,Bantval,Puttur Rural PS,12.451428782608696,75.12321091304348,23,49.3,3
+Raichur,Lingasugur,Idapanur PS,16.039566227272726,77.19668322727273,22,50.5,3
+Belagavi,Belagavi,Tilakwadi PS,15.58924690909091,74.96873936363636,22,45.0,3
+Bagalkote,Badami,Guledagudda PS,16.002632000000002,75.76322695454546,22,64.8,3
+Mysuru,Hunsur,Mandi PS,12.706491772727274,76.56294863636364,22,57.3,3
+Bidar,Bhalki,Bidar CEN Crime PS,18.05567263636364,77.20690527272728,22,41.3,3
+Haveri,Hangal,Haveri Rural PS,14.812247181818181,75.39759781818181,22,54.3,3
+Haveri,Hangal,Guttal PS,14.771317095238095,75.4728058095238,21,39.7,3
+Haveri,Byadgi,Haveri Town PS,14.777802428571428,75.47655804761905,21,50.1,3
+Bidar,Basavakalyan,Mannalli PS,17.810454571428572,77.51135947619048,21,48.0,3
+Raichur,Raichur,Kowthal PS,16.078992952380954,76.79360047619048,21,47.7,3
+Tumakuru,Gubbi,Chandrashekarpura PS,13.158022,76.72879766666668,21,46.1,3
+Haveri,Savanur,Adur PS,14.819667666666668,75.26780052380953,21,44.9,3
+Haveri,Shiggaon,Shiggaon PS,15.022031095238095,75.27715738095237,21,45.0,3
+Bagalkote,Bagalkot,Ilakal Rural PS,16.0200146,76.0454848,20,45.6,2
+Vijayapura,Indi,Basavan Bagewadi PS,16.5766527,75.7276143,20,50.4,2
+Bidar,Bhalki,Hokrana PS,18.026525749999998,77.22590165,20,50.0,2
+Mandya,Nagamangala,K.R. Sagar PS,12.56420425,76.54896435,20,46.0,2
+Raichur,Arakera,Gabbur PS,16.267928700000002,77.16682195,20,51.9,2
+Mysuru,Nanjangud,Ashokpuram PS,12.1596364,76.60396184999999,20,40.8,2
+Mandya,Nagamangala,Mandya CEN Crime PS,12.91025625,76.8217899,20,55.0,2
+Bidar,Bidar,Mudbi PS,17.76701885,77.11444725,20,49.2,2
+Haveri,Hangal,Hansabhavi PS,14.555092400000001,75.3061177,20,60.8,2
+Raichur,Maski,Hutti PS,16.20374452631579,76.67455705263158,19,44.0,2
+Mandya,Krishnarajpet,Malavalli Town PS,12.696665789473684,76.82813357894736,19,48.7,2
+Mandya,Nagamangala,Nagamangala Town PS,13.412853578947368,76.48457468421053,19,52.8,2
+Raichur,Lingasugur,Sirwar PS,16.209984631578948,77.05965505263158,19,45.5,2
+Mysuru,Piriyapatna,Krishnaraja PS,12.458250157894737,76.71097863157894,19,53.8,2
+Mysuru,Piriyapatna,Deveraja Traffic PS,12.720653894736841,76.69457036842105,19,56.5,2
+Bidar,Bhalki,Janwada PS,17.993267947368423,77.45123247368421,19,48.2,2
+Kalaburagi,Chincholi,Revoor PS,17.30890642105263,76.47422642105262,19,49.3,2
+Kalaburagi,Sedam,Shahabad Town PS,17.150959842105266,76.9102592105263,19,49.4,2
+Bidar,Homnabad,Mehakar PS,17.806859368421055,77.10094115789474,19,44.2,2
+Belagavi,Hukkeri,Marihal PS,15.932983263157894,74.66087505263158,19,48.3,2
+Belagavi,Khanapur,Shahapura PS,15.690773888888891,74.53739444444444,18,45.6,2
+Belagavi,Khanapur,Belagavi Rural PS,15.752719277777778,74.53474383333334,18,54.5,2
+Kalaburagi,Kalaburagi,Madbool PS,17.322293555555557,76.9431843888889,18,47.9,2
+Mysuru,Nanjangud,Alanahally PS,12.475024277777777,76.89504611111111,18,49.0,2
+Mysuru,Hunsur,Udayagiri PS,12.6367385,76.7332593888889,18,53.9,2
+Mandya,Nagamangala,Mandya Central PS,12.991305666666667,76.73172205555555,18,50.9,2
+Mandya,Krishnarajpet,Bellur PS,12.843448333333335,76.65689594444444,18,49.2,2
+Mandya,Nagamangala,K.R. Pet Town PS,13.34860861111111,76.47263188888888,18,44.8,2
+Vijayapura,Muddebihal,Bijapur Traffic PS,16.798855,75.85098577777778,18,61.1,2
+Shivamogga,Sagar,Vinobanagara PS,13.958196166666667,75.58908194444444,18,62.4,2
+Hassan,Channarayapatna,Hassan Rural PS,13.387218611111111,75.99034105555556,18,47.3,2
+Hassan,Channarayapatna,Hassan City PS,12.944493055555556,76.71123238888889,18,42.8,2
+Bidar,Bidar,Bhalki Town PS,18.069809117647058,77.22059476470588,17,37.4,2
+Bidar,Bidar,Matala PS,17.887499294117646,77.00817282352942,17,41.5,2
+Uttara Kannada,Sirsi,UK CEN Crime PS,14.72902105882353,74.38927264705883,17,56.9,2
+Kalaburagi,Aland,Narona PS,17.562369705882354,76.78867229411765,17,51.6,2
+Shivamogga,Sorab,Malur PS,13.440147411764706,76.97039976470587,17,44.9,2
+Shivamogga,Sorab,Jayanagara PS,14.24636882352941,75.31675947058824,17,48.5,2
+Mandya,Krishnarajpet,K.R. Pet Rural PS,13.013553647058824,76.53090205882353,17,44.6,2
+Mandya,Krishnarajpet,K.M. Doddi PS,12.892021941176472,76.85458782352941,17,41.7,2
+Mandya,Krishnarajpet,Kesthur PS,12.861204117647059,76.79139476470588,17,57.1,2
+Hassan,Hassan,Channarayapatna Rural PS,13.184503235294116,76.55281517647059,17,50.7,2
+Vijayapura,Indi,Vijayapur CEN Crime PS,16.092703411764706,75.67739717647059,17,51.8,2
+Vijayapura,Muddebihal,Bijapur rural PS,16.80379205882353,75.80738088235294,17,52.3,2
+Kalaburagi,Sedam,Jewargi PS,17.008799529411764,76.91304388235295,17,40.1,2
+Kalaburagi,Chittapur,Sedam PS,17.209299235294118,77.02859594117648,17,46.8,2
+Kalaburagi,Sedam,Sedam PS,17.1375361875,77.332066625,16,48.6,2
+Vijayapura,Sindgi,Indi PS,16.78682425,76.1025054375,16,55.8,2
+Vijayapura,Muddebihal,Nidagundi PS,16.342554125,76.015322875,16,42.4,2
+Kalaburagi,Sedam,Devalagangapur PS,17.16686425,76.5633055625,16,49.6,2
+Uttara Kannada,Kumta,Banavasi PS,14.5883059375,74.7732149375,16,52.2,2
+Bengaluru Urban,Anekal,Sanjay Nagar PS,12.9832270625,77.592451,16,54.0,2
+Kalaburagi,Chincholi,Miryan PS,17.24522975,77.268973,16,40.6,2
+Uttara Kannada,Sirsi,Banavasi PS,14.6188591875,74.8157691875,16,44.2,2
+Shivamogga,Shikarpur,Doddapete PS,14.335297375,75.612996125,16,43.1,2
+Uttara Kannada,Sirsi,Joida PS,15.194525625,74.512409625,16,44.7,2
+Uttara Kannada,Siddapur,Kadra PS,14.863419666666665,74.4048642,15,35.6,2
+Hassan,Hassan,Shanthigrama PS,12.993542733333333,76.26967826666667,15,58.0,2
+Vijayapura,Muddebihal,Babaleshwar PS,15.922178466666667,75.56759973333332,15,47.9,2
+Shivamogga,Sagar,Shivamogga CEN Crime PS,13.905598199999998,75.55016526666667,15,50.3,2
+Uttara Kannada,Sirsi,Karwar Traffic PS,14.704289600000001,74.53405226666668,15,44.9,2
+Vijayapura,Nidagundi,Adarsh Nagar PS,16.837339800000002,75.73648513333333,15,47.5,2
+Vijayapura,Muddebihal,Golgumbaz PS,16.226607666666666,75.59904766666666,15,47.1,2
+Shivamogga,Hosanagara,Kargal PS,14.141958933333333,74.91378646666666,15,57.8,2
+Shivamogga,Hosanagara,Thirthahalli PS,13.665277785714284,75.36106728571428,14,48.5,2
+Uttara Kannada,Sirsi,Bhatkal Town PS,14.310145214285713,74.67233735714285,14,46.4,2
+Hassan,Arkalgud,Holenarasipura Town PS,13.008812857142857,76.529186,14,42.1,2
+Shivamogga,Shivamogga,Shimoga East Traffic PS,13.952779357142857,75.57559157142857,14,55.1,2
+Shivamogga,Sorab,Sagar Rural PS,14.437596428571428,75.03067185714285,14,35.4,2
+Shivamogga,Sorab,Shikaripura Town PS,14.280261071428571,75.31822157142857,14,43.4,2
+Uttara Kannada,Kumta,Joida PS,15.033834142857144,74.49971064285715,14,59.6,2
+Uttara Kannada,Sirsi,Kumta PS,14.203919,75.00420892307692,13,45.8,2
+Uttara Kannada,Sirsi,Dandeli Rural PS,15.230113,74.60526230769231,13,43.8,2
+Hassan,Arkalgud,Sakaleshpura Rural PS,13.889549846153848,76.08030023076923,13,39.6,2
+Hassan,Arsikere,Holenarasipura Town PS,13.522469384615384,76.3112543846154,13,52.0,2
+Hassan,Hassan,Sakaleshpura Rural PS,12.947747076923077,75.96626923076923,13,48.5,2
+Tumakuru,Chiknayakanhalli,Tumkur Town PS,13.29676476923077,76.86681446153847,13,45.7,2
+Bengaluru Urban,Anekal,Kamakshipalya PS,13.005331461538463,77.35183384615385,13,40.2,2
+Bengaluru Urban,Anekal,Gangammana Gudi PS,12.9731695,77.36456425,12,43.2,2
+Hassan,Hole Narsipur,Arakalagud PS,13.112048666666666,76.22557333333333,12,58.3,2
+Tumakuru,Tiptur,Kolala PS,13.136790333333332,76.70682733333334,12,50.2,2
+Hassan,Hassan,Hassan Traffic PS,12.9906395,76.18115516666667,12,59.2,2
+Tumakuru,Chiknayakanhalli,Tumkur CEN Crime PS,13.702992083333333,76.52441908333333,12,45.5,2
+Bengaluru Urban,Anekal,BIAL Traffic PS,13.789852636363635,77.36348209090909,11,49.7,1
+Bengaluru Urban,Bengaluru South,Sadashivanagar Traffic PS,12.92437118181818,77.58008436363636,11,67.4,1
+Tumakuru,Tumakuru,Turuvekere PS,13.288130545454544,76.77156836363636,11,45.9,1
+Tumakuru,Tumakuru,New Extention PS,13.379677363636363,76.53583790909092,11,50.3,1
+Tumakuru,Madhugiri,Madhugiri PS,13.491312363636364,77.05651518181818,11,30.1,1
+Tumakuru,Kunigal,Thilak Park PS,13.278897454545454,76.91256281818181,11,43.9,1
+Tumakuru,Koratagere,Nonavinakere PS,13.164926727272729,76.83196745454546,11,49.6,1
+Tumakuru,Gubbi,Tumkur Town PS,13.322551100000002,77.0430505,10,56.7,1
+Bengaluru Urban,Anekal,Kadugondana Halli PS,12.890454700000001,77.6485006,10,50.9,1
+Bengaluru Urban,Bengaluru North,Yelahanka New Town PS,13.1421142,77.5707977,10,50.1,1
+Bengaluru Urban,Anekal,Hennur PS,12.9739127,77.728435,10,24.1,1
+Bengaluru Urban,Anekal,HSR Layout PS,12.9871726,77.7690293,10,54.2,1
+Bengaluru Urban,Anekal,Cubbonpark Traffic PS,13.10590411111111,77.72270544444444,9,58.3,1

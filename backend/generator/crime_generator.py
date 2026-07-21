@@ -13,25 +13,51 @@ import pandas as pd
 from faker import Faker
 
 fake = Faker("en_IN")
-NUM_RECORDS = 10000
+NUM_RECORDS = 50000
 
 from datetime import datetime
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
 LOCATION_MASTER = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "police_village_mapping.csv"
+    BASE_DIR / "datasets" / "processed" / "village_coordinates.csv"
 )
 
-# Select hotspot villages (about 5% of all villages)
-HOTSPOT_VILLAGES = set(
-    LOCATION_MASTER.sample(frac=0.05)["village_id"]
+# -----------------------------
+# District-wise weighted sampling
+# -----------------------------
+
+DISTRICT_GROUPS = {}
+
+for district, df in LOCATION_MASTER.groupby("district_name"):
+
+    df = df.copy()
+
+    # Count villages per taluk
+    taluk_counts = (
+        df.groupby("taluk_name")
+        .size()
+        .sort_values(ascending=False)
+    )
+
+    # Larger taluks receive higher probability
+    taluk_weights = (
+        taluk_counts / taluk_counts.sum()
+    ).to_dict()
+
+    DISTRICT_GROUPS[district] = {
+        "villages": df,
+        "weights": taluk_weights,
+    }
+
+# District weights based on number of villages
+district_counts = (
+    LOCATION_MASTER.groupby("district_name")
+    .size()
 )
 
-HOTSPOT_SCORES = {}
-
-for village_id in HOTSPOT_VILLAGES:
-    HOTSPOT_SCORES[village_id] = random.randint(70, 100)
+DISTRICT_NAMES = district_counts.index.tolist()
+DISTRICT_WEIGHTS = district_counts.values.tolist()
 
 
 crime_records = []
@@ -48,18 +74,41 @@ for i in range(NUM_RECORDS):
 
     # Pick one random location
     # 70% of crimes happen in hotspot villages
-    if random.random() < 0.70:
-        hotspot_locations = LOCATION_MASTER[
-        LOCATION_MASTER["village_id"].isin(HOTSPOT_VILLAGES)
+    # Choose a district first
+    district = random.choices(
+    DISTRICT_NAMES,
+    weights=DISTRICT_WEIGHTS,
+    k=1,
+)[0]
+
+    district_df = DISTRICT_GROUPS[district]["villages"]
+
+    taluk_weights = DISTRICT_GROUPS[district]["weights"]
+
+    taluks = list(taluk_weights.keys())
+    weights = list(taluk_weights.values())
+
+    # Choose taluk according to weight
+    selected_taluk = random.choices(
+        taluks,
+        weights=weights,
+        k=1,
+    )[0]
+
+    taluk_df = district_df[
+        district_df["taluk_name"] == selected_taluk
     ]
-        location = hotspot_locations.sample(1).iloc[0]
+
+    # Choose village inside taluk
+    location = taluk_df.sample(1).iloc[0]
+
+    # Generate hotspot score naturally
+    if random.random() < 0.12:
+        hotspot_score = random.randint(80,100)
+    elif random.random() < 0.35:
+        hotspot_score = random.randint(55,79)
     else:
-        location = LOCATION_MASTER.sample(1).iloc[0]
-    
-    hotspot_score = HOTSPOT_SCORES.get(
-        location["village_id"],
-        random.randint(0, 30)
-    )
+        hotspot_score = random.randint(5,54)
 
 
     crime_category, crime_type = get_random_crime()
@@ -104,16 +153,15 @@ for i in range(NUM_RECORDS):
         "village_id": location["village_id"],
         "village": location["village_name"],
         "police_station_name": location["police_station_name"],
-        "police_station_latitude": location["police_station_latitude"],
-        "police_station_longitude": location["police_station_longitude"],
+        
 
         "crime_latitude": round(
-            location["police_station_latitude"] + random.uniform(-0.003, 0.003),
+            location["latitude"] + random.uniform(-0.002,0.002),
             6
         ),
 
         "crime_longitude": round(
-            location["police_station_longitude"] + random.uniform(-0.003, 0.003),
+            location["longitude"] + random.uniform(-0.002,0.002),
             6
         ),
         "crime_category": crime_category,
@@ -139,6 +187,22 @@ for i in range(NUM_RECORDS):
     crime_records.append(crime)
 
 df = pd.DataFrame(crime_records)
+
+district_spread = (
+    df.groupby("district")
+      .agg(
+          villages_used=("village_id", "nunique"),
+          total_crimes=("crime_id", "count"),
+      )
+)
+
+district_spread["avg_crimes_per_village"] = (
+    district_spread["total_crimes"]
+    / district_spread["villages_used"]
+).round(2)
+
+print("\nDistrict Spread:")
+print(district_spread.sort_values("avg_crimes_per_village", ascending=False))
 
 output_path = BASE_DIR / "datasets" / "raw" / "crime_cases.csv"
 

@@ -1,0 +1,121 @@
+district,police_station,clean_name,best_match,score
+Bagalkot,Amengad PS,amengad,dodamangadi,77.14285714285715
+Davanagere,Davangere Traffic North PS,davangere north,thondaiman oorani north,85.5
+Gadag,Lakshmeshwar PS,lakshmeshwar,lakshmeshvara,88.0
+Gadag,Nargund PS,nargund,naragunda,87.5
+Hassan,Halebeedu PS,halebeedu,hulebeedu,88.88888888888889
+Hassan,Hallymysore PS,hallymysore,halli,80.0
+Hassan,Pension Mohalla PS,pension mohalla,malla,80.0
+Haveri,Hansabhavi PS,hansabhavi,halabhavi,84.21052631578947
+Haveri,Kaginele PS,kaginele,kaginelli,82.35294117647058
+Ballari,APMC Yard PS,apmc yard,ardy,77.14285714285715
+Ballari,Bellary Rural PS,bellary,bellare,85.71428571428572
+Ballari,Bellary Traffic PS,bellary,bellare,85.71428571428572
+Ballari,Cowlbazar PS,cowlbazar,basar,72.0
+Ballari,Hatcholli PS,hatcholli,hachcholli,84.21052631578947
+Ballari,Kuduthini PS,kuduthini,kudatini,82.35294117647058
+Hubballi Dharwad City,E and N Crime PS HD city,e and n hd,r n tanda ukkinal,85.5
+Hubballi Dharwad City,Hubli East Traffic PS,hubli east,koodalloor east,85.5
+Hubballi Dharwad City,Hubli North Traffic PS,hubli north,parankunrtapuram north,85.5
+Hubballi Dharwad City,Hubli South Traffic PS,hubli south,south kalamassery,85.5
+Hubballi Dharwad City,Hubli Sub-Urban PS,hubli sub urban,nan,72.0
+Hubballi Dharwad City,Kamaripeth PS,kamaripeth,kammaripeta,85.71428571428572
+Hubballi Dharwad City,Kasabapeth PS,kasabapeth,kasapet,82.35294117647058
+Hubballi Dharwad City,Old Hubli PS,old hubli,old erumaivettipalayam,85.5
+Hubballi Dharwad City,Vidyagiri PS,vidyagiri,nagiri,81.81818181818181
+K.G.F,KGF CEN Crime PS,kgf,sankagiri,60.00000000000001
+K.G.F,Oorgaum PS,oorgaum,booragamanda,77.14285714285715
+Kalaburagi,Jewargi PS,jewargi,jevaragi,80.0
+Kalaburagi,Madbool PS,madbool,made,77.14285714285715
+Kalaburagi,Malkhed PS,malkhed,malakheda,87.5
+Kalaburagi,Miryan PS,miryan,miriyana,85.71428571428572
+Kalaburagi,Revoor PS,revoor,ravoor,83.33333333333334
+Kalaburagi,Sulepet PS,sulepet,sulapeta,80.0
+Kalaburagi,Yedrami PS,yedrami,yadrami,85.71428571428572
+Kalaburagi City,Ferhatabad PS,ferhatabad,farahatabad,85.71428571428572
+Kalaburagi City,Station Bazar PS,station bazar,bethampudi station colony,85.5
+Kolar,Gulpet PS,gulpet,gundlupet,80.0
+Kolar,Mulbagal Rural PS,mulbagal,mulagalamma suravaram,84.0
+Kolar,Mulbagal Town PS,mulbagal,mulagalamma suravaram,84.0
+Koppal,Bevoor PS,bevoor,kubevoor,85.71428571428572
+Mandya,K.R. Pet Rural PS,k r pet,r s mangalam,85.5
+Mandya,K.R. Pet Town PS,k r pet,r s mangalam,85.5
+Mandya,K.R. Sagar PS,k r sagar,u r k ka malacca,85.5
+Mandya,Kesthur PS,kesthur,kesturu,85.71428571428572
+Belagavi City,APMC Yard PS,apmc yard,ardy,77.14285714285715
+Belagavi City,Belgaum North Traffic PS,belgaum north,parankunrtapuram north,85.5
+Belagavi City,Belgaum South Traffic PS,belgaum south,vannichipattinam south,85.5
+Belagavi City,Khadebazar PS,khadebazar,khadar,75.0
+Belagavi City,Udyambag PS,udyambag,mudya,80.0
+Mangaluru City,Bajpe PS,bajpe,baje,88.88888888888889
+Mangaluru City,Barke PS,barke,bare,88.88888888888889
+Mysuru City,Deveraja Traffic PS,deveraja,rajam,80.0
+Mysuru City,Lashkar PS,lashkar,kulasekaram,77.14285714285715
+Mysuru City,Nazarbad PS,nazarbad,nazeerabad,77.77777777777779
+Mysuru Dist,Kowlande PS,kowlande,andle,80.0
+Mysuru Dist,Mysore South PS,mysore south,mysore university layout,85.5
+Raichur,Market Yard PS,market yard,nazurul nagar market,85.5
+Raichur,Sirwar PS,sirwar,sira,80.0
+Raichur,Turvihal PS,turvihal,turavihala,88.88888888888889
+Raichur,Yeregera PS,yeregera,yeregara,87.5
+Bengaluru South,Ijoor PS,ijoor,vamanjoor,80.0
+Shivamogga,Doddapete PS,doddapete,doddarayapete,81.81818181818181
+Shivamogga,Paper Town PS,paper,papemajalu,80.0
+Shivamogga,Shimoga East Traffic PS,shimoga east,khambham padu east,85.5
+Shivamogga,Shimoga Rural PS,shimoga,shivamogga,82.35294117647058
+Shivamogga,Shimoga Traffic PS,shimoga,shivamogga,82.35294117647058
+Tumakuru,Medigeshi PS,medigeshi,midigesi,82.35294117647058
+Tumakuru,New Extention PS,new extention,new erumaivettipalayam,85.5
+Tumakuru,Thilak Park PS,thilak park,parkal,72.0
+Tumakuru,Tumkur CEN Crime PS,tumkur,tumakuru,85.71428571428572
+Tumakuru,Tumkur Rural PS,tumkur,tumakuru,85.71428571428572
+Tumakuru,Tumkur Town PS,tumkur,tumakuru,85.71428571428572
+Tumakuru,Tumkur Traffic PS,tumkur,tumakuru,85.71428571428572
+Udupi,Amasebailu PS,amasebailu,bailur,81.81818181818181
+Udupi,Byndoor PS,byndoor,andoor,76.92307692307692
+Uttara Kannada,New Market PS,new market,new erumaivettipalayam,85.5
+Vijayapur,Almel PS,almel,alamela,83.33333333333334
+Vijayapur,Bijapur rural PS,bijapur,vijapura,80.0
+Vijayapur,Bijapur Traffic PS,bijapur,vijapura,80.0
+Vijayapur,Golgumbaz PS,golgumbaz,gola,77.14285714285715
+Belagavi Dist,Doddawad PS,doddawad,doddavada,82.35294117647058
+Belagavi Dist,Kagwad PS,kagwad,kagawada,85.71428571428572
+Belagavi Dist,Katkol PS,katkol,katakola,85.71428571428572
+Belagavi Dist,Kulgod PS,kulgod,kulagoda,85.71428571428572
+Belagavi Dist,Raibag PS,raibag,rayi,77.14285714285715
+Bengaluru City,Airport Traffic PS,airport,aipoor,76.92307692307692
+Bengaluru City,Amruthahally PS,amruthahally,amruta,81.81818181818181
+Bengaluru City,BIAL PS,bial,birala,80.0
+Bengaluru City,BIAL Traffic PS,bial,birala,80.0
+Bengaluru City,Channammanakere Achu Kattu PS,channammanakere achu kattu,kattu idaiyar,85.5
+Bengaluru City,Commercial Street PS,commercial street,devendra nagar harijan street,85.5
+Bengaluru City,Cottonpet PS,cottonpet,sonpet,81.81818181818181
+Bengaluru City,Cubbon Park PS,cubbon park,parkal,72.0
+Bengaluru City,Cubbonpark Traffic PS,cubbonpark,parkal,72.0
+Bengaluru City,East Zone Women PS,east zone,koodalloor east,85.5
+Bengaluru City,Gangammana Gudi PS,gangammana gudi,gudi tanda,85.5
+Bengaluru City,H.A.L. PS,h a l,a thekkalur,85.5
+Bengaluru City,High Grounds PS,high grounds,high forest estate,85.5
+Bengaluru City,High Grounds Traffic PS,high grounds,high forest estate,85.5
+Bengaluru City,HSR Lay Out Traffic PS,hsr lay out,surla,72.0
+Bengaluru City,HSR Layout PS,hsr layout,mysore university layout,85.5
+Bengaluru City,Kumaraswamy Layout PS,kumaraswamy layout,kumaram,83.07692307692308
+Bengaluru City,Kumaraswamy Layout Traffic PS,kumaraswamy layout,kumaram,83.07692307692308
+Bengaluru City,Mico Layout PS,mico layout,mysore university layout,85.5
+Bengaluru City,Mico Layout Traffic PS,mico layout,mysore university layout,85.5
+Bengaluru City,North East Women PS,north east,vijayapuri north,85.5
+Bengaluru City,Peenya PS,peenya,pedena,83.33333333333334
+Bengaluru City,R.M.C. Yard PS,r m c yard,u r k ka malacca,85.5
+Bengaluru City,S.J. Park PS,s j park,r s mangalam,85.5
+Bengaluru City,Vidhana Soudha PS,vidhana soudha,rudha,80.0
+Bengaluru City,Vyalikaval PS,vyalikaval,kavali,81.81818181818181
+Bengaluru City,Whitefield PS,whitefield,teki,67.5
+Bengaluru City,Whitefield Traffic PS,whitefield,teki,67.5
+Bengaluru City,Wilsongarden PS,wilsongarden,kongad,75.00000000000001
+Bengaluru City,Wilsongarden Traffic PS,wilsongarden,kongad,75.00000000000001
+Bengaluru City,Yelahanka New Town PS,yelahanka new,new erumaivettipalayam,85.5
+Bengaluru City,Yelahanka PS,yelahanka,yalahanka,88.88888888888889
+Bengaluru Dist,Dobbespet PS,dobbespet,peta,77.14285714285715
+Bidar,Bagdal PS,bagdal,bagadala,85.71428571428572
+Bidar,Gandhi Gunj PS,gandhi gunj,gandhi nagar b l shed,85.5
+Bidar,Hulsoor PS,hulsoor,chuloor,85.71428571428572

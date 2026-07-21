@@ -1,0 +1,871 @@
+district_id,ksp_district,lgd_district,police_station_name,address,email,phone,circle,latitude,longitude,clean_name,match_type
+524.0,Bagalkot,Bagalkote,Amengad PS,"HUNGUND ROAD, AMINAGAD",aminagadbgk@ksp.gov.in,8351-280133,Hungunda Circle,16.0572246,75.9450563,aminagada,EXACT
+524.0,Bagalkot,Bagalkote,Badami PS,NEAR BUS STAND BADAMI,badamibgk@ksp.gov.in,8357-220133,Badami Circle,15.9203874,75.6807865,badami,EXACT
+524.0,Bagalkot,Bagalkote,Bagalkot CEN Crime PS,BagalkotBagalkot,email@ksp.gov.in,8888-888888,Bagalkot District,16.1853166,75.6967919,bagalkot,FUZZY (94.1)
+524.0,Bagalkot,Bagalkote,Bagalkot Rural PS,"NEAR LAXMI NAGAR, BAGALKOT",bgkruralbgk@ksp.gov.in,8354-220460,Bagalkot Rural Circle,16.1853166,75.6967919,bagalkot,FUZZY (94.1)
+524.0,Bagalkot,Bagalkote,Bagalkot Town PS,NEAR LAXMI NAGAR BAGALKOT,bgktownbgk@ksp.gov.in,8354-220333,Bagalkot Town Circle,16.1853166,75.6967919,bagalkot,FUZZY (94.1)
+524.0,Bagalkot,Bagalkote,Bagalkot Traffic PS,"TAHASHILDAR OFFICE, BAGALKOT",bgktrafficbgk@ksp.gov.in,8354-221333,Bagalkot Town Circle,16.1853166,75.6967919,bagalkot,FUZZY (94.1)
+524.0,Bagalkot,Bagalkote,Bagalkot Women PS,"NEAR AMBEDKAR BHAVAN , NAVANAGARBAGALKOT DISTRICT",womanpsbgk@ksp.gov.in,8888-888888,Bagalkot Town Circle,16.1853166,75.6967919,bagalkot,FUZZY (94.1)
+524.0,Bagalkot,Bagalkote,Banahatti PS,"NEAR SRA COLLEGE, BANAHATTI",banahattibgk@ksp.gov.in,8353-230292,Banahatti Circle,15.6699137,75.4129474,banahatti,EXACT
+524.0,Bagalkot,Bagalkote,Bilagi PS,NEAR GOVT. HOSPITAL  BILAGI,bilagibgk@ksp.gov.in,8425-275233,Jamakhandi Sub-Division,16.3464175,75.6190861,bilagi,EXACT
+524.0,Bagalkot,Bagalkote,Guledagudda PS,"NEAR KOTIKALL, GULEDAGUDD",guledgudbgk@ksp.gov.in,8357-250333,Badami Circle,16.0504384,75.7899798,guledagudda,EXACT
+524.0,Bagalkot,Bagalkote,Hungunda PS,"OPP. GOVT. HOSPITAL, HUNGUND",hungundpsbgk@ksp.gov.in,8351-260333,Hungunda Circle,14.9076941,75.1729128,hunagunda,EXACT
+524.0,Bagalkot,Bagalkote,Ilakal PS,"OPP. BUS STAND, ILKAL",ilkalbgk@ksp.gov.in,8351-270333,Hungunda Circle,15.9598085,76.11564,ilakal,EXACT
+524.0,Bagalkot,Bagalkote,Ilakal Rural PS,Opp. KSRTC Bus standIlakal,email@ksp.gov.in,8888-888888,Hungunda Circle,15.9598085,76.11564,ilakal,EXACT
+524.0,Bagalkot,Bagalkote,Jamakhandi Rural PS,"NEAR APMC, JAMAKHANDI",jkruralbgk@ksp.gov.in,8353-220623,Jamakhandi Circle,16.503896,75.2910386,jamakhandi,EXACT
+524.0,Bagalkot,Bagalkote,Jamakhandi Town PS,"KUDACHI ROAD, JAMAKHANDI",jktownbgk@ksp.gov.in,8353-220033,Jamakhandi Circle,16.503896,75.2910386,jamakhandi,EXACT
+524.0,Bagalkot,Bagalkote,Kaladagi PS,"NEAR BUS STAND, KALADAGI",kaladagibgk@ksp.gov.in,8354-240133,Bagalkot Rural Circle,16.2071441,75.4996999,kaladagi,EXACT
+524.0,Bagalkot,Bagalkote,Kerur PS,"HUBLI ROAD, KERUR",kerurbgk@ksp.gov.in,8357-230033,Badami Circle,18.0484352,77.3244809,kerur,EXACT
+524.0,Bagalkot,Bagalkote,Lokapur PS,"NEAR BUS STAND, LOKAPUR",lokapurbgk@ksp.gov.in,8350-240033,Mudhol Circle,16.1627427,75.3685939,lokapur,FUZZY (93.3)
+524.0,Bagalkot,Bagalkote,Mahalingapur PS,"NEAR IB, MAHALINGAPUR",mahalingpurbgk@ksp.gov.in,8350-270033,Mudhol Circle,16.3879888,75.1115893,mahalingapur,FUZZY (96.0)
+524.0,Bagalkot,Bagalkote,Mudhol PS,"NEAR SBI BANK, MUDHOL",mudholbgk@ksp.gov.in,8350-280133,Mudhol Circle,16.3338591,75.2870794,mudhol,EXACT
+524.0,Bagalkot,Bagalkote,Navanagara PS,address,navnagarbgk@ksp.gov.in,8354-235323,Bagalkot Town Circle,12.11511,77.0736938,navanagara,FUZZY (90.0)
+524.0,Bagalkot,Bagalkote,Savalgi PS,"INFRONT OF POST OFFICE, SAVALAGI",savalagibgk@ksp.gov.in,8353-250033,Jamakhandi Circle,16.6705915,75.347202,savalgi,FUZZY (93.3)
+524.0,Bagalkot,Bagalkote,Teradal PS,"DEVARAJ NAGAR, TERDAL",terdalbgk@ksp.gov.in,8353-255133,Banahatti Circle,16.4936178,75.0468551,teradal,FUZZY (93.3)
+532.0,Chikkamagaluru,Chikkamagaluru,Jayapura PS,address,jayapurackm@ksp.gov.in,08265-245245,Koppa Circle,13.1932742,76.4908321,jayapura,EXACT
+532.0,Chikkamagaluru,Chikkamagaluru,Koppa PS,"KOPPA POLICE STATION, KOPPA TOWN, CHICKMAGALU",koppackm@ksp.gov.in,08265-221027,Koppa Circle,13.533207,75.3633986,koppa,EXACT
+533.0,Chitradurga,Chitradurga,Chitradurga CEN Crime PS,Chitradurga,email@ksp.gov.in,88888-888888,Chitradurga District,14.2266443,76.4005122,chitradurga,EXACT
+533.0,Chitradurga,Chitradurga,Chitradurga Extension PS,NH-4 (OLD HIMABINDU HOTEL) NEAR SAROJABAI KALYANACHITRADURGA,extentioncta@ksp.gov.in,9480803149,Chitradurga Town Circle,15.3918509,74.4075331,chitradurga extension,FUZZY (90.0)
+533.0,Chitradurga,Chitradurga,Chitrahalli Gate PS,"ChitrahalliHolalkere Tq, Chitradurga District",email@ksp.gov.in,88888-888888,Holalkere Circle,14.111219,76.266129,chitrahalli gate,FUZZY (95.0)
+533.0,Chitradurga,Chitradurga,Srirampura PS,"HULIYAR ROAD, SRIRAMPURA - 577542",srirampuracta@ksp.gov.in,08199 - 242633,Hosadurga Circle,13.9393674,77.9721755,srirampura,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Bantwala Traffic PS,BantwalaDK,email@ksp.gov.in,88888-888888,Bantwala Circle,12.8953789,75.0408618,bantwala,FUZZY (93.3)
+534.0,Dakshina Kannada,Dakshina Kannada,Bellare PS,Bellare VillageSullia Tq,bellaremaq@ksp.gov.in,08257-271995,Sullia Circle,12.6651278,75.3696207,bellare,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Belthangadi PS,BELTHANGADY,belthangdymaq@karapolice.in,8256232093,Belthangadi Circle,12.9903521,75.2825052,belthangadi,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Belthangadi Traffic PS,Laila Village and PostBelthangady Taluk,belthangadytrafficmaq@ksp.gov.in,88888-888888,Belthangadi Circle,12.9903521,75.2825052,belthangadi,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Buntwala Rural PS,BANTWALA,bantwalarmaq@karpolice.in,8255235000,Bantwala Circle,12.53447,75.02427,buntwala,ORIGINAL
+534.0,Dakshina Kannada,Dakshina Kannada,Buntwala Town PS,BANTWALA,bantwalatmaq@karpolice.in,8255232111,Bantwala Circle,12.53447,75.02427,buntwala,ORIGINAL
+534.0,Dakshina Kannada,Dakshina Kannada,Dakshina Kannada Women PS,Dakshina Kannada,womenmaq@ksp.gov.in,88888-888888,Puttur Sub-Division,17.1215253,76.0988939,dakshina kannada,FUZZY (90.0)
+534.0,Dakshina Kannada,Dakshina Kannada,Dharmasthala PS,Dakshina Kannada,email@ksp.gov.in,88888-888888,Belthangadi Circle,12.9519571,75.3813122,dharmasthala,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,DK CEN Crime PS,Dakshina Kannada,email@ksp.gov.in,88888-888888,Dakshina Kannada  District,12.5887582,75.0729575,dk,FUZZY (90.0)
+534.0,Dakshina Kannada,Dakshina Kannada,Kadaba PS,KADABA,kadamaq@karpolice.in,08251 260044,Puttur Rural Circle,13.2410947,76.8625622,kadaba,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Punjalkatte PS,address,pkattemaq@ksp.gov.in,8256279375,Belthangadi Circle,12.9486472,75.1690868,punjalkatte,FUZZY (95.7)
+534.0,Dakshina Kannada,Dakshina Kannada,Puttur Rural PS,SAMPYA,putturrmaq@karpolice.in,08251 232102,Puttur Rural Circle,12.7632858,75.2018421,puttur,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Puttur Town PS,PUTTUR,putturtownmaq@karpolice.in,8251230555,Puttur Sub-Division,12.7632858,75.2018421,puttur,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Puttur Traffic PS,address,putturtrafficmaq@karpolice.in,8251238500,Puttur Sub-Division,12.7632858,75.2018421,puttur,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Subramanya PS,SUBRAMANYA,subramanyamaq@karpolice.in,8257281250,Sullia Circle,12.6677868,75.6131771,subramanya,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Sullia PS,SULLIA,sulliamaq@karpolice.in,8257230337,Sullia Circle,15.4488033,75.1767798,sullia,FUZZY (90.9)
+534.0,Dakshina Kannada,Dakshina Kannada,Uppinangadi PS,UPPINANGADY,uppinangadymaq@karpolice.in,8251251055,Puttur Rural Circle,12.83834,75.2485277,uppinangadi,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Venoor PS,VENUR,veenoormaq@karpolice.in,8256286232,Belthangadi Circle,13.0122097,75.1443252,venoor,EXACT
+534.0,Dakshina Kannada,Dakshina Kannada,Vitla PS,VITTLA,vittalmaq@karpolice.in,8255239233,Bantwala Circle,12.7636039,75.1013544,vitla,EXACT
+535.0,Davanagere,Davanagere,Azad Nagar PS,"Maganahalli Road, AzadNagara, Davangere-57700",azadnagardvg@ksp.gov.in,08192-272010,Davanagere North Circle,12.2800528,76.2845524,azad nagar,FUZZY (95.2)
+535.0,Davanagere,Davanagere,Basavanagara PS,"Vasantha theatre Road, Near subjail, Old Dava",basavanagardvg@ksp.gov.in,08192-272009,Davanagere City Sub-Division,16.7999342,77.140036,basavanagara,EXACT
+535.0,Davanagere,Davanagere,Basavapatna PS,"Basavapatna PS, Sagarpete,  Channagiri Taluk,",basavapatnadvg@ksp.gov.in,08180-272463,Channagiri Circle,12.6168169,76.1212067,basavapatna,EXACT
+535.0,Davanagere,Davanagere,Bilichodu PS,"Bilichodu PS, Jagalur road, Bilichodu post,",bilichodudvg@ksp.gov.in,08196-248244,Jagalur Circle,14.4934249,76.1597766,bilichodu,EXACT
+535.0,Davanagere,Davanagere,Channagiri PS,"Behind Busstand, Channagiri, Davangere Dist-5",Channagiridvg@ksp.gov.in,08189-228133,Channagiri Circle,14.0252,75.925,channagiri,EXACT
+535.0,Davanagere,Davanagere,Davanagere CEN Crime PS,DSBDavanagere,email@ksp.gov.in,88888-888888,Davanagere District,14.4661266,75.9206361,davanagere,EXACT
+535.0,Davanagere,Davanagere,Davanagere Extention PS,"PJ Extn. , Old court road, Near Govt. High sc",extndvg@ksp.gov.in,08192-272012,Davanagere City Sub-Division,13.4978158,75.4512081,davanagere extention,FUZZY (90.0)
+535.0,Davanagere,Davanagere,Davanagere Rural PS,"Nittuvalli Circle, Hadadi road, Davangere-577",ruraldvg@ksp.gov.in,08192-262555,Davanagere Rural Sub-Division,14.4661266,75.9206361,davanagere,EXACT
+535.0,Davanagere,Davanagere,Davangere Traffic North PS,"Vasantha theatre Road, Near subjail, Old Dava",trafficnorthdvg@ksp.gov.in,08192-234865,Davanagere Traffic Circle,14.4661266,75.9206361,davangere,FUZZY (94.7)
+535.0,Davanagere,Davanagere,Gandhi Nagar PS,"Gandhinagara, Davangere-577001",gandhinagardvg@ksp.gov.in,08192-272011,Davanagere North Circle,12.6271531,78.4351179,gandhi nagar,EXACT
+535.0,Davanagere,Davanagere,Hadadi PS,"Hadadi, Davangere taluk-577252",hadadidvg@ksp.gov.in,08192-218405,Davanagere Rural Circle,14.3636422,75.8906875,hadadi,EXACT
+535.0,Davanagere,Davanagere,Harihara Rural PS,"Guttur Colony, Harihara Taluk, Davanagere Dis",hariharruraldvg@ksp.gov.in,08192-272017,Harihara Circle,14.5116874,75.809288,harihara,EXACT
+535.0,Davanagere,Davanagere,Harihara Town PS,"Harihara PS, Harihara Taluk , Davanagere Dist",harihartowndvg@ksp.gov.in,08192-272016,Harihara Circle,14.5116874,75.809288,harihara,EXACT
+535.0,Davanagere,Davanagere,Honnali PS,"Shivamogga Road, Honnali, Davangere DIST Pin-",honnalidvg@ksp.gov.in,08188-251100,Honnali Circle,14.2389785,75.6457434,honnali,EXACT
+535.0,Davanagere,Davanagere,Jagalur PS,"Jagalur PS, Near Bharath talkies, jaglur talu",jlrdvg@ksp.gov.in,08196-227329,Jagalur Circle,14.5199847,76.3398876,jagalur,FUZZY (93.3)
+535.0,Davanagere,Davanagere,KTJ Nagar PS,"Nittuvalli Road, Koracharahatti, Davangere-57",ktjnagardvg@ksp.gov.in,08192-259285,Davanagere South Circle,14.4541,75.92468,ktj nagar,ORIGINAL
+535.0,Davanagere,Davanagere,Malebennur PS,"Malebennur, Harihara Taluk, Davangere Dist-57",malebennurdvg@ksp.gov.in,08192-268758,Harihara Circle,14.3533447,75.7384255,malebennur,FUZZY (95.2)
+535.0,Davanagere,Davanagere,Mayakonda PS,"Mayakonda PS, Mayakonda post, Davangere Taluk",mayakondadvg@ksp.gov.in,08192-215922,Davanagere Rural Circle,14.2888342,76.0823986,mayakonda,EXACT
+535.0,Davanagere,Davanagere,Nyamathi PS,"Nyamathi post,  Honnali Taluk, Davangere Dist",nymathidvg@ksp.gov.in,08188-265349,Honnali Circle,14.1491131,75.576148,nyamathi,FUZZY (93.3)
+535.0,Davanagere,Davanagere,RMC Yard PS,"APMC  Market, Davangere-577003",rmcyarddvg@ksp.gov.in,08192-272008,Davanagere North Circle,17.1282847,78.4594363,rmc,FUZZY (90.0)
+535.0,Davanagere,Davanagere,Santhebennur PS,"Near Busstand, SantheBennur, Channagiri Taluk",santhebennurdvg@ksp.gov.in,08180-256437,Channagiri Circle,14.1698888,76.0033586,santhebennur,FUZZY (95.7)
+535.0,Davanagere,Davanagere,Vidyanagar PS,"Vidyanagara, Davangere-577005",vidyanagardvg@ksp.gov.in,08192-262688,Davanagere South Circle,13.1590291,77.6243347,vidyanagar,EXACT
+536.0,Dharwad,Dharwad,Alnavar PS,"Alanvar Police Station, Opp State Bank, Alanv",alnavardwd@ksp.gov.in,0836-2233216,Dharwad Rural Circle,15.4271868,74.7383896,alnavar,EXACT
+536.0,Dharwad,Dharwad,Annigeri PS,"Annigeri P.S. Near Bus Stand,  Taluk-Navalgun",annigeridwd@ksp.gov.in,08380-222733,Navalgund Circle,15.4260116,75.4333351,annigeri,EXACT
+536.0,Dharwad,Dharwad,Dharwad CEN Crime PS,Near Bus StandDharwad Town,email@ksp.gov.in,0836-2444969,Dharwad District,15.4540505,75.0066516,dharwad,EXACT
+536.0,Dharwad,Dharwad,Dharwad Rural PS,"Dharwad Rural P.S, Behind M.G.Bank, P.B.Road",ruraldwd@ksp.gov.in,0836-2233215,Dharwad Sub-Division,15.4540505,75.0066516,dharwad,EXACT
+536.0,Dharwad,Dharwad,Dharwad Women PS,"Near Karnataka Vikasa BankChikkamalligad Road, Dharwad",email@ksp.gov.in,88888-888888,Dharwad Sub-Division,15.4540505,75.0066516,dharwad,EXACT
+536.0,Dharwad,Dharwad,Garag PS,"Garag Police Station, Dharwad District, Dharw",garagdwd@ksp.gov.in,0836-2233217,Dharwad Rural Circle,15.5752639,74.9312943,garag,EXACT
+536.0,Dharwad,Dharwad,Gudageri PS,address,gudageridwd@ksp.gov.in,0830-4262100,Dharwad Rural Circle,15.122184,75.3648009,gudageri,EXACT
+536.0,Dharwad,Dharwad,Hubli Rural PS,"Hubli Rural P.S, Mini Vidhan Soudah 1st Floor",hubliruraldwd@ksp.gov.in,0836-2233214,Dharwad Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Dharwad,Dharwad,Kalaghatagi PS,"Kalaghatagi P.S,  Taluk Kalaghtagi, Dharwad D",kalaghtagidwd@ksp.gov.in,08370-284511,Dharwad Sub-Division,15.1818921,74.9718465,kalaghatagi,EXACT
+536.0,Dharwad,Dharwad,Kundagol PS,"Kundagol P.S. Taluk Kundagol, Dharwad Distric",kundagoldwd@ksp.gov.in,08304-290343,Dharwad Sub-Division,15.2565128,75.2478662,kundagol,FUZZY (94.1)
+536.0,Dharwad,Dharwad,Navalgund PS,"Navalgund P.S, Taluk-Navalgund ,  Dharwad Dis",navalgunddwd@ksp.gov.in,08380-229233,Navalgund Circle,15.5582208,75.3538481,navalgund,EXACT
+537.0,Gadag,Gadag,Betageri Extention PS,"RAJEEVGANDHINAGAR, GADAG",betageriextngdg@ksp.gov.in,08372-237019,Betageri Circle,15.2123183,76.0454314,betageri extention,FUZZY (90.0)
+537.0,Gadag,Gadag,Betageri PS,"OLD PHQ, HEALTHCAMP, BETAGERI-GADAG",betagerigdg@ksp.gov.in,08372-246333,Betageri Circle,15.2123183,76.0454314,betageri,EXACT
+537.0,Gadag,Gadag,Gadag CEN Crime PS,Gadag townGadag,email@ksp.gov.in,88888-888888,Gadag District,17.9505606,77.5440728,gadag,FUZZY (90.9)
+537.0,Gadag,Gadag,Gadag Rural PS,"TAHASHILDAR OFFICE CAMPUS, GADAG",ruralgdggdg@ksp.gov.in,08372-278213,Gadag Rural Circle,17.9505606,77.5440728,gadag,FUZZY (90.9)
+537.0,Gadag,Gadag,Gadag Town PS,"OPP OLD BUSSTAND, GADAG",towngdg@ksp.gov.in,08372-238333,Gadag Town Circle,17.9505606,77.5440728,gadag,FUZZY (90.9)
+537.0,Gadag,Gadag,Gadag Traffic PS,"SAMBHAPUR ROAD, GADAG",trafficgdg@ksp.gov.in,08372-238425,Betageri Circle,17.9505606,77.5440728,gadag,FUZZY (90.9)
+537.0,Gadag,Gadag,Gadag Women PS,GadagGadag Town,email@ksp.gov.in,88888-888888,Gadag Sub-Division,17.9505606,77.5440728,gadag,FUZZY (90.9)
+537.0,Gadag,Gadag,Gajendragad PS,"NEAR POLICE QTRS, GAJENDRAGAD",gajendragadgdg@ksp.gov.in,08381-252133,Ron Circle,15.7322026,75.9644618,gajendragad,EXACT
+537.0,Gadag,Gadag,Lakshmeshwar PS,"NEAR POLICE QTRS, LAXMESHWAR",laxmeshwargdg@ksp.gov.in,08487-272333,Shirahatti Circle,15.1248456,75.472885,lakshmeshvara,EXACT
+537.0,Gadag,Gadag,Mulagund PS,"NEAR SANTE MARLET, MULAGUND",mulagundgdg@ksp.gov.in,08372-280133,Gadag Rural Circle,15.2817244,75.5225438,mulagunda,FUZZY (94.7)
+537.0,Gadag,Gadag,Mundargi PS,"GADAG ROAD, MUNDARAGI",mundaragigdg@ksp.gov.in,08371-262233,Nargund Sub Divison,15.2051817,75.8840183,mundaragi,EXACT
+537.0,Gadag,Gadag,Naregal PS,"GADAG ROAD, NAREGAL",naregalgdg@ksp.gov.in,08381-258233,Ron Circle,15.5736978,75.8078454,naregal,FUZZY (87.5)
+537.0,Gadag,Gadag,Nargund PS,"HUBLI-BIJAPUR ROA, NARAGUND",naragundgdg@ksp.gov.in,08377-265288,Nargund Sub Divison,15.7220381,75.3846247,naragunda,EXACT
+537.0,Gadag,Gadag,Ron PS,"GADAG ROAD, RON",rongdg@ksp.gov.in,08381-267233,Ron Circle,15.6996944,75.7349912,ron,EXACT
+537.0,Gadag,Gadag,Shirahatti PS,"NEAR LOD TAHASHILDAR OFFICE, SHIRAHATTI",shirahattigdg@ksp.gov.in,08487-242233,Shirahatti Circle,15.234576,75.5791999,shirahatti,EXACT
+539.0,Hassan,Hassan,Alur PS,B. M. ROAD,alurhsn@ksp.gov.in,08170-218231,Sakaleshpura Sub-Division,14.9117476,78.0495621,alur,EXACT
+539.0,Hassan,Hassan,Arakalagud PS,ARKALGUD,arkalgudhsn@ksp.gov.in,08175-220249,Arakalagud  Circle,12.0574387,76.5004821,arakalagud,FUZZY (90.0)
+539.0,Hassan,Hassan,Arasikere Rural PS,B.H. ROAD,arasikereruralhsn@Ksp.gov.in,08174-232237,Arasikere Rural Circle,13.3159809,76.256849,arasikere,EXACT
+539.0,Hassan,Hassan,Arasikere Town PS,B.H. ROAD,arasikeretownhsn@ksp.gov.in,08174-232233,Arasikere Sub-Division,13.3159809,76.256849,arasikere,EXACT
+539.0,Hassan,Hassan,Arehalli PS,MAIN ROAD,arehallyhsn@ksp.gov.in,08177-221342,Belur Circle,13.0456896,75.8031377,arehalli,EXACT
+539.0,Hassan,Hassan,Banavara PS,BANAVARA,banavarahsn@ksp.gov.in,08174-235633,Arasikere Rural Circle,13.3922947,77.0125762,banavara,EXACT
+539.0,Hassan,Hassan,Belur PS,BELUR,belurhsn@ksp.gov.in,08177-222444,Arasikere Sub-Division,13.1645671,75.8634851,belur,EXACT
+539.0,Hassan,Hassan,Channarayapatna Rural PS,B.M. ROAD,crpatnaruralhsn@ksp.gov.in,08176-254933,Holenarasipura Sub-Division,13.2455918,77.797084,channarayapatna,EXACT
+539.0,Hassan,Hassan,Channarayapatna Town PS,B.M. ROAD,crpatnatownhsn@ksp.gov.in,08176-252333,Holenarasipura Sub-Division,13.2455918,77.797084,channarayapatna,EXACT
+539.0,Hassan,Hassan,Channarayapatna Traffic PS,Channarayapatnahassan,email@ksp.gov.in,88888-888888,Channarayapatna Town PS,13.2455918,77.797084,channarayapatna,EXACT
+539.0,Hassan,Hassan,Dudda PS,DUDDA,duddahsn@ksp.gov.in,08172-223935,Hassan Rural Circle,13.0789066,76.2149003,dudda,EXACT
+539.0,Hassan,Hassan,Gandasi PS,GANDASI,gandasihsn@ksp.gov.in,08174-220630,Arasikere Rural Circle,13.1588838,76.3063432,gandasi,EXACT
+539.0,Hassan,Hassan,Goruru PS,GORUR,gorurhsn@ksp.gov.in,08172-225475,Hassan Rural Circle,12.8238999,76.0644435,goruru,FUZZY (90.9)
+539.0,Hassan,Hassan,Halebeedu PS,Temple Road,halebeeduhsn@ksp.gov.in,08177-273201,Belur Circle,15.4428746,77.2303146,hulebeedu,EXACT
+539.0,Hassan,Hassan,Hallymysore PS,Hallymysore HobliHolenarasipura Tq.,hallymysore@ksp.gov.in,88888-888888,Holenarasipura Circle,12.65799,76.25928,hallymysore,ORIGINAL
+539.0,Hassan,Hassan,Hassan CEN Crime PS,Hassan TownHassan,dcbhsn@ksp.gov.in,88888-888888,Hassan District,13.0070817,76.0992703,hassan,EXACT
+539.0,Hassan,Hassan,Hassan City PS,N R CIRCLE,townhsn@ksp.gov.in,08172-268333,Hassan Sub-Division,13.0070817,76.0992703,hassan,EXACT
+539.0,Hassan,Hassan,Hassan Extn. PS,K.R. PURAM,extensionhsn@ksp.gov.in,08172-268967,Hassan Sub-Division,13.0070817,76.0992703,hassan extn,FUZZY (90.0)
+539.0,Hassan,Hassan,Hassan Rural PS,N R CIRCLE,ruralhsn@ksp.gov.in,08172-268630,Hassan Sub-Division,13.0070817,76.0992703,hassan,EXACT
+539.0,Hassan,Hassan,Hassan Traffic PS,HOSALINE ROAD,traffichsn@ksp.gov.in,08172-272846,Hassan City Circle,13.0070817,76.0992703,hassan,EXACT
+539.0,Hassan,Hassan,Hassan Women PS,,email@ksp.gov.in,88888-888888,Hassan Sub-Division,13.0070817,76.0992703,hassan,EXACT
+539.0,Hassan,Hassan,Hirisave PS,B.M. ROAD,hirisavehsn@ksp.gov.in,08176-226888,Channarayapatna Circle,12.9498785,76.576616,hirisave,EXACT
+539.0,Hassan,Hassan,Holenarasipura Rural PS,MYSORE ROAD,hnpuraruralhsn@Ksp.gov.in,08175-273308,Holenarasipura Circle,12.7852158,76.2431266,holenarasipura,EXACT
+539.0,Hassan,Hassan,Holenarasipura Town PS,Park Road,hnpuratownhsn@ksp.gov.in,08175-273333,Holenarasipura Circle,12.7852158,76.2431266,holenarasipura,EXACT
+539.0,Hassan,Hassan,Javagal PS,address,javgalhsn@ksp.gov.in,08174-271221,Arasikere Rural Circle,13.3009846,76.0573673,javagal,EXACT
+539.0,Hassan,Hassan,Konanur PS,Konanur,konanurhsn@ksp.gov.in,08175-226227,Arakalagud  Circle,12.6293082,76.0498869,konanur,FUZZY (93.3)
+539.0,Hassan,Hassan,Nuggehalli PS,Nuggehally,nuggehallyhsn@Ksp.gov.in,08176-233033,Channarayapatna Circle,13.0095337,76.4772001,nuggehalli,EXACT
+539.0,Hassan,Hassan,Pension Mohalla PS,HOSALINE ROAD,pmohallahsn@ksp.gov.in,08172-272260,Hassan City Circle,13.00681,76.09955,pension,ORIGINAL
+539.0,Hassan,Hassan,Sakaleshpura Rural PS,B.M. ROAD,sakaleshapuraruralhs@ksp.gov.in,08173-245183,Sakaleshpura Circle,12.9434349,75.7862318,sakaleshpura,EXACT
+539.0,Hassan,Hassan,Sakaleshpura Town PS,B.M. ROAD,sakaleshapuratownhsn@ksp.gov.in,08173-244100,Sakaleshpura Circle,12.9434349,75.7862318,sakaleshpura,EXACT
+539.0,Hassan,Hassan,Shanthigrama PS,address,email@ksp.gov.in pensionmohallahsn@ksp.gov.in,08172-258038,Hassan Rural Circle,12.983428,76.2166763,shanthigrama,FUZZY (95.7)
+539.0,Hassan,Hassan,Shravanabelagola PS,Shravanabelagola,shravanabelagolahsn@ksp.gov.in,08176-257229,Channarayapatna Circle,12.858127,76.4870114,shravanabelagola,EXACT
+539.0,Hassan,Hassan,Yesalur PS,Yeslur,yeslurhsn@ksp.gov.in,08173-278212,Sakaleshpura Circle,14.9117476,78.0495621,yesalur,FUZZY (90.0)
+540.0,Haveri,Haveri,Adur PS,"PSI, Adur PS, Haveri Road",adurhvr@ksp.gov.in,08379-265233,Hanagal Circle,16.4175742,76.9320221,adur,FUZZY (90.0)
+540.0,Haveri,Haveri,Bankapura PS,address,bankapurahvr@ksp.gov.in,08378-254233,Shiggaon Circle,14.9217443,75.2639298,bankapura,EXACT
+540.0,Haveri,Haveri,Byadagi PS,"PSI, Byadagi Police Station",byadgihvr@ksp.gov.in,08375-228333,Byadagi Circle,14.6719843,75.4858218,byadagi,EXACT
+540.0,Haveri,Haveri,Guttal PS,PSI Guttal Police Station,guttalhvr@ksp.gov.in,08375-224223,Haveri Circle,14.8378416,75.6329114,guttal,FUZZY (92.3)
+540.0,Haveri,Haveri,Halageri PS,"PSI, Halageri PS, Hirekerur Road",halagerihvr@ksp.gov.in,08373-252333,Ranebennur Rural Circle,14.5554607,75.6097133,halageri,EXACT
+540.0,Haveri,Haveri,Hanagal PS,"PSI, Hanagal Police Station, Darga Road",hanagalhvr@ksp.gov.in,08379-262333,Hanagal Circle,14.7383723,76.7039857,hanagal,EXACT
+540.0,Haveri,Haveri,Hansabhavi PS,"PSI, Hansabhavi PS, Haveri Road",hansabhavihvr@ksp.gov.in,08376-289033,Hirekerur Circle,14.56998,75.36876,hansabhavi,ORIGINAL
+540.0,Haveri,Haveri,Haveri CEN Crime PS,Haveri Town,email@ksp.gov.in,88888-888888,Haveri District,14.7874825,75.3996731,haveri,EXACT
+540.0,Haveri,Haveri,Haveri Rural PS,"PSI Haveri Rural PS, Hanagal Road",haveriruralhvr@ksp.gov.in,08375-233333,Haveri Circle,14.7874825,75.3996731,haveri,EXACT
+540.0,Haveri,Haveri,Haveri Town PS,"PI, Haveri Town PS",haveritownhvr@ksp.gov.in,08375-232333,Haveri Sub-Division,14.7874825,75.3996731,haveri,EXACT
+540.0,Haveri,Haveri,Haveri Traffic PS,"PI, Haveri Traffic PSNear Police Samudaya Bhavan, Rajendra Nagar, Haver",haveritraffichvr@ksp.gov.in,88888-888888,Haveri Sub-Division,14.7874825,75.3996731,haveri,EXACT
+540.0,Haveri,Haveri,Haveri Women PS,Hanagal RoadHaveri,email@ksp.gov.in,8375232333,Haveri Sub-Division,14.7874825,75.3996731,haveri,EXACT
+540.0,Haveri,Haveri,Hirekerur PS,"PSI, Hirekerur PS, Near Bus Stand",hirekerurhvr@ksp.gov.in,08373-282333,Hirekerur Circle,14.4551224,75.392949,hirekerur,FUZZY (94.7)
+540.0,Haveri,Haveri,Kaginele PS,"PSI, Kaginele Police Station",kaginelehvr@ksp.gov.in,08375-289233,Byadagi Circle,14.69146,75.35793,kaginele,ORIGINAL
+540.0,Haveri,Haveri,Kumarapattanam PS,"PSI, Kumarapattanam PS, P.B Road",kpattanamhvr@ksp.gov.in,08373-242208,Ranebennur Rural Circle,17.4084196,76.721342,kumarapattanam,FUZZY (90.0)
+540.0,Haveri,Haveri,Ranebennur Rural PS,"PSI, Ranebennur Rural PS, PB Road",rbruralhvr@ksp.gov.in,08373-266433,Ranebennur Sub-Division,14.6165795,75.6341529,ranebennur,EXACT
+540.0,Haveri,Haveri,Ranebennur Town PS,"PSI, Ranebennur Town PS, Ashok Circle",rbtownhvr@ksp.gov.in,08373-266333,Ranebennur Town Circle,14.6165795,75.6341529,ranebennur,EXACT
+540.0,Haveri,Haveri,Ranebennur Traffic PS,"PSI, Ranebennur Traffic PS, Near Taluk Office",rbtraffichvr@ksp.gov.in,08373-268333,Ranebennur Town Circle,14.6165795,75.6341529,ranebennur,EXACT
+540.0,Haveri,Haveri,Rattihalli PS,"PSI, Rattihalli PS, Chikkayadachi Road",rattihallihvr@ksp.gov.in,08376-286233,Hirekerur Circle,14.421473,75.5148233,rattihalli,EXACT
+540.0,Haveri,Haveri,Savanoor PS,"PI, Savanur Police Station",savanurhvr@ksp.gov.in,08378-241633,Shiggaon Sub-Division,14.97743,75.33776,savanoor,ORIGINAL
+540.0,Haveri,Haveri,Shiggaon PS,"PSI, Shiggaon PS, Near Govt. Hospital",shiggaonhvr@ksp.gov.in,08378-255233,Shiggaon Circle,14.9899007,75.2234815,shiggaon,EXACT
+540.0,Haveri,Haveri,Tadas PS,"PSI, Tadas PS, Hubli Road",tadashvr@ksp.gov.in,08378-257433,Shiggaon Circle,15.1259806,75.1256015,tadas,EXACT
+528.0,Ballari,Ballari,APMC Yard PS,address,apmcblr@ksp.gov.in,0832-250033,Bellary City Sub-Division,16.4802379,75.3917995,,EXACT
+528.0,Ballari,Ballari,Ballari CEN Crime PS,Ballari Town,email@ksp.gov.in,8888-888888,Ballari District,15.1430224,76.9173277,ballari,EXACT
+528.0,Ballari,Ballari,Ballari Women PS,BallariBallari,womenpsblr@ksp.gov.in,8392274100,Bellary City Sub-Division,15.1430224,76.9173277,ballari,EXACT
+528.0,Ballari,Ballari,Bellary Rural PS,Bellary,bellaryruralblr@ksp.gov.in,08392-276461,Bellary Rural Circle,15.1430224,76.9173277,ballari,EXACT
+528.0,Ballari,Ballari,Bellary Traffic PS,Bellary,bellarytrafficblr@ksp.gov.in,08392-275722,Bellary City Sub-Division,15.1430224,76.9173277,ballari,EXACT
+528.0,Ballari,Ballari,Brucepet PS,bellary,brucepetblr@ksp.gov.in,08392-276793,Bellary City Sub-Division,17.1282847,78.4594363,brucepet,FUZZY (90.0)
+528.0,Ballari,Ballari,Cowlbazar PS,Bellary,cowlbazarblr@ksp.gov.in,08392-240110,Bellary City Sub-Division,17.1282847,78.4594363,cowl,FUZZY (90.0)
+528.0,Ballari,Ballari,Gadiganur PS,gadiganur,gadiganurblr@ksp.gov.in,08394-248033,Sandur Circle,15.2226504,76.5961268,gadiganur,FUZZY (94.7)
+528.0,Ballari,Ballari,Gandhinagar PS,Bellary,gandhinagarblr@ksp.gov.in,08392-272192,Bellary City Sub-Division,11.8779451,78.1265485,gandhinagar,EXACT
+528.0,Ballari,Ballari,Hatcholli PS,Hatcholli,hatcholliblr@ksp.gov.in,08396-241613,Siruguppa Circle,15.79095,76.98731,hatcholli,ORIGINAL
+528.0,Ballari,Ballari,Kampli PS,kampli,kampliblr@ksp.gov.in,08394-250333,Kampli Circle,15.4061695,76.604451,kampli,EXACT
+528.0,Ballari,Ballari,Kuduthini PS,address,kuduthiniblr@ksp.gov.in,08392-248100,Kurugod Circle,15.2096,76.76243,kuduthini,ORIGINAL
+528.0,Ballari,Ballari,Kurugod PS,Kurugodu,kurugodublr@ksp.gov.in,08393-263433,Kurugod Circle,15.3468509,76.8357761,kurugod,FUZZY (93.3)
+528.0,Ballari,Ballari,Moka PS,moka,mokablr@ksp.gov.in,08392-293228,Bellary Rural Circle,15.2382939,77.0580422,moka,EXACT
+528.0,Ballari,Ballari,P.D. Halli PS,PD halli,pdhalliblr@ksp.gov.in,08392-265010,Bellary Rural Circle,17.8409798,76.8637276,p d halli,FUZZY (90.0)
+528.0,Ballari,Ballari,Sandur PS,Sandur,sandurblr@ksp.gov.in,08395-260249,Sandur Circle,15.0832754,76.543411,sandur,FUZZY (92.3)
+528.0,Ballari,Ballari,Sirigeri PS,Sirigere,sirigereblr@ksp.gov.in,08396-244426,Tekkalkota Circle,15.4380202,76.8359863,sirigeri,EXACT
+528.0,Ballari,Ballari,Siruguppa PS,Siruguppa,siruguppablr@ksp.gov.in,08396-220333,Siruguppa Circle,15.6345569,76.8937407,siruguppa,EXACT
+528.0,Ballari,Ballari,Tekkalkota PS,tekkalakota,tekkalakotablr@ksp.gov.in,08396-248013,Tekkalkota Circle,13.5235898,74.7049501,tekkalkota,FUZZY (90.0)
+528.0,Ballari,Ballari,Thoranagal PS,Toranagal,toranagalblr@ksp.gov.in,08395-250100,Sandur Circle,15.19603,76.66234,thoranagal,ORIGINAL
+536.0,Hubballi Dharwad City,Dharwad,APMC Navanagar,"Bashweshawar Circle,",apmcnavanagarhdc@ksp.gov.in,0836-2233492,Hubli North Sub-Division,17.5813078,76.9645622,navanagar,FUZZY (90.0)
+536.0,Hubballi Dharwad City,Dharwad,Ashoknagar PS,address,ashoknagarhdc@ksp.gov.in,0836-2233490,Hubli North Sub-Division,15.5972609,74.4503653,ashoknagar,FUZZY (95.2)
+536.0,Hubballi Dharwad City,Dharwad,Bendigeri PS,Opposite Neharu College,bendigerihdc@ksp.gov.in,0836-2233526,Hubli South Sub-Division,14.6496972,75.9559217,bendigeri,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Dharwad Sub-Urban PS,"Opposite Mental Hospital,",dwdsbanhdc@ksp.gov.in,0836-2233511,Dharwad Sub-Division,15.4540505,75.0066516,dharwad,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Dharwad Town PS,Behind Old bus Stand,dwdtownhdc@ksp.gov.in,0836-2233512,Dharwad Sub-Division,15.4540505,75.0066516,dharwad,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Dharwad Traffic PS,Tahasildhar Office Compound,dwdtraffichdc@ksp.gov.in,0836-2233542,Traffic Sub-Division,15.4540505,75.0066516,dharwad,EXACT
+536.0,Hubballi Dharwad City,Dharwad,E and N Crime PS HD city,"2ST FLOOR, HUBLI SUB-URBAN PS BUILDINGNEAR KC CIRCLE, HUBBALLI",ccbdwdhdc@ksp.gov.in,0836-2233567,Hubballi Dharwad City,15.350638,75.13926,e and n hd,ORIGINAL
+536.0,Hubballi Dharwad City,Dharwad,Ghantikeri PS,Javali Sal,ghantikerihdc@ksp.gov.in,0836-2233527,Hubli South Sub-Division,14.985146,74.2518711,ghantikeri,FUZZY (90.0)
+536.0,Hubballi Dharwad City,Dharwad,Gokul Road PS,Opposite New Bus Stand,gokulroadhdc@ksp.gov.in,0836-2233525,Hubli North Sub-Division,15.3496233,75.0813826,gokul road,FUZZY (90.0)
+536.0,Hubballi Dharwad City,Dharwad,Hubli East Traffic PS,address,easttraffichdc@ksp.gov.in,0836-2233543,Traffic Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Hubli North Traffic PS,Cotton Market,northtraffichdc@ksp.gov.in,0836-2233515,Traffic Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Hubli South Traffic PS,Bammapur Oni,southtraffichdc@ksp.gov.in,0836-2233538,Traffic Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Hubli Sub-Urban PS,"Near Mini Vidhan Soudha, Brundavan circle",suburbahdc@ksp.gov.in,0836-2233517,Hubli North Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Hubli Town PS,Near Broadway,townhdc@ksp.gov.in,0836-2233540,Hubli South Sub-Division,15.3518378,75.1379848,hubballi,EXACT
+536.0,Hubballi Dharwad City,Dharwad,Kamaripeth PS,P B Road,kamaripethhdc@ksp.gov.in,0836-2233519,Hubli North Sub-Division,15.3446,75.13678,kamaripeth,ORIGINAL
+536.0,Hubballi Dharwad City,Dharwad,Kasabapeth PS,"Kasabapeth Main Road,",kasabapethhdc@ksp.gov.in,0836-2233536,Hubli South Sub-Division,15.33702,75.13319,kasabapeth,ORIGINAL
+536.0,Hubballi Dharwad City,Dharwad,Keshavapur PS,"Naveen Park, Kusagul Road,",keshwapurhdc@ksp.gov.in,0836-2233518,Hubli North Sub-Division,14.1424674,76.2156206,keshavapur,FUZZY (95.2)
+536.0,Hubballi Dharwad City,Dharwad,Old Hubli PS,"Near Indipump Circle,",oldhublihdc@ksp.gov.in,0836-2233541,Hubli South Sub-Division,15.3518378,75.1379848,old hubballi,FUZZY (90.0)
+536.0,Hubballi Dharwad City,Dharwad,Vidyagiri PS,Saraswatpur,vidyagirihdc@ksp.gov.in,0836-2233513,Dharwad Sub-Division,15.43902,75.01139,vidyagiri,ORIGINAL
+536.0,Hubballi Dharwad City,Dharwad,Vidyanagar PS,"Opposite Probas Garden, Doddamani Building,",vidyanagarhdc@ksp.gov.in,0836-2233516,Hubli North Sub-Division,13.1590291,77.6243347,vidyanagar,EXACT
+542.0,K.G.F,Kolar,Andersonpet PS,"NEAR ST MARYS HIGHER PRIMARY SCHOOL, ANDERSON",andersonpetkgf@ksp.gov.in,08153-274282,Robertsonpet Circle,18.3091824,77.7707379,andersonpet,FUZZY (90.0)
+542.0,K.G.F,Kolar,Bangarpet PS,"NEAR TALUK OFFICE, BANGARPET",bangarpetkgf@ksp.gov.in,08153-255228,Bangarpet  Circle,12.98822,78.1812561,bangarpet,FUZZY (90.0)
+542.0,K.G.F,Kolar,BEML Nagar PS,"NEAR BEML NAGAR SPORT COMPLEX, BEML NAGAR, KGKGF District",bemlnagarkgf@ksp.gov.in,08153-263179,Oorgaum Circle,12.98082,78.2367,beml nagar,ORIGINAL
+542.0,K.G.F,Kolar,Bethamangala PS,NEAR BETHAMANGALA BUS STAND,bethamnagalakgf@ksp.gov.in,08153-277623,Bangarpet  Circle,13.0053979,78.3303624,bethamangala,EXACT
+542.0,K.G.F,Kolar,Budikote Police Station,Budikote,budikotekgf@ksp.gov.in,9480802746,Budikote,12.9064764,78.1268618,budikote,EXACT
+542.0,K.G.F,Kolar,Champion Reefs PS,"NEAR SUPERINTENDENT OF POLICE OFFICE, KGF.",championreefskgf@ksp.gov.in,08153-274289,Champion Reefs  Circle,15.3358,76.4610201,champion reefs,FUZZY (90.0)
+542.0,K.G.F,Kolar,Kamasamudram PS,NEAR KAMASAMUDRAM BUS STAND,kamasamudramkgf@ksp.gov.in,08153-259028,Bangarpet  Circle,14.5438323,78.1593018,kamasamudram,EXACT
+542.0,K.G.F,Kolar,KGF CEN Crime PS,DCBKGF District,email@ksp.gov.in,88888-888888,K.G.F District,12.95611,78.272121,kgf,ORIGINAL
+542.0,K.G.F,Kolar,Kyasamballi Police Station,Kyasamballi,kysamballikgf@ksp.gov.in,9480802745,Kyasamballi,12.952116,78.359262,kyasamballi,ORIGINAL
+542.0,K.G.F,Kolar,Marikuppam PS,"NEAR HONCOCKs SHAFT, KGF",marikuppamkgf@ksp.gov.in,08153-274296,Champion Reefs  Circle,12.9168521,78.262181,marikuppam,EXACT
+542.0,K.G.F,Kolar,Oorgaum PS,"NEAR OORGAUM RAILWAY STATION, OORGAUM KGF",oorgaumkgf@ksp.gov.in,08153-260283,Oorgaum Circle,12.95247,78.26465,oorgaum,ORIGINAL
+542.0,K.G.F,Kolar,Robertsonpet PS,"NEAR MUNICIPALITY BUS STAND, ROBERTSONPET, KG",robertsonpetkgf@ksp.gov.in,08153-260224,Robertsonpet Circle,18.3091824,77.7707379,robertsonpet,FUZZY (90.0)
+538.0,Kalaburagi,Kalaburagi,Afzalpur PS,Near Bus Stand Afzalpur Tq : Afzalpur,afzalpurgba@ksp.gov.in,08477-283038,Afzalpur Circle,17.2005764,76.3605783,afzalpur,EXACT
+538.0,Kalaburagi,Kalaburagi,Alland PS,Aland Tq : Aland,alandgba@ksp.gov.in,08477-202222,Alland Circle,12.9278768,78.0292818,alland,FUZZY (90.0)
+538.0,Kalaburagi,Kalaburagi,Chincholi PS,Near Bus Stand Chincholi Tq : Chincholi,chincholigba@ksp.gov.in,08475-273033,Chincholi Circle,17.465199,77.4189669,chincholi,EXACT
+538.0,Kalaburagi,Kalaburagi,Chittapura PS,Chittapur Tq :chittapur,chittapurgba@ksp.gov.in,08474-236123,Chittapura  Circle,17.1196144,77.0858642,chittapura,EXACT
+538.0,Kalaburagi,Kalaburagi,Devalagangapur PS,Devalagangapur Tq: Afzalpur,dgpurgba@ksp.gov.in,08477-274360,Afzalpur Circle,17.1809261,76.534451,devalagangapur,FUZZY (90.3)
+538.0,Kalaburagi,Kalaburagi,Jewargi PS,opp. Bus stand Main Road Jewargi,jewargigba@ksp.gov.in,08442-236033,Jewargi  Circle,17.01593,76.7758,jewargi,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Kalaburagi CEN Crime PS,Kalaburgi Town,email@ksp.gov.in,88888-888888,Kalaburagi District,17.3310003,76.8334228,kalaburagi,EXACT
+538.0,Kalaburagi,Kalaburagi,Kalagi PS,PWD Quarters Kalagi Tq: chittapur,kalagigba@ksp.gov.in,08474-227633,Kalagi  Circle,17.353429,77.1532997,kalagi,EXACT
+538.0,Kalaburagi,Kalaburagi,Kamalapur PS,Kamalapur Tq: Gulbarga,kamalapurgba@ksp.gov.in,08472-221306,Gulbarga Rural Circle,18.0632242,77.9001398,kamalapur,EXACT
+538.0,Kalaburagi,Kalaburagi,Kunchavaram PS,Kunchawaram Tq : chincholi,kunchawaramgba@ksp.gov.in,08475-204001,Chincholi Circle,17.4860527,77.630103,kunchavaram,EXACT
+538.0,Kalaburagi,Kalaburagi,Kurakunta PS,CCI cement Factory Quarters area Kurkunta Tq:,kurkuntagba@ksp.gov.in,08441-228543,Sedam Circle,17.1928307,77.3573835,kurakunta,EXACT
+538.0,Kalaburagi,Kalaburagi,Madanahipparga PS,Madanhipparga Tq: Aland,madanhippargagba@ksp.gov.in,08440-216266,Alland Circle,17.4570037,76.3736982,madanahipparga,FUZZY (93.3)
+538.0,Kalaburagi,Kalaburagi,Madbool PS,Madbool Tq: Chittapur,madboolgba@ksp.gov.in,08474-290166,Kalagi  Circle,17.2856,77.00374,madbool,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Mahagoan PS,Mahagoan Tq: Gulbarga,mahagaongba@ksp.gov.in,08478-220475,Gulbarga Rural Circle,11.7021978,75.5364701,mahagoan,FUZZY (90.0)
+538.0,Kalaburagi,Kalaburagi,Malkhed PS,Near Bas stand Malkhed Tq : sedam,malkhedgba@ksp.gov.in,08441-280366,Sedam Circle,17.1954492,77.1588267,malkhed,FUZZY (87.5)
+538.0,Kalaburagi,Kalaburagi,Miryan PS,Miriyan Tq ; Chincholi,miriyangba@ksp.gov.in,08475-295444,Chincholi Circle,17.22132,77.2943,miryan,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Mudhol PS,Mudhol Tq: Sedam,mudholgba@ksp.gov.in,08441-220811,Chincholi Sub-Division,16.3338591,75.2870794,mudhol,EXACT
+538.0,Kalaburagi,Kalaburagi,Narona PS,Narona Tq:aland,naronagba@ksp.gov.in,08477-228233,Alland Circle,17.5158915,76.7185306,narona,EXACT
+538.0,Kalaburagi,Kalaburagi,Nelogi PS,Nelogi Tq: Jewargi,nelogigba@ksp.gov.in,08442-225033,Jewargi  Circle,17.0590211,76.6080878,nelogi,EXACT
+538.0,Kalaburagi,Kalaburagi,Nimbarga PS,Nimbarga Tq: Aland,nimbargagba@ksp.gov.in,08440-286733,Alland Circle,17.386079,76.5853421,nimbarga,EXACT
+538.0,Kalaburagi,Kalaburagi,Ratkal PS,Ratkal Tq : Chincholi,ratkalgba@ksp.gov.in,08475-297833,Sulepet  Circle,17.4517,77.1068,ratkal,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Revoor PS,Revoor Tq: Afzalpur,revoorgba@ksp.gov.in,08477-269436,Afzalpur Circle,17.32204,76.46487,revoor,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Sedam PS,Sedam Tq: Sedam,sedamgba@ksp.gov.in,08441-276166,Sedam Circle,17.1772683,77.2823552,sedam,EXACT
+538.0,Kalaburagi,Kalaburagi,Shahabad Town PS,Shahabad Tq: Chittapur,shahabadtowngba@ksp.gov.in,08474-204444,Shahabad Sub-Division,17.1241133,76.9418923,shahabad,EXACT
+538.0,Kalaburagi,Kalaburagi,Sulepet PS,Sulepet Tq:  chincholi,sulepethgba@ksp.gov.in,08475-295024,Sulepet  Circle,17.2416,77.2042,sulepet,ORIGINAL
+538.0,Kalaburagi,Kalaburagi,Wadi PS,Near ACC Cement Factory Wadi Tq : Chittapur,wadigba@ksp.gov.in,08474-202300,Chittapura  Circle,17.0471835,76.9921386,wadi,EXACT
+538.0,Kalaburagi,Kalaburagi,Yedrami PS,Yedrami Tq: Jewargi,yedramigba@ksp.gov.in,08442-226033,Jewargi  Circle,16.85576,76.54173,yedrami,ORIGINAL
+538.0,Kalaburagi City,Kalaburagi,Ashoknagar PS,"Behind Central Bus stand GDA Lay Out, Gulbarg",ashoknagargba@ksp.gov.in,08472-263617,Kalaburagi A Sub Division,15.5972609,74.4503653,ashoknagar,FUZZY (95.2)
+538.0,Kalaburagi City,Kalaburagi,Brahmapur PS,"Super Market Gulbarga, Near Tashil Office, Gu",brahmapurgba@ksp.gov.in,08472-263618,Kalaburagi A Sub Division,14.0920411,76.3003723,brahmapur,FUZZY (94.7)
+538.0,Kalaburagi City,Kalaburagi,Chowk PS,"Super Market , Opp Tashil Office, Gulbarga",chowkgba@ksp.gov.ion,08472-263622,Kalaburagi B Sub Division,12.5349987,74.9666113,chowk,FUZZY (90.9)
+538.0,Kalaburagi City,Kalaburagi,Ferhatabad PS,Farthabad Gulbarga,farthabadgba@ksp.gov.in,08472-213033,Kalaburagi C Sub Division,17.17151,76.79334,ferhatabad,ORIGINAL
+538.0,Kalaburagi City,Kalaburagi,MB Nagar PS,opp. Asha Jothi College GDA Lay Out Gulbarga,mbnagargba@ksp.gov.in,08472-263628,Kalaburagi B Sub Division,17.1938,76.5204,mb nagar,ORIGINAL
+538.0,Kalaburagi City,Kalaburagi,Ragavendranagar PS,New Raghavendra Colony Gulbarga,rgnagargba@ksp.gov.in,08472-263619,Kalaburagi A Sub Division,17.33727,76.81807,ragavendranagar,ORIGINAL
+538.0,Kalaburagi City,Kalaburagi,Roza PS,Near Khaja Bane Nawaz Durga Roza area Gulbarg,rozagba@ksp.gov.in,08472-263623,Kalaburagi B Sub Division,17.0838201,76.7898612,roza,FUZZY (90.0)
+538.0,Kalaburagi City,Kalaburagi,Station Bazar PS,"I-Wan Shahi PWD Quarters, Near Mini Vidhana S",stationbazargba@ksp.gov.in,08472-263616,Kalaburagi A Sub Division,13.5029417,77.515738,station,FUZZY (90.0)
+538.0,Kalaburagi City,Kalaburagi,University PS,University Campus Gulbarga,universitygba@ksp.gov.in,08472-263629,Kalaburagi C Sub Division,12.2660696,76.6042706,university,FUZZY (90.0)
+541.0,Kodagu,Kodagu,Bhagamandala PS,"Karike Road, Bhagamandala,",bhagamandalamcr@ksp.gov.in,08272-243270,Madikeri Rural Circle,12.3857285,75.5290234,bhagamandala,EXACT
+541.0,Kodagu,Kodagu,Gonikoppa PS,"Juice Factory Road, Gonikoppa Town & Post,",gonicoppamcr@ksp.gov.in,08274-247333,Gonikoppa Circle,13.533207,75.3633986,gonikoppa,FUZZY (90.0)
+541.0,Kodagu,Kodagu,Kodagu CEN Crime PS,Madikere Town,email@ksp.gov.in,88888-888888,KODAGU(Madikeri) District,14.516707,75.4470424,kodagu,FUZZY (90.0)
+541.0,Kodagu,Kodagu,Kodagu Women PS,"Opp: Fort, Main Road,Near Madikeri Town PS, Madikeri",email@ksp.gov.in,88888-888888,Madikeri Sub-Division,14.516707,75.4470424,kodagu,FUZZY (90.0)
+541.0,Kodagu,Kodagu,Kushalanagar Rural PS,Kushal nagarKodagu,email@ksp.gov.in,88888-888888,Kushalnagar Circle,12.4585525,75.961437,kushalanagar,EXACT
+541.0,Kodagu,Kodagu,Kushalnagar PS,"Near Hospital, Kudige Road,",kushalnagarmcr@ksp.gov.in,08276-274333,Kushalnagar Circle,12.4585525,75.961437,kushalnagar,FUZZY (95.7)
+541.0,Kodagu,Kodagu,Kushalnagar Traffic PS,"Kudlur Industrial Area, Kudlur Road,Kushalnagar hobli, Sowmarpet Tq, Kodagu",email@ksp.gov.in,88888-888888,Kushalnagar Circle,12.4585525,75.961437,kushalnagar,FUZZY (95.7)
+541.0,Kodagu,Kodagu,Kutta PS,"Kutta Town, Kutta Post,",kuttamcr@ksp.gov.in,08274-244100,Kutta Circle,11.9696155,76.0491296,kutta,EXACT
+541.0,Kodagu,Kodagu,Madikeri Rural PS,"College Road,",madikeriruralmcr@ksp.gov.in,08272-228777,Madikeri Rural Circle,12.42149,75.7387543,madikeri,EXACT
+541.0,Kodagu,Kodagu,Madikeri Town PS,"Opp: Fort, Main Road,",madikeritownmcr@ksp.gov.in,08272-229333,Madikeri Town Circle,12.42149,75.7387543,madikeri,EXACT
+541.0,Kodagu,Kodagu,Madikeri Traffic PS,"Opp: Fort, Main Road,",trafficmcr@ksp.gov.in,08272-220081,Madikeri Town Circle,12.42149,75.7387543,madikeri,EXACT
+541.0,Kodagu,Kodagu,Napoklu PS,"Near market, Napoklu Town",napoklumcr@ksp.gov.in,08272-237240,Madikeri Rural Circle,12.3058737,75.6884619,napoklu,EXACT
+541.0,Kodagu,Kodagu,Ponnampet PS,"Gonikoppa Road, Ponnampet Town & Post,",ponnampetmcr@ksp.gov.in,08274-249044,Gonikoppa Circle,12.1443568,75.9421197,ponnampet,FUZZY (94.7)
+541.0,Kodagu,Kodagu,Shanivarasanthe PS,"Shanivarasanthe Town, Shanivarasanthe,",shanivarasanthemcr@ksp.gov.in,08276-283333,Somwarpet Circle,12.7267464,75.8906418,shanivarasanthe,FUZZY (96.6)
+541.0,Kodagu,Kodagu,Siddapura PS,"Near Bus Stand, Siddapura,",siddapuramcr@ksp.gov.in,08274-258333,Madikeri Town Circle,14.3409562,74.8924253,siddapura,EXACT
+541.0,Kodagu,Kodagu,Somwarpet PS,"Near Private Bus Stand, Somawarpet Town,",somawarpetmcr@ksp.gov.in,08276-282040,Somwarpet Circle,12.5971883,75.8466865,somwarpet,EXACT
+541.0,Kodagu,Kodagu,Srimangala PS,"Srimangala Town, Srimangala Post,",srimangalamcr@ksp.gov.in,08274-246246,Kutta Circle,12.0186047,75.9892697,srimangala,EXACT
+541.0,Kodagu,Kodagu,Sunticoppa PS,"Madapura Road, Suntikoppa Town",sunticoppamcr@ksp.gov.in,08276-262333,Kushalnagar Circle,14.3166038,74.9911155,sunticoppa,FUZZY (90.0)
+541.0,Kodagu,Kodagu,Virajpet Rural PS,"Meenupet, Viajpet Town",virajpetruralmcr@ksp.gov.in,08274-257462,Virajpet Circle,12.1972711,75.8033421,virajpet,EXACT
+541.0,Kodagu,Kodagu,Virajpet Town PS,"Meenupet, Viajpet Town",virajpettownmcr@ksp.gov.in,08274-257333,Virajpet Circle,12.1972711,75.8033421,virajpet,EXACT
+542.0,Kolar,Kolar,Gownapalli PS,"Gownipalli Police Station, Gownipalli, Sriniv",gownipalliklr@ksp.gov.in,08157-248106,Srinivasapura Circle,13.9807196,77.9188266,gownapalli,FUZZY (90.0)
+542.0,Kolar,Kolar,Gulpet PS,"Gulpet Police Station, Chickaballapura Road,",gulpetklr@ksp.gov.in,08152-240596,Kolar Town Circle,13.14567,78.13095,gulpet,ORIGINAL
+542.0,Kolar,Kolar,Kolar CEN Crime PS,,email@ksp.gov.in,88888-888888,Kolar District,13.1367201,78.1337246,kolar,EXACT
+542.0,Kolar,Kolar,Kolar Rural PS,"Kolar Rural Police Station, Near AC Office, K",ruralklr@ksp.gov.in,08152-222616,Kolar Rural Circle,13.1367201,78.1337246,kolar,EXACT
+542.0,Kolar,Kolar,Kolar Town PS,"Kolar Town Police station, Near Gandhi chowk,",townklr@ksp.gov.in,08152-222024,Kolar Town Circle,13.1367201,78.1337246,kolar,EXACT
+542.0,Kolar,Kolar,Kolar Traffic PS,"Kolar Traffic Police Station, Behind Indian O",trafficklr@ksp.gov.in,08152-222025,Kolar Town Circle,13.1367201,78.1337246,kolar,EXACT
+542.0,Kolar,Kolar,Kolar Women PS,Near MG CircleKolar,email@ksp.gov.in,9480802630,Kolar Town Circle,13.1367201,78.1337246,kolar,EXACT
+542.0,Kolar,Kolar,Malur PS,"Office of the Circle Inspector of Police, Mar",malurklr@ksp.gov.in,08151-232220,Malur Circle,13.0058697,77.9393648,malur,FUZZY (90.9)
+542.0,Kolar,Kolar,Masti PS,"Masthi Police Station, Masthi,  Malur Taluk.",masthiklr@ksp.gov.in,08151-236222,Malur Circle,12.8718538,77.9981967,masti,EXACT
+542.0,Kolar,Kolar,Mulbagal Rural PS,,email@ksp.gov.in,88888-888888,Mulbagal Circle,13.1660479,78.3927241,mulabagilu,EXACT
+542.0,Kolar,Kolar,Mulbagal Town PS,"Mulbagal Police Station, Near Ambedkar Circel",mulbagalklr@ksp.gov.in,08159-242040,Mulbagal Circle,13.1660479,78.3927241,mulabagilu,EXACT
+542.0,Kolar,Kolar,Nangli PS,"Nangali Police Station, Nangali,   Mulbalgal",nangliklr@ksp.gov.in,08159-248126,Mulbagal Circle,13.2006003,78.5151842,nangli,FUZZY (92.3)
+542.0,Kolar,Kolar,Rayalpad PS,"Rayalpadu Police Station, Rayalpadu, Srinivas",rayalpadklr@ksp.gov.in,08157-240006,Srinivasapura Circle,13.5339085,78.3375692,rayalpad,FUZZY (94.1)
+542.0,Kolar,Kolar,Srinivasapura PS,"Srinivasapura Police Station, Near Mini Vidha",srinivasapuraklr@ksp.gov.in,08157-246234,Srinivasapura Circle,14.0117507,77.3209058,srinivasapura,EXACT
+542.0,Kolar,Kolar,Vemagal PS,"Vemagal Police Station, Kolar Taluk",vemagalklr@ksp.gov.in,08152-246421,Kolar Rural Circle,13.1923524,78.0193456,vemagal,EXACT
+543.0,Koppal,Koppal,Alwandi PS,Police Sub Inspector Alwandi Police Station A,alwandikpl@ksp.gov.in,08539-285233,Koppal Rural Circle,15.2309643,75.9800352,alwandi,FUZZY (93.3)
+543.0,Koppal,Koppal,Bevoor PS,Police Sub Inspector Bevoor Police Station Be,bevoorkpl@ksp.gov.in,08534-227641,Yelburga Circle,16.20709,75.89477,bevoor,ORIGINAL
+543.0,Koppal,Koppal,Gangavathi Rural PS,"Police Sub Gangavati Rural Police Station, Op",gvtruralkpl@ksp.gov.in,08533-230854,Gangavathi Rural Circle,15.4308872,76.5319723,gangavathi,EXACT
+543.0,Koppal,Koppal,Gangavathi Town PS,Police Inspector Gangavati Town Police Statio,gvttownkpl@ksp.gov.in,08533-230633,Gangavathi Sub-Division,15.4308872,76.5319723,gangavathi,EXACT
+543.0,Koppal,Koppal,Gangavathi Traffic PS,"Police Sub Gangavati Traffic Police Station,",gvttraffickpl@ksp.gov.in,08533-231533,Gangavathi Town PS,15.4308872,76.5319723,gangavathi,EXACT
+543.0,Koppal,Koppal,Hanumasagar PS,Police Sub-Insector Hanumsagar  Police Statio,hanumsagarkpl@ksp.gov.in,08536-270333,Kushtagi Circle,15.9337739,75.5267042,hanumasagar,FUZZY (95.7)
+543.0,Koppal,Koppal,Kanakagiri PS,Police Sub-Insector Kanakagiri Police Station,kanakagirikpl@ksp.gov.in,08533-240233,Gangavathi Rural Circle,15.5696792,76.4189879,kanakagiri,EXACT
+543.0,Koppal,Koppal,Karatagi PS,Police Sub-Insector Karatagi Police Station K,karatagikpl@ksp.gov.in,08533-275331,Gangavathi Rural Circle,15.6081507,76.658816,karatagi,EXACT
+543.0,Koppal,Koppal,Koppal CEN Crime PS,DCB UnitKoppal,email@ksp.gov.in,88888-888888,Koppal District,15.3484144,76.1547421,koppal,FUZZY (92.3)
+543.0,Koppal,Koppal,Koppal Rural PS,Police Sub Inspector Koppal Rural Police Stat,ruralkpl@ksp.gov.in,08539-221333,Koppal Rural Circle,15.3484144,76.1547421,koppal,FUZZY (92.3)
+543.0,Koppal,Koppal,Koppal Town PS,"Police Inspector Koppal Town Police Station,",townkpl@ksp.gov.in,08539-220333,Koppal Sub-Division,15.3484144,76.1547421,koppal,FUZZY (92.3)
+543.0,Koppal,Koppal,Koppal Traffic PS,Koppal,email@ksp.gov.in,88888-888888,Koppal Town PS,15.3484144,76.1547421,koppal,FUZZY (92.3)
+543.0,Koppal,Koppal,Koppal Women PS,"Hasan Road, Near Tippu Sultan CircleKoppal",womenpskpl@ksp.gov.in,88888-888888,Koppal Sub-Division,15.3484144,76.1547421,koppal,FUZZY (92.3)
+543.0,Koppal,Koppal,Kuknoor PS,Police Sub Inspector Kuknoor Police Station K,kuknoorkpl@ksp.gov.in,08534-230438,Yelburga Circle,15.4902753,75.9934934,kuknoor,EXACT
+543.0,Koppal,Koppal,Kushtagi PS,Police Sub-Insector Kushtagi Police Station K,kushtagikpl@ksp.gov.in,08536-267033,Kushtagi Circle,15.7571579,76.190682,kushtagi,EXACT
+543.0,Koppal,Koppal,Munirabad PS,Police Sub Inspector Munirabad Police Station,munirabadkpl@ksp.gov.in,08539-270333,Koppal Rural Circle,15.2785018,76.3274884,munirabad,EXACT
+543.0,Koppal,Koppal,Tavaregera PS,Police Sub-Insector Tawargera  Police Station,tawargerakpl@ksp.gov.in,08536-275322,Kushtagi Circle,15.7671121,76.4036608,tavaregera,FUZZY (90.0)
+543.0,Koppal,Koppal,Yelburga PS,Police Sub Inspector Yelburga Police Station,yelburgakpl@ksp.gov.in,08534-220133,Yelburga Circle,15.6152511,76.0127786,yelburga,EXACT
+544.0,Mandya,Mandya,Arakere PS,"Arakere, Srirangaptna Taluk",arakeremdy@ksp.gov.in,08236-257233,Srirangapatna Circle,12.4125906,76.8178634,arakere,EXACT
+544.0,Mandya,Mandya,Basaralu PS,"Basaralu, Mandya Taluk",basaralumdy@ksp.gov.in,08232-276634,Mandya Rural Circle,12.7090838,76.81836,basaralu,EXACT
+544.0,Mandya,Mandya,Belakavadi PS,"Belkavadi, Malavalli Taluk",belakavadimdy@ksp.gov.in,08231-240034,Malavalli Rural Circle,12.2563911,77.1256155,belakavadi,FUZZY (90.0)
+544.0,Mandya,Mandya,Bellur PS,"Bellur, Nagamangala Taluk",bellurmdy@ksp.gov.in,08234-287535,Nagamangala Circle,13.1373251,77.9918549,bellur,EXACT
+544.0,Mandya,Mandya,Besagaraghalli PS,"Besagarahalli, Maddur Taluk",besagarahallimdy@ksp.gov.in,08232-278264,Maddur Circle,12.6388895,76.9932614,besagaraghalli,FUZZY (96.3)
+544.0,Mandya,Mandya,Bindiganavile PS,"Binidiganavile, Nagamangala Taluk",bnavilemdy@ksp.gov.in,08234-284240,Nagamangala Circle,12.8813863,76.6333562,bindiganavile,EXACT
+544.0,Mandya,Mandya,Halagur PS,"MALAVALLI TQ,",halagurumdy@ksp.gov.in,08231-295322,Malavalli Rural Circle,12.4246475,77.2266035,halagur,FUZZY (93.3)
+544.0,Mandya,Mandya,K.M. Doddi PS,"K M Doddi C A kere HOBLI, MADDUR TQ.",kmdoddimdy@ksp.gov.in,08231-235032,Malavalli Sub-Division,12.5282498,76.9376077,k m doddi,FUZZY (90.0)
+544.0,Mandya,Mandya,K.R. Pet Rural PS,"K R Pet Town, K R Pet Taluk",krpetruralmdy@ksp.gov.in,08232-262440,K.R. Pet Circle,12.65939,76.48833,k r pet,ORIGINAL
+544.0,Mandya,Mandya,K.R. Pet Town PS,"K R Pet Town, K R Pet Taluk",krpettownmdy@ksp.gov.in,08230-262248,K.R. Pet Circle,12.65924,76.48829,k r pet,ORIGINAL
+544.0,Mandya,Mandya,K.R. Sagar PS,"K R Sagara, Srirangapatna Taluk",krsagaramdy@ksp.gov.in,08236-252027,Srirangapatna Circle,12.40578,76.57242,k r sagar,ORIGINAL
+544.0,Mandya,Mandya,Keragodu PS,"Keragodu, Mandya Taluk",keragodumdy@ksp.gov.in,08232-272044,Mandya Rural Circle,12.6367842,76.9144266,keragodu,EXACT
+544.0,Mandya,Mandya,Kesthur PS,"Kesthur, Maddur Taluk",kesturmdy@ksp.gov.in,08232-279735,Maddur Circle,12.69169,77.06078,kesthur,ORIGINAL
+544.0,Mandya,Mandya,Kikkeri PS,"Kikkeri, K R Pet Taluk",kikkerimdy@ksp.gov.in,08232-265433,K.R. Pet Circle,12.7632226,76.4257051,kikkeri,EXACT
+544.0,Mandya,Mandya,Kirugavalu PS,"Kirugavalu, Malavalli Taluk",kirugavalumdy@ksp.gov.in,082312-249481,Malavalli Rural Circle,12.3737705,76.9486653,kirugavalu,EXACT
+544.0,Mandya,Mandya,Koppa PS,"Koppa, Maddur Taluk",koppamdy@ksp.gov.in,08232-248032,Maddur Circle,13.533207,75.3633986,koppa,EXACT
+544.0,Mandya,Mandya,Maddur PS,Maddur Town,maddurmdy@ksp.gov.in,08232-232170,Maddur Circle,12.5848984,77.0448679,maddur,EXACT
+544.0,Mandya,Mandya,Maddur Traffic PS,Maddur Town,maddurtrafficmdy@ksp.gov.in,08232-232033,Maddur Circle,12.5848984,77.0448679,maddur,EXACT
+544.0,Mandya,Mandya,Malavalli Rural PS,Malavalli Town,malavalliruralmdy@ksp.gov.in,08231-242233,Malavalli Rural Circle,12.3864073,77.0589464,malavalli,EXACT
+544.0,Mandya,Mandya,Malavalli Town PS,Malavalli Town,malavallitownmdy@ksp.gov.in,08231-242244,Malavalli Sub-Division,12.3864073,77.0589464,malavalli,EXACT
+544.0,Mandya,Mandya,Mandya CEN Crime PS,Mandya Town,email@ksp.gov.in,88888-888888,Mandya Sub-Division,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Mandya Central PS,"DC Office Road, Mandya City,Mandya Dist",email@ksp.gov.in,8232221345,Mandya Town Circle,12.5238888,76.8961961,mandya central,FUZZY (90.0)
+544.0,Mandya,Mandya,Mandya East PS,"M C Road, Mandya Town",eastmdy@ksp.gov.in,08232-224777,Mandya Town Circle,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Mandya Rural PS,"Bannur Road, Mandya Town",ruralmdy@ksp.gov.in,08232-224200,Mandya Rural Circle,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Mandya Traffic PS,"M C Road, Mandya Town",trafficmdy@ksp.gov.in,08232-262248,Mandya Town Circle,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Mandya West PS,"R P Road, Mandya Town",westmdy@ksp.gov.in,08232-224666,Mandya Town Circle,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Mandya Women PS,Mandya TownMandya Dist,email@ksp.gov.in,88888-888888,Mandya Town Circle,12.5238888,76.8961961,mandya,EXACT
+544.0,Mandya,Mandya,Melukote PS,"Melukote, Pandavapura Taluk",melukotemdy@ksp.gov.in,08236-299800,Srirangapatna Circle,12.6624052,76.649649,melukote,EXACT
+544.0,Mandya,Mandya,Nagamangala Rural PS,address,nmangalaruralmdy@ksp.gov.in,08232-285210,Nagamangala Circle,12.8196077,76.7542189,nagamangala,EXACT
+544.0,Mandya,Mandya,Nagamangala Town PS,Nagamangala Town,nmangalamdy@ksp.gov.in,08234-286040,Nagamangala Circle,12.8196077,76.7542189,nagamangala,EXACT
+544.0,Mandya,Mandya,Pandavapura PS,"Pandavapura, Pandavapura Taluk",ppuramdy@ksp.gov.in,08236-255132,Srirangapatna Sub-Division,12.5011414,76.6731501,pandavapura,EXACT
+544.0,Mandya,Mandya,Shivalli PS,"Shivalli, Mandya Taluk",shivallimdy@ksp.gov.in,08232-277144,Mandya Rural Circle,12.5859821,76.8228968,shivalli,EXACT
+544.0,Mandya,Mandya,Srirangapatna PS,"Behind Government First Grade College, Sriran",srpatnamdy@ksp.gov.in,08236-259235,Srirangapatna Circle,12.4226442,76.6849312,srirangapatna,EXACT
+544.0,Mandya,Mandya,Srirangapatna Rural PS,"Behind Govt. First Grade CollegeSrirangapatna Tq, Mandya Dist",email@ksp.gov.in,8232253027,Srirangapatna Circle,12.4226442,76.6849312,srirangapatna,EXACT
+527.0,Belagavi City,Belagavi,APMC Yard PS,BUXITE ROAD  AZAM NAGAR BELGAUM-,apmcbgm@ksp.gov.in,0831-2405250,Market Sub Division,16.4802379,75.3917995,,EXACT
+527.0,Belagavi City,Belagavi,Bagewadi PS,ON P.B.ROAD NH4  KAKATI,bagewadibgm@ksp.gov.in,0831-2405280,Belgaum Rural Sub Division,15.1180437,75.7626874,bagewadi,EXACT
+527.0,Belagavi City,Belagavi,Belagavi City CEN Crime PS,PHQ BelagaviOld PB road,ccbbgc@ksp.gov.in,8888-888888,Belagavi City,14.3988389,75.2408096,belagavi,EXACT
+527.0,Belagavi City,Belagavi,Belagavi Rural PS,VADAGON ROAD HINDWADI,ruralbgm@ksp.gov.in,0831-2405252,Belgaum Rural Sub Division,14.3988389,75.2408096,belagavi,EXACT
+527.0,Belagavi City,Belagavi,Belgaum North Traffic PS,KACHARI ROAD OPOSITE TAHASILDAR OFFICE-,trafficnorthbgm@ksp.gov.in,0831-2405240,Belagavi Traffic Sub Division,15.86323,74.51308,belgaum,ORIGINAL
+527.0,Belagavi City,Belagavi,Belgaum South Traffic PS,CAMP POLICE LANE CAMP,trafficsouthbgm@ksp.gov.in,0831-2405248,Belagavi Traffic Sub Division,15.85743,74.50535,belgaum,ORIGINAL
+527.0,Belagavi City,Belagavi,Camp PS,HIGH STREET CAMP,campbgm@ksp.gov.in,0831-2405234,Khadebazar Sub Division,15.0123999,74.9900561,camp,EXACT
+527.0,Belagavi City,Belagavi,Kakati PS,ON P.B.ROAD NH4  KAKATI,kakatibgm@ksp.gov.in,0831-2405203,Belgaum Rural Sub Division,15.9326725,74.5255528,kakati,EXACT
+527.0,Belagavi City,Belagavi,Khadebazar PS,RISALDAR GALLI KHADE BAZAR,khadebazarbgm@ksp.gov.in,0831-2405232,Khadebazar Sub Division,14.6952784,78.5625845,khade,FUZZY (90.0)
+527.0,Belagavi City,Belagavi,Malamaruthi PS,DOUBLE ROAD SRINAGAR,malmaruthibgm@ksp.gov.in,0831-2405251,Market Sub Division,13.2387032,75.1102104,malamaruthi,FUZZY (90.0)
+527.0,Belagavi City,Belagavi,Marihal PS,BAGALKOT ROAD MARIHAL,marihalbgm@ksp.gov.in,0831-2405239,Belgaum Rural Sub Division,15.8826292,74.6660686,marihal,EXACT
+527.0,Belagavi City,Belagavi,Market PS,OPP  CENTRAL BUS STAND,marketbgm@ksp.gov.in,0831-2405242,Market Sub Division,16.4802379,75.3917995,,EXACT
+527.0,Belagavi City,Belagavi,Shahapura PS,VADAGAON ROAD SHAHAPUR,shahapurbgm@ksp.gov.in,0831-2405244,Market Sub Division,16.6991627,76.8410045,shahapura,EXACT
+527.0,Belagavi City,Belagavi,Tilakwadi PS,NEAR NATH PAI GARDEN TILKAWADI,tilakwadibgm@ksp.gov.in,0831-2405236,Khadebazar Sub Division,17.0471835,76.9921386,tilakwadi,FUZZY (90.0)
+527.0,Belagavi City,Belagavi,Udyambag PS,NEAR STATE BANK OF INDIA  IDUSTRIAL ESTATE KH,udyambagbgm@ksp.gov.in,0831-2405238,Khadebazar Sub Division,15.82069,74.49141,udyambag,ORIGINAL
+534.0,Mangaluru City,Dakshina Kannada,Bajpe PS,BAJPE POST & VILLAGE,bajpemgc@ksp.gov.in,0824-2220531,North Subdivison,13.3728986,74.8573959,bajpe,FUZZY (88.9)
+534.0,Mangaluru City,Dakshina Kannada,Barke PS,Gandhinagar,barkemgc@ksp.gov.in,0824-2220522,Central Sub Division,12.447832,75.041219,barke,FUZZY (88.9)
+534.0,Mangaluru City,Dakshina Kannada,Cyber Crime PS Mangaluru City,Mangaloor CityMangaloor,email@ksp.gov.in,88888-888888,Mangalore COP,12.9788319,75.9935776,cyber mangaluru,FUZZY (90.0)
+534.0,Mangaluru City,Dakshina Kannada,E and N Crime PS Mangaluru City,Mangalooru CityMangalooru,email@ksp.gov.in,88888-888888,Mangalore COP,12.9788319,75.9935776,e and n mangaluru,FUZZY (90.0)
+534.0,Mangaluru City,Dakshina Kannada,Kankanady Town PS,"Garodi, Maroli PostMangaluru City",ccmgc@ksp.gov.in,8242220529,South Sub division,12.86983,74.87264,kankanady,ORIGINAL
+534.0,Mangaluru City,Dakshina Kannada,Kavoor PS,"Kavoor P.S Shanthinagara, Kavoor, Mangalore",kavoormgc@ksp.gov.in,0824-2220533,North Subdivison,12.92423,74.84935,kavoor,ORIGINAL
+534.0,Mangaluru City,Dakshina Kannada,Konaje PS,"Konaje Police Station, Assaigoli Post",konajemgc@ksp.gov.in,0824-2220536,South Sub division,12.8201692,74.928293,konaje,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore East PS,Kadri Hills,mangaloreeastmgc@ksp.gov.in,0824-2220520,Central Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore East Traffic PS,Kadrihills Mangalore,trafficeastmaq@ksp.gov.in,0824-2220825,Traffic Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore North PS,BUNDER      MANGALORE,mangalorenorthmgc@ksp.gov.in,0824-2220516,Central Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore Rural PS,Kulashekara,mangaloreruralmgc@ksp.gov.in,0824-2220535,South Sub division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore South PS,"Managalore South P.S, Pandeshwara",mangaloresouthmgc@ksp.gov.in,0824-2220518,Central Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore West Traffic PS,address,trafficwestmaq@ksp.gov.in,0824-2220524,Traffic Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Mangalore Women PS,"Women Police Station , Pandeshwara",womenmgc@ksp.gov.in,0824-2220525,Central Sub Division,15.9231076,75.7622963,mangalore,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Moodabidre PS,"Jyothinagara, Pranthya Village",moodabidremgc@ksp..gov.in,08258 - 236333,North Subdivison,13.0699218,74.9977469,moodabidre,FUZZY (90.0)
+534.0,Mangaluru City,Dakshina Kannada,Mulki PS,Bappanadu,mulkimgc@ksp.gov.in,0824-2290533,North Subdivison,13.0904094,74.7870474,mulki,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Panambur PS,"PANAMBUR POLICE STATION, PANAMBUR , NEW MANGA",panamburmgc@ksp.gov.in,0824-2220530,North Subdivison,12.9535736,74.8031577,panambur,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Surathkal PS,surathkal police station,surathkalmgc@ksp.gov.in,0824-2220540,North Subdivison,12.9893484,74.8002073,surathkal,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Traffic North Police Station,Traffic North Police Station,trafficnorthmgc@ksp.gov.in,88888-888888,Traffic Sub Division,16.4802379,75.3917995,,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Traffic South Police Station,"Kallapu, Near TokkottuMangaluru City",maqsysadm@ksp.gov.in,88888-888888,Traffic Sub Division,16.4802379,75.3917995,,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Ullal PS,"Near Abbakka Circle, Ullal Post, Mangalore",ullalmgc@ksp.gov.in,0824-2466269,South Sub division,12.8181202,74.8459375,ullal,EXACT
+534.0,Mangaluru City,Dakshina Kannada,Urva PS,Ashokanagar,urwamgc@ksp.gov.in,0824-2220521,Central Sub Division,13.6652292,75.2052274,urva,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Alanahally PS,"No 71, SB Jayarama Badavane,Alanahally, Devegowda Circle, Bannuru Ring Road",alanahallimyc@ksp.gov.in,0821-2418318,Devaraja Sub-Division,12.2360606,76.4536294,alanahally,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Ashokpuram PS,"ADICHUNCHANAGIR ROAD, KUVEMPUNAGARA,  MYSORE.",ashokpurammyc@ksp.gov.in,2418521,Krishnaraja Sub-Division,12.9406862,77.8828301,ashokpuram,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Devaraja PS,"DHANVANTHRI ROAD,K.R. HOSPITAL COMPUND, DEVAR",devarajamyc@ksp.gov.in,2418306,Devaraja Sub-Division,12.7635864,78.5587975,devaraja,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Deveraja Traffic PS,"DEEWANS  ROAD,MYSORE.        570 001",devrajatrfmyc@ksp.gov.in,2418526,Traffic Sub-Division,12.3081,76.64729,deveraja,ORIGINAL
+545.0,Mysuru City,Mysuru,Hebbal PS,"NO 71 S B JAYARAMA BADAVANEALANAHALLI, NEAR DEVEGOWDA CIRCLE MYSURU",hebbalmyc@ksp.gov.in,0821-2418855,Narasimharaja Sub-Division,14.9992476,75.7224672,hebbal,FUZZY (92.3)
+545.0,Mysuru City,Mysuru,Jayalakshmipuram PS,"BEHIND ISWARIYA PETROL BUNK, VIJAYANAGARA 3RD",jailaxmipurammyc@ksp.gov.in,2418316,Narasimharaja Sub-Division,12.9406862,77.8828301,jayalakshmipuram,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Krishnaraja PS,"M.G. ROAD. K.R. MOHALLA, MYSORE. 570 004",krishnarajmyc@ksp.govin,2418519,Krishnaraja Sub-Division,12.438561,76.3836699,krishnaraja,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Krishnaraja Traffic PS,J.L.B ROAD LAXMIPURAM MYSORE. 570 004,krtrafficmyc@ksp.gov.in,2418530,Traffic Sub-Division,12.438561,76.3836699,krishnaraja,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Kuvempunagar PS,"DAKSHINESHWARA MAIN ROAD, NEAR CHURCH, RAMAKR",kuvempunagarmyc@ksp.gov.in,2418324,Krishnaraja Sub-Division,12.28608,76.62772,kuvempunagar,ORIGINAL
+545.0,Mysuru City,Mysuru,Lashkar PS,NEHRU CIRLCE ASHOKA ROAD MYSORE. 570 001,lashkarmyc@ksp.gov.in,2418307,Devaraja Sub-Division,12.30143,76.65682,lashkar,ORIGINAL
+545.0,Mysuru City,Mysuru,Laxmipuram PS,"J.L.B ROAD, LAXMIPURAM,MYSORE. 570 004",laxmipurammyc@ksp.gov.in,2418320,Krishnaraja Sub-Division,15.7567265,77.9989731,laxmipuram,EXACT
+545.0,Mysuru City,Mysuru,Mandi PS,KABEER ROAD MANDI MOHALLA MYSORE. 570 021,mandimyc@ksp.gov.in,2418313,Narasimharaja Sub-Division,13.9821876,77.5075033,mandi,FUZZY (90.9)
+545.0,Mysuru City,Mysuru,Metagalli PS,"K.R.S ROAD, METEGALLY, MYSORE. 570 016",metagallymyc@ksp.gov.in,2418315,Narasimharaja Sub-Division,12.34713,76.63038,metagalli,ORIGINAL
+545.0,Mysuru City,Mysuru,Narasimharaja PS,"RAJENADRA  NAGARA , PANCHAMUKU GANAPATHI TEMP",nsimharajamyc@ksp.gov.in,2418312,Narasimharaja Sub-Division,13.7509426,74.8222268,narasimharaja,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Narasimharaja Traffic PS,"ASHOKA ROAD , LASHKAR MOHALLA MYSORE. 570 021",nrtrafficmyc@ksp.gov.in,2418527,Traffic Sub-Division,13.7509426,74.8222268,narasimharaja,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Nazarbad PS,"NAZARBAD CIRCLE, M.M. ROAD, NZARBAD MOHALLA,",nazarbadmyc@ksp.gov.in,2418308,Devaraja Sub-Division,12.30828,76.66733,nazarbad,ORIGINAL
+545.0,Mysuru City,Mysuru,Saraswathipuram PS,"SAHUKAR CHENNAIH ROAD, S.S. PURAM, MYSORE. 57",saraswathipurammyc@ksp.gov.in,2418323,Krishnaraja Sub-Division,13.510911,75.9652006,saraswathipuram,FUZZY (92.9)
+545.0,Mysuru City,Mysuru,Siddarthanagar Traffic PS,,email@ksp.gov.in,88888-888888,Traffic Sub-Division,16.8585687,77.0000222,siddarthanagar,FUZZY (96.6)
+545.0,Mysuru City,Mysuru,Udayagiri PS,"MAHADEVAPURA MAIN ROAD, SHANTHI NAGAR MYSORE.",udayagirimyc@ksp.gov.in,2418309,Devaraja Sub-Division,12.2394969,75.4829261,udayagiri,EXACT
+545.0,Mysuru City,Mysuru,V.V. Puram PS,TEMPLE ROAD V.V.MOHALLA MYSORE. 570 002,vvpurammyc@ksp.gov.in,2418314,Narasimharaja Sub-Division,12.9406862,77.8828301,v v puram,FUZZY (90.0)
+545.0,Mysuru City,Mysuru,Vidyaranyarpuram PS,"J.P. NAGARA MAIN RAO, J.P. NAGARA MYSORE.570",vidyaranyamyc@ksp.gov.in,2418522,Krishnaraja Sub-Division,13.4061933,75.2498674,vidyaranyarpuram,FUZZY (93.3)
+545.0,Mysuru Dist,Mysuru,Bannur PS,"BANNUR  POLICE STATION, BANNUR, T.N.PURA TALU",email@ksp.gov.in,08227-275632,Nanjanagudu Sub-Division,12.3307313,76.861373,bannur,EXACT
+545.0,Mysuru Dist,Mysuru,Beechanahalli PS,BEECHANAHALLI PS BEECHANAHALLI  H.D. KOTE TAL,email@ksp.gov.in,08228-268333,H.D. Kote Circle,13.2175391,76.7334303,beechanahalli,EXACT
+545.0,Mysuru Dist,Mysuru,Bettadapura PS,"BETTADAPURA POLICE STATION, BETTADAPURA, PERI",email@ksp.gov.in,0822-3275700,Periyapatna Circle,13.3307903,76.1794982,bettadapura,EXACT
+545.0,Mysuru Dist,Mysuru,Biligere PS I Badanavalu,"BADANAVALU POLICE STATION,  BADANAVALU, NANJA",email@ksp.gov.in,08221-221745,Nanjanagudu Circle,12.0696332,76.7501953,biligere i badanavalu,FUZZY (90.0)
+545.0,Mysuru Dist,Mysuru,Bilikere PS,"BILIKERE PS,  BILIKERE,  HUNSUR TALUK",email@ksp.gov.in,08222-240002,Hunusur Sub-Division,12.3345466,76.4527465,bilikere,EXACT
+545.0,Mysuru Dist,Mysuru,Bylakuppe PS,"BYLAKUPPE POLICE STATION, BYLAKUPPE PERIYAPAT",email@ksp.gov.in,0822-3254433,Periyapatna Circle,12.4292508,75.9953435,bylakuppe,EXACT
+545.0,Mysuru Dist,Mysuru,H.D. Kote PS,H.D. KOTE POLICE STATION  H.D. KOTE,email@ksp.gov.in,08228-255329,Hunusur Sub-Division,13.2805773,74.7402555,h d kote,FUZZY (90.0)
+545.0,Mysuru Dist,Mysuru,Hullahalli PS,"HULLAHALLI POLICE STATION,  HULLAHALLI , NANJ",email@ksp.gov.in,08221-220111,Nanjanagudu Circle,12.0974911,76.5551137,hullahalli,EXACT
+545.0,Mysuru Dist,Mysuru,Hunusur Rural PS,"HUNSUR RURAL PS,  HUNSUR",email@ksp.gov.in,08222-252042,Hunusur Sub-Division,12.3035086,76.2928095,hunusur,FUZZY (92.3)
+545.0,Mysuru Dist,Mysuru,Hunusur Town PS,"HUNSUR TOWN POLICE STATION ,HUNSUR",email@ksp.gov.in,08222-253133,Hunusur Sub-Division,12.3035086,76.2928095,hunusur,FUZZY (92.3)
+545.0,Mysuru Dist,Mysuru,Jayapura PS,"JAYAPURA POLICE STATION,  JAYAPURA, MYSORE TA",email@ksp.gov.in,0821-2595781,Mysore South Circle,13.1932742,76.4908321,jayapura,EXACT
+545.0,Mysuru Dist,Mysuru,K.R. Nagar PS,"K.R. NAGARA POLICE STATION,  K.R. NAGARA",email@ksp.gov.in,08223-262222,K.R. Nagar Circle,16.7427309,78.0886396,k r nagar,FUZZY (88.9)
+545.0,Mysuru Dist,Mysuru,Kowlande PS,"KOWLANDE POLICE STATION , KOWLANDE ,NANJANGUD",email@ksp.gov.in,08221-221621,Nanjanagudu Circle,12.032781,76.798738,kowlande,ORIGINAL
+545.0,Mysuru Dist,Mysuru,Mysore South PS,"MYSORE SOUTH PS , NEAR DHO OFFICE NAZARBAD- M",email@ksp.gov.in,0821-2444955,Mysore Rural Sub-Division,12.2660696,76.6042706,mysore,FUZZY (90.0)
+545.0,Mysuru Dist,Mysuru,Mysuru CEN Crime PS,MysuruMysuru,email@ksp.gov.in,88888-888888,Mysuru District,12.3051828,76.6553609,mysuru,EXACT
+545.0,Mysuru Dist,Mysuru,Mysuru Women PS,"Station  Near District Health OfficeNazarbad, Mysore -570010",email@ksp.gov.in,9480606468,Mysore Rural Sub-Division,12.3051828,76.6553609,mysuru,EXACT
+545.0,Mysuru Dist,Mysuru,Nanjanagudu Rural PS,"NANJANGUD RURAL POLICE STATION,  NANJANGUD",email@ksp.gov.in,08221-226259,Nanjanagudu Sub-Division,12.1186851,76.6817502,nanjanagudu,EXACT
+545.0,Mysuru Dist,Mysuru,Nanjanagudu Town PS,"NANJANGUD TOWN POLICE STATION,  NANJANGUD",email@ksp.gov.in,08221-228383,Nanjanagudu Circle,12.1186851,76.6817502,nanjanagudu,EXACT
+545.0,Mysuru Dist,Mysuru,Nanjangudu Traffic PS,Nanjangudu,email@ksp.gov.in,88888-888888,Nanjanagudu Circle,12.1186851,76.6817502,nanjangudu,FUZZY (95.2)
+545.0,Mysuru Dist,Mysuru,Periyapatna PS,"PERIYAPATNA POLICE STATION, PERIYAPATNA",email@ksp.gov.in,0822-3273100,Hunusur Sub-Division,12.3372494,76.0988013,periyapatna,EXACT
+545.0,Mysuru Dist,Mysuru,Saligrama PS,"SALIGRAMA POLICE STATION, SALIGRAMA, K.R. NAG",email@ksp.gov.in,08223-283341,K.R. Nagar Circle,12.5601566,76.2628551,saligrama,EXACT
+545.0,Mysuru Dist,Mysuru,Saragur PS,"SARGUR PS ,SARGUR, H.D. KOTE TALUK",email@ksp.gov.in,08228-265542,H.D. Kote Circle,11.9976857,76.3972662,saragur,FUZZY (93.3)
+545.0,Mysuru Dist,Mysuru,T. Narasipura PS,"T.NARASIPURA POLICE STATION, T.N.PURA",email@ksp.gov.in,08227-260990,T. Narasipura Circle,13.2761938,76.0174182,t narasipura,FUZZY (95.0)
+545.0,Mysuru Dist,Mysuru,Talakadu PS,"TALAKADU POLICE STATION, TALAKADU, T.N. PURA",email@ksp.gov.in,08227-273369,T. Narasipura Circle,12.1919942,77.0293979,talakadu,EXACT
+545.0,Mysuru Dist,Mysuru,Varuna PS,"Meghalapura, T Narasipura Road",email@ksp.gov.in,88888-888888,Mysore South Circle,12.267192,76.7438715,varuna,EXACT
+545.0,Mysuru Dist,Mysuru,Yelawala PS,"YELWALA POLICE STATION , YELWALA , MYSORE TAL",email@ksp.gov.in,0821-2402222,Mysore South Circle,12.21338,76.32289,yelawala,ORIGINAL
+546.0,Raichur,Raichur,Balaganoor PS,Balaganoor,balaganoorrcr@ksp.gov.in,08535-258631,Sindhanoor Circle,15.95531,76.74995,balaganoor,ORIGINAL
+546.0,Raichur,Raichur,Devadurga PS,Deodurga,deodurgarcr@ksp.gov.in,08531-260333,Lingasugur Sub-Division,16.4175742,76.9320221,devadurga,EXACT
+546.0,Raichur,Raichur,Gabbur PS,Gabbur,gabburrcr@ksp.gov.in,08531-260333,Devadurga Circle,15.3132794,75.1376632,gabbur,EXACT
+546.0,Raichur,Raichur,Hutti PS,hutti,huttircr@ksp.gov.in,08537-275033,Lingasugur Circle,16.2023654,76.6680329,hutti,EXACT
+546.0,Raichur,Raichur,Idapanur PS,Idapanoor,idapanoorrcr@ksp.gov.in,08532-200033,Yeragera Circle,16.0055626,77.4640891,idapanur,FUZZY (94.1)
+546.0,Raichur,Raichur,Jalhalli PS,Jalahalli,jalahallircr@ksp.gov.in,08531-265233,Devadurga Circle,16.3651178,76.7808528,jalhalli,FUZZY (94.1)
+546.0,Raichur,Raichur,Kowthal PS,Kowthal,kowthalrcr@ksp.gov.in,08538-252028,Manvi Circle,15.7742431,77.1385238,kowthal,FUZZY (87.5)
+546.0,Raichur,Raichur,Lingasugur PS,Lingasugur,lingasugurrcr@ksp.gov.in,08537-257227,Lingasugur Circle,16.1563,76.5242,lingasugur,EXACT
+546.0,Raichur,Raichur,Manvi PS,Manvi,manvircr@ksp.gov.in,08538-220333,Sindhanoor Sub-Division,15.9967483,77.0481181,manvi,EXACT
+546.0,Raichur,Raichur,Market Yard PS,Raichur,marketyardrcr@ksp.gov.in,08532-235600,Raichur West Circle,16.4802379,75.3917995,,EXACT
+546.0,Raichur,Raichur,Maski PS,Maski,maskircr@ksp.gov.in,08537-270244,Maski Circle,15.958598,76.6573629,maski,EXACT
+546.0,Raichur,Raichur,Mudgal PS,Mudgal,mudgalrcr@ksp.gov.in,08537-280536,Maski Circle,16.012447,76.4410153,mudgal,FUZZY (92.3)
+546.0,Raichur,Raichur,Raichur CEN Crime PS,,email@ksp.gov.in,88888-888888,Raichur District,16.1983225,77.3527444,raichur,EXACT
+546.0,Raichur,Raichur,Raichur Rural PS,Riahcur,ruralrcr@ksp.gov.in,08532-235308,Raichur Rural Circle,16.1983225,77.3527444,raichur,EXACT
+546.0,Raichur,Raichur,Raichur Traffic PS,Raichur,trafficrcr@ksp.gov.in,08532-226124,Raichur West Circle,16.1983225,77.3527444,raichur,EXACT
+546.0,Raichur,Raichur,Raichur West PS,Raichur,westrcr@ksp.gov.in,08532-232570,Raichur West Circle,16.1983225,77.3527444,raichur,EXACT
+546.0,Raichur,Raichur,Sadar Bazar PS,Riahcur,sardarbazarrcr@ksp.gov.in,08532-226148,Raichur Sub-Division,12.9989026,77.7375086,sadar,FUZZY (90.0)
+546.0,Raichur,Raichur,Shakti Nagar PS,Shakthinagar,shakthinagararcr@ksp.gov.in,08532-246133,Raichur Rural Circle,18.2970851,77.5805015,shakti nagar,FUZZY (95.7)
+546.0,Raichur,Raichur,Sindanur Traffic PS,,email@ksp.gov.in,88888-888888,Sindhanoor Circle,15.7685584,76.7549926,sindanur,FUZZY (94.1)
+546.0,Raichur,Raichur,Sirwar PS,Sirwar,sirwarrcr@ksp.gov.in,08538-270020,Manvi Circle,16.1759,77.01597,sirwar,ORIGINAL
+546.0,Raichur,Raichur,Turvihal PS,Turvihal,turvihalrcr@ksp.gov.in,08535-244233,Sindhanoor Circle,15.7620689,76.5976263,turvihal,FUZZY (88.9)
+546.0,Raichur,Raichur,Yapaladinni PS,Yapaldinni,yapaldinnircr@ksp.gov.in,08532-280111,Raichur Rural Circle,16.2926375,77.5221181,yapaladinni,EXACT
+546.0,Raichur,Raichur,Yeregera PS,Yeragera,yeragerarcr@ksp.gov.in,08532-282033,Yeragera Circle,16.0698798,77.4139665,yeregera,FUZZY (87.5)
+631.0,Bengaluru South,Bengaluru South,Akkur PS,"IGGALUR ROAD, VIRUPAKSHIPURA(H),",akkurrmn@ksp.gov.in,080-27263253,Channapatna Rural Circle,12.8175414,77.1730485,akkur,FUZZY (90.9)
+631.0,Bengaluru South,Bengaluru South,Bidadi PS,NEAR BUS STAND,bidadirmn@ksp.gov.in,080-27282237,Ramanagara Rural Circle,12.7988507,77.3869947,bidadi,EXACT
+631.0,Bengaluru South,Bengaluru South,Channapatna East PS,"NEAR RMC YARD, B.M ROAD",cpatnaeastrmn@ksp.gov.in,080-27251229,Channapatna Town Circle,12.6544559,77.2042594,channapatna,FUZZY (91.7)
+631.0,Bengaluru South,Bengaluru South,Channapatna Rural PS,NEAR HANUMANTHANAGAR,cpatnaruralrmn@ksp.gov.in,080-27251256,Channapatna Rural Circle,12.6544559,77.2042594,channapatna,FUZZY (91.7)
+631.0,Bengaluru South,Bengaluru South,Channapatna Town PS,"Opp. SBI, B.M ROAD, NEAR GANDHI BHAVAN",cpatnatownrmn@ksp.gov.in,080-27251749,Channapatna Town Circle,12.6544559,77.2042594,channapatna,FUZZY (91.7)
+631.0,Bengaluru South,Bengaluru South,CHANNAPATNA TRAFFIC PS,"Opp. SBI, B.M Road, Near Gandhi BhavanChannapatna Town",email@ksp.gov.in,88888-888888,Channapatna Town Circle,12.6544559,77.2042594,channapatna,FUZZY (91.7)
+631.0,Bengaluru South,Bengaluru South,Harohalli PS,NEAR BANGALORE - KANAKAPURA MAIN ROAD,hhallirmn@ksp.gov.in,080-27562240,Ramanagara Sub-Division,12.6801695,77.473355,harohalli,EXACT
+631.0,Bengaluru South,Bengaluru South,Ijoor PS,"B.M, ROAD, NEAR DPO",ijoorrmn@ksp.gov.in,080-27271786,Ramanagara Town Circle,12.72977,77.28515,ijoor,ORIGINAL
+631.0,Bengaluru South,Bengaluru South,Kaggalipura PS,,email@ksp.gov.in,88888-888888,Ramanagara Sub-Division,12.8016986,77.5082445,kaggalipura,EXACT
+631.0,Bengaluru South,Bengaluru South,Kanakapura Rural PS,"RAMANAGARA MAIN ROAD, NEAR KSRTC DIPO,",kpuraruralrmn@ksp.gov.in,080-27523616,Kanakapura Circle,12.5450268,77.4199095,kanakapura,EXACT
+631.0,Bengaluru South,Bengaluru South,Kanakapura Town PS,"NEAR TALUK OFFICE,",kpuratownrmn@ksp.gov.in,080-27522441,Kanakapura Circle,12.5450268,77.4199095,kanakapura,EXACT
+631.0,Bengaluru South,Bengaluru South,Kanakapura Traffic PS,Kanakapura Traffic PS,email@ksp.gov.in,88888-888888,Kanakapura Circle,12.5450268,77.4199095,kanakapura,EXACT
+631.0,Bengaluru South,Bengaluru South,Kodihalli PS,"NEAR BABU RAO CIRCLE,",khallirmn@ksp.gov.in,080-27541240,Kanakapura Circle,12.8688319,76.2904777,kodihalli,EXACT
+631.0,Bengaluru South,Bengaluru South,Kudur PS,MUROOR - KUDUR MAIN ROAD,kudurrmn@ksp.gov.in,080-27762241,Magadi Sub Division,13.1067695,77.1643577,kudur,FUZZY (90.9)
+631.0,Bengaluru South,Bengaluru South,M.K. Doddi PS,"H.MOGENAHALLI (P), MALUR(H)",mkdoddirmn@ksp.gov.in,080-27266231,Channapatna Rural Circle,12.5282498,76.9376077,m k doddi,FUZZY (90.0)
+631.0,Bengaluru South,Bengaluru South,Magadi PS,NEAR BUS STAND,magadirmn@ksp.gov.in,080-27745224,Magadi Sub Division,12.9567353,77.2242281,magadi,EXACT
+631.0,Bengaluru South,Bengaluru South,Ramanagar CEN Crime PS,RamanagarRamanagar,email@ksp.gov.in,88888-888888,Ramanagara District,12.7252766,77.2804797,ramanagar,FUZZY (94.7)
+631.0,Bengaluru South,Bengaluru South,Ramanagara Rural PS,"NEAR PWD CIRCLE, B.M ROAD,",rnagarruralrmn@ksp.gov.in,080-27271321,Ramanagara Rural Circle,12.7252766,77.2804797,ramanagara,EXACT
+631.0,Bengaluru South,Bengaluru South,Ramanagara Town PS,"NEAR OLD TALUK OFFICE & Govt.HOSPITAL,",rnagartownrmn@ksp.gov.in,080-27271230,Ramanagara Town Circle,12.7252766,77.2804797,ramanagara,EXACT
+631.0,Bengaluru South,Bengaluru South,Ramanagara Traffic PS,"NEAR PWD CIRCLE, B.M ROAD,",tfcrmn@ksp.gov.in,080-27273904,Ramanagara Town Circle,12.7252766,77.2804797,ramanagara,EXACT
+631.0,Bengaluru South,Bengaluru South,Ramanagara Women PS,"B M Road, Above Ijoor PSRamanagara Town",email@ksp.gov.in,88888-888888,Ramanagara Town Circle,12.7252766,77.2804797,ramanagara,EXACT
+631.0,Bengaluru South,Bengaluru South,Sathnoor PS,DODDAHALAHALLI ROAD,sathanoorrmn2@ksp.gov.in,080-27551233,Kanakapura Circle,12.45243,77.32077,sathnoor,ORIGINAL
+631.0,Bengaluru South,Bengaluru South,Tavarekere PS,MAGADI MAIN ROAD,tkerermn2@ksp.gov.in,080-28434365,Magadi Sub Division,13.1334356,77.9290602,tavarekere,EXACT
+547.0,Shivamogga,Shivamogga,Agumbe PS,"AGUMBE POLICE STATION, ABUMBE, THIRTHAHALLI T",agumbeshi@ksp.gov.in,08181-233181,Thirthahalli Circle,13.5084827,75.0962575,agumbe,EXACT
+547.0,Shivamogga,Shivamogga,Anavatti PS,"ANAVATTI, SORABA TQ, SHIMOGA",anavattishi@ksp.gov.in,08184 267135,Soraba Circle,14.5639826,75.1528978,anavatti,EXACT
+547.0,Shivamogga,Shivamogga,Bhadravathi New Town PS,"UBLEBAILU ROAD, NEWTOWN, BHADRAVATHI",bdvtnewtownshi@ksp.gov.in,08282 274313,Bhadravathi Town Circle,13.8502075,75.7037863,bhadravathi new,FUZZY (95.0)
+547.0,Shivamogga,Shivamogga,Bhadravathi Old Town PS,"MADHAVACHAR CIRCLE, OLD TOWN, BHADRAVATHI",bdvtoldtownshi@ksp.gov.in,08282 266343,Bhadravathi Town Circle,13.8502075,75.7037863,bhadravathi old,FUZZY (95.0)
+547.0,Shivamogga,Shivamogga,Bhadravathi Rural PS,"BEHIND TALUK OFFICE, RANGAPPA CIRCLE, BHADRAV",bdvtruralshi@ksp.gov.in,8282266033,Bhadravathi Sub-Division,13.8502075,75.7037863,bhadravathi,EXACT
+547.0,Shivamogga,Shivamogga,Bhadravathi Traffic PS,"UBLEBAILU ROAD, NEWTOWN, BHADRAVATHI",bdvttrafficshi@ksp.gov.in,08282 276314,Bhadravathi Town Circle,13.8502075,75.7037863,bhadravathi,EXACT
+547.0,Shivamogga,Shivamogga,Doddapete PS,"BESIDE PROVITE BUS STAND, SAGAR ROAD, SHIMOGA",cpidoddapeteshi@ksp.gov.in,08182-261414,Shimoga Sub-Division,13.93051,75.5666,doddapete,ORIGINAL
+547.0,Shivamogga,Shivamogga,Holehonnur PS,"HOLEHONNUR, BHADRAVATHI TQ, SHIMOGA DIST",holehonnurshi@ksp.gov.in,08282-235494,Bhadravathi Rural Circle,13.9868732,75.6889093,holehonnur,FUZZY (95.2)
+547.0,Shivamogga,Shivamogga,Hosamane PS,address,hosamaneshi@ksp.gov.in,8282266022,Bhadravathi Town Circle,13.9332498,74.7560108,hosamane,EXACT
+547.0,Shivamogga,Shivamogga,Hosanagara PS,"SHIMOGA-MASTIKATTE MAIN ROAD, HOSANAGARA TQ",hosanagarashi@ksp.gov.in,08185-221244,Hosanagara Circle,13.916789,75.0657952,hosanagara,EXACT
+547.0,Shivamogga,Shivamogga,Jayanagara PS,"BESIDE RTO OFFICE, SOULAGA ROAD, SHIMOGA",jayanagarashi@ksp.gov.in,08182-261416,Vinobanagara Circle,13.7651465,76.8318128,jayanagara,EXACT
+547.0,Shivamogga,Shivamogga,Jog PS,"NEAR BUS STAND, JOGA, SAGARA TQ, SHIMOGA",jogashi@ksp.gov.in,08186 244733,Sagar Rural Circle,17.8368269,78.0731499,jog,FUZZY (90.0)
+547.0,Shivamogga,Shivamogga,Kargal PS,"SAGAR-JOGA ROAD, KARGAL, SAGAR TQ, SHIMOGA DI",kargalshi@ksp.gov.in,08186-240234,Sagar Rural Circle,14.1890027,74.8145523,kargal,EXACT
+547.0,Shivamogga,Shivamogga,Kote PS,"KOTE POST OFFICE ROAD, SHIMOGA CITY",koteshi@ksp.gov.in,08182-261415,Shimoga Sub-Division,13.2805773,74.7402555,kote,EXACT
+547.0,Shivamogga,Shivamogga,Kumsi PS,"SAGAR ROAD, KUMSI POST, SHIMOGA DIST",kumsishi@ksp.gov.in,08182-262332,Shimoga Rural Circle,14.0546834,75.400134,kumsi,EXACT
+547.0,Shivamogga,Shivamogga,Malur PS,"SAGAR-THIRTHAHALLI ROAD,  MALUR POST, THIRTHA",malurshi@ksp.gov.in,08181 235142,Thirthahalli Circle,13.0058697,77.9393648,malur,FUZZY (90.9)
+547.0,Shivamogga,Shivamogga,Nagara PS,address,nagarashi@ksp.gov.in,08185-265666,Hosanagara Circle,13.8236828,75.0328554,nagara,EXACT
+547.0,Shivamogga,Shivamogga,Paper Town PS,"PAPER TOWN, BHADRAVATHI, SHIMOA DIST",bdvtpapertownshi@ksp.gov.in,08282 270456,Bhadravathi Rural Circle,13.82107,75.70204,paper,ORIGINAL
+547.0,Shivamogga,Shivamogga,Ripponpet PS,"SHIMOGA - HOSANAGARA MAIN ROAD, RIPPONPETE, H",ripponpeteshi@ksp.gov.in,08185 242635,Hosanagara Circle,11.5389643,76.1682956,ripponpet,FUZZY (90.0)
+547.0,Shivamogga,Shivamogga,Sagar Rural PS,"NEAR GANAPATHI TEMPLE, SAGAR, SHIMOGA DIST",sagarruralshi@ksp.gov.in,8183226194,Sagar Sub-Division,14.1665017,75.0263852,sagar,FUZZY (90.9)
+547.0,Shivamogga,Shivamogga,Sagar Town PS,"SHIMOGA- JOGA ROAD, SAGAR, SHIMOGA DIST",sagartownshi@ksp.gov.in,08183 226067,Sagar Sub-Division,14.1665017,75.0263852,sagar,FUZZY (90.9)
+547.0,Shivamogga,Shivamogga,Shikaripura Rural PS,"SHIRALAKOPPA ROAD, SHIKARIPURA,  SHIKARIPURA",shikaripuraruralshi@ksp.gov.in,818722430,Shikaripura Circle,14.2639661,75.3587796,shikaripura,EXACT
+547.0,Shivamogga,Shivamogga,Shikaripura Town PS,"SHIMOGA-SHIKARIPURA MAIN ROAD, SHIKARIPURA, S",shikaripurashi@ksp.gov.in,08187 222772,Shikaripura Circle,14.2639661,75.3587796,shikaripura,EXACT
+547.0,Shivamogga,Shivamogga,Shimoga East Traffic PS,,email@ksp.gov.in,88888-888888,Shivamogga Traffic Circle,13.92207,75.59395,shimoga,ORIGINAL
+547.0,Shivamogga,Shivamogga,Shimoga Rural PS,"SAGAR ROAD, SHIMOGA",shimogaruralshi@ksp.gov.in,08182-261418,Shimoga Rural Circle,13.93258,75.56436,shimoga,ORIGINAL
+547.0,Shivamogga,Shivamogga,Shimoga Traffic PS,"BESIDE PROVITE BUS STAND, SAGAR ROAD, SHIMOGA",shimogatrafficshi@kps.gov.in,08182-261417,Shivamogga Traffic Circle,13.93089,75.56635,shimoga,ORIGINAL
+547.0,Shivamogga,Shivamogga,Shiralakuppa PS,"SHIRALAKOPPA POST, SHIKARIPURA TQ, SHIMOGA DI",shiralkoppashi@ksp.gov.in,08187 234511,Shikaripura Circle,16.1917448,76.8202476,shiralakuppa,FUZZY (90.0)
+547.0,Shivamogga,Shivamogga,Shivamogga CEN Crime PS,Shivamogga,email@ksp.gov.in,88888-888888,Shivamogga District,13.9326093,75.574978,shivamogga,EXACT
+547.0,Shivamogga,Shivamogga,Soraba PS,"BESIDE TALUK OFFICE ROAD, SORABA",sorabashi@ksp.gov.in,08184-272210,Soraba Circle,14.3789817,75.0937842,soraba,EXACT
+547.0,Shivamogga,Shivamogga,Thirthahalli PS,"SOPPUGUDDE, THIRTHAHALLI, THIRTHAHALLI TQ",thirthahallishi@ksp.gov.in,08181 228333,Thirthahalli Sub Divison,13.6901992,75.2463699,thirthahalli,FUZZY (95.7)
+547.0,Shivamogga,Shivamogga,Tunga Nagar PS,"BE SIDE FIRE OFFICE, SAGAR ROAD, SHIMOGA",tunganagarashi@ksp.gov.in,08182-261424,Shimoga Sub-Division,13.92376,75.55448,tunga nagar,ORIGINAL
+547.0,Shivamogga,Shivamogga,Vinobanagara PS,"RMC YARD, SAGAR ROAD, SHIMOGA",vinobanagarashi@ksp.gov.in,08182-261424,Vinobanagara Circle,12.11511,77.0736938,vinobanagara,FUZZY (90.0)
+548.0,Tumakuru,Tumakuru,Amruthur PS,"KODAGIHALLI EXTENTION,  AMRUTHUR TOWN, PIN: 5",amruthurtkr@ksp.gov.in,08132-225229,Kunigal Circle,12.9191727,76.9330261,amruthur,FUZZY (87.5)
+548.0,Tumakuru,Tumakuru,Arasikere PS,"AMRAPURA PAVAGADA ROAD, ARASIKERE, PIN:572116",arsikeretkr@ksp.gov.in,08136-248433,Thirumani Circle,13.3159809,76.256849,arasikere,EXACT
+548.0,Tumakuru,Tumakuru,Badavanahalli PS,"NEAR BUS STOP, SIRA MADHUGIRI ROAD, BADAVANAH",bdhallitkr@ksp.gov.in,08137-284901,Madhugiri Sub-Division,13.6756456,77.0667006,badavanahalli,EXACT
+548.0,Tumakuru,Tumakuru,Bellavi PS,"BELLAVI,NEAR BUS STAND PIN:572153",bellavitkr@ksp.gov.in,0816-2240046,Tumkur Rural Circle,13.4165913,77.0182721,bellavi,EXACT
+548.0,Tumakuru,Tumakuru,Chandrashekarpura PS,"Near Bus stand  C.S. Pura,  Gubbi Taluk.",cspuratkr@ksp.gov.in,08131-246522,Gubbi Circle,13.1505544,76.8845972,chandrashekarpura,FUZZY (94.4)
+548.0,Tumakuru,Tumakuru,Chelur PS,"CHELUR, NEAR CHELUR CIRCLE, PIN:572117",chelurtkr@ksp.gov.in,08131-242222,Gubbi Circle,13.4424524,76.9060701,chelur,FUZZY (92.3)
+548.0,Tumakuru,Tumakuru,Chikkanayakanahalli PS,"CHIKKANAYAKANAHALLI TOWN, NEAR OLD COURT, PIN",cnhallitkr@ksp.gov.in,08133-267234,Chikkanayakanahalli Circle,13.4190772,76.6202776,chikkanayakanahalli,EXACT
+548.0,Tumakuru,Tumakuru,Dandina Shivara PS,"NEAR BUS STOP, DANDINASHIVARA, PIN:572215",dshivaratkr@ksp.gov.in,08139-278355,Turuvekere Circle,13.2531027,76.7097613,dandina shivara,EXACT
+548.0,Tumakuru,Tumakuru,Gubbi PS,"PSI, GUBBI POLICE STATION, NH 206 ROAD SUBAS",gubbitkr@ksp.gov.in,08131-222229,Gubbi Circle,13.3095743,76.9400698,gubbi,EXACT
+548.0,Tumakuru,Tumakuru,Handanakere PS,"NEAR BUS STOP,HANDANAKERE, PIN:572119",hdanakeretkr@ksp.gov.in,08133-257660,Chikkanayakanahalli Circle,13.5031638,76.4488387,handanakere,EXACT
+548.0,Tumakuru,Tumakuru,Hebbur PS,"KUNIGAL ROAD, HEBBUR, PIN:572120",hebburtkr@ksp.gov.in,0816-2241036,Kyathasandra Circle,13.7441928,76.0138681,hebbur,FUZZY (92.3)
+548.0,Tumakuru,Tumakuru,Honnavalli PS,"NEAR BUS STOP, HONNAVALLI,PIN:572217",honnavallitkr@ksp.gov.in,08134-264710,Tiptur Rural Circle,13.3332501,76.3865427,honnavalli,EXACT
+548.0,Tumakuru,Tumakuru,Huliyar PS,"HULIYAR TOWN, PIN:572218",huliyartkr@ksp.gov.in,08133-256150,Chikkanayakanahalli Circle,13.5849337,76.5416593,huliyar,FUZZY (93.3)
+548.0,Tumakuru,Tumakuru,Huliyurdurga PS,H.DURGA TOWN. PIN:572123,hdurgatkr@ksp.gov.in,08132-223338,Kunigal Circle,12.8281852,77.0334582,huliyurdurga,FUZZY (96.0)
+548.0,Tumakuru,Tumakuru,Jayanagara PS,,email@ksp.gov.in,88888-888888,Thilak Park Circle,13.7651465,76.8318128,jayanagara,EXACT
+548.0,Tumakuru,Tumakuru,Kallambella PS,"NH-4 ROAD, KALLAMBELLA, PIN:572125",kalambellatkr@ksp.gov.in,08135-274738,Sira Rural Circle,13.6310454,76.9232261,kallambella,EXACT
+548.0,Tumakuru,Tumakuru,Kibbanhalli PS,address,kbcrosstkr@ksp.gov.in,08134-262055,Tiptur Rural Circle,13.3082482,76.6433729,kibbanhalli,FUZZY (95.7)
+548.0,Tumakuru,Tumakuru,Kodigenahalli PS,"NEAR BUS STOP, KODAGENAHALLI, PIN:572127",kdigehallitkr@ksp.gov.in,08137-279534,Madhugiri Circle,13.7203304,77.3859542,kodigenahalli,EXACT
+548.0,Tumakuru,Tumakuru,Kolala PS,,email@ksp.gov.in,88888-888888,Koratagere Circle,13.3655011,77.3099245,kolala,EXACT
+548.0,Tumakuru,Tumakuru,Kora PS,"NH-4 ROAD, KORA, PIN:572128",koratkr@ksp.gov.in,0816-2242006,Tumkur Rural Circle,13.4383803,77.0638712,kora,EXACT
+548.0,Tumakuru,Tumakuru,Koratagere PS,"NEAR TALUK OFFICE, MADHUGIRI-TUMKUR ROAD, KOR",koratageretkr@ksp.gov.in,08138-232136,Koratagere Circle,13.5215422,77.2358911,koratagere,EXACT
+548.0,Tumakuru,Tumakuru,Kunigal PS,"NEAR B.M.ROAD, OPP. TALUK OFFICE, KUNIGAL TOW",cpikunigaltkr@ksp.gov.in,08132-220229,Kunigal Sub-Division,13.0260158,77.0222704,kunigal,EXACT
+548.0,Tumakuru,Tumakuru,Kyathasandra PS,"NEAR JAS TOLL GATE, KYATHASANDRA, PIN:572101",ksandratkr@ksp.gov.in,0816-2281124,Kyathasandra Circle,13.30826,77.14868,kyathasandra,ORIGINAL
+548.0,Tumakuru,Tumakuru,Madhugiri PS,"BARLINE ROAD, MADHUGIRI TOWN,PIN:572132",madhugiritkr@ksp.gov.in,08137-282381,Madhugiri Circle,13.6601789,77.2140882,madhugiri,EXACT
+548.0,Tumakuru,Tumakuru,Medigeshi PS,"NEAR BUS STOP, MIDIGESHI, PIN:572133",midigeshitkr@ksp.gov.in,08137-278634,Madhugiri Circle,13.49574,77.12191,medigeshi,ORIGINAL
+548.0,Tumakuru,Tumakuru,New Extention PS,"NEAR ARTICULTURE OFFICE, NH-206(BH ROAD) NEPS",newextentkr@ksp.gov.in,0816-2278224,Thilak Park Circle,13.338681,77.109147,new extention,ORIGINAL
+548.0,Tumakuru,Tumakuru,Nonavinakere PS,"NEAR BUSSTOP, Y-T ROAD, NONAVINAKERE, PIN:572",nvkeretkr@ksp.gov.in,08134-258024,Tiptur Rural Circle,13.1634549,76.5541504,nonavinakere,EXACT
+548.0,Tumakuru,Tumakuru,Patanayakanahalli PS,"PATTANAYAKANAHALLI, PIN:572135",pnhallitkr@ksp.gov.in,08135-271058,Sira Rural Circle,13.8883587,76.9180655,patanayakanahalli,FUZZY (97.1)
+548.0,Tumakuru,Tumakuru,Pavagada PS,"NEAR TALUK OFFICE, PAVAGADA TOWN, PIN:561202",pavagadatkr@ksp.gov.in,08136-245666,Madhugiri Sub-Division,14.0994177,77.2804049,pavagada,EXACT
+548.0,Tumakuru,Tumakuru,Sira PS,"EXTENSION, MAHALLA ROAD, SIRA TOWN, PIN:57213",siratowntkr@ksp.gov.in,08135-275237,Sira Sub Division,13.7409467,76.905738,sira,EXACT
+548.0,Tumakuru,Tumakuru,Tavarekere PS,"NH-4 ROAD, TAVAREKERE, PIN:572139",tavarekeretkr@ksp.gov.in,08135-272541,Sira Rural Circle,13.1334356,77.9290602,tavarekere,EXACT
+548.0,Tumakuru,Tumakuru,Thilak Park PS,"POORAS COLONY, JAIPURA ROAD, THILAKPARK, PIN:",thilakparktkr@ksp.gov.in,0816-2278202,Thilak Park Circle,13.34226,77.0905,thilak park,ORIGINAL
+548.0,Tumakuru,Tumakuru,Thirumani PS,"NEAR BUS STOP, THIRUMANI, PIN:572172",thirumanitkr@ksp.gov.in,08136-240047,Thirumani Circle,14.2394994,77.4401919,thirumani,FUZZY (94.1)
+548.0,Tumakuru,Tumakuru,Tiptur Rural PS,"OPP. GOVT. COLLAGE, BH ROAD, NEAR TALUK OFFIC",tipturrrltkr@ksp.gov.in,08134-251007,Tiptur Rural Circle,13.258575,76.4737675,tiptur,EXACT
+548.0,Tumakuru,Tumakuru,Tiptur Town PS,"NEAR ARALIMARA STOP, BH ROAD, TIPTUR TOWN, PI",tipturtwntkr@ksp.gov.in,08134-251041,Tiptur Sub-Division,13.258575,76.4737675,tiptur,EXACT
+548.0,Tumakuru,Tumakuru,Tumkur CEN Crime PS,DCBTumakuru,email@ksp.gov.in,88888-888888,Tumakuru District,13.3452295,77.1031948,tumkur,ORIGINAL
+548.0,Tumakuru,Tumakuru,Tumkur Rural PS,"BARLINE ROAD, NEAR CHILUME CHOWLTRY, TUMKUR T",tumkurrtkr@ksp.gov.in,0816-2278381,Tumkur Rural Circle,13.34224,77.10594,tumkur,ORIGINAL
+548.0,Tumakuru,Tumakuru,Tumkur Town PS,"CHURCH CIRCLE, HORAPETE ROAD, NEAR SBM, OPP O",towntkr@ksp.gov.in,0816-2278388,Tumkur Town Circle,13.3449,77.10345,tumkur,ORIGINAL
+548.0,Tumakuru,Tumakuru,Tumkur Traffic PS,"NERA DC OFFICE, OLD MARKET CHOWK,PIN:572101",trafficesttkr@ksp.gov.in,0816-2272340,Tumkur Town Circle,13.342714,77.105931,tumkur,ORIGINAL
+548.0,Tumakuru,Tumakuru,Turuvekere PS,"NEAR GOVT. HOSPITAL, TURUVKERE TOWN.",turuvekeretkr@ksp.gov.in,08139-287334,Turuvekere Circle,13.1627196,76.6680675,turuvekere,EXACT
+548.0,Tumakuru,Tumakuru,Y.N. Hosakote PS,NEAR BUS STAND YN HOSAKOTE.PIN: 572141,ynhosakotetkr@ksp.gov.in,08136-247635,Thirumani Circle,16.064116,75.4595327,y n hosakote,FUZZY (90.0)
+549.0,Udupi,Udupi,Ajekar PS,"Marne Village, Post Ajekar",ajekarudp@ksp.gov.in,08253-271100,Karkala Circle,13.3217888,75.0000195,ajekar,FUZZY (92.3)
+549.0,Udupi,Udupi,Amasebailu PS,"Near Amasebailu Village Panchayath Office, Am",amasebailudp@ksp.gov.in,08259-286499,Kundapura Circle,13.60307,74.94859,amasebailu,ORIGINAL
+549.0,Udupi,Udupi,Brahmavar PS,"Varamballi Village, Brahmavara Post",brahmavaraudp@ksp.gov.in,0820-2561044,Brahmavar Circle,13.4336923,74.7436381,brahmavar,FUZZY (94.7)
+549.0,Udupi,Udupi,Byndoor PS,"Yadthare Village, Byndoor Post",byndoorudp@ksp.gov.in,08254-251033,Byndoor Circle,13.8671,74.62651,byndoor,ORIGINAL
+549.0,Udupi,Udupi,Gangolli PS,"Gujjadi Village, Gangolli Post",gangolloudp@ksp.gov.in,08254-265333,Byndoor Circle,13.650741,74.6686542,gangolli,EXACT
+549.0,Udupi,Udupi,Hebri PS,Hebri Village & Post,hebriudp@ksp.gov.in,08253-251116,Karkala Circle,13.459429,74.991552,hebri,EXACT
+549.0,Udupi,Udupi,Hiriadka PS,"Anjaru Village, Hiriyadka Post",hiriyadkaudp@ksp.gov.in,0820-2542248,Brahmavar Circle,13.3506593,74.8659955,hiriadka,EXACT
+549.0,Udupi,Udupi,Kapu PS,"Kaup Padu Village, Kaup Post",kaupudp@ksp.gov.in,0820-2551033,Kapu Circle,13.2306764,74.7484014,kapu,EXACT
+549.0,Udupi,Udupi,Karkala Rural PS,"Karkala Kasaba Village, Post Karkala",karkalruraludp@ksp.gov.in,08258-232083,Karkala Circle,13.2145414,74.9951861,karkala,EXACT
+549.0,Udupi,Udupi,Karkala Town PS,"Karkala Kasaba Village, Post Karkala",karkaltownudp@ksp.gov.in,08258-230213,Karkala Circle,13.2145414,74.9951861,karkala,EXACT
+549.0,Udupi,Udupi,Kollur PS,Kollur Village & Post,kollurudp@ksp.gov.in,08254-258233,Byndoor Circle,17.5362731,77.4295504,kollur,EXACT
+549.0,Udupi,Udupi,Kota PS,"Giliyaru Village, Kota Post",kotaudp@ksp.gov.in,0820-2564155,Brahmavar Circle,13.5235898,74.7049501,kota,EXACT
+549.0,Udupi,Udupi,Kundapura PS,"Near Taluk Office, Kundapura Kasaba Village,",kundapuraudp@ksp.gov.in,08254-230338,Kundapura Circle,13.6250993,74.6915722,kundapura,EXACT
+549.0,Udupi,Udupi,Kundapura Rural PS,"Kandlur MainRoad,Kundapura Taluk",email@ksp.gov.in,88888-888888,Kundapura Circle,13.6250993,74.6915722,kundapura,EXACT
+549.0,Udupi,Udupi,Kundapura Traffic PS,address,kundapurtrfudp@ksp.gov.in,08254-233800,Kundapura Circle,13.6250993,74.6915722,kundapura,EXACT
+549.0,Udupi,Udupi,Malpe PS,"Kodavoor Village, Malpe Post",malpeudp@ksp.gov.in,0820-2537999,Udupi Circle,13.36061,74.70338,malpe,ORIGINAL
+549.0,Udupi,Udupi,Manipal PS,"Shivalli Village, Manipal Post",manipaludp@ksp.gov.in,0820-2570328,Udupi Sub-Division,13.3519723,74.7870308,manipal,EXACT
+549.0,Udupi,Udupi,Padubidri PS,"Nadsal Village, Padubidri Post",padubidriudp@ksp.gov.in,0820-2555452,Kapu Circle,13.1412169,74.7707857,padubidri,EXACT
+549.0,Udupi,Udupi,Shankaranarayana PS,Shankarnarayana Village & Post,shankarnarayanaudp@ksp.gov.in,08259-280299,Kundapura Circle,13.6058955,74.8600862,shankaranarayana,EXACT
+549.0,Udupi,Udupi,Shirva PS,Shirva Village & Post,shirvaudp@ksp.gov.in,0820-2554139,Kapu Circle,13.2188349,74.8223298,shirva,EXACT
+549.0,Udupi,Udupi,Udupi CEN Crime PS,Udupi,email@ksp.gov.in,88888-888888,Udupi District,13.3419169,74.7473232,udupi,EXACT
+549.0,Udupi,Udupi,Udupi Town PS,"76 Badagubettu Village, Post Udupi",udupitownudp@ksp.gov.in,0820-2520444,Udupi Circle,13.3419169,74.7473232,udupi,EXACT
+549.0,Udupi,Udupi,Udupi Traffic PS,"Near Taluk Office, Moodanidamboor Village",udupitrafficudp@ksp.gov.in,0820-2521332,Udupi Circle,13.3419169,74.7473232,udupi,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Ambikanagar PS,"Ambikanagar PS, Ambikanagar",ambikanagarkwr@ksp.gov.in,08284-258633,Haliyal Circle,15.1228078,74.6607177,ambikanagar,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Ankola PS,"Near Bus Stand, Ankola",ankolakwr@ksp.gov.in,08388 - 230333,Karwar Sub-Division,14.6599889,74.3047846,ankola,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Banavasi PS,"Banavasi PS, Banavasi",banavasikwr@ksp.gov.in,08384-264210,Sirsi Circle,14.5389738,75.0129845,banavasi,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Bhatkal Rural PS,"Azad Nagar, Bhatkal",bhatkalruralkwr@ksp.gov.in,08385-227333,Bhatkal Circle,13.9873619,74.5544089,bhatkal,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Bhatkal Town PS,"V.T. Road, Bhatkal",bhatkaltownkwr@ksp.gov.in,08385-226333,Bhatkal Circle,13.9873619,74.5544089,bhatkal,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Chittakula PS,"Main Road, Sadashivgad, Chittakula, Karwar",chittakulakwr@ksp.gov.in,08382 - 265733,Kadra Circle,14.8595516,74.12589,chittakula,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Dandeli Rural PS,"Dandeli Rural PS, Dandeli",dandeliruralkwr@ksp.gov.in,08284-230363,Dandeli Circle,15.2490284,74.6236037,dandeli,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Dandeli Town PS,"Dandeli Town PS, Dandeli",dandelitownkwr@ksp.gov.in,08284-231333,Dandeli Circle,15.2490284,74.6236037,dandeli,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Gokarna PS,"Near IB, Gokarn",gokarnkwr@ksp.gov.in,08386-581326,Kumta Circle,14.5439629,74.3184418,gokarna,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Haliyal PS,"Haliyal PS, Haliyal",haliyalkwr@ksp.gov.in,08284-220133,Haliyal Circle,15.3299733,74.7646665,haliyal,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Honnavara PS,"Near Police Ground, N.H.-17, Honnavar",honnavarkwr@ksp.gov.in,08387-220248,Honnavara Circle,13.1230233,76.177894,honnavara,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Joida PS,"Joida Police Station, Joida",joidakwr@ksp.gov.in,08284-282733,Joida Circle,15.1645515,74.4850675,joida,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Kadra PS,"Kadra Bazaar, Kadra",kadrakwr@ksp.gov.in,08382-256592,Kadra Circle,14.9058881,74.3470725,kadra,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Karwar Rural PS,"Civil Court Road, Karwar",ruralkwr@ksp.gov.in,08382 - 222443,Karwar Circle,14.812189,74.1323413,karwar,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Karwar Town PS,"Green Street, Karwar",townkwr@ksp.gov.in,08382-226333,Karwar Circle,14.812189,74.1323413,karwar,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Karwar Traffic PS,"Main Road, Karwar",traffickwr@ksp.gov.in,08382-228333,Karwar Circle,14.812189,74.1323413,karwar,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Kumta PS,"Near Police Ground, Nellikeri, Kumta",kumtakwr@ksp.gov.in,08386-222333,Kumta Circle,14.4271622,74.4117058,kumta,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Mallapura PS,"Opp: Kaiga Township, Mallapur",mallapurkwr@ksp.gov.in,08382 - 254812,Kadra Circle,15.6691471,75.6275963,mallapura,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Manki PS,"Manki PS, Manki",mankikwr@ksp.gov.in,08387-257886,Honnavara Circle,14.1912103,74.4760608,manki,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Mundgod PS,"Bankapur Road, Mundgod",mundgodkwr@ksp.gov.in,08384-222211,Sirsi Sub-Division,14.9715262,75.0413079,mundgod,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Murudeshwar PS,"Kerekatte, Murdeshwar",murdeshwarkwr@ksp.gov.in,08385-228896,Bhatkal Circle,14.0959549,74.4883354,murudeshwar,FUZZY (95.2)
+550.0,Uttara Kannada,Uttara Kannada,New Market PS,"Near Police Ground, Sirsi",sirsinewmarketkwr@ksp.gov.in,08384-236330,Sirsi Circle,16.5404877,74.4981451,new,FUZZY (90.0)
+550.0,Uttara Kannada,Uttara Kannada,Ramnagar PS,"Via Dandeli Road, Ramanagar",ramanagarkwr@ksp.gov.in,08284-248133,Joida Circle,17.0240954,77.8190351,ramnagar,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Siddapura PS,"Opp: Police Quarters, Siddapur",siddapurkwr@ksp.gov.in,08384-230214,Sirsi Sub-Division,14.3409562,74.8924253,siddapura,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Sirsi Rural PS,"Near Police Ground, Sirsi",sirsiruralkwr@ksp.gov.in,08384-236233,Sirsi Circle,14.6192362,74.8388611,sirsi,EXACT
+550.0,Uttara Kannada,Uttara Kannada,Sirsi Town PS,"Hulekal Road, Sirsi",sirsitownkwr@ksp.gov.in,08384-226333,Sirsi Circle,14.6192362,74.8388611,sirsi,EXACT
+550.0,Uttara Kannada,Uttara Kannada,UK CEN Crime PS,UKUK,email@ksp.gov.in,88888-888888,Uttara Kannada District,12.13216,75.2165816,uk,FUZZY (90.0)
+550.0,Uttara Kannada,Uttara Kannada,UK Women PS,Ganapati Temple Main RoadKarwar,email@ksp.gov.in,88888-888888,Karwar Sub-Division,12.13216,75.2165816,uk,FUZZY (90.0)
+550.0,Uttara Kannada,Uttara Kannada,Yellapura PS,"Devi Temple Road, Yellapur",yellapurkwr@ksp.gov.in,08419-261133,Sirsi Sub-Division,14.9634438,74.7120788,yellapura,EXACT
+530.0,Vijayapur,Vijayapura,Adarsh Nagar PS,Adarsha Nagar Police Station Solapur Road Bij,adarshnagarbjp@ksp.gov.in,08352-263333,Golgumbaz Circle,16.85022,75.71071,adarsh nagar,ORIGINAL
+530.0,Vijayapur,Vijayapura,Alamatti PS,address,alamattibjp@ksp.gov.in,08426-281103,Basavan Bagewadi Circle,16.3451718,75.8923516,alamatti,EXACT
+530.0,Vijayapur,Vijayapura,Almel PS,Almel Police Station Neat KSRTC Bus Stand Tq/,almelbjp@ksp.gov.in,08488-232033,Sindagi Circle,17.09008,76.21878,almel,ORIGINAL
+530.0,Vijayapur,Vijayapura,APMC PS,APMC Police Station -APMC Yard Indi Raod Bija,apmcbjp@ksp.gov.in,08352-252791,Golgumbaz Circle,16.4802379,75.3917995,,EXACT
+530.0,Vijayapur,Vijayapura,Babaleshwar PS,Bableshwar Police Station Bijapur to Jamakhan,babaleshwarbjp@ksp.gov.in,08355-283033,Bijapur Rural Circle,16.6684966,75.5741874,babaleshwar,FUZZY (95.7)
+530.0,Vijayapur,Vijayapura,Basavan Bagewadi PS,B.Bagewadi Police Station Kolhar Road Tq/Dist,bagewadibjp@ksp.gov.in,08358-245333,Basavan Bagewadi Circle,16.5738547,75.9747123,basavan bagewadi,FUZZY (90.9)
+530.0,Vijayapur,Vijayapura,Bijapur rural PS,Bijapur Rural Police Station Road Near Railwa,bijapurruralbjp@ksp.gov.in,08352-250923,Bijapur Rural Circle,16.8265,75.73869,bijapur,ORIGINAL
+530.0,Vijayapur,Vijayapura,Bijapur Traffic PS,Bijapur Traffic Police Station Near Gandhi Ch,trafficbjp@ksp.gov.in,08352-252600,Bijapur Town Circle,16.8286,75.7147,bijapur,ORIGINAL
+530.0,Vijayapur,Vijayapura,Chadachan PS,Chadachan Police Station Marsdi Area Chadacha,chadachanbjp@ksp.gov.in,08422-278013,Chadachan Circle,17.3124343,75.6606747,chadachan,FUZZY (94.7)
+530.0,Vijayapur,Vijayapura,Devara Hipparagi PS,D.Hipparagi Police Station Bijapur to Sindagi,devarhipparagibjp@ksp.gov.in,08424-283033,Sindagi Circle,16.8159903,76.0650583,devara hipparagi,EXACT
+530.0,Vijayapur,Vijayapura,Gandhi Chowk PS,Gandhi Chowk Police Station Near Gandhi Chowk,gandhichowkbjp@ksp.gov.in,08532-250033,Bijapur Town Circle,15.208545,78.1165051,gandhi chowk,FUZZY (90.0)
+530.0,Vijayapur,Vijayapura,Golgumbaz PS,Golgumbaz Police Station Road Near Railway Br,golagumvazbjo@ksp.gov.in,08352-250214,Golgumbaz Circle,16.82638,75.73872,golgumbaz,ORIGINAL
+530.0,Vijayapur,Vijayapura,Hortti PS,Horti Police Stataion Inchageri Math Raod Hor,hortibjp@ksp.gov.in,08422-283733,Indi Circle,17.1170282,75.7868602,hortti,FUZZY (90.9)
+530.0,Vijayapur,Vijayapura,Indi PS,Indi Police Station Near Tasildar office Indi,indibjp@ksp.gov.in,08359-225333,Indi Circle,17.1744599,75.9553764,indi,EXACT
+530.0,Vijayapur,Vijayapura,Indi Rural PS,Near Tahasildar OfficeOld A C House Indi,indiruralbjp@ksp.gov.in,88888-888888,Indi Circle,17.1744599,75.9553764,indi,EXACT
+530.0,Vijayapur,Vijayapura,Jalanagar PS,,email@ksp.gov.in,88888-888888,Golgumbaz Circle,16.9496097,78.1835173,jalanagar,FUZZY (88.9)
+530.0,Vijayapur,Vijayapura,Kalkeri PS,Kalkeri Police Station Tq/Indi Dist/Bijapur -,kalakeribjp@ksp.gov.in,08424-273233,Sindagi Circle,16.6737093,76.3075895,kalkeri,FUZZY (93.3)
+530.0,Vijayapur,Vijayapura,Kolhar PS,Kolhar Police Station Tq/B.Bagewadi Dist/Bija,kolharbjp@ksp.gov.in,08426-283013,Basavan Bagewadi Circle,16.4348885,75.6824633,kolhar,FUZZY (92.3)
+530.0,Vijayapur,Vijayapura,Managoli PS,Manguli Police Station Bijapur to B.Bagewadi,managulibjp@ksp.gov.in,08358-240833,Basavan Bagewadi Circle,16.6523998,75.8127383,managoli,EXACT
+530.0,Vijayapur,Vijayapura,Muddebihal PS,Muddebihal Police Station Near Tahasildar Off,muddebihalbjp@ksp.gov.in,08356-220333,Muddebihal Circle,16.3351078,76.1339556,muddebihal,FUZZY (95.2)
+530.0,Vijayapur,Vijayapura,Nidagundi PS,address,nidagundibjp@ksp.gov.in,08426-281434,Basavan Bagewadi Circle,16.3588856,75.9363303,nidagundi,EXACT
+530.0,Vijayapur,Vijayapura,Sindagi PS,Sindagi Police Station Bijapur Road Tq/Sindag,sindagibjp@ksp.gov.in,08422-221333,Sindagi Circle,16.9194778,76.2350305,sindagi,EXACT
+530.0,Vijayapur,Vijayapura,Talikot PS,Talikot Police Station Hunasagi Road Tq:B.Bag,talikotbjp@ksp.gov.in,08356-266333,Muddebihal Circle,16.474468,76.311706,talikot,FUZZY (93.3)
+530.0,Vijayapur,Vijayapura,Tikota PS,Tikota Police Station Jath Road Tq/Dist: Bija,tikotabjp@ksp.gov.in,08352-231533,Bijapur Rural Circle,16.8431559,75.5226828,tikota,EXACT
+530.0,Vijayapur,Vijayapura,Vijayapur CEN Crime PS,Vijayapura Town,email@ksp.gov.in,88888-888888,Vijayapur District,13.2964056,77.8028933,vijayapur,FUZZY (94.7)
+530.0,Vijayapur,Vijayapura,Vijayapura Women PS,"NEAR GANDHI CHOWK POLICE STATION,GANDHI CHOWK CIRCLE, VIJAYAPURA-",womenbjp@ksp.gov.in,08352-253555,Bijapur Town Circle,13.2964056,77.8028933,vijayapura,EXACT
+530.0,Vijayapur,Vijayapura,Zalaki PS,Zalki Police Station Bijapur to Solapur Raod,zalakibjp@ksp.gov.in,08422-282233,Chadachan Circle,17.25149,75.80127,zalaki,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Agali PS,BIJPAUR ROAD AIGALI  TAL.ATHANI,aigalibgm@ksp.gov.in,08289-259433,Athani Circle,12.788406,75.9637313,agali,EXACT
+527.0,Belagavi Dist,Belagavi,Ankalgi PS,GOKAK BELGAUM ROAD ANKALAGI TAL.GOKAK,ankalgibgm@ksp.gov.in,08332-262233,Gokak Circle,17.3381597,75.965969,ankalgi,EXACT
+527.0,Belagavi Dist,Belagavi,Ankali PS,,email@ksp.gov.in,8888-888888,Chikkodi Circle,16.5425256,74.6732625,ankali,EXACT
+527.0,Belagavi Dist,Belagavi,Athani PS,MAIN BIJPAUR ROAD ATHANI TAL.ATHANI,athanibgm@ksp.gov.in,08289-251133,Athani Circle,16.7270022,75.0631428,athani,EXACT
+527.0,Belagavi Dist,Belagavi,Bailahongal PS,NEAR TAHSILDAR OFFICE  MURAGOD ROAD BAILHONGA,bailhongalbgm@ksp.gov.in,08288-233133,Bailahongala Circle,15.816422,74.8568692,bailahongal,FUZZY (95.7)
+527.0,Belagavi Dist,Belagavi,Basaweshwar Chowk PS,BASVESHWAR CHOWK NIPPANI TAL.CHIKKODI,nippanibcbgm@ksp.gov.in,08338-220513,Nippani Circle,15.208545,78.1165051,basaweshwar chowk,FUZZY (90.0)
+527.0,Belagavi Dist,Belagavi,Belagavi CEN Crime PS,Dist. Court CompoundBelagavi Town,dcbbgm@ksp.gov.in,0831-2405677,Belagavi District,14.3988389,75.2408096,belagavi,EXACT
+527.0,Belagavi Dist,Belagavi,Chikkodi PS,OPPOSITE KSRTC BUS STAND  CHIKKODI TAL.CHIKKO,chikkodibgm@ksp.gov.in,08338-272133,Chikkodi Circle,16.4265276,74.5861323,chikkodi,EXACT
+527.0,Belagavi Dist,Belagavi,Chikkodi Town Traffic PS,,email@ksp.gov.in,8888-888888,Chikkodi Circle,16.4265276,74.5861323,chikkodi,EXACT
+527.0,Belagavi Dist,Belagavi,Doddawad PS,BELAVDI ROAD DODDAWAD TAL.BAILHONGAL,doddawadbgm@ksp.gov.in,08288-235545,Kittur  Circle,15.67907,74.9597,doddawad,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Ghataprabha PS,GOKAK-MUDALAGI  ROAD GHATAPRABHA TAL.GOKAK,ghataprabhabgm@ksp.gov.in,08332-286533,Mudalgi Circle,16.2391814,74.7623492,ghataprabha,EXACT
+527.0,Belagavi Dist,Belagavi,Gokak Rural PS,FALLS ROAD GOKAK TAL.GOKAK DIST,gokakruralbgm@ksp.gov.in,08332-225333,Gokak Circle,16.1693033,74.8224338,gokak,EXACT
+527.0,Belagavi Dist,Belagavi,Gokak Town PS,OPP  CENTRAL BUS STAND  GOKAK,gokaktownbgm@ksp.gov.in,08332-225033,Gokak Circle,16.1693033,74.8224338,gokak,EXACT
+527.0,Belagavi Dist,Belagavi,Harugeri PS,,email@ksp.gov.in,8888-888888,Raibag Circle,16.5167921,74.951819,harugeri,EXACT
+527.0,Belagavi Dist,Belagavi,Hukkeri PS,RAIBAG ROAD HUKKERI TAL.HUKKERI,hukkeribgm@ksp.gov.in,08333-265133,Hukkeri Circle,16.230857,74.6029767,hukkeri,EXACT
+527.0,Belagavi Dist,Belagavi,Kagwad PS,ATHANI ROAD KAGAWAD TAL.ATHANI .,kagwadbgm@ksp.gov.in,08339-264633,Athani Circle,16.69599,74.71672,kagwad,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Katkol PS,MAIN ROAD KATAKOL TAL.RAMDURGa,murgodbgm@ksp.gov.in,08335-262133,Ramadurga Circle,15.98541,75.13606,katkol,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Khadakalat PS,KadakalatBelagavi District,khadakalatbgm@ksp.gov.in,8888-888888,Nippani Circle,16.4485076,74.4688755,khadakalat,FUZZY (95.2)
+527.0,Belagavi Dist,Belagavi,Khanapur PS,NH-4-A   KHANAPUR  TAL.KHANAPUR,khanapurbgm@ksp.gov.in,08336-222333,Khanapur Circle,15.6387838,74.5061022,khanapur,EXACT
+527.0,Belagavi Dist,Belagavi,Kittur PS,FORT ROAD KITTUR TAL BAILHONGAL,kitturbgm@ksp.gov.in,08288-286233,Kittur  Circle,15.5993334,74.7878902,kittur,FUZZY (92.3)
+527.0,Belagavi Dist,Belagavi,Kudachi PS,CHINCHALI ROAD KUDACHI TAL.RAIBAG,kudachibgm@ksp.gov.in,08331-235233,Raibag Circle,16.628022,74.8532627,kudachi,EXACT
+527.0,Belagavi Dist,Belagavi,Kulgod PS,MUDHOL ROAD KULAGOD TAL.GOKAK,kulgodbgm@ksp.gov.in,08332-222233,Mudalgi Circle,16.24464,75.0464,kulgod,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Mudalgi PS,NEW BUILDING GOKAK ROAD MUDALAGI TAL.GOKAK,mudalgibgm@ksp.gov.in,08332-251333,Mudalgi Circle,16.3367271,74.9682914,mudalgi,FUZZY (93.3)
+527.0,Belagavi Dist,Belagavi,Murgod PS,SOGAL ROAD MURAGOD TAL.SAVADATTI,murgodbgm@ksp.gov.in,08337-265533,Saundatti Circle,15.8910179,74.9310127,murgod,FUZZY (92.3)
+527.0,Belagavi Dist,Belagavi,Nandagad PS,NH-4-A  RAMNAGAR ROAD NANDAGAD TAL.KHANAPUR,nandagadbgm@ksp.gov.in,08336-236633,Khanapur Circle,15.576672,74.569272,nandagad,FUZZY (94.1)
+527.0,Belagavi Dist,Belagavi,Nesargi PS,OPPOSITE BUS STAND NESARGI TAL.BAILHONAL,nesargibgm@ksp.gov.in,08288-275233,Bailahongala Circle,15.9078573,74.7757344,nesargi,FUZZY (93.3)
+527.0,Belagavi Dist,Belagavi,Nippani Rural PS,POLICE QUARTERS OLD P.B.ROAD  NIPPANI  TAL.CH,nippaniruralbgm@ksp.gov.in,08338-220213,Nippani Circle,16.4020402,74.3842372,nippani,EXACT
+527.0,Belagavi Dist,Belagavi,Nippani Town PS,POLICE QUARTERS OLD P.B.ROAD  NIPPANI  TAL.CH,nippanitownbgm@ksp.gov.in,08338-220033,Nippani Circle,16.4020402,74.3842372,nippani,EXACT
+527.0,Belagavi Dist,Belagavi,Raibag PS,MAIN ROAD TAHASILDAR OFFICE RAIBAG TAL.RAIBAG,raibagbgm@ksp.gov.in,08331-225333,Raibag Circle,16.49289,74.77008,raibag,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Ramadurga PS,BEHIND CIVIL HOSPITAL TIRUPATI NAGAR ROAD RAM,ramadurgbgm@ksp.gov.in,08335-242333,Ramadurga Circle,15.9449549,75.2967797,ramadurga,EXACT
+527.0,Belagavi Dist,Belagavi,Sadalaga PS,MAIN ROAD OPPOSITE KEB POWER GRID SADALAGA TA,sadalgabgm@ksp.gov.in,08338-251633,Chikkodi Circle,16.5579634,74.5325681,sadalaga,EXACT
+527.0,Belagavi Dist,Belagavi,Sankeshwar PS,OLD P.B. ROAD SANKESHWAR  TAL.HUKKERI,sankeshwarbgm@ksp.gov.in,08333-273303,Hukkeri Circle,16.2595741,74.4843495,sankeshwar,FUZZY (95.2)
+527.0,Belagavi Dist,Belagavi,Soundatti PS,FORT ROAD SAVADATTI,saundattibgm@ksp.gov.in,08330-222333,Saundatti Circle,15.76327,75.10802,soundatti,ORIGINAL
+527.0,Belagavi Dist,Belagavi,Yamakanmardi PS,NH4 P.B. ROAD YAMAKANAMARDI  TAL.HUKKERI,yamakanmardibgm@ksp.gov.in,08333-276333,Hukkeri Circle,16.1284616,74.5270181,yamakanmardi,FUZZY (92.3)
+635.0,Yadgir,Yadgir,Bheemarayanagudi PS,Bapu Gouda Circle Gulbarga road b-gudi,bgudiydr@ksp.gov.in,08479-222055,Shahapura Rural Circle,14.5786094,74.5598169,bheemarayanagudi,FUZZY (90.0)
+635.0,Yadgir,Yadgir,Gogi PS,Near Chanda Hussen darga gogi,gogiydr@ksp.gov.in,08479-225533,Shahapura Rural Circle,16.73202,76.747477,gogi,EXACT
+635.0,Yadgir,Yadgir,Gurumitkal PS,"Near Choudamma temple, Gurmitkal",gurmitkalydr@ksp.gov.in,08473-225054,Gurumitkal Circle,16.8655,77.38943,gurumitkal,ORIGINAL
+635.0,Yadgir,Yadgir,Hunasagi PS,"UKP Camp Narayanpur road Tq, Shorapur",hunsagiydr@ksp.gov.in,08444-200388,Hunasigi Circle,16.4579407,76.5170932,hunasagi,EXACT
+635.0,Yadgir,Yadgir,Kembhavi PS,Near Ambedkar Circle Kembhavi,kembhaviydr@ksp.gov.in,08443-278210,Hunasigi Circle,16.6513126,76.5325062,kembhavi,EXACT
+635.0,Yadgir,Yadgir,Kodekal PS,Near Channa Basaweshwar Temple Kodekal TQ. Sh,kodekalydr@ksp.gov.in,08444-222833,Hunasigi Circle,17.8039286,78.006488,kodekal,EXACT
+635.0,Yadgir,Yadgir,Narayanapura PS,"UKP Camp Narayanpur village Tq, Shorapur",narayanpurydr@ksp.gov.in,08444-229624,Hunasigi Circle,16.2568404,76.3775713,narayanapura,EXACT
+635.0,Yadgir,Yadgir,Saidapur PS,"Near govt I.B.  Saidapur TQ, Yadgir",saidapurydr@ksp.gov.in,08473-224233,Gurumitkal Circle,17.5426673,77.9551288,saidapur,EXACT
+635.0,Yadgir,Yadgir,Shahapur PS,Vidyanagar Area Shahapur,shahapurydr@ksp.gov.in,08479-243329,Shorapur Sub Division,16.6991627,76.8410045,shahapur,FUZZY (94.1)
+635.0,Yadgir,Yadgir,Shorapur PS,Near Govt Collage Shorapur,shorapurydr@ksp.gov.in,08443-256030,Shorapur Sub Division,16.5259,76.75947,shorapur,ORIGINAL
+635.0,Yadgir,Yadgir,Wadigere PS,Wadagera village,wadageraydr@ksp.gov.in,08479-219003,Yadgiri Circle,13.6698237,76.0875814,wadigere,FUZZY (93.3)
+635.0,Yadgir,Yadgir,Yadgir CEN Crime PS,Yadgir,email@ksp.gov.in,88888-888888,Yadgir District,16.7633571,77.1384994,yadgir,FUZZY (92.3)
+635.0,Yadgir,Yadgir,Yadgir Traffic PS,"Opp Jawahar CollegeKanakadasa Circle, Yadgir Tq",email@ksp.gov.in,88888-888888,Yadgiri Circle,16.7633571,77.1384994,yadgir,FUZZY (92.3)
+635.0,Yadgir,Yadgir,Yadgir Women PS,Opp Jawahar collegeKanakadasa Circle,email@ksp.gov.in,88888-888888,Yadgiri Sub-Division,16.7633571,77.1384994,yadgir,FUZZY (92.3)
+635.0,Yadgir,Yadgir,Yadgiri Rural PS,Near Balaji Temple yadgir,yadgirruralydr@ksp.gov.in,08473-252303,Yadgiri Circle,16.7633571,77.1384994,yadgiri,EXACT
+635.0,Yadgir,Yadgir,Yadgiri Town PS,Near gandhi chowk Yadgir,yadgirydr@ksp.gov.in,08473-252100,Yadgiri Circle,16.7633571,77.1384994,yadgiri,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Adugodi PS,"Adugodi Police Station, Hosur Lashkar Road, B",adugodibcp@ksp.gov.in,080-22942069,Madivala Sub-Division,12.94143,77.61154,adugodi,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Adugodi Traffic PS,"1st floor Corporation building,Hosur lashkar",adugoditrafficbcp@ksp.gov.in,080-22943125,South East Traffic Sub-Division,12.56295,77.36309,adugodi,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Airport Traffic PS,Bangalore-560017,airporttrafficbcp@ksp.gov.in,080-22943115,Whitefield Traffic Sub Division,12.959908,77.66748,airport,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Amruthahally PS,"Amruthahalli Police Station, c/o Sriramapura",email@ksp.gov.in,080-22943644,Sampigehalli Sub-Division,13.05686,77.59857,amruthahally,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Annapoorneshwari Nagar PS,Annapoorneshwarinagar,apnagarbcp@ksp.gov.in,9480801715,Kengeri Gate Sub-Division,12.96902,77.51248,annapoorneshwari nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Ashoknagar PS,ASHOKANAGAR POLICE STATION NEW BLDG COMMISSIO,anagarbcp@ksp.gov.in,080-22942580,Cubban Park Sub division,15.5972609,74.4503653,ashoknagar,FUZZY (95.2)
+525.0,Bengaluru City,Bengaluru Urban,Ashoknagar Traffic PS,Behind Philomina Hospital. Mother terasa Road,anagartrafficbcp@ksp.gov.in,080-22943122,Central Traffic  Sub-Division,15.5972609,74.4503653,ashoknagar,FUZZY (95.2)
+525.0,Bengaluru City,Bengaluru Urban,Avalahally PS,Avalahally Post,avalahallibng@ksp.gov.in,8028472500,Hosakote Circle,13.0352777,77.7365655,avalahally,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Bagalagunte PS,BagalagunteBagalagunte,bagalaguntepsbcp@ksp.gov.in,8888-888888,Yeshwanthapura Sub-Division,13.386143,77.040856,bagalagunte,FUZZY (95.2)
+525.0,Bengaluru City,Bengaluru Urban,Bagalur PS,"BAGALUR PS, BAGALUR, JALA HOBLI, BANGALORE NO",email@ksp.gov.in,080-28469100,Sampigehalli Sub-Division,12.8310442,77.865842,bagalur,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Banasawadi Traffic PS,"5th, A main Kalyananagar, Next to KEB Office,",bwaditrafficbcp@ksp.gov.in,080-22942217,East Traffic Sub-Division,13.0150607,77.3649316,banasawadi,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Banashankari PS,"Banashankari Police Station, Near BNM College",bskbcp@ksp.gov.in,080-22942060,Jayanagar Sub-Division,15.8876779,75.7046777,banashankari,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Banaswadi PS,"No.4, 5th B Main, 2nd Block, HRBR Layout, Kal",bswadibcp@ksp.gov.in,22942552,Banaswadi Sub Division,13.0150607,77.3649316,banaswadi,FUZZY (94.7)
+525.0,Bengaluru City,Bengaluru Urban,Bandepalya PS,BandepalyaBandepalya,bandepalyapsbcp@ksp.gov.in,8888-888888,Electronic City Sub Division,12.9494806,75.941541,bandepalya,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Basavanagudi PS,"Basavanagudi  Police Station, K.R.Road, Banga",bgudibcp@ksp.gov.in,080-22942057,Jayanagar Sub-Division,13.8345913,75.7339359,basavanagudi,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Basavanagudi Traffic PS,add,email@ksp.gov.in,8888-888888,South Traffic Sub-Division,13.8345913,75.7339359,basavanagudi,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Basavanagudi Women PS,"Basavanagudi Women Police Station, T.R.Nagar,",bgudiwbcp@ksp.gov.in,080-22943250,Jayanagar Sub-Division,13.8345913,75.7339359,basavanagudi,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Beguru PS,BeguruBeguru,begurpsbcp@ksp.gov.in,8888-888888,Electronic City Sub Division,11.9343936,76.670242,beguru,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Bellanduru PS,BellanduruBellanduru,bellandurupsbcp@ksp.gov.in,8888-888888,Marathahalli Sub Division,14.1997732,75.2142249,bellanduru,FUZZY (94.7)
+525.0,Bengaluru City,Bengaluru Urban,Bharathi Nagar PS,"St.Johns Church Road, Behind Bharathinagar Po",bnagarbcp@ksp.gov.in,22942147,Pulakeshinagar Sub-Division,12.9324678,78.6812232,bharathi nagar,EXACT
+525.0,Bengaluru City,Bengaluru Urban,BIAL PS,"BIAL PS  Near New Bus Station, Devanahalli To",email@ksp.gov.in,080-27680222,Devanahalli Sub-Division,13.19915,77.70599,bial,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,BIAL Traffic PS,address,bialtrafficbcp@ksp.gov.in,email@ksp.gov.i,North East Traffic Sub Division,13.200756,77.709504,bial,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Bommanahalli PS,,email@ksp.gov.in,8888-888888,Mico Layout Sub-Division,15.1681187,74.7104023,bommanahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Byadarahalli PS,,email@ksp.gov.in,8888-888888,Vijayanagar Sub-Division,12.6825556,77.122139,byadarahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Byappanahalli PS,"NO 1 & 2, D Block, Byappanhalli, Police Quart",bbpnhallibcp@ksp.gov.in,22942545,Halasur  Sub-Division,13.0721257,77.7200164,byappanahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Byatarayanapura PS,"Byataranapura Police Station,  Mysore road,",bypurabcp@ksp.gov.in,080-22942507 08,Kengeri Gate Sub-Division,16.7495464,77.4140752,byatarayanapura,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Byatrarayanapura Traffic PS,"Byatarayanapura Traffic Police Station, Opp.K",bypuratrafficbcp@ksp.gov.in,080-22943011/26,West Traffic Sub-Division,16.7495464,77.4140752,byatrarayanapura,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Chamarajpet PS,"Chamarajpet Police Station, No-261, 5th Cross",cmpetbcp@ksp.gov.in,080-22942071,Chickpet Sub-Division,18.5275345,77.9516089,chamarajpet,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Chamarajpet Traffic PS,"Chickpet Traffic Police Station, 2nd Floor, U",chickpettrafficbcp@ksp.gov.in,8022942664,West Traffic Sub-Division,18.5275345,77.9516089,chamarajpet,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Chandra Layout PS,"Chandra Layout Police Station,  Behind BESCOM",clayoutbcp@ksp.gov.in,080-22942512 08,Kengeri Gate Sub-Division,12.9589,77.5284,chandra layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Channammanakere Achu Kattu PS,"C.K.Achchukattu Police Station, Ground Floor,",chkactps@ksp.gov.in,080-22942380,Vishveshwarapuram Sub Division,12.93012,77.5606,channammanakere achu kattu,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Chikkajala PS,"CHIKKAJALA PS, CHIKKAJALA , JALA HOBLI, BANGA",email@ksp.gov.in,080-28467200,Devanahalli Sub-Division,13.1709298,77.6346509,chikkajala,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Chikkajala Traffic PS,address,chikkajalatrafficbcp@ksp.gov.in,8028467559,North East Traffic Sub Division,13.1709298,77.6346509,chikkajala,EXACT
+525.0,Bengaluru City,Bengaluru Urban,City Market Traffic PS,"City Market Traffic Police Station, Kalasipal",citymarkettrafficbcp@ksp.gov.in,8022943006,West Traffic Sub-Division,16.4802379,75.3917995,,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Commercial Street PS,"No.70, Old No.108, Commercial Street, Bangalo",commercialbcp@ksp.gov.in,22942149,Pulakeshinagar Sub-Division,12.98208,77.60643,commercial street,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Cottonpet PS,"Cottonpet  Police Station, Cottonpet Main Road",cotpetbcp@ksp.gov.in,8022942508,Chickpet Sub-Division,12.96802,77.5701,cottonpet,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Cubbon Park PS,"CUBBON PARK POLICE STATION,KASTOORBA ROAD, CU",cparkbcp@ksp.gov.in,080-22942591,Cubban Park Sub division,12.98003,77.59796,cubbon park,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Cubbonpark Traffic PS,"#99,groad way road ,Cubban park, bangalore-56",cparktrafficbcp@ksp.gov.in,080-22942675,Central Traffic  Sub-Division,12.58334,77.35523,cubbonpark,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Cyber Crime Police Station,Infantry RoadBengaluru,cybercrimebcp@ksp.gov.in,8888-888888,Bengaluru City,17.1282847,78.4594363,cyber,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Devanahalli PS,"Devanahalli PS Near New Bus Station, Devanaha",email@ksp.gov.in,080-27680333,Devanahalli Sub-Division,13.2483502,77.7134377,devanahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Devarajeevanahalli PS,"Srikesrimal, Ananda talkies complex, D.J.Hall",djhallibcp@ksp.gov.in,22942550,K G Halli Sub Division,15.5120684,75.1367892,devarajeevanahalli,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,East Zone Women PS,Shivajinagar PS Premise,hagatewbcp@ksp.gov.in,080-22942585,Pulakeshinagar Sub-Division,12.57396,77.34594,zone,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Electronic City PS,"NO.A.101, 1ST BLOCK, KSFITC LIMITED COMPLEX,",electroniccitybcp@ksp.gov.in,22943476,Electronic City Sub Division,12.8436448,77.6686835,electronic,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Electronic City Traffic PS,address,electroniccitytrafficbcp@ksp.gov.in,080-22943718,South East Traffic Sub-Division,12.8436448,77.6686835,electronic,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Gangammana Gudi PS,"Gangammagudi P.S. No.T-76/1 &2 S.M.road, Jala",gggudibcp@ksp.gov.in,22942530,Yeshwanthapura Sub-Division,13.07216,77.52999,gangammana gudi,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Girinagar PS,"Girinagar Police Station, 6th Main, Girinagar",gnagarbcp@ksp.gov.in,080-22942073,Vishveshwarapuram Sub Division,12.936,77.5439,girinagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Govindaraja Nagar PS,"Saraswathi Nagar, Huchappa Layout, Govindaraja Nagar Ward",govindaraja@ksp.gov.in,080-88888888,Vijayanagar Sub-Division,16.3781107,78.0404377,govindaraja nagar,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,H.A.L. PS,"MARATHALLI MAIN ROAD, NEXT TO HAL MUSEUM, BAN",halbcp@ksp.gov.in,22942542,Marathahalli Sub Division,12.955006,77.682855,h a l,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Halasur Gate Traffic PS,"Near Corporation, Bangalore-560002",hgatetrafficbcp@ksp.gov.in,080-22943124,Central Traffic  Sub-Division,15.3774199,74.4611041,halasur gate,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Halasur PS,"NO.1, 1st Floor, Halasuru Police Station buil",halasoorbcp@ksp.gov.in,22942541,Halasur  Sub-Division,12.4332651,77.3177305,halasur,FUZZY (93.3)
+525.0,Bengaluru City,Bengaluru Urban,Halasur Traffic PS,"Opp Ramaiah circle,Halasur, Bangalore- 560008",halasoortrafficbcp@ksp.gov.in,080-22942751,East Traffic Sub-Division,12.4332651,77.3177305,halasur,FUZZY (93.3)
+525.0,Bengaluru City,Bengaluru Urban,Hanumanthanagar PS,"Hanumanthanagar Police Station, Vidhyapita Ci",hnagarbcp@ksp.gov.in,080-22942072,Vishveshwarapuram Sub Division,13.5752885,76.9809571,hanumanthanagar,FUZZY (93.8)
+525.0,Bengaluru City,Bengaluru Urban,Hebbagodi PS,"Hebbagodi,",hebbagodibng@ksp.gov.in,8027832922,Anekal Sub Division,12.3763114,76.7346472,hebbagodi,FUZZY (87.5)
+525.0,Bengaluru City,Bengaluru Urban,Hebbal PS,"Hebbala P.S., Hebbala, Bellary Road, Bangalor",hebbalbcp@ksp.gov.in,22942535,J.C. Nagar Sub-Division,14.9992476,75.7224672,hebbal,FUZZY (92.3)
+525.0,Bengaluru City,Bengaluru Urban,Hennur PS,"No.6/5, Hennur Main Road, Bangalore 560 043.",hennurbcp@ksp.gov.in,22942557,Banaswadi Sub Division,16.4090456,78.1173597,hennur,FUZZY (92.3)
+525.0,Bengaluru City,Bengaluru Urban,High Grounds PS,HIGH GROUND POLICE STATION. MILLERS ROAD NEA,Hgroundbcp@ksp.gov.in,080-22942587,Seshadripuram Sub-Division,12.98996,77.59277,high grounds,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,High Grounds Traffic PS,"Race course road oppsite Race Couse, bangalor",hgroundtrafficbcp@ksp.gov.in,080-22942917,Central Traffic  Sub-Division,12.59496,77.3459,high grounds,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,HSR Lay Out Traffic PS,,email@ksp.gov.in,8888-888888,South East Traffic Sub-Division,12.55185,77.39388,hsr lay out,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,HSR Layout PS,"NO.29/A, 27TH MAIN ROAD, HSR LAYOUT, 1ST SECT",hsrlayoutbcp@ksp.gov.in,25747751 257291,Madivala Sub-Division,12.92015,77.65139,hsr layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Hulimavu PS,"NO.58/2, GAVI GANGADESHWARA TEMPLE BANDE, BAN",hulimavubcp@ksp.gov.in,22943470,Electronic City Sub Division,12.1597985,76.7332897,hulimavu,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Hulimavu Traffic PS,,email@ksp.gov.in,8888-888888,South East Traffic Sub-Division,12.1597985,76.7332897,hulimavu,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Indiranagar PS,"No.1, Near Venkateshwara petrol bunk, OM Main",inagarbcp@ksp.gov.in,22942541,Halasur  Sub-Division,17.7569637,77.1889052,indiranagar,EXACT
+525.0,Bengaluru City,Bengaluru Urban,J.C. Nagar PS,"J.C.Nagar P.S., J.C.Nagar Jayamahal Main Road",jcnagarbcp@ksp.gov.in,22942534,J.C. Nagar Sub-Division,13.00558,77.59357,j c nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Jagajeevanram Nagar PS,"Jagajeevanram Nagar Police Station, Near Sang",jjnagarbcp@ksp.gov.in,080-22942509 08,Kengeri Gate Sub-Division,11.70832,78.33449,jagajeevanram nagar,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Jalahalli PS,"Jalahalli P.S. H.M.T Main, Road, Infront of H",jhallibcp@ksp.gov.in,22942527,Yeshwanthapura Sub-Division,16.3651178,76.7808528,jalahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Jalahalli Traffic PS,,email@ksp.gov.in,8888-888888,North Traffic Sub-Division,16.3651178,76.7808528,jalahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Jayanagar PS,"Jayanagar Police Station, 4th Block, Jyanagar",Jnagarbcp@ksp.gov.in,080-22942058,Jayanagar Sub-Division,13.7651465,76.8318128,jayanagar,FUZZY (94.7)
+525.0,Bengaluru City,Bengaluru Urban,Jayanagar Traffic PS,"jayanagara traffic polic station,diagnol road",jnagartrafficbcp@ksp.gov.in,080-22943105/26,South Traffic Sub-Division,13.7651465,76.8318128,jayanagar,FUZZY (94.7)
+525.0,Bengaluru City,Bengaluru Urban,Jayaprakash Nagar PS,"J.P.Nagar Police Station, 23rd Main, 8th Cros",jpnagarbcp@ksp.gov.in,080-22942059,Jayanagar Sub-Division,16.6607795,78.532505,jayaprakash nagar,FUZZY (95.0)
+525.0,Bengaluru City,Bengaluru Urban,Jeevan Bheemanagar PS,"P2, 10th main road, J.B.Nagar Bangalore",jbnagarbcp@ksp.gov.in,22942543,Halasur  Sub-Division,12.9677,77.65539,jeevan bheemanagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Jnanabharathi PS,"Jnanabharathi Police Station,  Bangalore Univ",jbharathibcp@ksp.gov.in,080-22942513 08,Kengeri Gate Sub-Division,17.4072058,78.5969098,jnanabharathi,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Jnanabharathi Traffic PS,5th Block Second stage nagarabhavi 560072,Jananbharati-west@ksp.gov.in,00000-000000,Vijayanagar traffic sub division,17.4072058,78.5969098,jnanabharathi,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,K G Halli Traffic PS,Arabic College PostNagavara Main Road,kghallitrfbcp@ksp.gov.in,8025474596,East Traffic Sub-Division,17.8409798,76.8637276,k g halli,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,K.R. Puram PS,"No.03, Tank Road, Beside to Govt. Hospital, K",krpurambcp@ksp.gov.in,22942553,Whitefield Sub Division,12.9406862,77.8828301,k r puram,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,K.R.Puram Traffic PS,"Old Madras road,K R Puram Bangalore-560036",krpuramtrafficbcp@ksp.gov.in,080-22942928,Whitefield Traffic Sub Division,12.9406862,77.8828301,k r puram,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Kadugodi PS,"KADUGODI MAIN ROAD, BIDRAHALLI HOBLI, BANGALO",kadugodibcp@ksp.gov.in,22943471,Whitefield Sub Division,12.995415,77.757821,kadugodi,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Kadugondana Halli PS,"Nagarawara Main Raod, K G Halli, Arabic Colle",kghallibcp@ksp.gov.in,22942556,K G Halli Sub Division,17.8409798,76.8637276,kadugondana halli,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Kamakshipalya PS,"Kamashipalaya Police Station,   # 1, NHCS Lay",kmpalyabcp@ksp.gov.in,080-22942517 08,Vijayanagar Sub-Division,12.9494806,75.941541,kamakshipalya,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Kamakshipalya Traffic PS,"Kamakshipalya Traffic  Police Station, Magadi",kmpalyatrafficbcp@ksp.gov.in,8022943009,West Traffic Sub-Division,12.9494806,75.941541,kamakshipalya,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Kempapura Agrahara PS,"Kempapura Agrahara Police Station, # 14/5, 1s",kpagaraharabcp@ksp.gov.in,080-22942518 08,Vijayanagar Sub-Division,13.1548482,77.2895786,kempapura agrahara,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Kempegowda Nagar PS,"K.G.Nagar Police Station, K.G.Nagar Road, Ban",kgnagarbcp@ksp.gov.in,080-22942074,Vishveshwarapuram Sub Division,13.7911055,75.736347,kempegowda nagar,FUZZY (97.0)
+525.0,Bengaluru City,Bengaluru Urban,Kengeri PS,"Kengeri Police Station,  Bangalore Mysore Mai",kengeribcp@ksp.gov.in,080-22942510080,Kengeri Gate Sub-Division,12.91048,77.48157,kengeri,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Kengeri Traffic PS,,email@ksp.gov.in,8888-888888,West Traffic Sub-Division,12.554136,77.285359,kengeri,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Kodigehalli PS,address,email@ksp.gov.in,080-22943703,Yelahanka Sub-Division,13.3042193,77.5112285,kodigehalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Konanakunte PS,KonanakunteKonanakunte,kkuntepsbcp@ksp.gov.in,8888-888888,Subramanyapura Sub Division,14.0932964,77.177394,konanakunte,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Koramangala PS,"NO.8/A, 20TH MAIN, 6TH BLOCK, KORAMANGALA, BA",kmangalabcp@ksp.gov.in,22942570 255037,Madivala Sub-Division,13.2923988,77.7519261,koramangala,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Kothanur PS,address,email@ksp.gov.in,080-22943694,Sampigehalli Sub-Division,12.5805368,77.3330675,kothanur,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Kumaraswamy Layout PS,"K.S.Layout Police Station, 14th Main, K.S.Lay",kslayoutbcp@ksp.gov.in,080-22942063,Subramanyapura Sub Division,12.90533,77.5633,kumaraswamy layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Kumaraswamy Layout Traffic PS,"kumarswamy layout traffic police station, 1st",kslyttrafficbcp@ksp.gov.in,8022943109,South Traffic Sub-Division,12.90116,77.544275,kumaraswamy layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Kumbalagudu PS,,email@ksp.gov.in,88888-888888,Magadi Sub Division,12.8786167,77.4467629,kumbalagudu,FUZZY (90.9)
+525.0,Bengaluru City,Bengaluru Urban,Madanayakanahally PS,"Madavara Post, Dasanapura Hobli",mnayakahallibng@ksp.gov.in,23713699,Nelamangala Sub-Division,13.0592472,77.4615112,madanayakanahally,FUZZY (94.1)
+525.0,Bengaluru City,Bengaluru Urban,Madivala PS,"NO.20/A, PWD BUILDING, HOSUR MAIN ROAD, OPPOS",madivalabcp@ksp.gov.in,22942568 229420,Madivala Sub-Division,13.0247543,77.9280389,madivala,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Madivala Traffic PS,"Hosur main road, Madivala,Bangalore-560068",madivalatrafficbcp@ksp.gov.in,080-22943117,South East Traffic Sub-Division,13.0247543,77.9280389,madivala,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Magadi Road PS,"Magadi road  Police Station,",mroadbcp@ksp.gov.in,080-22942515 08,Vijayanagar Sub-Division,12.9567353,77.2242281,magadi road,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Magadi Road Traffic PS,"Magadi Road Traffic Police Station, Opp.Prasa",mroadtrafficbcp@ksp.gov.in,8022942672,West Traffic Sub-Division,12.9567353,77.2242281,magadi road,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Mahadevapura PS,"Singaihahna Playa, Whitefieild Road, Bangalor",mdpurabcp@ksp.gov.in,22942546,Whitefield Sub Division,12.3943314,76.7766215,mahadevapura,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Mahalakshmipuram PS,"Mahalakshmipura PS, No. CA-2, 2nd Main, 12th",mlayoutbcp@ksp.gov.in,22942523,Malleshwaram Sub-Division,11.7021978,75.5364701,mahalakshmipuram,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Malleshwaram PS,"Malleswaram P.S. No.47,5th cross, M.K.K. Road",mvmbcp@ksp.gov.in,22942519,Malleshwaram Sub-Division,12.99665,77.56959,malleshwaram,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Marathahalli PS,MarathahalliMarathahalli,Marathahallipsbcp@ksp.gov.in,8888-888888,Marathahalli Sub Division,17.8409798,76.8637276,marathahalli,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Mico Layout PS,"SHANTHINIKETHAN SCHOOL BUILDING, 1ST MAIN, 3R",micobcp@ksp.gov.in,22942569 229420,Mico Layout Sub-Division,12.54306,77.36379,mico layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Mico Layout Traffic PS,"Bannerugatta road , opp Gopalan  mal, Micop L",micolyttrafficbcp@ksp.gov.in,080-22943118,South East Traffic Sub-Division,12.54478,77.36022,mico layout,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Nandini Layout PS,"Nandini Layout P.S. No.6, S.F.H.S. area, Nand",nlayoutbcp@ksp.gov.in,22942539,Malleshwaram Sub-Division,17.4072058,78.5969098,nandini layout,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,North East Women PS,New airport road geddalahalli ramanna layout narayanpura bengaluru 560077,northeastwomen@ksp.gov.in,00000-000000,North East,16.4802379,75.3917995,,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Parappana Agrahara,"PARAPPANA AGRAHARA, CENTRAL JAIL OPPOSITE BUI",pagraharabcp@ksp.gov.in,22943468,Electronic City Sub Division,12.3699123,75.2443067,parappana agrahara,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Peenya PS,"No.34,35, 1st Cross, 1st Stage, Peenya Indust",peenyabcp@ksp.gov.in,22942532,Yeshwanthapura Sub-Division,13.03584,77.52127,peenya,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Pulakeshinagar PS,"Lazar Road, Bangalore",ftownbcp@ksp.gov.in,22942548,Pulakeshinagar Sub-Division,12.99927,77.61929,pulakeshinagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Pulakeshinagar Traffic PS,"Lazar road, F Town, Bangalore- 560005",ftowntrafficbcp@ksp.gov.in,080-22942924,East Traffic Sub-Division,12.59574,77.37108,pulakeshinagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Puttenahalli PS,PuttenahalliPuttenahalli,puttenahallipsbcp@ksp.gov.in,8888-888888,Subramanyapura Sub Division,12.2680112,76.1253154,puttenahalli,FUZZY (95.7)
+525.0,Bengaluru City,Bengaluru Urban,R.M.C. Yard PS,"R.M.C.Yard P.S. APMC YARD Building, Tumkur ro",rmcyardbcp@ksp.gov.in,22942531,Yeshwanthapura Sub-Division,17.1282847,78.4594363,r m c,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,R.T. Nagar PS,"R.T.Nagar P.S. C.A No.8, 80 feet road, 1st Bo",rtnagarbcp@ksp.gov.in,22942538,J.C. Nagar Sub-Division,13.02473,77.5932,r t nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,R.T.Nagar Traffic PS,"R.T.Nagar Traffic PS, BELLARY MAIN ROAD NEAR",rtnagartrafficbcp@ksp.gov.in,8022942813,North East Traffic Sub Division,13.033178,77.88174,r t nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Rajagopal Nagar PS,Rajagopalanagar P.S No.137 Rajagopalanagar Ma,rgnagarbcp@ksp.gov.in,22942525,Malleshwaram Sub-Division,13.01735,77.51357,rajagopal nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Rajajinagar PS,"Rajajinagar P.S.   No.  12th Main, 2nd block,",rnagarbcp@ksp.gov.in,22942522,Malleshwaram Sub-Division,12.99463,77.55422,rajajinagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Rajanukunte PS,Rajanakunte Post,rajanakuntebng@ksp.gov.in,080-28468936,Doddaballapura Circle,13.1691901,77.5639442,rajanukunte,FUZZY (90.9)
+525.0,Bengaluru City,Bengaluru Urban,Rajarajeshwari Nagar PS,address,rrnagarbcp@ksp.gov.in,080-22942559 08,Kengeri Gate Sub-Division,12.91284,77.52063,rajarajeshwari nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Ramamurthy Nagar PS,"No.116, Ramamurthy Nagar Main Road, Ramamurth",rmnagarbcp@ksp.gov.in,22942554,Banaswadi Sub Division,11.6892624,78.5589033,ramamurthy nagar,FUZZY (90.9)
+525.0,Bengaluru City,Bengaluru Urban,S.J. Park PS,"SILVER JUBLEE PARK, POLICE STATION, BANGALORE",sjparkbcp@ksp.gov.in,080-22942583,Halasurgate Sub-Division,12.57396,77.34594,s j park,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Sadashivanagar PS,"SADASHIVA NAGAR POLICE STATION,  ,,NEW BEL RO",ssnagarbcp@ksp.gov.in,080-22942589,Seshadripuram Sub-Division,18.4104291,78.2743169,sadashivanagar,FUZZY (96.3)
+525.0,Bengaluru City,Bengaluru Urban,Sadashivanagar Traffic PS,"Near CPRI, S S Nagar, Bangalore-560012",ssnagartrafficbcp@ksp.gov.in,080-22942915,Central Traffic  Sub-Division,18.4104291,78.2743169,sadashivanagar,FUZZY (96.3)
+525.0,Bengaluru City,Bengaluru Urban,Sampangiramanagar PS,"SAMPANGIRAMNAGAR POLICE STATION,SAMPANGIRAMNA",srnagarbcp@ksp.gov.in,080-22942582,Halasurgate Sub-Division,12.8152223,74.996109,sampangiramanagar,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Sampigehalli PS,address,email@ksp.gov.in,080-22943692,Sampigehalli Sub-Division,13.249502,76.7849803,sampigehalli,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Sanjay Nagar PS,"Sanjayanagar P.S. D Rajgopal Main road, Near",sanjaynagarbcp@ksp.gov.in,22942533,J.C. Nagar Sub-Division,13.03335,77.5758,sanjay nagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Seshadripuram PS,SHESHADRIPURAM POLICE STATION BANGALORE 56002,sspurambcp@ksp.gov.in,080-22942586,Seshadripuram Sub-Division,12.9406862,77.8828301,seshadripuram,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Shankarpura PS,"Shankarpura Police Station, Shankarpuram, Ban",skpurabcp@ksp.gov.in,080-22942054,Vishveshwarapuram Sub Division,13.7164611,75.4652274,shankarpura,FUZZY (95.7)
+525.0,Bengaluru City,Bengaluru Urban,Shivajinagar PS,"No.144, 145, Broadway road, Shivajinagar, Ban",snagarbcp@ksp.gov.in,22942597,Pulakeshinagar Sub-Division,17.5493195,78.2109986,shivajinagar,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Shivajinagar Traffic PS,"#146, First Floor, Broad way Road,Shivajinaga",commercialtrafficbcp@ksp.gov.in,080-22942921,East Traffic Sub-Division,17.5493195,78.2109986,shivajinagar,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Siddapura PS,"Siddapura Police Station, NIMHANS Compound, B",spurabcp@ksp.gov.in,080-22942068,Jayanagar Sub-Division,14.3409562,74.8924253,siddapura,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Soladevanahalli PS,"Soladevanahalli P.S. Soladevanahlli, Hesaruga",sdhallibcp@ksp.gov.in,22942529,Yeshwanthapura Sub-Division,13.0919148,77.4880629,soladevanahalli,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Srirampura PS,"Srirampura P.S. No.47, 9th Main, Srirampura,",srpurambcp@ksp.gov.in,22942520,Malleshwaram Sub-Division,13.9393674,77.9721755,srirampura,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Subramanyanagar PS,"Subramanyanagar PS No.24, 1st main, E block,",sbnagarbcp@ksp.gov.in,22942524,Malleshwaram Sub-Division,13.21267,77.3129306,subramanyanagar,FUZZY (96.8)
+525.0,Bengaluru City,Bengaluru Urban,Subramanyapura PS,"Subramanyapura Police Station, Utharahalli Ma",sbpurabcp@ksp.gov.in,080-22942061,Subramanyapura Sub Division,11.882386,77.7503917,subramanyapura,FUZZY (93.3)
+525.0,Bengaluru City,Bengaluru Urban,Suddaguntepalya PS,GurappanapalyaGurappanapalya,gpalyapsbcp@ksp.gov.in,8888-888888,Mico Layout Sub-Division,12.9494806,75.941541,suddaguntepalya,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Thalaghattapura PS,BANGALORE - KANAKAPURA MAIN ROAD,tpurarmn2@ksp.gov.in,080-28435250,Subramanyapura Sub Division,12.9406862,77.8828301,thalaghattapura,FUZZY (90.0)
+525.0,Bengaluru City,Bengaluru Urban,Thilaknagar PS,"NO.66/67, 30TH CROSS, SWAGATH MAIN, TILAK NAG",tlknagarbcp@ksp.gov.in,22942571 224419,Mico Layout Sub-Division,12.9238,77.5567,thilaknagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Upparpet PS,"Upparpet Police Station, Tank Bund Road,",upetbcp@ksp.gov.in,080-22942503 08,Chickpet Sub-Division,13.4050208,78.0023024,upparpet,FUZZY (88.9)
+525.0,Bengaluru City,Bengaluru Urban,Upparpet Traffic PS,"Office of the ACP Traffic West Sub-Division,",upettrafficbcp@ksp.gov.in,8022942665,West Traffic Sub-Division,13.4050208,78.0023024,upparpet,FUZZY (88.9)
+525.0,Bengaluru City,Bengaluru Urban,Varthur PS,"VARTHUR MAIN ROAD, BANGALORE 560087",varthurbcp@ksp.gov.in,28539196,Marathahalli Sub Division,12.938034,77.74692,varthur,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Vidhana Soudha PS,"VIDHANASOUDHA POLICE STATION GROUND FLOOR, M.",vsoudabcp@ksp.gov.in,080-22942590,Cubban Park Sub division,12.97732,77.58861,vidhana soudha,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Vidyaranyapura PS,"Vidyaranyapura P.S. No.280, BEL, 6th block, 6",vrpurabcp@ksp.gov.in,22942528,Yelahanka Sub-Division,13.4061933,75.2498674,vidyaranyapura,EXACT
+525.0,Bengaluru City,Bengaluru Urban,Vijayanagar Traffic PS,"Vijaya nagar traffic police station,3rd main,",vjnagartrafficbcp@ksp.gov.in,8022942809,West Traffic Sub-Division,16.3270486,74.7380455,vijayanagar,FUZZY (95.7)
+525.0,Bengaluru City,Bengaluru Urban,Vishveshwarapuram PS,"Central Police Station, A.V Road, Chamrajpet,",centralbcp@ksp.gov.in,080-22942070,Vishveshwarapuram Sub Division,14.3463609,76.7585674,vishveshwarapuram,FUZZY (90.9)
+525.0,Bengaluru City,Bengaluru Urban,Viveknagar PS,"VIVEKNAGAR POLICE STATION ,,BANGALORE-560047",vknagarbcp@ksp.gov.in,080-22942584,Cubban Park Sub division,12.95155,77.6223,viveknagar,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Vyalikaval PS,"VYALIKAVAL POLICE STATION ,2ND MN ROAD  ,VYAL",vkavalbcp@ksp.gov.in,080-22942588,Seshadripuram Sub-Division,13.00149,77.57864,vyalikaval,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Whitefield PS,"OPPOSITE TESCO, EPIP ROAD, VYDEHI CIRCLE, BAN",whitefieldbcp@ksp.gov.in,22943472,Whitefield Sub Division,12.975356,77.751076,whitefield,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Whitefield Traffic PS,"Kadugodi main road,near railway gate, police",whitefieldtrafficbcp@ksp.gov.in,080-22943706,Whitefield Traffic Sub Division,12.59393,77.45258,whitefield,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Wilsongarden PS,"7TH CROSS, WILSON GARDEN POLICE STATION, WILS",wgardenbcp@ksp.gov.in,080-22942581,Halasurgate Sub-Division,12.95004,77.5962,wilsongarden,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Wilsongarden Traffic PS,"1st floor, Sidhapura police station, near NIM",wgardentrafficbcp@ksp.gov.in,080-22943120,Central Traffic  Sub-Division,12.56207,77.35327,wilsongarden,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Yelahanka New Town PS,"YELAHANKA NEW TOWN PS, #809, DOUBLE ROAD, NEA",email@ksp.gov.in,080-22942537,Yelahanka Sub-Division,13.09994,77.5841,yelahanka new,ORIGINAL
+525.0,Bengaluru City,Bengaluru Urban,Yelahanka PS,"YELAHANKA PS, YELAHANKA, BANGALORE-64",email@ksp.gov.in,080-22942536,Yelahanka Sub-Division,13.1647361,75.9598944,yelahanka,FUZZY (88.9)
+525.0,Bengaluru City,Bengaluru Urban,Yeshwanthapura PS,"Yeshwantpura P.S. CV RAMAN ROAD, YESHWANTHPUR",yspurabcp@ksp.gov.in,22942526,Yeshwanthapura Sub-Division,13.2120016,77.9518224,yeshwanthapura,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Anekal PS,"Anekal Town,",anekalbng@ksp.gov.in,8027859235,Anekal Circle,12.7086373,77.6993972,anekal,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Anugondanahalli PS,Anugondanahally,anugondanhallibng@ksp.gov.in,8027945777,Thirumalashettahalli Circle,12.9582608,77.8145716,anugondanahalli,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Attibele PS,"Attibele,",attibelebng@ksp.gov.in,8027821360,Attibele Circle,12.7782588,77.7712834,attibele,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Bengaluru CEN Crime PS,"No. 5, Miller RoadBengaluru",dcbbng@ksp.gov.in,8888-888888,Bengaluru District,12.9767936,77.590082,bengaluru,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Bengaluru Dist Women PS,Doddaballapura TownDoddaballapura,email@ksp.gov.in,8888-888888,Doddaballapura Sub-Division,12.9788319,75.9935776,bengaluru dist,FUZZY (90.0)
+526.0,Bengaluru Dist,Bengaluru Rural,Chennarayapatana PS,Chennarayapatana Tq,crpatnabng@ksp.gov.in,8027644444,Vijayapura Circle,14.460255,77.8075955,chennarayapatana,FUZZY (93.8)
+526.0,Bengaluru Dist,Bengaluru Rural,Dobbespet PS,Dobbespet,dobbaspetbng@ksp.gov.in,8027734231,Nelamangala Circle,13.22933,77.242,dobbespet,ORIGINAL
+526.0,Bengaluru Dist,Bengaluru Rural,Doddaballapura Rural PS,Doddaballapura,dbpuraruralbng@ksp.gov.in,8027622025,Doddaballapura Circle,13.2929583,77.5431463,doddaballapura,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Doddaballapura Town PS,Doddaballapura Town,dbpuratownbng@ksp.gov.in,8027622015,Doddaballapura Circle,13.2929583,77.5431463,doddaballapura,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Doddabelavangala PS,Doddabelavangala,dbvangalabng@ksp.gov.in,8027655241,Doddaballapura Circle,13.2888795,77.4215754,doddabelavangala,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Hosahalli PS,Hosahally,hosahallybng@ksp.gov.in,8027656008,Doddaballapura Circle,15.7025789,75.8111858,hosahalli,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Hosakote PS,"Hosakote, NH4 Road",hosakotebng@ksp.gov.in,8027931570,Hosakote Circle,16.064116,75.4595327,hosakote,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Jigani PS,,email@ksp.gov.in,8888-888888,Anekal Sub Division,12.7852528,77.6380931,jigani,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Nandagudi PS,Nandagudi,nandagudibng@ksp.gov.in,8027961250,Nandagudi Circle,13.2032192,77.9013892,nandagudi,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Nelamangala Rural PS,"Channappa Badavane, Nelamangala  Town",nelamangalaruralbng@ksp.gov.in,27725223,Nelamangala Circle,13.0953024,77.3963586,nelamangala,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Nelamangala Town PS,"Near BH Road, Nelamangala Town",nelamangalabng@ksp.gov.in,8027722133,Nelamangala Circle,13.0953024,77.3963586,nelamangala,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Nelamangala Traffic PS,"near Srighanda Petrol bunk,Jakkasandra NH-4,",nelamangalatrafficbng@ksp.gov.in,9742577568,Nelamangala Sub-Division,13.0953024,77.3963586,nelamangala,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Sarjapura PS,Sarjapura Main Road,sarjapurabng@ksp.gov.in,8027823032,Attibele Circle,12.8600866,77.7861352,sarjapura,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Sulibele PS,Sulibele Main Road,sulibelebng@ksp.gov.in,8027952415,Nandagudi Circle,13.1843135,77.8000225,sulibele,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Suryanagar PS,"Chandapura, Anekal PostAnekal Tq Bangalore Urban District",email@ksp.gov.in,080-29765300,Anekal Sub Division,14.5786094,74.5598169,suryanagar,FUZZY (90.0)
+526.0,Bengaluru Dist,Bengaluru Rural,Thirumalashettahalli PS,Tirumalashettahally Cross,tshallibng@ksp.gov.in,8028549100,Thirumalashettahalli Circle,12.9848412,77.7838449,thirumalashettahalli,FUZZY (95.0)
+526.0,Bengaluru Dist,Bengaluru Rural,Thyamagondlu PS,Thymagondalu,tgondalubng@ksp.gov.in,8027732033,Nelamangala Circle,13.2146308,77.300428,thyamagondlu,FUZZY (95.7)
+526.0,Bengaluru Dist,Bengaluru Rural,Vijayapura PS,Vijayapura,vijayapurabng@ksp.gov.in,8027668444,Vijayapura Circle,13.2964056,77.8028933,vijayapura,EXACT
+526.0,Bengaluru Dist,Bengaluru Rural,Vishwanathapura PS,address,vnpurabng@ksp.gov.in,8027647399,Vijayapura Circle,13.2735285,77.6490994,vishwanathapura,EXACT
+529.0,Bidar,Bidar,Aurad PS,Aurad PS,bdrauradps@ksp.gov.in,280048,Aurad Circle,18.2548557,77.4151663,aurad,EXACT
+529.0,Bidar,Bidar,Bagdal PS,Bagdal PS,bdrbagdalps@ksp.gov.in,242633,Bidar Rural Circle,17.74952,77.39997,bagdal,ORIGINAL
+529.0,Bidar,Bidar,Basava Kalyana Rural PS,B.Kalyan Rural PS,bkruralpsbdr@ksp.gov.in,252333,Matala Circle,17.8697666,76.9509533,basava kalyana,FUZZY (92.3)
+529.0,Bidar,Bidar,Basava Kalyana Town PS,B.Kalyan Town PS,bktownbdr@ksp.gov.in,250336,Basava Kalyana Circle,17.8697666,76.9509533,basava kalyana,FUZZY (92.3)
+529.0,Bidar,Bidar,Basava Kalyana Traffic PS,Basava Kalyan traffic PS,bdrbktrafficps@ksp.gov.in,259045,Basava Kalyana Circle,17.8697666,76.9509533,basava kalyana,FUZZY (92.3)
+529.0,Bidar,Bidar,Bemalkhed PS,Bemalakheda ps,bemalakhedapsbdr@ksp.gov.in,275444,Chitaguppa Circle,17.6665688,77.426113,bemalkhed,FUZZY (90.0)
+529.0,Bidar,Bidar,Bhalki Rural PS,Bhalki Rural PS,Bhalkiruralpsbdr@ksp.gov.in,262333,Bhalki Rural Circle,18.0484556,77.2176221,bhalki,EXACT
+529.0,Bidar,Bidar,Bhalki Town PS,Bhalki Town PS,bhalkitownpsbdr@ksp.gov.in,262323,Bhalki Sub-Division,18.0484556,77.2176221,bhalki,EXACT
+529.0,Bidar,Bidar,Bidar CEN Crime PS,Bidar Town,email@ksp.gov.in,8888-888888,Bidar District,17.9166022,77.511315,bidar,EXACT
+529.0,Bidar,Bidar,Bidar Rural PS,Bidar Rural PS,bdrruralps@ksp.gov.in,232811,Bidar Rural Circle,17.9166022,77.511315,bidar,EXACT
+529.0,Bidar,Bidar,Bidar Town PS,Bidar Town PS,bdrtownps@ksp.gov.in,231046,Bidar Town Circle,17.9166022,77.511315,bidar,EXACT
+529.0,Bidar,Bidar,Bidar Traffic PS,Bidar Traffic PS,pitrafficbdr@ksp.gov.in,226713,Bidar Sub-Division,17.9166022,77.511315,bidar,EXACT
+529.0,Bidar,Bidar,Bidar Women PS,BidarBidar,email@ksp.gov.in,8888-888888,Bidar Sub-Division,17.9166022,77.511315,bidar,EXACT
+529.0,Bidar,Bidar,Chintaki PS,Chintaki PS,chintakipsbdr@ksp.gov.in,284033,Aurad Circle,18.2209222,77.5416448,chintaki,EXACT
+529.0,Bidar,Bidar,Chitaguppa PS,Chitaguppa PS,chitaguppapsbdr@ksp.gov.in,277133,Chitaguppa Circle,17.6985069,77.2161692,chitaguppa,FUZZY (95.2)
+529.0,Bidar,Bidar,Dhannura PS,Dhannura PS,bdrdhannuraps@ksp.gov.in,264231,Bhalki Rural Circle,17.9595598,77.3368059,dhannura,EXACT
+529.0,Bidar,Bidar,Gandhi Gunj PS,Bidar gandhi gunj ps,bdrggps@ksp.gov.in,226233,Bidar Market Circle,17.91006,77.51416,gandhi gunj,ORIGINAL
+529.0,Bidar,Bidar,Hallikhed PS,"Hallikhed PS,",hallikhedpsbdr@ksp.gov.in,274313,Humnabad Circle,17.8508703,77.2642698,hallikhed,FUZZY (94.7)
+529.0,Bidar,Bidar,Hokrana PS,address,hokranabdr@ksp.gov.in,284444,Aurad Circle,17.7283211,77.4965508,hokrana,EXACT
+529.0,Bidar,Bidar,Hulsoor PS,Hulsoor PS,bdrhulsurps@ksp.gov.in,253025,Basava Kalyana Circle,18.01993,77.00592,hulsoor,ORIGINAL
+529.0,Bidar,Bidar,Humnabad PS,"Humanabad PS,",humnabadpsbdr@ksp.gov.in,270033,Humnabad Circle,17.7717915,77.128494,humnabad,FUZZY (94.1)
+529.0,Bidar,Bidar,Humnabad Traffic PS,address,humnabadtrafficbdr@ksp.gov.in,270100,Humnabad Circle,17.7717915,77.128494,humnabad,FUZZY (94.1)
+529.0,Bidar,Bidar,Janwada PS,Janwada PS,bdrjanwadaps@ksp.gov.in,244033,Bidar Rural Circle,17.4021826,78.2595742,janwada,EXACT
+529.0,Bidar,Bidar,Kamalanagar PS,"Kamalanagar PS,",bdrknagarps@ksp.gov.in,285223,Kamalanagar Circle,18.231026,77.1794898,kamalanagar,FUZZY (95.7)
+529.0,Bidar,Bidar,Khataka Chincholi PS,Khatak Chincholi PS,bdrkcps@ksp.gov.in,265233,Bhalki Rural Circle,17.9013931,77.2058512,khataka chincholi,EXACT
+529.0,Bidar,Bidar,Kushnoor PS,"Kushnoor PS,",bdrkushnurps@ksp.gov.in,288833,Kamalanagar Circle,17.8779425,77.7121619,kushnoor,EXACT
+529.0,Bidar,Bidar,Manna Ekhelli PS,Mana Ekhelli ps,mannaekhellipsbdr@ksp.gov.in,276833,Chitaguppa Circle,17.7281523,77.3687607,manna ekhelli,FUZZY (96.3)
+529.0,Bidar,Bidar,Mannalli PS,,email@ksp.gov.in,8888-888888,Bidar Rural Circle,17.812963,76.7904653,mannalli,EXACT
+529.0,Bidar,Bidar,Market PS,"Market PS, Mangalepet Road",marketpsbdr@ksp.gov.in,226709,Bidar Market Circle,16.4802379,75.3917995,,EXACT
+529.0,Bidar,Bidar,Matala PS,Matala Ps,bdrmtlps@ksp.gov.in,257433,Matala Circle,17.8234453,76.8580322,matala,EXACT
+529.0,Bidar,Bidar,Mehakar PS,,email@ksp.gov.in,8888-888888,Bhalki Rural Circle,18.0993414,77.0169734,mehakar,FUZZY (93.3)
+529.0,Bidar,Bidar,Mudbi PS,Mudbi PS,bdrmudbips@ksp.gov.in,259833,Matala Circle,17.7284867,76.9382209,mudbi,FUZZY (90.9)
+529.0,Bidar,Bidar,New Town PS,Bidar new town PS,bdrntps@ksp.gov.in,228256,Bidar Town Circle,16.5404877,74.4981451,new,FUZZY (90.0)
+529.0,Bidar,Bidar,Shanthapur PS,shanthapur PS,bdrsanthapurps@ksp.gov.in,287633,Aurad Circle,18.329495,77.7333863,shanthapur,EXACT
+531.0,Chamarajanagar,Chamarajanagar,Chamarajanagar Traffic PS,Chamarajanagar Traffic PSChamarajanagar,email@ksp.gov.in,8888-888888,Chamarajanagar Sub-Division,11.9238058,76.9393558,chamarajanagar,FUZZY (96.6)
+630.0,Chickballapura,Chikkaballapura,Chelur PS,"Opp. Govt.Primary School, Bagepalli Road, Che",chelurpscbpura@ksp.gov.in,08150-280099,Bagepalli Circle,13.4424524,76.9060701,chelur,FUZZY (92.3)
+630.0,Chickballapura,Chikkaballapura,Nandi Giridhama PS,,email@ksp.gov.in,88888-888888,Chickballapura Circle,17.4072058,78.5969098,nandi giridhama,FUZZY (90.0)
+630.0,Chickballapura,Chikkaballapura,Peresandra PS,"Near Peresandra bus stand,Bengaluru-Hyderabad Highway Chikkaballapura taluk-562104",psandrapscbpura@ksp.gov.in,08156-200040,Peresandra PS,13.5860146,77.7920488,peresandra,EXACT

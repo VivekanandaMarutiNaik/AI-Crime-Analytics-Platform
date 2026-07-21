@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session, joinedload
 from backend.models.case_master import CaseMaster
 from backend.models.accused_master import AccusedMaster
 from sqlalchemy import or_
+from backend.utils.district_alias import normalize_district
 
 def get_case_details(db: Session, case_id: str):
     case = (
@@ -38,19 +39,23 @@ def get_cases(
     query = db.query(CaseMaster)
 
     if search:
+        normalized_search = normalize_district(search)
+
         query = query.filter(
             or_(
                 CaseMaster.case_id.ilike(f"%{search}%"),
                 CaseMaster.crime_type.ilike(f"%{search}%"),
                 CaseMaster.crime_category.ilike(f"%{search}%"),
                 CaseMaster.police_station.ilike(f"%{search}%"),
-                CaseMaster.district.ilike(f"%{search}%"),
+                CaseMaster.district.ilike(f"%{normalized_search}%"),
                 CaseMaster.taluk.ilike(f"%{search}%"),
                 CaseMaster.case_status.ilike(f"%{search}%"),
             )
         )
 
     if district:
+        district = normalize_district(district)
+
         query = query.filter(
             CaseMaster.district.ilike(f"%{district}%")
         )

@@ -2,13 +2,19 @@ import pandas as pd
 from pathlib import Path
 
 import re
+from backend.services.groq_ai import (
+    generate_crime_analysis,
+    generate_district_comparison,
+    generate_risk_assessment,
+)
 
-
+from backend.utils.district_alias import normalize_district
 BASE_DIR = Path(__file__).resolve().parents[2]
 
 CRIME_DATA = pd.read_csv(
     BASE_DIR / "datasets" / "raw" / "crime_cases.csv"
 )
+
 
 CCTV_DATA = pd.read_csv(
     BASE_DIR / "datasets" / "processed" / "cctv_master.csv"
@@ -18,22 +24,18 @@ CCTV_RECOMMENDATIONS = pd.read_csv(
     BASE_DIR / "datasets" / "processed" / "cctv_installation_recommendations.csv"
 )
 
+def get_ai_answer(query, intent, filters):
 
-def get_ai_answer(text: str, intent: dict):
-
-    text = text.lower()
+    district = filters.get("district")
+    crime_type = filters.get("crime_type")
+    year = filters.get("year")
+    district = normalize_district(district)
+    district2 = normalize_district(filters.get("district2"))
 
     # -------------------------------------------------
-    # District Crime Summary
+    # Crime Summary
     # -------------------------------------------------
-    if (
-        "summary" in text
-        or "report" in text
-        or "overview" in text
-        or "details" in text
-    ):
-
-        district = intent.get("district")
+    if intent == "crime_summary":
 
         if district:
             return get_district_summary(
@@ -42,37 +44,11 @@ def get_ai_answer(text: str, intent: dict):
             )
 
         return "❌ Please specify a valid district."
-    
-    # -------------------------------------------------
-    # District Statistics
-    # -------------------------------------------------
-    elif (
-        "statistics" in text
-        or "stats" in text
-        or "analytics" in text
-    ):
 
-        district = intent.get("district")
-
-        if district:
-            return get_district_statistics(
-                CRIME_DATA,
-                district,
-            )
-
-        return "❌ Please specify a valid district."
-    
     # -------------------------------------------------
-    # Crime Trend Analysis
+    # Crime Trend
     # -------------------------------------------------
-    elif (
-        "trend" in text
-        or "increase" in text
-        or "decrease" in text
-        or "growth" in text
-    ):
-
-        district = intent.get("district")
+    elif intent == "crime_trend":
 
         if district:
             return get_crime_trend(
@@ -81,86 +57,20 @@ def get_ai_answer(text: str, intent: dict):
             )
 
         return "❌ Please specify a valid district."
-    
-
 
     # -------------------------------------------------
-    # District needing Maximum CCTV
+    # CCTV Recommendation
     # -------------------------------------------------
-    elif (
-        ("cctv" in text or "camera" in text)
-        and (
-            "need" in text
-            or "needs" in text
-            or "require" in text
-            or "required" in text
-            or "maximum" in text
-            or "recommend" in text
-            or "installation" in text
-        )
-    ):
+    elif intent == "cctv_recommendation":
 
         return get_max_cctv_requirement(
             CCTV_RECOMMENDATIONS
         )
 
     # -------------------------------------------------
-    # Highest CCTV Coverage
-    # -------------------------------------------------
-    elif (
-        ("cctv" in text or "camera" in text)
-        and (
-            "coverage" in text
-            or "covered" in text
-            or "available" in text
-            or "active" in text
-            or "best" in text
-            or "highest" in text
-            or "most" in text
-        )
-    ):
-
-        return get_highest_cctv_coverage(
-            CCTV_DATA
-        )
-
-        # -------------------------------------------------
-    # Top N Queries
-    # -------------------------------------------------
-    elif intent.get("intent") == "top":
-
-        top_n = extract_top_n(text)
-
-        # Top crime types
-        if (
-            "crime" in text
-            or "crimes" in text
-            or "type" in text
-            or "types" in text
-            or "category" in text
-            or "categories" in text
-        ):
-            return get_top_crime_types(
-                CRIME_DATA,
-                n=top_n,
-            )
-
-        # Otherwise return top crime districts
-        return get_top_crime_districts(
-            CRIME_DATA,
-            n=top_n,
-        )
-    
-    # -------------------------------------------------
     # Highest Crime District
     # -------------------------------------------------
-    elif (
-        ("highest" in text or "most" in text)
-        and "crime" in text
-        and "district" in text
-        and "cctv" not in text
-        and "camera" not in text
-    ):
+    elif intent == "highest_crime":
 
         highest = (
             CRIME_DATA.groupby("district")
@@ -179,13 +89,7 @@ def get_ai_answer(text: str, intent: dict):
     # -------------------------------------------------
     # Safest District
     # -------------------------------------------------
-    elif (
-        "safest" in text
-        or (
-            ("lowest" in text or "least" in text)
-            and "district" in text
-        )
-    ):
+    elif intent == "safest_district":
 
         safest = (
             CRIME_DATA.groupby("district")
@@ -202,14 +106,10 @@ def get_ai_answer(text: str, intent: dict):
         )
 
     # -------------------------------------------------
-    # Crime Type Queries
+    # Crime Type
     # -------------------------------------------------
-    elif intent.get("crime_type"):
+    elif crime_type:
 
-        crime = intent["crime_type"]
-        district = intent.get("district")
-
-        # If district is specified
         if district:
 
             filtered = CRIME_DATA[
@@ -217,74 +117,81 @@ def get_ai_answer(text: str, intent: dict):
                 &
                 (
                     CRIME_DATA["crime_type"]
-                    .str.contains(crime, case=False, na=False)
+                    .str.contains(crime_type, case=False, na=False)
                 )
             ]
 
             if filtered.empty:
-                return f"❌ No {crime} cases found in {district}."
+                return f"❌ No {crime_type} cases found in {district}."
 
-            crime_counts = (
-                filtered.groupby("crime_type")
-                .size()
-                .sort_values(ascending=False)
+            return (
+                f"📍 {crime_type} Cases in {district}\n\n"
+                f"📌 Total Cases : {len(filtered):,}"
             )
 
-            answer = (
-                f"📍 {crime} Cases in {district}\n\n"
-                f"📌 Total Cases : {len(filtered):,}\n\n"
-                f"Breakdown:\n"
-            )
-
-            for crime_type, count in crime_counts.items():
-                answer += f"• {crime_type}: {count}\n"
-
-            return answer
-
-        # No district specified
         filtered = CRIME_DATA[
             CRIME_DATA["crime_type"]
-            .str.contains(crime, case=False, na=False)
+            .str.contains(crime_type, case=False, na=False)
         ]
 
         if filtered.empty:
-            return f"❌ No {crime} cases found."
+            return f"❌ No {crime_type} cases found."
 
-        district_counts = (
-            filtered.groupby("district")
-            .size()
-            .sort_values(ascending=False)
+        return (
+            f"📍 {crime_type} Cases Across Karnataka\n\n"
+            f"📌 Total Cases : {len(filtered):,}"
         )
+    
 
-        answer = (
-            f"📍 {crime} Cases Across Karnataka\n\n"
-            f"📌 Total Cases : {len(filtered):,}\n\n"
-            f"District-wise:\n"
-        )
-
-        for district_name, count in district_counts.items():
-            answer += f"• {district_name}: {count}\n"
-
-        return answer
     # -------------------------------------------------
-# AI Risk Prediction
-# -------------------------------------------------
-    elif (
-        "risk" in text
-        or "predict" in text
-        or "prediction" in text
-        or "hotspot" in text
-        or "danger" in text
-    ):
+    # AI Crime Analysis
+    # -------------------------------------------------
+    elif intent == "crime_analysis":
+
+        if not district:
+            return "❌ Please specify a district."
+
+        summary = get_district_summary(CRIME_DATA, district)
+
+        return generate_crime_analysis(summary)
+    
+    elif intent == "district_comparison":
+        district1 = district
+        district2 = district2
+
+        
+        if not district1 or not district2:
+            return "❌ Please specify two districts."
+
+        summary1 = get_district_summary(CRIME_DATA, district1)
+        summary2 = get_district_summary(CRIME_DATA, district2)
+
+        return generate_district_comparison(
+            district1,
+            district2,
+            summary1,
+            summary2,
+        )
+                
+    
+
+
+    # -------------------------------------------------
+    # AI Risk Prediction
+    # -------------------------------------------------
+    elif intent == "risk_prediction":
+
+        district = district
 
         return get_risk_prediction(
             CRIME_DATA,
             CCTV_DATA,
             CCTV_RECOMMENDATIONS,
+            district,
         )
 
+        
     return None
-
 
 
 def get_top_crime_districts(crime_df, n=3):
@@ -656,7 +563,29 @@ def get_crime_trend(crime_df, district):
 
     return answer
 
-def get_risk_prediction(crime_df, cctv_df, recommendation_df):
+def get_risk_prediction(
+    crime_df,
+    cctv_df,
+    recommendation_df,
+    district=None,
+):
+    
+    if district:
+
+        crime_df = crime_df[
+            crime_df["district"].str.lower() == district.lower()
+        ]
+
+        if crime_df.empty:
+            return f"❌ No crime data found for '{district}'."
+
+        cctv_df = cctv_df[
+            cctv_df["district"].str.lower() == district.lower()
+        ]
+
+        recommendation_df = recommendation_df[
+            recommendation_df["district"].str.lower() == district.lower()
+        ]
 
     # Crime count
     crime_counts = (
@@ -716,24 +645,35 @@ def get_risk_prediction(crime_df, cctv_df, recommendation_df):
         + 0.10 * df["cctv_norm"]
     ) * 100
 
-    df = df.sort_values(
-        "risk_score",
-        ascending=False,
-    )
-
-    district = df.index[0]
-    top = df.iloc[0]
+    if district:
+        top = df.loc[district]
+    else:
+        df = df.sort_values(
+            "risk_score",
+            ascending=False,
+        )
+        district = df.index[0]
+        top = df.iloc[0]
 
     risk_level = (
-    "🔴 Very High"
-    if top["risk_score"] >= 80
-    else "🟠 High"
-    if top["risk_score"] >= 60
-    else "🟡 Medium"
-    if top["risk_score"] >= 40
-    else "🟢 Low"
-)
-
+        "🔴 Very High"
+        if top["risk_score"] >= 80
+        else "🟠 High"
+        if top["risk_score"] >= 60
+        else "🟡 Medium"
+        if top["risk_score"] >= 40
+        else "🟢 Low"
+    )
+    stats = f"""
+    District: {district}
+    Risk Score: {top['risk_score']:.1f}/100
+    Risk Level: {risk_level}
+    Crime Count: {int(top['crime_count'])}
+    Average Hotspot Score: {top['hotspot_score']:.2f}
+    Existing CCTV: {int(top['cctv_count'])}
+    Recommended CCTV: {int(top['recommended_locations'])}
+    """
+    ai_assessment = generate_risk_assessment(stats)
     return (
         f"🤖 AI Crime Risk Assessment\n\n"
 
@@ -748,13 +688,7 @@ def get_risk_prediction(crime_df, cctv_df, recommendation_df):
         f"• Recommended CCTV : {int(top['recommended_locations']):,}\n\n"
 
         f"🧠 AI Assessment\n"
-        f"{district} currently has the highest composite crime risk "
-        f"based on crime frequency, hotspot intensity, surveillance "
-        f"coverage and CCTV deployment priority.\n\n"
+        f"{ai_assessment}\n\n"
 
-        f"🚔 Recommended Actions\n"
-        f"1. Increase police patrols in hotspot areas.\n"
-        f"2. Install recommended CCTV cameras.\n"
-        f"3. Monitor repeat crime locations.\n"
-        f"4. Focus on high-frequency crime categories."
+    
     )

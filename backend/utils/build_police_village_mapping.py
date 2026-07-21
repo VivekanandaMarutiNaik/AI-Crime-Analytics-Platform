@@ -19,6 +19,9 @@ district_mapping = pd.read_csv(
     BASE_DIR / "datasets" / "processed" / "district_mapping.csv"
 )
 
+
+
+
 master_locations = master_locations.merge(
     district_mapping,
     left_on="district_name",
@@ -26,6 +29,13 @@ master_locations = master_locations.merge(
     how="left",
 )
 
+print(master_locations.columns.tolist())
+# Keep only mappings where the police district matches the village district
+
+print("Rows before filter:", len(master_locations))
+
+
+print("Rows after filter:", len(master_locations))
 mapping_rows = []
 def get_deterministic_offset(village_id):
 
@@ -39,42 +49,74 @@ def get_deterministic_offset(village_id):
     return lat_offset, lon_offset
 
 # Process district by district
-for district in sorted(master_locations["ksp_district"].dropna().unique()):
-
+for district in sorted(master_locations["district_name"].dropna().unique()):
+    ksp_names = district_mapping[
+        district_mapping["lgd_district"] == district
+    ]["ksp_district"].unique()
+    if district == "Vijayanagara":
+        print("KSP Names:", ksp_names)
+    
     villages = (
         master_locations[
-            master_locations["ksp_district"] == district
+            master_locations["district_name"] == district
         ]
+        .drop_duplicates(subset="village_id")
         .sort_values("village_name")
         .reset_index(drop=True)
     )
-
     stations = (
         police_master[
-            (police_master["ksp_district"] == district) &
-            (police_master["latitude"].notna()) &
-            (police_master["longitude"].notna()) &
-            (police_master["latitude"] != 0) &
-            (police_master["longitude"] != 0)
+            police_master["ksp_district"].isin(ksp_names)
         ]
+        .query(
+            "latitude.notna() and longitude.notna() and latitude != 0 and longitude != 0"
+        )
         .sort_values("police_station_name")
         .reset_index(drop=True)
     )
 
+    if district == "Vijayanagara":
+        print("Stations found:", len(stations))
+    print(
+        master_locations[
+            master_locations["village_id"] == 597114
+        ][[
+            "district_name",
+            "ksp_district",
+            "taluk_name",
+            "village_name"
+        ]]
+    )
     # Skip districts with no police stations
     if stations.empty:
         continue
 
     station_count = len(stations)
 
-    # Assign villages to stations in round-robin fashion
+  # One police station per GP (Gram Panchayat)
+
+    gp_station_map = {}
+
+    gps = (
+        villages[villages["gp_id"].notna()][["gp_id"]]
+        .drop_duplicates()
+        .sort_values("gp_id")
+        .reset_index(drop=True)
+    )
+
+    for i, row in gps.iterrows():
+        gp_station_map[row["gp_id"]] = stations.iloc[i % station_count]
+
     for i, (_, village) in enumerate(villages.iterrows()):
 
-        station = stations.iloc[i % station_count]
+        if pd.notna(village["gp_id"]):
+            station = gp_station_map[village["gp_id"]]
+        else:
+            # fallback for villages without GP
+            station = stations.iloc[i % station_count]
+        
 
-        offset_lat = random.uniform(-0.02, 0.02)
-        offset_lon = random.uniform(-0.02, 0.02)
-
+        
         lat_offset, lon_offset = get_deterministic_offset(
             village["village_id"]
         )

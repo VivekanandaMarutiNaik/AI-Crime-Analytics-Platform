@@ -7,6 +7,7 @@ from backend.models.chargesheet_master import ChargesheetMaster
 from backend.models.arrest_master import ArrestMaster
 from backend.models.victim_master import VictimMaster
 from backend.models.accused_master import AccusedMaster
+from backend.utils.district_alias import normalize_district
 
 
 def normalize_district(district: str | None):
@@ -37,6 +38,8 @@ def apply_district_filter(query, district: str | None):
     district = normalize_district(district)
 
     if district:
+        district = normalize_district(district)
+
         query = query.filter(
             CaseMaster.district.ilike(f"%{district}%")
         )

@@ -1,0 +1,138 @@
+district,police_station,best_match,score
+Dakshina Kannada,Buntwala Rural PS,bantwal,80.0
+Dakshina Kannada,Buntwala Town PS,bantwal,80.0
+Davanagere,KTJ Nagar PS,ramkrusha nagar,85.5
+Hassan,Hallymysore PS,halli,80.0
+Hassan,Pension Mohalla PS,ron,72.0
+Haveri,Hansabhavi PS,halabhavi,84.21052631578947
+Haveri,Kaginele PS,kaginelli,82.35294117647058
+Haveri,Savanoor PS,shivanoor,82.35294117647058
+Ballari,Hatcholli PS,hachcholli,84.21052631578947
+Ballari,Kuduthini PS,kudatini,82.35294117647058
+Ballari,Thoranagal PS,toranagallu,85.71428571428572
+Hubballi Dharwad City,E and N Crime PS HD city,n m koil vattam,85.5
+Hubballi Dharwad City,Kamaripeth PS,kamara,81.81818181818181
+Hubballi Dharwad City,Kasabapeth PS,kasta,80.0
+Hubballi Dharwad City,Vidyagiri PS,nagiri,81.81818181818181
+K.G.F,BEML Nagar PS,ramkrusha nagar,85.5
+K.G.F,KGF CEN Crime PS,kanakagiri,60.00000000000001
+K.G.F,Kyasamballi Police Station,kesamballi,85.71428571428572
+K.G.F,Oorgaum PS,boorgul,71.42857142857143
+Kalaburagi,Jewargi PS,jevaragi,80.0
+Kalaburagi,Madbool PS,made,77.14285714285715
+Kalaburagi,Miryan PS,miriyana,85.71428571428572
+Kalaburagi,Ratkal PS,ratakala,85.71428571428572
+Kalaburagi,Revoor PS,mahadevpoor,75.00000000000001
+Kalaburagi,Sulepet PS,sulapeta,80.0
+Kalaburagi,Yedrami PS,yadrami,85.71428571428572
+Kalaburagi City,Ferhatabad PS,farahatabad,85.71428571428572
+Kalaburagi City,MB Nagar PS,ramkrusha nagar,85.5
+Kalaburagi City,Ragavendranagar PS,indranagar,85.26315789473685
+Kolar,Gulpet PS,gundlupet,80.0
+Koppal,Bevoor PS,kubevoor,85.71428571428572
+Mandya,K.R. Pet Rural PS,k satyavara,85.5
+Mandya,K.R. Pet Town PS,k satyavara,85.5
+Mandya,K.R. Sagar PS,nada k,85.5
+Mandya,Kesthur PS,kesturu,85.71428571428572
+Belagavi City,Belgaum North Traffic PS,belum,83.33333333333334
+Belagavi City,Belgaum South Traffic PS,belum,83.33333333333334
+Belagavi City,Udyambag PS,mudya,80.0
+Mangaluru City,Kankanady Town PS,kankal,81.81818181818181
+Mangaluru City,Kavoor PS,kadoor,83.33333333333334
+Mysuru City,Deveraja Traffic PS,devarajapuram,78.75
+Mysuru City,Kuvempunagar PS,nagara,81.81818181818181
+Mysuru City,Lashkar PS,alankar,71.42857142857143
+Mysuru City,Metagalli PS,mettagalla,84.21052631578947
+Mysuru City,Nazarbad PS,nazeerabad,77.77777777777779
+Mysuru Dist,Kowlande PS,andle,80.0
+Mysuru Dist,Yelawala PS,mala,77.14285714285715
+Raichur,Balaganoor PS,panoor,81.81818181818181
+Raichur,Sirwar PS,sira,80.0
+Bengaluru South,Ijoor PS,vamanjoor,80.0
+Bengaluru South,Sathnoor PS,athunoora,82.35294117647058
+Shivamogga,Doddapete PS,doddarayapete,81.81818181818181
+Shivamogga,Paper Town PS,papemajalu,80.0
+Shivamogga,Shimoga East Traffic PS,shivamogga,82.35294117647058
+Shivamogga,Shimoga Rural PS,shivamogga,82.35294117647058
+Shivamogga,Shimoga Traffic PS,shivamogga,82.35294117647058
+Shivamogga,Tunga Nagar PS,annai sathya nagar,85.5
+Tumakuru,Kyathasandra PS,kyamasandra,86.95652173913044
+Tumakuru,Medigeshi PS,midigesi,82.35294117647058
+Tumakuru,New Extention PS,baswaipalle new camp,85.5
+Tumakuru,Thilak Park PS,mathil,72.0
+Tumakuru,Tumkur CEN Crime PS,tumakura,85.71428571428572
+Tumakuru,Tumkur Rural PS,tumakura,85.71428571428572
+Tumakuru,Tumkur Town PS,tumakura,85.71428571428572
+Tumakuru,Tumkur Traffic PS,tumakura,85.71428571428572
+Udupi,Amasebailu PS,bailur,81.81818181818181
+Udupi,Byndoor PS,bedoor,76.92307692307692
+Udupi,Malpe PS,malebennuru,80.0
+Vijayapur,Adarsh Nagar PS,annai sathya nagar,85.5
+Vijayapur,Almel PS,alamela,83.33333333333334
+Vijayapur,Bijapur rural PS,vijapura,80.0
+Vijayapur,Bijapur Traffic PS,vijapura,80.0
+Vijayapur,Golgumbaz PS,gola,77.14285714285715
+Vijayapur,Zalaki PS,walaki,83.33333333333334
+Belagavi Dist,Doddawad PS,doddavada,82.35294117647058
+Belagavi Dist,Kagwad PS,kagawada,85.71428571428572
+Belagavi Dist,Katkol PS,katakola,85.71428571428572
+Belagavi Dist,Kulgod PS,kulagoda,85.71428571428572
+Belagavi Dist,Raibag PS,bagi,77.14285714285715
+Belagavi Dist,Soundatti PS,sunkatti,82.35294117647058
+Yadgir,Gurumitkal PS,gurumathakal,81.81818181818181
+Yadgir,Shorapur PS,shapur,85.71428571428572
+Bengaluru City,Adugodi PS,kodi,77.14285714285715
+Bengaluru City,Adugodi Traffic PS,kodi,77.14285714285715
+Bengaluru City,Airport Traffic PS,adi,72.0
+Bengaluru City,Amruthahally PS,amruta,81.81818181818181
+Bengaluru City,Annapoorneshwari Nagar PS,kamaraj nagar,85.5
+Bengaluru City,BIAL PS,birala,80.0
+Bengaluru City,BIAL Traffic PS,birala,80.0
+Bengaluru City,Chandra Layout PS,mysore university layout,85.5
+Bengaluru City,Channammanakere Achu Kattu PS,kattu palayam,85.5
+Bengaluru City,Commercial Street PS,perumapalayam iii ward ad street,85.5
+Bengaluru City,Cottonpet PS,sonpet,81.81818181818181
+Bengaluru City,Cubbon Park PS,karki,67.5
+Bengaluru City,Cubbonpark Traffic PS,bonal,72.0
+Bengaluru City,East Zone Women PS,bendone,77.14285714285715
+Bengaluru City,Gangammana Gudi PS,gudi tanda,85.5
+Bengaluru City,Girinagar PS,girisagara,84.21052631578947
+Bengaluru City,H.A.L. PS,a guduganahalli,85.5
+Bengaluru City,High Grounds PS,gororu,68.4
+Bengaluru City,High Grounds Traffic PS,gororu,68.4
+Bengaluru City,HSR Lay Out Traffic PS,surla,72.0
+Bengaluru City,HSR Layout PS,mysore university layout,85.5
+Bengaluru City,J.C. Nagar PS,ramkrusha nagar,85.5
+Bengaluru City,Jeevan Bheemanagar PS,nagara,81.81818181818181
+Bengaluru City,Kadugodi PS,gondi,80.0
+Bengaluru City,Kengeri PS,kelageri,80.0
+Bengaluru City,Kengeri Traffic PS,kelageri,80.0
+Bengaluru City,Kumaraswamy Layout PS,kumta,80.0
+Bengaluru City,Kumaraswamy Layout Traffic PS,kumta,80.0
+Bengaluru City,Malleshwaram PS,maileshwara,86.95652173913044
+Bengaluru City,Mico Layout PS,mysore university layout,85.5
+Bengaluru City,Mico Layout Traffic PS,mysore university layout,85.5
+Bengaluru City,Peenya PS,pedena,83.33333333333334
+Bengaluru City,Pulakeshinagar PS,nagara,81.81818181818181
+Bengaluru City,Pulakeshinagar Traffic PS,nagara,81.81818181818181
+Bengaluru City,R.T. Nagar PS,ramkrusha nagar,85.5
+Bengaluru City,R.T.Nagar Traffic PS,ramkrusha nagar,85.5
+Bengaluru City,Rajagopal Nagar PS,gopi nagar,85.5
+Bengaluru City,Rajajinagar PS,raja nagar,85.71428571428572
+Bengaluru City,Rajarajeshwari Nagar PS,kamaraj nagar,85.5
+Bengaluru City,S.J. Park PS,s hemmanahalli,85.5
+Bengaluru City,Sanjay Nagar PS,annai sathya nagar,85.5
+Bengaluru City,Thilaknagar PS,nagara,81.81818181818181
+Bengaluru City,Varthur PS,varur,83.33333333333334
+Bengaluru City,Vidhana Soudha PS,hatna,76.0
+Bengaluru City,Viveknagar PS,nagara,81.81818181818181
+Bengaluru City,Vyalikaval PS,kavala,81.81818181818181
+Bengaluru City,Whitefield PS,nelwad,60.00000000000001
+Bengaluru City,Whitefield Traffic PS,nelwad,60.00000000000001
+Bengaluru City,Wilsongarden PS,nagare,75.00000000000001
+Bengaluru City,Wilsongarden Traffic PS,nagare,75.00000000000001
+Bengaluru City,Yelahanka New Town PS,baswaipalle new camp,85.5
+Bengaluru Dist,Dobbespet PS,peta,77.14285714285715
+Bidar,Bagdal PS,bagadala,85.71428571428572
+Bidar,Gandhi Gunj PS,rajiv gandhi nagar,85.5
+Bidar,Hulsoor PS,kuloor,76.92307692307692

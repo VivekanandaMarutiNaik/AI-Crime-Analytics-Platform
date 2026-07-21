@@ -12,11 +12,11 @@ router = APIRouter(
 
 @router.get("")
 def read_crimes(
-    limit: int = Query(default=100, ge=1, le=1000),
+    limit: int = Query(default=1000, ge=1, le=50000),
     district: str | None = Query(default=None),
     db: Session = Depends(get_db),
 ):
-
+    print("District received:", district)
     return get_all_crimes(
         db=db,
         limit=limit,

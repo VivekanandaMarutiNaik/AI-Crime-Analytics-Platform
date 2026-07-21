@@ -22,7 +22,7 @@ POLICE_STATIONS = POLICE_STATIONS[
 print(f"Police stations with valid coordinates: {len(POLICE_STATIONS)}")
 
 LOCATION_MASTER = pd.read_csv(
-    BASE_DIR / "datasets" / "processed" / "police_village_mapping.csv"
+    BASE_DIR / "datasets" / "processed" / "village_coordinates.csv"
 )
 
 LANDMARKS = [
@@ -82,8 +82,15 @@ for i, (_, location) in enumerate(POLICE_STATIONS.iterrows(), start=1):
             "village_id": place["village_id"],
             "village": place["village_name"],
 
-            "latitude": float(location["latitude"]) + random_offset(),
-            "longitude": float(location["longitude"]) + random_offset(),
+            "latitude": round(
+                place["latitude"] + random.uniform(-0.0003, 0.0003),
+                6,
+            ),
+
+            "longitude": round(
+                place["longitude"] + random.uniform(-0.0003, 0.0003),
+                6,
+            ),
 
             "location_type": landmark,
             "coverage_radius_meters": random.choice([100, 150, 200]),

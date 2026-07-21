@@ -1,11 +1,18 @@
 import random
 
 import pandas as pd
+from pathlib import Path
+
+
 
 # Load master datasets
 CASE_MASTER = pd.read_csv("datasets/masters/case_master.csv")
-CRIME_CASES = pd.read_csv("datasets/raw/crime_cases.csv")
 
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+CRIME_CASES = pd.read_csv(
+    BASE_DIR / "datasets" / "raw" / "crime_cases.csv"
+)
 print(f"Cases loaded: {len(CASE_MASTER)}")
 print(f"Crime records loaded: {len(CRIME_CASES)}")
 
